@@ -1,17 +1,23 @@
 {
-  "name": "@universal-skills/usm",
+  "name": "universal-skill-manager",
   "version": "0.1.0",
   "description": "Universal Skill Manager - Manage agent skills across multiple tools",
   "main": "dist/index.js",
   "bin": {
     "usm": "./bin/usm.js"
   },
+  "files": [
+    "dist/**/*",
+    "bin/**/*",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "axios": "^1.6.0",
@@ -31,10 +37,18 @@
     "ts-jest": "^29.1.0",
     "typescript": "^5.2.0"
   },
-  "keywords": ["agent", "skills", "cli", "opencode", "claude", "gemini"],
-  "author": "Universal Skills Team",
+  "keywords": ["agent", "skills", "cli", "opencode", "claude", "gemini", "agentskills"],
+  "author": "theneoai",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theneoai/universal-skill-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theneoai/universal-skill-manager/issues"
+  },
+  "homepage": "https://github.com/theneoai/universal-skill-manager#readme"
 }
