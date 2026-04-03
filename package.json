@@ -1,0 +1,22 @@
+{
+  "name": "@universal-skills/usm",
+  "version": "0.1.0",
+  "description": "Universal Skill Manager - Manage agent skills across multiple tools",
+  "main": "dist/index.js",
+  "bin": {
+    "usm": "./bin/usm.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["agent", "skills", "cli", "opencode", "claude", "gemini"],
+  "author": "Universal Skills Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
