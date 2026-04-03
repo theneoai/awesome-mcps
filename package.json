@@ -13,6 +13,24 @@
     "test:watch": "jest --watch",
     "lint": "tsc --noEmit"
   },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "cosmiconfig": "^8.3.0",
+    "extract-zip": "^2.0.1",
+    "fs-extra": "^11.1.0",
+    "yaml": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/extract-zip": "^2.0.0",
+    "@types/fs-extra": "^11.0.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.2.0"
+  },
   "keywords": ["agent", "skills", "cli", "opencode", "claude", "gemini"],
   "author": "Universal Skills Team",
   "license": "MIT",
