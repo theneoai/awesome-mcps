@@ -4,6 +4,26 @@
 
 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) 是 Anthropic 推出的开放协议，让 AI 模型能够安全、标准化地连接各类外部工具和数据源。本项目收录质量优秀、维护活跃的 MCP 实现。
 
+## 快速开始
+
+**方式一：交互式向导（推荐）**
+
+```bash
+git clone https://github.com/theneoai/awesome-mcps.git
+cd awesome-mcps
+bash install.sh
+```
+
+向导会列出所有可用 MCP，输入序号按需选择（支持多选 `1 3 5` 或全选 `all`），自动写入 Claude Desktop 配置文件。
+
+**方式二：手动复制**
+
+在 [`configs/`](configs/) 目录中找到想要的 MCP，复制 JSON 内容到你的 `claude_desktop_config.json`。
+
+**完整部署文档** → [docs/deployment.md](docs/deployment.md)
+
+---
+
 ## 目录
 
 - [开发工具](#开发工具)

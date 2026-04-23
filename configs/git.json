@@ -1,0 +1,7 @@
+{
+  "git": {
+    "command": "uvx",
+    "args": ["mcp-server-git", "--repository", "/your/repo/path"],
+    "env": {}
+  }
+}

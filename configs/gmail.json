@@ -1,0 +1,9 @@
+{
+  "gmail": {
+    "command": "uvx",
+    "args": ["mcp-server-gmail"],
+    "env": {
+      "GMAIL_CREDENTIALS_PATH": "/your/path/to/credentials.json"
+    }
+  }
+}
