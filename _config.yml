@@ -1,0 +1,43 @@
+title: "Awesome MCPs"
+description: "精选优秀的 Model Context Protocol 服务器合集 | Curated list of awesome MCP servers"
+url: "https://theneoai.github.io"
+baseurl: "/awesome-mcps"
+lang: "zh-CN"
+
+# Theme - cayman is a clean, professional GitHub Pages theme
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - README.md
+  - README.en.md
+
+# SEO
+author: "theneoai"
+twitter:
+  username: theneoai
+github:
+  is_project_page: true
+  repository_url: "https://github.com/theneoai/awesome-mcps"
+  repository_name: "awesome-mcps"
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from build
+exclude:
+  - install.sh
+  - "*.sh"
+  - node_modules/
+  - vendor/
+  - .git/
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock

@@ -1,39 +1,79 @@
-# 实用工具 MCP
+# 实用工具 MCP | Utilities
 
-> 搜索、网页抓取、文件处理、云服务等通用工具 MCP 服务器。
+[中文](#中文) | [English](#english)
 
-## 搜索引擎
+---
 
-| 名称 | 描述 | 语言 | 链接 |
-|------|------|------|------|
-| Brave Search MCP | Brave 网页与新闻搜索（官方） | TypeScript | [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) |
-| Tavily MCP | Tavily AI 搜索，专为 LLM 优化 | TypeScript | [github.com/tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp) |
-| Exa MCP | Exa 语义搜索与内容提取 | TypeScript | [github.com/exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) |
+## 中文
 
-## 网页抓取
+> 搜索、网页抓取、文件处理等通用工具 MCP 服务器。
 
-| 名称 | 描述 | 语言 | 链接 |
-|------|------|------|------|
-| Fetch MCP | 网页内容抓取与 Markdown 转换（官方） | Python | [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) |
-| Firecrawl MCP | Firecrawl 高质量网页爬取与结构化提取 | TypeScript | [github.com/mendableai/firecrawl-mcp-server](https://github.com/mendableai/firecrawl-mcp-server) |
+### 搜索引擎
 
-## 文件与文档处理
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Brave Search MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) | Anthropic 官方 | Brave 隐私搜索（网页 + 新闻） | TypeScript | — |
+| [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa 官方 | 神经语义搜索与内容提取 | TypeScript | ![](https://img.shields.io/github/stars/exa-labs/exa-mcp-server?style=flat-square) |
+| [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Tavily 官方 | 专为 LLM 优化的 AI 搜索 | TypeScript | ![](https://img.shields.io/github/stars/tavily-ai/tavily-mcp?style=flat-square) |
+| [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity 官方 | 实时 AI 搜索与问答 | Python | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
+| [Google Maps MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) | Anthropic 官方 | 地点搜索、路线、地理编码 | TypeScript | — |
 
-| 名称 | 描述 | 语言 | 链接 |
-|------|------|------|------|
-| Excel MCP | Excel / CSV 文件读写与公式计算 | Python | [github.com/haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) |
-| PDF MCP | PDF 文档内容提取与解析 | Python | [github.com/adhikasp/mcp-pdf](https://github.com/adhikasp/mcp-pdf) |
+### 网页抓取
 
-## 云服务
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Fetch MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | Anthropic 官方 | 网页内容抓取与 Markdown 转换 | Python | — |
+| [Firecrawl MCP](https://github.com/mendableai/firecrawl-mcp-server) | Firecrawl 官方 | 高质量网页爬取与结构化提取 | TypeScript | ![](https://img.shields.io/github/stars/mendableai/firecrawl-mcp-server?style=flat-square) |
 
-| 名称 | 描述 | 语言 | 链接 |
-|------|------|------|------|
-| AWS KB Retrieval | AWS Bedrock 知识库语义检索（官方） | TypeScript | [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval-server) |
-| Cloudflare MCP | Cloudflare Workers、KV、R2、D1 管理（官方） | TypeScript | [github.com/cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) |
-| Vercel MCP | Vercel 部署、域名、日志管理（官方） | TypeScript | [github.com/vercel/mcp-server](https://github.com/vercel/mcp-server) |
+### 文件与文档处理
 
-## 地图与位置
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Excel MCP](https://github.com/haris-musa/excel-mcp-server) | 社区 | Excel/CSV 文件读写与公式计算 | Python | ![](https://img.shields.io/github/stars/haris-musa/excel-mcp-server?style=flat-square) |
+| [PDF MCP](https://github.com/adhikasp/mcp-pdf) | 社区 | PDF 文档内容提取与解析 | Python | ![](https://img.shields.io/github/stars/adhikasp/mcp-pdf?style=flat-square) |
 
-| 名称 | 描述 | 语言 | 链接 |
-|------|------|------|------|
-| Google Maps MCP | Google Maps 地点搜索、路线、地理编码（官方） | TypeScript | [github.com/modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) |
+### 基础设施与部署
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Vercel MCP](https://github.com/vercel/mcp-server) | Vercel 官方 | 部署、域名、日志管理 | TypeScript | ![](https://img.shields.io/github/stars/vercel/mcp-server?style=flat-square) |
+| [MCP Proxy](https://github.com/tbxark/mcp-proxy) | 社区 | 聚合多个 MCP 为单一 HTTP 端点 | Go | ![](https://img.shields.io/github/stars/tbxark/mcp-proxy?style=flat-square) |
+| [Time MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | Anthropic 官方 | 时区转换与当前时间 | TypeScript | — |
+
+---
+
+## English
+
+> General-purpose MCP servers: search, web scraping, file processing, deployment.
+
+### Search Engines
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Brave Search MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) | Anthropic Official | Privacy-focused web and news search | TypeScript | — |
+| [Exa MCP](https://github.com/exa-labs/exa-mcp-server) | Exa Official | Neural semantic search and content extraction | TypeScript | ![](https://img.shields.io/github/stars/exa-labs/exa-mcp-server?style=flat-square) |
+| [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Tavily Official | AI search optimized for LLMs | TypeScript | ![](https://img.shields.io/github/stars/tavily-ai/tavily-mcp?style=flat-square) |
+| [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity Official | Real-time AI search and Q&A | Python | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
+| [Google Maps MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) | Anthropic Official | Places, routing, geocoding | TypeScript | — |
+
+### Web Scraping
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Fetch MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | Anthropic Official | Web content fetching and Markdown conversion | Python | — |
+| [Firecrawl MCP](https://github.com/mendableai/firecrawl-mcp-server) | Firecrawl Official | High-quality web scraping and structured extraction | TypeScript | ![](https://img.shields.io/github/stars/mendableai/firecrawl-mcp-server?style=flat-square) |
+
+### File & Document Processing
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Excel MCP](https://github.com/haris-musa/excel-mcp-server) | Community | Excel/CSV file read/write and formula calculation | Python | ![](https://img.shields.io/github/stars/haris-musa/excel-mcp-server?style=flat-square) |
+| [PDF MCP](https://github.com/adhikasp/mcp-pdf) | Community | PDF document content extraction and parsing | Python | ![](https://img.shields.io/github/stars/adhikasp/mcp-pdf?style=flat-square) |
+
+### Infrastructure & Deployment
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Vercel MCP](https://github.com/vercel/mcp-server) | Vercel Official | Deployments, domains, log management | TypeScript | ![](https://img.shields.io/github/stars/vercel/mcp-server?style=flat-square) |
+| [MCP Proxy](https://github.com/tbxark/mcp-proxy) | Community | Aggregate multiple MCPs into one HTTP endpoint | Go | ![](https://img.shields.io/github/stars/tbxark/mcp-proxy?style=flat-square) |
+| [Time MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | Anthropic Official | Timezone conversion and current time | TypeScript | — |

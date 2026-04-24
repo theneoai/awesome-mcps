@@ -1,0 +1,9 @@
+{
+  "stripe": {
+    "command": "npx",
+    "args": ["-y", "@stripe/agent-toolkit"],
+    "env": {
+      "STRIPE_SECRET_KEY": "YOUR_STRIPE_SECRET_KEY"
+    }
+  }
+}
