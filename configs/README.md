@@ -17,7 +17,7 @@
 | Windows | `%APPDATA%\Claude\claude_desktop_config.json` |
 | Linux | `~/.config/Claude/claude_desktop_config.json` |
 
-## 目录
+## 目录 | Index
 
 | 文件 | MCP | 分类 | 需要密钥 |
 |------|-----|------|---------|
@@ -27,11 +27,19 @@
 | [playwright.json](playwright.json) | 浏览器自动化 | 开发工具 | 否 |
 | [fetch.json](fetch.json) | 网页抓取 | 实用工具 | 否 |
 | [brave-search.json](brave-search.json) | Brave 搜索 | 实用工具 | 是 |
+| [exa.json](exa.json) | Exa 语义搜索 | 实用工具 | 是 |
+| [tavily.json](tavily.json) | Tavily AI 搜索 | 实用工具 | 是 |
+| [firecrawl.json](firecrawl.json) | Firecrawl 网页爬取 | 实用工具 | 是 |
 | [notion.json](notion.json) | Notion | 效率工具 | 是 |
 | [linear.json](linear.json) | Linear | 效率工具 | 是 |
+| [memory.json](memory.json) | 持久化记忆 | AI 工具 | 否 |
 | [sqlite.json](sqlite.json) | SQLite | 数据库 | 否 |
 | [postgres.json](postgres.json) | PostgreSQL | 数据库 | 是 |
+| [qdrant.json](qdrant.json) | Qdrant 向量库 | 数据库 | 可选 |
 | [slack.json](slack.json) | Slack | 通信 | 是 |
 | [gmail.json](gmail.json) | Gmail | 通信 | 是 |
+| [aws.json](aws.json) | AWS Bedrock KB | 云服务 | 是 |
+| [cloudflare.json](cloudflare.json) | Cloudflare | 云服务 | 是 |
+| [stripe.json](stripe.json) | Stripe 支付 | 企业 | 是 |
 
 > 完整配置说明见 [../docs/deployment.md](../docs/deployment.md)
