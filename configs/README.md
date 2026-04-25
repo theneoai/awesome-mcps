@@ -25,6 +25,10 @@
 | [github.json](github.json) | GitHub | 开发工具 | 是 |
 | [git.json](git.json) | Git | 开发工具 | 否 |
 | [playwright.json](playwright.json) | 浏览器自动化 | 开发工具 | 否 |
+| [jetbrains.json](jetbrains.json) | JetBrains | 开发工具 | 否 |
+| [azure-devops.json](azure-devops.json) | Azure DevOps | 开发工具 | 是 |
+| [circleci.json](circleci.json) | CircleCI | 开发工具 | 是 |
+| [datadog.json](datadog.json) | Datadog | 开发工具 | 是 |
 | [fetch.json](fetch.json) | 网页抓取 | 实用工具 | 否 |
 | [brave-search.json](brave-search.json) | Brave 搜索 | 实用工具 | 是 |
 | [exa.json](exa.json) | Exa 语义搜索 | 实用工具 | 是 |
@@ -32,15 +36,32 @@
 | [firecrawl.json](firecrawl.json) | Firecrawl 网页爬取 | 实用工具 | 是 |
 | [notion.json](notion.json) | Notion | 效率工具 | 是 |
 | [linear.json](linear.json) | Linear | 效率工具 | 是 |
+| [monday.json](monday.json) | Monday.com | 效率工具 | 是 |
+| [plane.json](plane.json) | Plane | 效率工具 | 是 |
 | [memory.json](memory.json) | 持久化记忆 | AI 工具 | 否 |
 | [groq.json](groq.json) | Groq LLM 推理 | AI 工具 | 是 |
 | [sqlite.json](sqlite.json) | SQLite | 数据库 | 否 |
 | [postgres.json](postgres.json) | PostgreSQL | 数据库 | 是 |
+| [supabase.json](supabase.json) | Supabase | 数据库 | 是 |
+| [elasticsearch.json](elasticsearch.json) | Elasticsearch | 数据库 | 是 |
+| [neo4j.json](neo4j.json) | Neo4j | 数据库 | 是 |
+| [clickhouse.json](clickhouse.json) | ClickHouse | 数据库 | 是 |
+| [databricks.json](databricks.json) | Databricks | 数据库 | 是 |
+| [influxdb.json](influxdb.json) | InfluxDB | 数据库 | 是 |
 | [qdrant.json](qdrant.json) | Qdrant 向量库 | 数据库 | 可选 |
 | [slack.json](slack.json) | Slack | 通信 | 是 |
 | [gmail.json](gmail.json) | Gmail | 通信 | 是 |
+| [zoom.json](zoom.json) | Zoom | 通信 | 是 |
+| [intercom.json](intercom.json) | Intercom | 通信 | 是 |
+| [sendgrid.json](sendgrid.json) | SendGrid | 通信 | 是 |
+| [mailgun.json](mailgun.json) | Mailgun | 通信 | 是 |
 | [aws.json](aws.json) | AWS Bedrock KB | 云服务 | 是 |
 | [cloudflare.json](cloudflare.json) | Cloudflare | 云服务 | 是 |
+| [alibabacloud.json](alibabacloud.json) | AlibabaCloud | 云服务 | 是 |
+| [digitalocean.json](digitalocean.json) | DigitalOcean | 云服务 | 是 |
+| [netlify.json](netlify.json) | Netlify | 云服务 | 是 |
 | [stripe.json](stripe.json) | Stripe 支付 | 企业 | 是 |
+| [1password.json](1password.json) | 1Password | 安全 | 是 |
+| [snyk.json](snyk.json) | Snyk | 安全 | 是 |
 
 > 完整配置说明见 [../docs/deployment.md](../docs/deployment.md)

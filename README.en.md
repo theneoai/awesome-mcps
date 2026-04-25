@@ -43,11 +43,15 @@ See [categories/development/](categories/development/README.md)
 |------|--------|-------------|-------|
 | [GitHub MCP](https://github.com/github/github-mcp-server) | GitHub Official | Repos, PRs, Issues, Actions — 51 tools | ![](https://img.shields.io/github/stars/github/github-mcp-server?style=flat-square) |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Microsoft Official | Cross-browser automation, screenshots, forms | ![](https://img.shields.io/github/stars/microsoft/playwright-mcp?style=flat-square) |
+| [Azure DevOps MCP](https://github.com/microsoft/azure-devops-mcp) | Microsoft Official | Boards, Repos, Pipelines, Artefacts | ![](https://img.shields.io/github/stars/microsoft/azure-devops-mcp?style=flat-square) |
+| [CircleCI MCP](https://github.com/CircleCI-Public/mcp-server-circleci) | CircleCI Official | Pipelines, Jobs, Workflows | ![](https://img.shields.io/github/stars/CircleCI-Public/mcp-server-circleci?style=flat-square) |
+| [JetBrains MCP](https://github.com/JetBrains/mcp-jetbrains) | JetBrains Official | IntelliJ, PyCharm, WebStorm IDEs | ![](https://img.shields.io/github/stars/JetBrains/mcp-jetbrains?style=flat-square) |
 | [Filesystem MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Anthropic Official | Local file read/write, directory tree, search | — |
 | [Git MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/git) | Anthropic Official | commit, diff, log, branch operations | — |
 | [GitLab MCP](https://github.com/zereight/gitlab-mcp) | Community | GitLab MRs, pipelines, Wiki | ![](https://img.shields.io/github/stars/zereight/gitlab-mcp?style=flat-square) |
 | [Kubernetes MCP](https://github.com/containers/kubernetes-mcp-server) | Red Hat | Pod, Deployment, Service management | ![](https://img.shields.io/github/stars/containers/kubernetes-mcp-server?style=flat-square) |
 | [Docker MCP](https://github.com/ckreiling/mcp-server-docker) | Community | Containers, images, networks, volumes | ![](https://img.shields.io/github/stars/ckreiling/mcp-server-docker?style=flat-square) |
+| [Datadog MCP](https://github.com/winor30/mcp-server-datadog) | Community | Metrics, Logs, Monitors, APM | ![](https://img.shields.io/github/stars/winor30/mcp-server-datadog?style=flat-square) |
 | [Puppeteer MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) | Anthropic Official | Puppeteer browser control | — |
 | [Firebase MCP](https://github.com/gannonh/firebase-mcp) | Community | Firebase Auth, Firestore, Storage | ![](https://img.shields.io/github/stars/gannonh/firebase-mcp?style=flat-square) |
 | [Nomad MCP](https://github.com/kocierik/mcp-nomad) | Community | HashiCorp Nomad job orchestration | ![](https://img.shields.io/github/stars/kocierik/mcp-nomad?style=flat-square) |
@@ -62,6 +66,12 @@ See [categories/data/](categories/data/README.md)
 |------|--------|-------------|-------|
 | [PostgreSQL MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) | Anthropic Official | PostgreSQL query and schema analysis | — |
 | [SQLite MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) | Anthropic Official | SQLite local database operations | — |
+| [Supabase MCP](https://github.com/supabase-community/supabase-mcp) | Supabase Community | PostgreSQL database, auth, Edge Functions | ![](https://img.shields.io/github/stars/supabase-community/supabase-mcp?style=flat-square) |
+| [Elasticsearch MCP](https://github.com/elastic/mcp-server-elasticsearch) | Elastic Official | Full-text search, aggregations, index management | ![](https://img.shields.io/github/stars/elastic/mcp-server-elasticsearch?style=flat-square) |
+| [Neo4j MCP](https://github.com/neo4j-contrib/mcp-neo4j) | Neo4j Labs Community | Graph database and knowledge graph with vector search | ![](https://img.shields.io/github/stars/neo4j-contrib/mcp-neo4j?style=flat-square) |
+| [ClickHouse MCP](https://github.com/ClickHouse/mcp-clickhouse) | ClickHouse Official | OLAP database queries and analytics | ![](https://img.shields.io/github/stars/ClickHouse/mcp-clickhouse?style=flat-square) |
+| [Databricks MCP](https://github.com/JordiNeil/mcp-databricks-server) | Community | Databricks data warehouse and Unity Catalog | ![](https://img.shields.io/github/stars/JordiNeil/mcp-databricks-server?style=flat-square) |
+| [InfluxDB MCP](https://github.com/influxdata/influxdb3_mcp_server) | InfluxData Official | Time-series data storage and queries | ![](https://img.shields.io/github/stars/influxdata/influxdb3_mcp_server?style=flat-square) |
 | [MCP Toolbox for Databases](https://github.com/googleapis/mcp-toolbox-for-databases) | Google Official | PostgreSQL, MySQL, AlloyDB, Spanner | ![](https://img.shields.io/github/stars/googleapis/mcp-toolbox-for-databases?style=flat-square) |
 | [Redis MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/redis) | Anthropic Official | Redis key-value store operations | — |
 | [MySQL MCP](https://github.com/benborla/mcp-server-mysql) | Community | MySQL database connection and query | ![](https://img.shields.io/github/stars/benborla/mcp-server-mysql?style=flat-square) |
@@ -80,6 +90,10 @@ See [categories/communication/](categories/communication/README.md)
 |------|--------|-------------|-------|
 | [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | Anthropic Official | Slack messaging and channel management | — |
 | [Gmail MCP](https://github.com/GongRzhe/Gmail-MCP-Server) | Community | Gmail read/write and management | ![](https://img.shields.io/github/stars/GongRzhe/Gmail-MCP-Server?style=flat-square) |
+| [Zoom MCP](https://github.com/echelon-ai-labs/zoom-mcp) | Community | Zoom meeting management, messaging | ![](https://img.shields.io/github/stars/echelon-ai-labs/zoom-mcp?style=flat-square) |
+| [Intercom MCP](https://github.com/intercom/intercom-mcp-server) | Intercom Official | Intercom customer chat integration | ![](https://img.shields.io/github/stars/intercom/intercom-mcp-server?style=flat-square) |
+| [SendGrid MCP](https://github.com/Garoth/sendgrid-mcp) | Community | SendGrid email, contacts, templates, campaigns | ![](https://img.shields.io/github/stars/Garoth/sendgrid-mcp?style=flat-square) |
+| [Mailgun MCP](https://github.com/mailgun/mailgun-mcp-server) | Mailgun Official | Mailgun email sending service | ![](https://img.shields.io/github/stars/mailgun/mailgun-mcp-server?style=flat-square) |
 | [Discord MCP](https://github.com/SasePriv/mcp-discord) | Community | Discord messages and channel operations | ![](https://img.shields.io/github/stars/SasePriv/mcp-discord?style=flat-square) |
 | [Twilio MCP](https://github.com/twilio-labs/mcp) | Twilio Official | SMS, voice calls, WhatsApp | ![](https://img.shields.io/github/stars/twilio-labs/mcp?style=flat-square) |
 | [Microsoft Teams MCP](https://github.com/softeria-ss/ms-teams-mcp-server) | Community | Teams messages and meetings | ![](https://img.shields.io/github/stars/softeria-ss/ms-teams-mcp-server?style=flat-square) |
@@ -95,6 +109,8 @@ See [categories/productivity/](categories/productivity/README.md)
 |------|--------|-------------|-------|
 | [Notion MCP](https://github.com/makenotion/notion-mcp-server) | Notion Official | Read/write pages & databases — 22 tools | ![](https://img.shields.io/github/stars/makenotion/notion-mcp-server?style=flat-square) |
 | [Linear MCP](https://github.com/jerhadf/linear-mcp-server) | Community | Linear issue and project management | ![](https://img.shields.io/github/stars/jerhadf/linear-mcp-server?style=flat-square) |
+| [Monday.com MCP](https://github.com/mondaycom/mcp) | Monday.com Official | Boards, tasks, item groups management and dynamic API tools | ![](https://img.shields.io/github/stars/mondaycom/mcp?style=flat-square) |
+| [Plane MCP](https://github.com/makeplane/plane-mcp-server) | Plane Official | Projects, issues, work item states management | ![](https://img.shields.io/github/stars/makeplane/plane-mcp-server?style=flat-square) |
 | [Asana MCP](https://github.com/Asana/asana-mcp-server) | Asana Official | Tasks, projects, workspaces | ![](https://img.shields.io/github/stars/Asana/asana-mcp-server?style=flat-square) |
 | [Jira/Confluence MCP](https://github.com/sooperset/mcp-atlassian) | Community | Full Jira and Confluence operations | ![](https://img.shields.io/github/stars/sooperset/mcp-atlassian?style=flat-square) |
 | [Google Calendar MCP](https://github.com/nspady/google-calendar-mcp) | Community | Calendar event creation and management | ![](https://img.shields.io/github/stars/nspady/google-calendar-mcp?style=flat-square) |
@@ -113,6 +129,9 @@ See [categories/cloud/](categories/cloud/README.md)
 | [AWS MCP Servers](https://github.com/awslabs/mcp) | AWS Official | 60+ AWS services: EC2, S3, Lambda, Bedrock | ![](https://img.shields.io/github/stars/awslabs/mcp?style=flat-square) |
 | [Azure MCP](https://github.com/Azure/azure-mcp) | Microsoft Official | Azure resource management and services | ![](https://img.shields.io/github/stars/Azure/azure-mcp?style=flat-square) |
 | [Cloudflare MCP](https://github.com/cloudflare/mcp-server-cloudflare) | Cloudflare Official | DNS, Workers, R2, Zero Trust — 2,500+ endpoints | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-cloudflare?style=flat-square) |
+| [AlibabaCloud MCP](https://github.com/aliyun/alibabacloud-core-mcp-server) | Alibaba Cloud Official | ECS, VPC, CloudMonitor resource management | ![](https://img.shields.io/github/stars/aliyun/alibabacloud-core-mcp-server?style=flat-square) |
+| [DigitalOcean MCP](https://github.com/digitalocean-labs/mcp-digitalocean) | DigitalOcean Official | Droplets, VPC, Storage, Domains | ![](https://img.shields.io/github/stars/digitalocean-labs/mcp-digitalocean?style=flat-square) |
+| [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify Official | Site deployments, functions, env vars | ![](https://img.shields.io/github/stars/netlify/netlify-mcp?style=flat-square) |
 | [AWS KB Retrieval](https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval-server) | Anthropic Official | AWS Bedrock knowledge base retrieval | — |
 | [IBM MCP](https://github.com/IBM/mcp) | IBM Official | IBM Cloud services integration | ![](https://img.shields.io/github/stars/IBM/mcp?style=flat-square) |
 | [Firebase MCP](https://github.com/gannonh/firebase-mcp) | Community | Firebase / GCP services | ![](https://img.shields.io/github/stars/gannonh/firebase-mcp?style=flat-square) |
@@ -127,6 +146,7 @@ See [categories/ai/](categories/ai/README.md)
 |------|--------|-------------|-------|
 | [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters) | LangChain Official | Load MCP tools into LangChain agents | ![](https://img.shields.io/github/stars/langchain-ai/langchain-mcp-adapters?style=flat-square) |
 | [OpenAI Agents MCP](https://github.com/openai/openai-agents-python) | OpenAI Official | Native MCP support in OpenAI Agents SDK | ![](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square) |
+| [Groq MCP](https://github.com/groq/groq-mcp-server) | Groq Official | Hardware-accelerated LLM inference | ![](https://img.shields.io/github/stars/groq/groq-mcp-server?style=flat-square) |
 | [Hugging Face MCP](https://github.com/evalstate/mcp-hfspace) | Community | Hugging Face Spaces model inference | ![](https://img.shields.io/github/stars/evalstate/mcp-hfspace?style=flat-square) |
 | [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity Official | Real-time AI search and Q&A | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
 | [Sequential Thinking MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) | Anthropic Official | Structured reasoning and chain-of-thought | — |
@@ -144,6 +164,11 @@ See [categories/enterprise/](categories/enterprise/README.md)
 | [Salesforce MCP](https://github.com/tsmztech/mcp-server-salesforce) | Community | Salesforce CRM data access | ![](https://img.shields.io/github/stars/tsmztech/mcp-server-salesforce?style=flat-square) |
 | [Xero MCP](https://github.com/XeroAPI/xero-mcp-server) | Xero Official | Accounting, invoices, financial reports | ![](https://img.shields.io/github/stars/XeroAPI/xero-mcp-server?style=flat-square) |
 | [HubSpot MCP](https://github.com/HubSpot/mcp-server) | HubSpot Official | CRM contacts, deals, marketing | ![](https://img.shields.io/github/stars/HubSpot/mcp-server?style=flat-square) |
+| [ServiceNow MCP](https://github.com/aartiq/servicenow-mcp) | Community | Enterprise ITSM, ITOM, HRSD - 150+ tools | ![](https://img.shields.io/github/stars/aartiq/servicenow-mcp?style=flat-square) |
+| [ERPNext MCP](https://github.com/optimusbasti/erpnext-mcp) | Community | Open source ERP CRM and project management | ![](https://img.shields.io/github/stars/optimusbasti/erpnext-mcp?style=flat-square) |
+| [Odoo MCP](https://github.com/aadilakbar/ad-mcp-bridge-server) | Community | Odoo ERP integration | ![](https://img.shields.io/github/stars/aadilakbar/ad-mcp-bridge-server?style=flat-square) |
+| [Dynamics 365 MCP](https://github.com/srikanth-paladugula/mcp-dynamics365-server) | Community | Microsoft Dynamics 365 integration | ![](https://img.shields.io/github/stars/srikanth-paladugula/mcp-dynamics365-server?style=flat-square) |
+| [Paddle MCP](https://github.com/PaddleHQ/paddle-mcp-server) | Paddle Official | Payments, subscriptions, billing | ![](https://img.shields.io/github/stars/PaddleHQ/paddle-mcp-server?style=flat-square) |
 | [DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript) | DataForSEO Official | SEO data and search analytics | ![](https://img.shields.io/github/stars/dataforseo/mcp-server-typescript?style=flat-square) |
 
 ---
@@ -157,6 +182,7 @@ See [categories/security/](categories/security/README.md)
 | [1Password MCP](https://github.com/1Password/mcp-server) | 1Password Official | Secrets and credential secure access | ![](https://img.shields.io/github/stars/1Password/mcp-server?style=flat-square) |
 | [Semgrep MCP](https://github.com/semgrep/mcp) | Semgrep Official | Static code security scanning | ![](https://img.shields.io/github/stars/semgrep/mcp?style=flat-square) |
 | [Snyk MCP](https://github.com/snyk/snyk-mcp) | Snyk Official | Dependency vulnerability detection | ![](https://img.shields.io/github/stars/snyk/snyk-mcp?style=flat-square) |
+| [OSV MCP](https://github.com/gleicon/mcp-osv) | Community | OSV.dev vulnerability database integration | ![](https://img.shields.io/github/stars/gleicon/mcp-osv?style=flat-square) |
 | [Infisical MCP](https://github.com/Infisical/mcp) | Infisical Official | Open-source secret management | ![](https://img.shields.io/github/stars/Infisical/mcp?style=flat-square) |
 
 ---
@@ -169,6 +195,8 @@ See [categories/utilities/](categories/utilities/README.md)
 |------|--------|-------------|-------|
 | [Brave Search MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) | Anthropic Official | Privacy-focused web search | — |
 | [Fetch MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | Anthropic Official | Web content fetching and conversion | — |
+| [Wikipedia MCP](https://github.com/Rudra-ravi/wikipedia-mcp) | Community | Wikipedia search and content retrieval | ![](https://img.shields.io/github/stars/Rudra-ravi/wikipedia-mcp?style=flat-square) |
+| [Markdownify MCP](https://github.com/zcaceres/markdownify-mcp) | Community | Convert web content and files to Markdown | ![](https://img.shields.io/github/stars/zcaceres/markdownify-mcp?style=flat-square) |
 | [Exa Search MCP](https://github.com/exa-labs/exa-mcp-server) | Exa Official | Neural semantic search | ![](https://img.shields.io/github/stars/exa-labs/exa-mcp-server?style=flat-square) |
 | [Excel MCP](https://github.com/haris-musa/excel-mcp-server) | Community | Excel/CSV file read and write | ![](https://img.shields.io/github/stars/haris-musa/excel-mcp-server?style=flat-square) |
 | [Time MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | Anthropic Official | Timezone and time conversion | — |
