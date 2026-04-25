@@ -12,6 +12,9 @@
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
+| [FastMCP](https://github.com/PrefectHQ/fastmcp) | Prefect 官方 | 快速、Pythonic 的 MCP 服务器和客户端构建框架 | Python | ![](https://img.shields.io/github/stars/PrefectHQ/fastmcp?style=flat-square) |
+| [mcp-use](https://github.com/mcp-use/mcp-use) | 社区 | 全栈 MCP 框架，用于开发 ChatGPT/Claude 的 MCP 应用和 AI Agent 的 MCP 服务器 | TypeScript | ![](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat-square) |
+| [mcp-agent](https://github.com/lastmile-ai/mcp-agent) | Lastmile AI | 使用 MCP 和简单工作流模式构建有效 Agent | Python | ![](https://img.shields.io/github/stars/lastmile-ai/mcp-agent?style=flat-square) |
 | [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters) | LangChain 官方 | 双向适配：将 MCP 工具加载到 LangChain Agent | Python | ![](https://img.shields.io/github/stars/langchain-ai/langchain-mcp-adapters?style=flat-square) |
 | [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | OpenAI 官方 | Agents SDK 原生支持 MCP 服务器工具 | Python | ![](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square) |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | CrewAI 官方 | 多 Agent 协作框架，支持 MCP 工具集成 | Python | ![](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat-square) |
@@ -51,6 +54,9 @@
 
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
+| [FastMCP](https://github.com/PrefectHQ/fastmcp) | Prefect Official | Fast, Pythonic way to build MCP servers and clients | Python | ![](https://img.shields.io/github/stars/PrefectHQ/fastmcp?style=flat-square) |
+| [mcp-use](https://github.com/mcp-use/mcp-use) | Community | Fullstack MCP framework to develop MCP Apps for ChatGPT/Claude & MCP Servers for AI Agents | TypeScript | ![](https://img.shields.io/github/stars/mcp-use/mcp-use?style=flat-square) |
+| [mcp-agent](https://github.com/lastmile-ai/mcp-agent) | Lastmile AI | Build effective agents using Model Context Protocol and simple workflow patterns | Python | ![](https://img.shields.io/github/stars/lastmile-ai/mcp-agent?style=flat-square) |
 | [LangChain MCP Adapters](https://github.com/langchain-ai/langchain-mcp-adapters) | LangChain Official | Bidirectional: load MCP tools into LangChain agents | Python | ![](https://img.shields.io/github/stars/langchain-ai/langchain-mcp-adapters?style=flat-square) |
 | [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | OpenAI Official | Native MCP server tool support in Agents SDK | Python | ![](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square) |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | CrewAI Official | Multi-agent collaboration with MCP tool integration | Python | ![](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat-square) |
