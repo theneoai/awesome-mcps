@@ -1,0 +1,10 @@
+{
+  "linkerd": {
+    "command": "npx",
+    "args": ["-y", "@linkerd/mcp-server"],
+    "env": {
+      "LINKERD_CONTROL_PLANE_URL": "http://localhost:8081",
+      "LINKERD_VERSION": "stable-2.14.0"
+    }
+  }
+}

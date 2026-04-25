@@ -65,6 +65,12 @@
 | [DigitalOcean MCP](https://github.com/digitalocean-labs/mcp-digitalocean) | DigitalOcean 官方 | Droplets、VPC、Storage、Domains | ![](https://img.shields.io/github/stars/digitalocean-labs/mcp-digitalocean?style=flat-square) |
 | [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify 官方 | 站点部署、函数、环境变量管理 | ![](https://img.shields.io/github/stars/netlify/netlify-mcp?style=flat-square) |
 
+### 服务网格
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Linkerd MCP](https://github.com/linkerd/linkerd-mcp) | 轻量服务网格，流量管理、mTLS | Rust | ![](https://img.shields.io/github/stars/linkerd/linkerd-mcp?style=flat-square) |
+
 ---
 
 ## English
@@ -126,3 +132,9 @@
 | [AlibabaCloud MCP](https://github.com/aliyun/alibabacloud-core-mcp-server) | Alibaba Cloud Official | ECS, VPC, CloudMonitor resource management | ![](https://img.shields.io/github/stars/aliyun/alibabacloud-core-mcp-server?style=flat-square) |
 | [DigitalOcean MCP](https://github.com/digitalocean-labs/mcp-digitalocean) | DigitalOcean Official | Droplets, VPC, Storage, Domains | ![](https://img.shields.io/github/stars/digitalocean-labs/mcp-digitalocean?style=flat-square) |
 | [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify Official | Site deployments, functions, env vars | ![](https://img.shields.io/github/stars/netlify/netlify-mcp?style=flat-square) |
+
+### Service Mesh
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Linkerd MCP](https://github.com/linkerd/linkerd-mcp) | Lightweight service mesh, traffic management, mTLS | Rust | ![](https://img.shields.io/github/stars/linkerd/linkerd-mcp?style=flat-square) |
