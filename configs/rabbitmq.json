@@ -1,0 +1,10 @@
+{
+  "rabbitmq": {
+    "command": "npx",
+    "args": ["-y", "@rabbitmq/mcp-server"],
+    "env": {
+      "RABBITMQ_URL": "amqp://localhost:5672",
+      "RABBITMQ_MANAGEMENT_URL": "http://localhost:15672"
+    }
+  }
+}
