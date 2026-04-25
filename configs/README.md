@@ -61,6 +61,18 @@
 | [digitalocean.json](digitalocean.json) | DigitalOcean | 云服务 | 是 |
 | [netlify.json](netlify.json) | Netlify | 云服务 | 是 |
 | [stripe.json](stripe.json) | Stripe 支付 | 企业 | 是 |
+| [servicenow.json](servicenow.json) | ServiceNow | 企业 | 是 |
+| [erpnext.json](erpnext.json) | ERPNext | 企业 | 是 |
+| [odoo.json](odoo.json) | Odoo | 企业 | 是 |
+| [dynamics365.json](dynamics365.json) | Dynamics 365 | 企业 | 是 |
+| [sap-abap.json](sap-abap.json) | SAP ABAP ADT | 企业 | 是 |
+| [paddle.json](paddle.json) | Paddle | 企业 | 是 |
+| [freshbooks.json](freshbooks.json) | FreshBooks | 企业 | 是 |
+| [rippling.json](rippling.json) | Rippling | 企业 | 是 |
+| [anaplan.json](anaplan.json) | Anaplan | 企业 | 是 |
+| [custify.json](custify.json) | Custify | 企业 | 是 |
+| [chartmogul.json](chartmogul.json) | ChartMogul | 企业 | 是 |
+| [servicetitan.json](servicetitan.json) | ServiceTitan | 企业 | 是 |
 | [1password.json](1password.json) | 1Password | 安全 | 是 |
 | [snyk.json](snyk.json) | Snyk | 安全 | 是 |
 
