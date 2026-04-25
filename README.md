@@ -101,6 +101,7 @@ Copy any of these commands to install a specific MCP:
 | RabbitMQ | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/rabbitmq.json and install` |
 | 腾讯云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tencentcloud.json and install` |
 | 华为云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/huaweicloud.json and install` |
+| 百度云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/baiducloud.json and install` |
 
 ### AI & ML
 

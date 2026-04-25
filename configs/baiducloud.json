@@ -1,0 +1,11 @@
+{
+  "baiducloud": {
+    "command": "npx",
+    "args": ["-y", "@baiducloud/mcp-server"],
+    "env": {
+      "BAIDU_CLOUD_AK": "YOUR_ACCESS_KEY",
+      "BAIDU_CLOUD_SK": "YOUR_SECRET_KEY",
+      "BAIDU_CLOUD_REGION": "bj"
+    }
+  }
+}
