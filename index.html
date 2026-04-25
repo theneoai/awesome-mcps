@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome MCPs - Model Context Protocol Server Collection</title>
-    <meta name="description" content="精选的 Model Context Protocol (MCP) 服务器与工具合集，支持一键安装">
+    <meta name="description" content="Curated collection of Model Context Protocol (MCP) servers and tools. 115+ MCPs available.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -58,8 +58,8 @@
                 <span data-i18n="quickInstall">&#9889; Quick Install - All MCPs</span>
             </div>
             <div class="quick-install-tabs">
-                <button class="tab-btn active" onclick="switchQuickInstallTab('user', this)">&#128187; 用户安装</button>
-                <button class="tab-btn" onclick="switchQuickInstallTab('ai', this)">&#129302; AI 命令</button>
+                <button class="tab-btn active" onclick="switchQuickInstallTab('user', this)">&#128187; User Install</button>
+                <button class="tab-btn" onclick="switchQuickInstallTab('ai', this)">&#129302; AI Command</button>
             </div>
             <div id="userInstallSection">
                 <div class="code-block">
@@ -68,7 +68,7 @@
                         <span class="code-dot yellow"></span>
                         <span class="code-dot green"></span>
                         <span style="color: var(--gray); font-size: 0.75rem; margin-left: 0.5rem;">bash</span>
-                        <button class="copy-btn" onclick="copyInstallCommand(this)" data-i18n="copyText">复制</button>
+                        <button class="copy-btn" onclick="copyInstallCommand(this)" data-i18n="copyText">Copy</button>
                     </div>
                     <pre><code>git</code> clone https://github.com/theneoai/awesome-mcps.git
 <code>cd</code> awesome-mcps
@@ -82,12 +82,12 @@
                         <span class="code-dot yellow"></span>
                         <span class="code-dot green"></span>
                         <span style="color: var(--gray); font-size: 0.75rem; margin-left: 0.5rem;">AI Agent</span>
-                        <button class="copy-btn" onclick="copyAiInstallCommand(this)">复制</button>
+                        <button class="copy-btn" onclick="copyAiInstallCommand(this)">Copy</button>
                     </div>
                     <pre><code>read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/[mcp-name].json and install</code></pre>
                 </div>
                 <p style="color: var(--gray-light); font-size: 0.8125rem; margin-top: 0.75rem;">
-                    将 [mcp-name] 替换为具体 MCP 名，如 <code>github</code>、<code>filesystem</code>、<code>postgres</code>
+                    Replace [mcp-name] with MCP name, e.g. <code>github</code>, <code>filesystem</code>, <code>postgres</code>
                 </p>
             </div>
         </div>
