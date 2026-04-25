@@ -100,6 +100,7 @@
 | [Jira MCP](https://github.com/atlassian/mcp-server-jira) | 企业 Bug 追踪，Issue 管理、工作流、sprints | TypeScript | ![](https://img.shields.io/github/stars/atlassian/mcp-server-jira?style=flat-square) |
 | [YouTrack MCP](https://github.com/JetBrains/youtrack-mcp) | JetBrains 任务追踪，时间跟踪、sprints | Kotlin | ![](https://img.shields.io/github/stars/JetBrains/youtrack-mcp?style=flat-square) |
 | [Redmine MCP](https://github.com/nickel3/mcp-redmine) | 开源项目管理，任务、wiki、时间跟踪 | Ruby | ![](https://img.shields.io/github/stars/nickel3/mcp-redmine?style=flat-square) |
+| [Phabricator MCP](https://github.com/phacility/phabricator-mcp) | Facebook 开源开发平台，Maniphest API | PHP | ![](https://img.shields.io/github/stars/phacility/phabricator-mcp?style=flat-square) |
 
 ### 浏览器自动化
 
