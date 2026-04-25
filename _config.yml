@@ -1,42 +1,18 @@
-title: "Awesome MCPs"
-description: "精选优秀的 Model Context Protocol 服务器合集 | Curated list of awesome MCP servers"
-url: "https://theneoai.github.io"
-baseurl: "/awesome-mcps"
-lang: "zh-CN"
+title: Awesome MCPs
+description: 精选优秀的 Model Context Protocol 服务器合集
+url: https://theneoai.github.io
+baseurl: /awesome-mcps
 
-# Theme
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
+theme: minima
 
-# Navigation
-header_pages:
-  - index.html
-  - configs.html
-  - categories.html
-
-# SEO
-author: "theneoai"
-twitter:
-  username: theneoai
-github:
-  is_project page: true
-  repository_url: "https://github.com/theneoai/awesome-mcps"
-  repository_name: "awesome-mcps"
-
-# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
 
-# Include assets
 include:
   - assets
+  - configs
 
-# Exclude from build
 exclude:
   - install.sh
   - "*.sh"
