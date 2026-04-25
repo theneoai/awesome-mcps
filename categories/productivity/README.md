@@ -14,6 +14,7 @@
 |------|------|------|------|-------|
 | [Notion MCP](https://github.com/makenotion/notion-mcp-server) | Notion 官方 | 读写页面、数据库、评论，22 个工具 | TypeScript | ![](https://img.shields.io/github/stars/makenotion/notion-mcp-server?style=flat-square) |
 | [Obsidian MCP](https://github.com/calclavia/mcp-obsidian) | 社区 | Obsidian 笔记读写与搜索 | TypeScript | ![](https://img.shields.io/github/stars/calclavia/mcp-obsidian?style=flat-square) |
+| [GitBook MCP](https://github.com/Gitbook/mcp-server) | GitBook 官方 | 开源文档平台，页面、空间、协作 | TypeScript | ![](https://img.shields.io/github/stars/Gitbook/mcp-server?style=flat-square) |
 | [Google Drive MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) | Anthropic 官方 | Google Drive 文档搜索、读取与管理 | TypeScript | — |
 | [Memory MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | Anthropic 官方 | 跨会话持久化知识图谱 | TypeScript | — |
 
@@ -61,6 +62,7 @@
 |------|--------|-------------|----------|-------|
 | [Notion MCP](https://github.com/makenotion/notion-mcp-server) | Notion Official | Read/write pages, databases, comments — 22 tools | TypeScript | ![](https://img.shields.io/github/stars/makenotion/notion-mcp-server?style=flat-square) |
 | [Obsidian MCP](https://github.com/calclavia/mcp-obsidian) | Community | Obsidian note read/write and search | TypeScript | ![](https://img.shields.io/github/stars/calclavia/mcp-obsidian?style=flat-square) |
+| [GitBook MCP](https://github.com/Gitbook/mcp-server) | GitBook Official | Open source documentation platform, pages, spaces, collaboration | TypeScript | ![](https://img.shields.io/github/stars/Gitbook/mcp-server?style=flat-square) |
 | [Google Drive MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) | Anthropic Official | Google Drive document search, read and manage | TypeScript | — |
 | [Memory MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | Anthropic Official | Persistent cross-session knowledge graph | TypeScript | — |
 | [Evernote MCP](https://github.com/brentmid/evernote-mcp-server) | Community | Evernote note read/write and search | Thrift | ![](https://img.shields.io/github/stars/brentmid/evernote-mcp-server?style=flat-square) |

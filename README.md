@@ -67,6 +67,7 @@ Copy any of these commands to install a specific MCP:
 | Notion | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/notion.json and install` |
 | Linear | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/linear.json and install` |
 | Google Drive | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gdrive.json and install` |
+| GitBook | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gitbook.json and install` |
 | Memory | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/memory.json and install` |
 | Monday.com | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/monday.json and install` |
 | Miro | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/miro.json and install` |

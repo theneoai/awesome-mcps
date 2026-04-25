@@ -1,0 +1,10 @@
+{
+  "gitbook": {
+    "command": "npx",
+    "args": ["-y", "@gitbook/mcp-server"],
+    "env": {
+      "GITBOOK_TOKEN": "YOUR_GITBOOK_TOKEN",
+      "GITBOOK_ORG_ID": "YOUR_ORG_ID"
+    }
+  }
+}
