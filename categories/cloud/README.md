@@ -54,6 +54,12 @@
 | [Heroku MCP](https://github.com/heroku/heroku-mcp-server) | 官方，应用管理、Dynos、PostgreSQL、Pipeline | ![](https://img.shields.io/github/stars/heroku/heroku-mcp-server?style=flat-square) |
 | [Railway MCP](https://github.com/railwayapp/railway-mcp-server) | 官方，项目部署、环境变量、服务管理 | ![](https://img.shields.io/github/stars/railwayapp/railway-mcp-server?style=flat-square) |
 
+### 容器与编排
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Helm MCP](https://github.com/helm/mcp-server) | K8s 包管理，Chart 仓库、部署 | Go | ![](https://img.shields.io/github/stars/helm/mcp-server?style=flat-square) |
+
 ### 其他云平台
 
 | 名称 | 厂商 | 描述 | Stars |
@@ -128,6 +134,12 @@
 |------|-------------|-------|
 | [Heroku MCP](https://github.com/heroku/heroku-mcp-server) | Official — apps, dynos, PostgreSQL, pipelines | ![](https://img.shields.io/github/stars/heroku/heroku-mcp-server?style=flat-square) |
 | [Railway MCP](https://github.com/railwayapp/railway-mcp-server) | Official — projects, deployments, env vars, services | ![](https://img.shields.io/github/stars/railwayapp/railway-mcp-server?style=flat-square) |
+
+### Containers & Orchestration
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Helm MCP](https://github.com/helm/mcp-server) | K8s package management, Chart repository, deployment | Go | ![](https://img.shields.io/github/stars/helm/mcp-server?style=flat-square) |
 
 ### Other Cloud Platforms
 
