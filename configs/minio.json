@@ -1,0 +1,14 @@
+{
+  "minio": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@minio/mcp-server"
+    ],
+    "env": {
+      "MINIO_ENDPOINT": "localhost:9000",
+      "MINIO_ACCESS_KEY": "YOUR_ACCESS_KEY",
+      "MINIO_SECRET_KEY": "YOUR_SECRET_KEY"
+    }
+  }
+}

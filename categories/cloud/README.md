@@ -138,3 +138,9 @@
 | Name | Description | Language | Stars |
 |------|-------------|----------|-------|
 | [Linkerd MCP](https://github.com/linkerd/linkerd-mcp) | Lightweight service mesh, traffic management, mTLS | Rust | ![](https://img.shields.io/github/stars/linkerd/linkerd-mcp?style=flat-square) |
+
+### Storage
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [MinIO MCP](https://github.com/minio/mcp-server) | S3 兼容对象存储，buckets、objects | Go | ![](https://img.shields.io/github/stars/minio/mcp-server?style=flat-square) |

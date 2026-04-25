@@ -81,6 +81,7 @@ Copy any of these commands to install a specific MCP:
 | DigitalOcean | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/digitalocean.json and install` |
 | Netlify | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/netlify.json and install` |
 | Linkerd | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/linkerd.json and install` |
+| MinIO | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/minio.json and install` |
 
 ### AI & ML
 
