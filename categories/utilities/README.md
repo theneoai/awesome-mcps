@@ -17,6 +17,7 @@
 | [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Tavily 官方 | 专为 LLM 优化的 AI 搜索 | TypeScript | ![](https://img.shields.io/github/stars/tavily-ai/tavily-mcp?style=flat-square) |
 | [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity 官方 | 实时 AI 搜索与问答 | Python | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
 | [Google Maps MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) | Anthropic 官方 | 地点搜索、路线、地理编码 | TypeScript | — |
+| [Wikipedia MCP](https://github.com/Rudra-ravi/wikipedia-mcp) | 社区 | 维基百科搜索与内容检索 | Python | ![](https://img.shields.io/github/stars/Rudra-ravi/wikipedia-mcp?style=flat-square) |
 
 ### 网页抓取
 
@@ -55,6 +56,7 @@
 | [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Tavily Official | AI search optimized for LLMs | TypeScript | ![](https://img.shields.io/github/stars/tavily-ai/tavily-mcp?style=flat-square) |
 | [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity Official | Real-time AI search and Q&A | Python | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
 | [Google Maps MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) | Anthropic Official | Places, routing, geocoding | TypeScript | — |
+| [Wikipedia MCP](https://github.com/Rudra-ravi/wikipedia-mcp) | Community | Wikipedia search and content retrieval | Python | ![](https://img.shields.io/github/stars/Rudra-ravi/wikipedia-mcp?style=flat-square) |
 
 ### Web Scraping
 
@@ -69,6 +71,7 @@
 |------|--------|-------------|----------|-------|
 | [Excel MCP](https://github.com/haris-musa/excel-mcp-server) | Community | Excel/CSV file read/write and formula calculation | Python | ![](https://img.shields.io/github/stars/haris-musa/excel-mcp-server?style=flat-square) |
 | [PDF MCP](https://github.com/adhikasp/mcp-pdf) | Community | PDF document content extraction and parsing | Python | ![](https://img.shields.io/github/stars/adhikasp/mcp-pdf?style=flat-square) |
+| [Markdownify MCP](https://github.com/zcaceres/markdownify-mcp) | Community | Convert various file types and web content to Markdown | TypeScript | ![](https://img.shields.io/github/stars/zcaceres/markdownify-mcp?style=flat-square) |
 
 ### Infrastructure & Deployment
 
