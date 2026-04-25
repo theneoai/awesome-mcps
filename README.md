@@ -44,6 +44,7 @@ Copy any of these commands to install a specific MCP:
 | Argo CD | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/argocd.json and install` |
 | Tekton | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tekton.json and install` |
 | Bazel | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/bazel.json and install` |
+| Sourcegraph | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/sourcegraph.json and install` |
 
 ### Database & Data
 

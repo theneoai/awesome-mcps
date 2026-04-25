@@ -66,6 +66,7 @@
 | [Selenium MCP](https://github.com/seleniumhq/selenium-mcp) | Selenium 官方 | 跨浏览器自动化测试框架 | Python | ![](https://img.shields.io/github/stars/seleniumhq/selenium-mcp?style=flat-square) |
 | [Cypress MCP](https://github.com/cypress-io/cypress-mcp) | Cypress 官方 | 现代 Web E2E 测试框架，支持组件测试、录制回放 | TypeScript | ![](https://img.shields.io/github/stars/cypress-io/cypress-mcp?style=flat-square) |
 | [Codacy MCP](https://github.com/codacy/mcp-server) | Codacy 官方 | 自动代码审查，质量分析、风格检查 | TypeScript | ![](https://img.shields.io/github/stars/codacy/mcp-server?style=flat-square) |
+| [Sourcegraph MCP](https://github.com/sourcegraph/mcp) | Sourcegraph 官方 | 代码搜索、代码理解、代码智能 | TypeScript | ![](https://img.shields.io/github/stars/sourcegraph/mcp?style=flat-square) |
 
 ### 基础设施即代码
 
@@ -179,6 +180,7 @@
 | [Selenium MCP](https://github.com/seleniumhq/selenium-mcp) | Selenium Official | Cross-browser automation testing framework | Python | ![](https://img.shields.io/github/stars/seleniumhq/selenium-mcp?style=flat-square) |
 | [Cypress MCP](https://github.com/cypress-io/cypress-mcp) | Cypress Official | Modern Web E2E testing framework, component testing, record/replay | TypeScript | ![](https://img.shields.io/github/stars/cypress-io/cypress-mcp?style=flat-square) |
 | [Codacy MCP](https://github.com/codacy/mcp-server) | Codacy Official | Automated code review, quality analysis, style checking | TypeScript | ![](https://img.shields.io/github/stars/codacy/mcp-server?style=flat-square) |
+| [Sourcegraph MCP](https://github.com/sourcegraph/mcp) | Sourcegraph Official | Code search, code intelligence, code understanding | TypeScript | ![](https://img.shields.io/github/stars/sourcegraph/mcp?style=flat-square) |
 
 ### Infrastructure as Code
 
