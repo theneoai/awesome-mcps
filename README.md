@@ -111,6 +111,7 @@ Copy any of these commands to install a specific MCP:
 | ERPNext | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/erpnext.json and install` |
 | Zoho | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/zoho.json and install` |
 | Zendesk | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/zendesk.json and install` |
+| Salesforce | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/salesforce.json and install` |
 
 ## All Configs
 

@@ -1,0 +1,11 @@
+{
+  "salesforce": {
+    "command": "npx",
+    "args": ["-y", "@salesforce/mcp-server"],
+    "env": {
+      "SALESFORCE_INSTANCE_URL": "https://your-company.my.salesforce.com",
+      "SALESFORCE_CLIENT_ID": "YOUR_CLIENT_ID",
+      "SALESFORCE_CLIENT_SECRET": "YOUR_CLIENT_SECRET"
+    }
+  }
+}
