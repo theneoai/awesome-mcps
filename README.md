@@ -32,6 +32,7 @@ Copy any of these commands to install a specific MCP:
 | CircleCI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/circleci.json and install` |
 | Jest | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jest.json and install` |
 | Pytest | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pytest.json and install` |
+| Selenium | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/selenium.json and install` |
 
 ### Database & Data
 
