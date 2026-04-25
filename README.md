@@ -31,6 +31,7 @@ Copy any of these commands to install a specific MCP:
 | Azure DevOps | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/azure-devops.json and install` |
 | CircleCI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/circleci.json and install` |
 | Jest | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jest.json and install` |
+| Pytest | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pytest.json and install` |
 
 ### Database & Data
 

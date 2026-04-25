@@ -1,0 +1,10 @@
+{
+  "pytest": {
+    "command": "pip",
+    "args": ["install", "mcp-pytest-server"],
+    "env": {
+      "PYTEST_CONFIG": "./pytest.ini",
+      "PYTHONPATH": "."
+    }
+  }
+}

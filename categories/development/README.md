@@ -58,6 +58,7 @@
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [Jest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/jest) | Anthropic 官方 | JavaScript 测试框架，支持测试运行、覆盖率 | TypeScript | — |
+| [Pytest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/pytest) | Anthropic 官方 | Python 测试框架，支持测试发现、运行、报告 | Python | — |
 
 ### 基础设施即代码
 
@@ -141,6 +142,7 @@
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [Jest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/jest) | Anthropic Official | JavaScript testing framework, test running, coverage | TypeScript | — |
+| [Pytest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/pytest) | Anthropic Official | Python testing framework, test discovery, execution, reporting | Python | — |
 
 ### Infrastructure as Code
 
