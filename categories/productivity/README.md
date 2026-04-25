@@ -26,6 +26,7 @@
 | [Linear MCP](https://github.com/jerhadf/linear-mcp-server) | 社区 | Issue 创建、查询、更新与项目管理 | TypeScript | ![](https://img.shields.io/github/stars/jerhadf/linear-mcp-server?style=flat-square) |
 | [Asana MCP](https://github.com/Asana/asana-mcp-server) | Asana 官方 | 任务、项目，工作区管理 | TypeScript | ![](https://img.shields.io/github/stars/Asana/asana-mcp-server?style=flat-square) |
 | [Jira/Confluence MCP](https://github.com/sooperset/mcp-atlassian) | 社区 | Jira Issue、Sprint、Confluence 文档 | TypeScript | ![](https://img.shields.io/github/stars/sooperset/mcp-atlassian?style=flat-square) |
+| [Shortcut MCP](https://github.com/shortcut/shortcut-mcp) | 敏捷团队管理，Stories、Epics、Tasks | TypeScript | ![](https://img.shields.io/github/stars/shortcut/shortcut-mcp?style=flat-square) |
 | [Todoist MCP](https://github.com/abhiz123/todoist-mcp-server) | 社区 | 任务创建，完成与项目管理 | Python | ![](https://img.shields.io/github/stars/abhiz123/todoist-mcp-server?style=flat-square) |
 | [Trello MCP](https://github.com/delorenj/mcp-server-trello) | 社区 | Trello 看板、卡片、列表管理 | TypeScript | ![](https://img.shields.io/github/stars/delorenj/mcp-server-trello?style=flat-square) |
 | [ClickUp MCP](https://github.com/hauptsacheNet/clickup-mcp) | 社区 | ClickUp 任务、列表、文件夹管理 | TypeScript | ![](https://img.shields.io/github/stars/hauptsacheNet/clickup-mcp?style=flat-square) |
@@ -74,6 +75,7 @@
 | [Linear MCP](https://github.com/jerhadf/linear-mcp-server) | Community | Issue creation, queries, updates and project management | TypeScript | ![](https://img.shields.io/github/stars/jerhadf/linear-mcp-server?style=flat-square) |
 | [Asana MCP](https://github.com/Asana/asana-mcp-server) | Asana Official | Tasks, projects, workspaces management | TypeScript | ![](https://img.shields.io/github/stars/Asana/asana-mcp-server?style=flat-square) |
 | [Jira/Confluence MCP](https://github.com/sooperset/mcp-atlassian) | Community | Jira issues, sprints, Confluence docs | TypeScript | ![](https://img.shields.io/github/stars/sooperset/mcp-atlassian?style=flat-square) |
+| [Shortcut MCP](https://github.com/shortcut/shortcut-mcp) | Community | Agile team management, Stories, Epics, Tasks | TypeScript | ![](https://img.shields.io/github/stars/shortcut/shortcut-mcp?style=flat-square) |
 | [Todoist MCP](https://github.com/abhiz123/todoist-mcp-server) | Community | Task creation, completion and project management | Python | ![](https://img.shields.io/github/stars/abhiz123/todoist-mcp-server?style=flat-square) |
 | [Trello MCP](https://github.com/delorenj/mcp-server-trello) | Community | Trello boards, cards, lists management | TypeScript | ![](https://img.shields.io/github/stars/delorenj/mcp-server-trello?style=flat-square) |
 | [ClickUp MCP](https://github.com/hauptsacheNet/clickup-mcp) | Community | ClickUp tasks, lists, folders management | TypeScript | ![](https://img.shields.io/github/stars/hauptsacheNet/clickup-mcp?style=flat-square) |

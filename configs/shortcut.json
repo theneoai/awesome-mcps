@@ -1,0 +1,9 @@
+{
+  "shortcut": {
+    "command": "npx",
+    "args": ["-y", "@shortcut/mcp-server"],
+    "env": {
+      "SHORTCUT_API_TOKEN": "YOUR_SHORTCUT_API_TOKEN"
+    }
+  }
+}
