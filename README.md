@@ -35,6 +35,7 @@ Copy any of these commands to install a specific MCP:
 | Selenium | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/selenium.json and install` |
 | Cypress | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cypress.json and install` |
 | Codacy | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/codacy.json and install` |
+| Jenkins | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jenkins.json and install` |
 
 ### Database & Data
 
