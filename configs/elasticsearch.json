@@ -1,0 +1,15 @@
+{
+  "elasticsearch": {
+    "command": "cargo",
+    "args": [
+      "run",
+      "--release",
+      "--",
+      "--elasticsearch-url",
+      "http://localhost:9200",
+      "--api-key",
+      "YOUR_ELASTICSEARCH_API_KEY"
+    ],
+    "env": {}
+  }
+}

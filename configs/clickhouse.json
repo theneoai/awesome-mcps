@@ -1,0 +1,15 @@
+{
+  "clickhouse": {
+    "command": "uvx",
+    "args": [
+      "mcp-clickhouse"
+    ],
+    "env": {
+      "CLICKHOUSE_HOST": "localhost",
+      "CLICKHOUSE_PORT": "8123",
+      "CLICKHOUSE_USER": "default",
+      "CLICKHOUSE_PASSWORD": "YOUR_PASSWORD",
+      "CLICKHOUSE_DATABASE": "default"
+    }
+  }
+}
