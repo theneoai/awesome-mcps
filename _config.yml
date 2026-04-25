@@ -16,10 +16,9 @@ include:
 header_pages:
   - README.md
   - README.zh.md
+  - INSTALL.md
 
 exclude:
-  - install.sh
-  - "*.sh"
   - node_modules/
   - vendor/
   - .git/

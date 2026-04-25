@@ -14,7 +14,23 @@ cd awesome-mcps
 bash install.sh
 ```
 
-Or copy any JSON snippet from [`configs/`](configs/) directly into your `claude_desktop_config.json`.
+### For AI Agents
+
+To install all MCPs at once:
+
+```bash
+cd awesome-mcps && bash install.sh --all
+```
+
+Or add individual MCPs from [`configs/`](configs/) to your `claude_desktop_config.json`.
+
+### For Claude Desktop Users
+
+1. Open [`configs/`](configs/)
+2. Copy any JSON file's contents
+3. Paste into `mcpServers` section of `claude_desktop_config.json`
+4. Add your API keys
+5. Restart Claude Desktop
 
 ---
 
