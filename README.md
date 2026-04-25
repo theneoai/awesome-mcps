@@ -92,6 +92,7 @@ Copy any of these commands to install a specific MCP:
 | Netlify | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/netlify.json and install` |
 | Helm | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/helm.json and install` |
 | Prometheus | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/prometheus.json and install` |
+| Flux | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/flux.json and install` |
 | Kafka | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/kafka.json and install` |
 | RabbitMQ | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/rabbitmq.json and install` |
 | 腾讯云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tencentcloud.json and install` |
