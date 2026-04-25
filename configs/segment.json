@@ -1,0 +1,9 @@
+{
+  "segment": {
+    "command": "npx",
+    "args": ["-y", "@segment/mcp-server"],
+    "env": {
+      "SEGMENT_WRITE_KEY": "YOUR_SEGMENT_WRITE_KEY"
+    }
+  }
+}

@@ -152,6 +152,7 @@ Copy any of these commands to install a specific MCP:
 | ServiceNow | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/servicenow.json and install` |
 | ERPNext | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/erpnext.json and install` |
 | Zoho | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/zoho.json and install` |
+| Segment | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/segment.json and install` |
 
 ## All Configs
 
