@@ -98,6 +98,7 @@
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [Jira MCP](https://github.com/atlassian/mcp-server-jira) | 企业 Bug 追踪，Issue 管理、工作流、sprints | TypeScript | ![](https://img.shields.io/github/stars/atlassian/mcp-server-jira?style=flat-square) |
+| [YouTrack MCP](https://github.com/JetBrains/youtrack-mcp) | JetBrains 任务追踪，时间跟踪、sprints | Kotlin | ![](https://img.shields.io/github/stars/JetBrains/youtrack-mcp?style=flat-square) |
 
 ### 浏览器自动化
 
@@ -208,6 +209,7 @@
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [Jira MCP](https://github.com/atlassian/mcp-server-jira) | Enterprise bug tracking, Issue management, Workflows, Sprints | TypeScript | ![](https://img.shields.io/github/stars/atlassian/mcp-server-jira?style=flat-square) |
+| [YouTrack MCP](https://github.com/JetBrains/youtrack-mcp) | JetBrains official task tracking, time tracking, sprints | Kotlin | ![](https://img.shields.io/github/stars/JetBrains/youtrack-mcp?style=flat-square) |
 
 ### Browser Automation
 

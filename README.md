@@ -79,6 +79,7 @@ Copy any of these commands to install a specific MCP:
 | Memory | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/memory.json and install` |
 | Monday.com | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/monday.json and install` |
 | Plane | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/plane.json and install` |
+| YouTrack | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/youtrack.json and install` |
 
 ### Cloud
 

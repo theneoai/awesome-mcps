@@ -1,0 +1,10 @@
+{
+  "youtrack": {
+    "command": "npx",
+    "args": ["-y", "@jetbrains/youtrack-mcp-server"],
+    "env": {
+      "YOUTRACK_URL": "https://your-company.jetbrains.com/youtrack",
+      "YOUTRACK_TOKEN": "YOUR_YOUTRACK_TOKEN"
+    }
+  }
+}
