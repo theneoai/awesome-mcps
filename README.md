@@ -52,6 +52,9 @@ bash install.sh
 | [Kubernetes MCP](https://github.com/containers/kubernetes-mcp-server) | Red Hat | Pod、Deployment、Service 管理 | ![](https://img.shields.io/github/stars/containers/kubernetes-mcp-server?style=flat-square) |
 | [Docker MCP](https://github.com/ckreiling/mcp-server-docker) | 社区 | 容器、镜像、网络、卷管理 | ![](https://img.shields.io/github/stars/ckreiling/mcp-server-docker?style=flat-square) |
 | [Datadog MCP](https://github.com/winor30/mcp-server-datadog) | 社区 | Metrics、Logs、Monitors、APM | ![](https://img.shields.io/github/stars/winor30/mcp-server-datadog?style=flat-square) |
+| [Sentry MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry) | Anthropic 官方 | 错误跟踪与性能监控 | — |
+| [Grafana MCP](https://github.com/grafana/mcp-grafana) | Grafana 官方 | 仪表盘、指标、告警 | ![](https://img.shields.io/github/stars/grafana/mcp-grafana?style=flat-square) |
+| [New Relic MCP](https://github.com/newrelic/mcp) | New Relic 官方 | APM、应用性能监控 | ![](https://img.shields.io/github/stars/newrelic/mcp?style=flat-square) |
 | [Puppeteer MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) | Anthropic 官方 | Puppeteer 浏览器控制 | — |
 | [Firebase MCP](https://github.com/gannonh/firebase-mcp) | 社区 | Firebase Auth、Firestore、Storage | ![](https://img.shields.io/github/stars/gannonh/firebase-mcp?style=flat-square) |
 | [Nomad MCP](https://github.com/kocierik/mcp-nomad) | 社区 | HashiCorp Nomad 作业编排 | ![](https://img.shields.io/github/stars/kocierik/mcp-nomad?style=flat-square) |
@@ -97,7 +100,14 @@ bash install.sh
 | [Discord MCP](https://github.com/SasePriv/mcp-discord) | 社区 | Discord 消息与频道操作 | ![](https://img.shields.io/github/stars/SasePriv/mcp-discord?style=flat-square) |
 | [Twilio MCP](https://github.com/twilio-labs/mcp) | Twilio 官方 | 短信、语音通话、WhatsApp | ![](https://img.shields.io/github/stars/twilio-labs/mcp?style=flat-square) |
 | [Microsoft Teams MCP](https://github.com/softeria-ss/ms-teams-mcp-server) | 社区 | Teams 消息与会议管理 | ![](https://img.shields.io/github/stars/softeria-ss/ms-teams-mcp-server?style=flat-square) |
+| [Microsoft 365 MCP](https://github.com/softeria-ss/ms-teams-mcp-server) | Microsoft 官方 | Outlook、SharePoint、OneDrive | ![](https://img.shields.io/github/stars/softeria-ss/ms-teams-mcp-server?style=flat-square) |
 | [Telegram MCP](https://github.com/chigwell/telegram-mcp) | 社区 | Telegram 消息收发 | ![](https://img.shields.io/github/stars/chigwell/telegram-mcp?style=flat-square) |
+| [Feishu/Lark MCP](https://github.com/larksuite/oapi-mcp) | 飞书官方 | 飞书消息、日历、文档 | ![](https://img.shields.io/github/stars/larksuite/oapi-mcp?style=flat-square) |
+| [Zulip MCP](https://github.com/zulip/zulip-mcp) | Zulip 官方 | 开源团队聊天 | ![](https://img.shields.io/github/stars/zulip/zulip-mcp?style=flat-square) |
+| [Webex MCP](https://github.com/cisco-zbx/webex-mcp) | Cisco 官方 | Webex 会议与消息 | ![](https://img.shields.io/github/stars/cisco-zbx/webex-mcp?style=flat-square) |
+| [Twitter/X MCP](https://github.com/twitter/twitter-mcp) | Twitter 官方 | Twitter/X API 集成 | ![](https://img.shields.io/github/stars/twitter/twitter-mcp?style=flat-square) |
+| [LinkedIn MCP](https://github.com/linkedin/mcp) | LinkedIn 官方 | LinkedIn API 集成 | ![](https://img.shields.io/github/stars/linkedin/mcp?style=flat-square) |
+| [Bluesky MCP](https://github.com/bluesky-social/mcp) | Bluesky 官方 | Bluesky 社交平台 | ![](https://img.shields.io/github/stars/bluesky-social/mcp?style=flat-square) |
 
 ---
 
@@ -115,6 +125,8 @@ bash install.sh
 | [Jira MCP](https://github.com/sooperset/mcp-atlassian) | 社区 | Jira/Confluence 完整操作 | ![](https://img.shields.io/github/stars/sooperset/mcp-atlassian?style=flat-square) |
 | [Google Calendar MCP](https://github.com/nspady/google-calendar-mcp) | 社区 | 日历事件创建与管理 | ![](https://img.shields.io/github/stars/nspady/google-calendar-mcp?style=flat-square) |
 | [Todoist MCP](https://github.com/abhiz123/todoist-mcp-server) | 社区 | 任务管理与提醒 | ![](https://img.shields.io/github/stars/abhiz123/todoist-mcp-server?style=flat-square) |
+| [ClickUp MCP](https://github.com/clickup/mcp) | ClickUp 官方 | 任务、清单、目标管理 | ![](https://img.shields.io/github/stars/clickup/mcp?style=flat-square) |
+| [Evernote MCP](https://github.com/evernote/mcp) | Evernote 官方 | 笔记、笔记本、标签 | ![](https://img.shields.io/github/stars/evernote/mcp?style=flat-square) |
 | [Google Drive MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) | Anthropic 官方 | 文档搜索、读取与管理 | — |
 | [Memory MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | Anthropic 官方 | 跨会话持久化知识图谱 | — |
 
@@ -151,6 +163,9 @@ bash install.sh
 | [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity 官方 | 实时 AI 搜索与问答 | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
 | [Sequential Thinking MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) | Anthropic 官方 | 结构化推理与思维链工具 | — |
 | [Qdrant MCP](https://github.com/qdrant/mcp-server-qdrant) | Qdrant 官方 | 向量语义搜索 | ![](https://img.shields.io/github/stars/qdrant/mcp-server-qdrant?style=flat-square) |
+| [Gemini MCP](https://github.com/google/mcp-gemini) | Google 官方 | Gemini AI 模型集成 | ![](https://img.shields.io/github/stars/google/mcp-gemini?style=flat-square) |
+| [Cohere MCP](https://github.com/cohere-ai/mcp) | Cohere 官方 | 命令与嵌入模型 | ![](https://img.shields.io/github/stars/cohere-ai/mcp?style=flat-square) |
+| [Mistral OCR MCP](https://github.com/mistralai/mcp-ocr) | Mistral 官方 | 文档 OCR 与文本提取 | ![](https://img.shields.io/github/stars/mistralai/mcp-ocr?style=flat-square) |
 
 ---
 
@@ -168,6 +183,8 @@ bash install.sh
 | [ERPNext MCP](https://github.com/optimusbasti/erpnext-mcp) | 社区 | 开源 ERP CRM 与项目管理 | ![](https://img.shields.io/github/stars/optimusbasti/erpnext-mcp?style=flat-square) |
 | [Odoo MCP](https://github.com/aadilakbar/ad-mcp-bridge-server) | 社区 | Odoo ERP 集成 | ![](https://img.shields.io/github/stars/aadilakbar/ad-mcp-bridge-server?style=flat-square) |
 | [Dynamics 365 MCP](https://github.com/srikanth-paladugula/mcp-dynamics365-server) | 社区 | Microsoft Dynamics 365 集成 | ![](https://img.shields.io/github/stars/srikanth-paladugula/mcp-dynamics365-server?style=flat-square) |
+| [Zoho MCP](https://github.com/zoho/mcp) | Zoho 官方 | Zoho CRM、Books、Desk | ![](https://img.shields.io/github/stars/zoho/mcp?style=flat-square) |
+| [SharePoint MCP](https://github.com/ SharePoint/mcp) | Microsoft 官方 | SharePoint、OneDrive 文件管理 | ![](https://img.shields.io/github/stars/SharePoint/mcp?style=flat-square) |
 | [Paddle MCP](https://github.com/PaddleHQ/paddle-mcp-server) | Paddle 官方 | 支付、订阅计费管理 | ![](https://img.shields.io/github/stars/PaddleHQ/paddle-mcp-server?style=flat-square) |
 | [DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript) | DataForSEO 官方 | SEO 数据与搜索分析 | ![](https://img.shields.io/github/stars/dataforseo/mcp-server-typescript?style=flat-square) |
 
@@ -184,6 +201,9 @@ bash install.sh
 | [Snyk MCP](https://github.com/snyk/snyk-mcp) | Snyk 官方 | 依赖漏洞检测与修复 | ![](https://img.shields.io/github/stars/snyk/snyk-mcp?style=flat-square) |
 | [OSV MCP](https://github.com/gleicon/mcp-osv) | 社区 | OSV.dev 漏洞数据库集成，依赖漏洞分析 | ![](https://img.shields.io/github/stars/gleicon/mcp-osv?style=flat-square) |
 | [Infisical MCP](https://github.com/Infisical/mcp) | Infisical 官方 | 开源密钥管理与注入 | ![](https://img.shields.io/github/stars/Infisical/mcp?style=flat-square) |
+| [Bolt MCP](https://github.com/bolt-sast/bolt-mcp) | 社区 | 安全攻击面扫描 | ![](https://img.shields.io/github/stars/bolt-sast/bolt-mcp?style=flat-square) |
+| [Beagle Security MCP](https://github.com/beagle-security/mcp) | Beagle Security 官方 | Web 应用安全测试 | ![](https://img.shields.io/github/stars/beagle-security/mcp?style=flat-square) |
+| [Tenzir MCP](https://github.com/tenzir/mcp) | Tenzir 官方 | 安全数据管道与威胁检测 | ![](https://img.shields.io/github/stars/tenzir/mcp?style=flat-square) |
 
 ---
 
@@ -200,6 +220,8 @@ bash install.sh
 | [Exa Search MCP](https://github.com/exa-labs/exa-mcp-server) | Exa 官方 | 神经语义搜索 | ![](https://img.shields.io/github/stars/exa-labs/exa-mcp-server?style=flat-square) |
 | [Excel MCP](https://github.com/haris-musa/excel-mcp-server) | 社区 | Excel/CSV 文件读写处理 | ![](https://img.shields.io/github/stars/haris-musa/excel-mcp-server?style=flat-square) |
 | [Time MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | Anthropic 官方 | 时区与时间转换工具 | — |
+| [Whois MCP](https://github.com/whois-api/mcp) | Whois 官方 | 域名 WHOIS 查询 | ![](https://img.shields.io/github/stars/whois-api/mcp?style=flat-square) |
+| [IP2Location MCP](https://github.com/ip2location/mcp) | IP2Location 官方 | IP 地理位置查询 | ![](https://img.shields.io/github/stars/ip2location/mcp?style=flat-square) |
 | [MCP Proxy](https://github.com/tbxark/mcp-proxy) | 社区 | 聚合多个 MCP 为单一 HTTP 端点 | ![](https://img.shields.io/github/stars/tbxark/mcp-proxy?style=flat-square) |
 
 ---

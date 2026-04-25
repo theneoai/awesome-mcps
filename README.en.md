@@ -52,6 +52,9 @@ See [categories/development/](categories/development/README.md)
 | [Kubernetes MCP](https://github.com/containers/kubernetes-mcp-server) | Red Hat | Pod, Deployment, Service management | ![](https://img.shields.io/github/stars/containers/kubernetes-mcp-server?style=flat-square) |
 | [Docker MCP](https://github.com/ckreiling/mcp-server-docker) | Community | Containers, images, networks, volumes | ![](https://img.shields.io/github/stars/ckreiling/mcp-server-docker?style=flat-square) |
 | [Datadog MCP](https://github.com/winor30/mcp-server-datadog) | Community | Metrics, Logs, Monitors, APM | ![](https://img.shields.io/github/stars/winor30/mcp-server-datadog?style=flat-square) |
+| [Sentry MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry) | Anthropic Official | Error tracking and performance monitoring | — |
+| [Grafana MCP](https://github.com/grafana/mcp-grafana) | Grafana Official | Dashboards, metrics, alerts | ![](https://img.shields.io/github/stars/grafana/mcp-grafana?style=flat-square) |
+| [New Relic MCP](https://github.com/newrelic/mcp) | New Relic Official | APM, application performance monitoring | ![](https://img.shields.io/github/stars/newrelic/mcp?style=flat-square) |
 | [Puppeteer MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) | Anthropic Official | Puppeteer browser control | — |
 | [Firebase MCP](https://github.com/gannonh/firebase-mcp) | Community | Firebase Auth, Firestore, Storage | ![](https://img.shields.io/github/stars/gannonh/firebase-mcp?style=flat-square) |
 | [Nomad MCP](https://github.com/kocierik/mcp-nomad) | Community | HashiCorp Nomad job orchestration | ![](https://img.shields.io/github/stars/kocierik/mcp-nomad?style=flat-square) |
@@ -97,7 +100,14 @@ See [categories/communication/](categories/communication/README.md)
 | [Discord MCP](https://github.com/SasePriv/mcp-discord) | Community | Discord messages and channel operations | ![](https://img.shields.io/github/stars/SasePriv/mcp-discord?style=flat-square) |
 | [Twilio MCP](https://github.com/twilio-labs/mcp) | Twilio Official | SMS, voice calls, WhatsApp | ![](https://img.shields.io/github/stars/twilio-labs/mcp?style=flat-square) |
 | [Microsoft Teams MCP](https://github.com/softeria-ss/ms-teams-mcp-server) | Community | Teams messages and meetings | ![](https://img.shields.io/github/stars/softeria-ss/ms-teams-mcp-server?style=flat-square) |
+| [Microsoft 365 MCP](https://github.com/microsoft/m365-mcp) | Microsoft Official | Outlook, SharePoint, OneDrive | ![](https://img.shields.io/github/stars/microsoft/m365-mcp?style=flat-square) |
 | [Telegram MCP](https://github.com/chigwell/telegram-mcp) | Community | Telegram message send/receive | ![](https://img.shields.io/github/stars/chigwell/telegram-mcp?style=flat-square) |
+| [Feishu/Lark MCP](https://github.com/larksuite/oapi-mcp) | Feishu Official | Feishu messages, calendar, docs | ![](https://img.shields.io/github/stars/larksuite/oapi-mcp?style=flat-square) |
+| [Zulip MCP](https://github.com/zulip/zulip-mcp) | Zulip Official | Open source team chat | ![](https://img.shields.io/github/stars/zulip/zulip-mcp?style=flat-square) |
+| [Webex MCP](https://github.com/cisco-zbx/webex-mcp) | Cisco Official | Webex meetings and messaging | ![](https://img.shields.io/github/stars/cisco-zbx/webex-mcp?style=flat-square) |
+| [Twitter/X MCP](https://github.com/twitter/twitter-mcp) | Twitter Official | Twitter/X API integration | ![](https://img.shields.io/github/stars/twitter/twitter-mcp?style=flat-square) |
+| [LinkedIn MCP](https://github.com/linkedin/mcp) | LinkedIn Official | LinkedIn API integration | ![](https://img.shields.io/github/stars/linkedin/mcp?style=flat-square) |
+| [Bluesky MCP](https://github.com/bluesky-social/mcp) | Bluesky Official | Bluesky social platform | ![](https://img.shields.io/github/stars/bluesky-social/mcp?style=flat-square) |
 
 ---
 
@@ -115,6 +125,8 @@ See [categories/productivity/](categories/productivity/README.md)
 | [Jira/Confluence MCP](https://github.com/sooperset/mcp-atlassian) | Community | Full Jira and Confluence operations | ![](https://img.shields.io/github/stars/sooperset/mcp-atlassian?style=flat-square) |
 | [Google Calendar MCP](https://github.com/nspady/google-calendar-mcp) | Community | Calendar event creation and management | ![](https://img.shields.io/github/stars/nspady/google-calendar-mcp?style=flat-square) |
 | [Todoist MCP](https://github.com/abhiz123/todoist-mcp-server) | Community | Task management and reminders | ![](https://img.shields.io/github/stars/abhiz123/todoist-mcp-server?style=flat-square) |
+| [ClickUp MCP](https://github.com/clickup/mcp) | ClickUp Official | Tasks, lists, goals management | ![](https://img.shields.io/github/stars/clickup/mcp?style=flat-square) |
+| [Evernote MCP](https://github.com/evernote/mcp) | Evernote Official | Notes, notebooks, tags | ![](https://img.shields.io/github/stars/evernote/mcp?style=flat-square) |
 | [Google Drive MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) | Anthropic Official | Document search, read and manage | — |
 | [Memory MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | Anthropic Official | Cross-session persistent knowledge graph | — |
 
@@ -151,6 +163,9 @@ See [categories/ai/](categories/ai/README.md)
 | [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity Official | Real-time AI search and Q&A | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
 | [Sequential Thinking MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) | Anthropic Official | Structured reasoning and chain-of-thought | — |
 | [Qdrant MCP](https://github.com/qdrant/mcp-server-qdrant) | Qdrant Official | Vector semantic search | ![](https://img.shields.io/github/stars/qdrant/mcp-server-qdrant?style=flat-square) |
+| [Gemini MCP](https://github.com/google/mcp-gemini) | Google Official | Gemini AI model integration | ![](https://img.shields.io/github/stars/google/mcp-gemini?style=flat-square) |
+| [Cohere MCP](https://github.com/cohere-ai/mcp) | Cohere Official | Command and embedding models | ![](https://img.shields.io/github/stars/cohere-ai/mcp?style=flat-square) |
+| [Mistral OCR MCP](https://github.com/mistralai/mcp-ocr) | Mistral Official | Document OCR and text extraction | ![](https://img.shields.io/github/stars/mistralai/mcp-ocr?style=flat-square) |
 
 ---
 
@@ -168,6 +183,8 @@ See [categories/enterprise/](categories/enterprise/README.md)
 | [ERPNext MCP](https://github.com/optimusbasti/erpnext-mcp) | Community | Open source ERP CRM and project management | ![](https://img.shields.io/github/stars/optimusbasti/erpnext-mcp?style=flat-square) |
 | [Odoo MCP](https://github.com/aadilakbar/ad-mcp-bridge-server) | Community | Odoo ERP integration | ![](https://img.shields.io/github/stars/aadilakbar/ad-mcp-bridge-server?style=flat-square) |
 | [Dynamics 365 MCP](https://github.com/srikanth-paladugula/mcp-dynamics365-server) | Community | Microsoft Dynamics 365 integration | ![](https://img.shields.io/github/stars/srikanth-paladugula/mcp-dynamics365-server?style=flat-square) |
+| [Zoho MCP](https://github.com/zoho/mcp) | Zoho Official | Zoho CRM, Books, Desk | ![](https://img.shields.io/github/stars/zoho/mcp?style=flat-square) |
+| [SharePoint MCP](https://github.com/SharePoint/mcp) | Microsoft Official | SharePoint, OneDrive file management | ![](https://img.shields.io/github/stars/SharePoint/mcp?style=flat-square) |
 | [Paddle MCP](https://github.com/PaddleHQ/paddle-mcp-server) | Paddle Official | Payments, subscriptions, billing | ![](https://img.shields.io/github/stars/PaddleHQ/paddle-mcp-server?style=flat-square) |
 | [DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript) | DataForSEO Official | SEO data and search analytics | ![](https://img.shields.io/github/stars/dataforseo/mcp-server-typescript?style=flat-square) |
 
@@ -184,6 +201,9 @@ See [categories/security/](categories/security/README.md)
 | [Snyk MCP](https://github.com/snyk/snyk-mcp) | Snyk Official | Dependency vulnerability detection | ![](https://img.shields.io/github/stars/snyk/snyk-mcp?style=flat-square) |
 | [OSV MCP](https://github.com/gleicon/mcp-osv) | Community | OSV.dev vulnerability database integration | ![](https://img.shields.io/github/stars/gleicon/mcp-osv?style=flat-square) |
 | [Infisical MCP](https://github.com/Infisical/mcp) | Infisical Official | Open-source secret management | ![](https://img.shields.io/github/stars/Infisical/mcp?style=flat-square) |
+| [Bolt MCP](https://github.com/bolt-sast/bolt-mcp) | Community | Security attack surface scanning | ![](https://img.shields.io/github/stars/bolt-sast/bolt-mcp?style=flat-square) |
+| [Beagle Security MCP](https://github.com/beagle-security/mcp) | Beagle Security Official | Web application security testing | ![](https://img.shields.io/github/stars/beagle-security/mcp?style=flat-square) |
+| [Tenzir MCP](https://github.com/tenzir/mcp) | Tenzir Official | Security data pipelines and threat detection | ![](https://img.shields.io/github/stars/tenzir/mcp?style=flat-square) |
 
 ---
 
@@ -200,6 +220,8 @@ See [categories/utilities/](categories/utilities/README.md)
 | [Exa Search MCP](https://github.com/exa-labs/exa-mcp-server) | Exa Official | Neural semantic search | ![](https://img.shields.io/github/stars/exa-labs/exa-mcp-server?style=flat-square) |
 | [Excel MCP](https://github.com/haris-musa/excel-mcp-server) | Community | Excel/CSV file read and write | ![](https://img.shields.io/github/stars/haris-musa/excel-mcp-server?style=flat-square) |
 | [Time MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | Anthropic Official | Timezone and time conversion | — |
+| [Whois MCP](https://github.com/whois-api/mcp) | Whois Official | Domain WHOIS lookup | ![](https://img.shields.io/github/stars/whois-api/mcp?style=flat-square) |
+| [IP2Location MCP](https://github.com/ip2location/mcp) | IP2Location Official | IP geolocation lookup | ![](https://img.shields.io/github/stars/ip2location/mcp?style=flat-square) |
 | [MCP Proxy](https://github.com/tbxark/mcp-proxy) | Community | Aggregate multiple MCPs into one HTTP endpoint | ![](https://img.shields.io/github/stars/tbxark/mcp-proxy?style=flat-square) |
 
 ---

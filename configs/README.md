@@ -75,5 +75,10 @@
 | [servicetitan.json](servicetitan.json) | ServiceTitan | 企业 | 是 |
 | [1password.json](1password.json) | 1Password | 安全 | 是 |
 | [snyk.json](snyk.json) | Snyk | 安全 | 是 |
+| [whois.json](whois.json) | WHOIS | 实用工具 | 可选 |
+| [ip2location.json](ip2location.json) | IP2Location | 实用工具 | 是 |
+| [zoho.json](zoho.json) | Zoho | 企业 | 是 |
+| [sharepoint.json](sharepoint.json) | SharePoint | 企业 | 是 |
+| [servicenow-enterprise.json](servicenow-enterprise.json) | ServiceNow Enterprise | 企业 | 是 |
 
 > 完整配置说明见 [../docs/deployment.md](../docs/deployment.md)
