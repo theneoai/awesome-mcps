@@ -17,6 +17,7 @@
 | [Zendesk MCP](https://github.com/reminia/mcp-zendesk) | 社区 | 工单管理与客户支持 | TypeScript | ![](https://img.shields.io/github/stars/reminia/mcp-zendesk?style=flat-square) |
 | [ServiceTitan MCP](https://github.com/montrellcruse/servicetitan-mcp) | 社区 | 企业级 field service CRM | TypeScript | ![](https://img.shields.io/github/stars/montrellcruse/servicetitan-mcp?style=flat-square) |
 | [Custify MCP](https://github.com/CustifyOfficial/custify-mcp) | Custify 官方 | 客户成功与账户管理 | TypeScript | ![](https://img.shields.io/github/stars/CustifyOfficial/custify-mcp?style=flat-square) |
+| [Zoho MCP](https://github.com/kkeeling/zoho-mcp) | 社区 | Zoho CRM 集成、联系人、交易管理 | Python | ![](https://img.shields.io/github/stars/kkeeling/zoho-mcp?style=flat-square) |
 
 ### 金融与会计
 
@@ -40,6 +41,9 @@
 | [SAP ABAP ADT MCP](https://github.com/mario-andreschak/mcp-abap-adt) | 社区 | SAP ABAP 系统开发工具 | Python | ![](https://img.shields.io/github/stars/mario-andreschak/mcp-abap-adt?style=flat-square) |
 | [Rippling MCP](https://github.com/bifrost-mcp/rippling-mcp) | 社区 | HR、IT、财务平台 | Python | ![](https://img.shields.io/github/stars/bifrost-mcp/rippling-mcp?style=flat-square) |
 | [Anaplan MCP](https://github.com/larasrinath/anaplan-mcp) | 社区 | 企业规划与预算 | Python | ![](https://img.shields.io/github/stars/larasrinath/anaplan-mcp?style=flat-square) |
+| [SharePoint MCP](https://github.com/DEmodoriGatsuO/sharepoint-mcp) | 社区 | SharePoint Online 文档与列表访问 | Python | ![](https://img.shields.io/github/stars/DEmodoriGatsuO/sharepoint-mcp?style=flat-square) |
+| [SharePoint MCP](https://github.com/Zerg00s/server-sharepoint) | 社区 | SharePoint Online REST API 集成 | TypeScript | ![](https://img.shields.io/github/stars/Zerg00s/server-sharepoint?style=flat-square) |
+| [ServiceNow MCP](https://github.com/echelon-ai-labs/servicenow-mcp) | 社区 | 企业级 ServiceNow ITSM/ITOM | Python | ![](https://img.shields.io/github/stars/echelon-ai-labs/servicenow-mcp?style=flat-square) |
 
 ### SEO 与营销
 
@@ -62,6 +66,7 @@
 | [Zendesk MCP](https://github.com/reminia/mcp-zendesk) | Community | Ticket management and customer support | TypeScript | ![](https://img.shields.io/github/stars/reminia/mcp-zendesk?style=flat-square) |
 | [ServiceTitan MCP](https://github.com/montrellcruse/servicetitan-mcp) | Community | Enterprise field service CRM | TypeScript | ![](https://img.shields.io/github/stars/montrellcruse/servicetitan-mcp?style=flat-square) |
 | [Custify MCP](https://github.com/CustifyOfficial/custify-mcp) | Custify Official | Customer success and account management | TypeScript | ![](https://img.shields.io/github/stars/CustifyOfficial/custify-mcp?style=flat-square) |
+| [Zoho MCP](https://github.com/kkeeling/zoho-mcp) | Community | Zoho CRM integration, contacts, deals | Python | ![](https://img.shields.io/github/stars/kkeeling/zoho-mcp?style=flat-square) |
 
 ### Finance & Accounting
 
@@ -85,6 +90,9 @@
 | [SAP ABAP ADT MCP](https://github.com/mario-andreschak/mcp-abap-adt) | Community | SAP ABAP systems development tools | Python | ![](https://img.shields.io/github/stars/mario-andreschak/mcp-abap-adt?style=flat-square) |
 | [Rippling MCP](https://github.com/bifrost-mcp/rippling-mcp) | Community | HR, IT, Finance platform | Python | ![](https://img.shields.io/github/stars/bifrost-mcp/rippling-mcp?style=flat-square) |
 | [Anaplan MCP](https://github.com/larasrinath/anaplan-mcp) | Community | Enterprise planning and budgeting | Python | ![](https://img.shields.io/github/stars/larasrinath/anaplan-mcp?style=flat-square) |
+| [SharePoint MCP](https://github.com/DEmodoriGatsuO/sharepoint-mcp) | Community | SharePoint Online documents and lists access | Python | ![](https://img.shields.io/github/stars/DEmodoriGatsuO/sharepoint-mcp?style=flat-square) |
+| [SharePoint MCP](https://github.com/Zerg00s/server-sharepoint) | Community | SharePoint Online REST API integration | TypeScript | ![](https://img.shields.io/github/stars/Zerg00s/server-sharepoint?style=flat-square) |
+| [ServiceNow MCP](https://github.com/echelon-ai-labs/servicenow-mcp) | Community | Enterprise ServiceNow ITSM/ITOM | Python | ![](https://img.shields.io/github/stars/echelon-ai-labs/servicenow-mcp?style=flat-square) |
 
 ### SEO & Marketing
 

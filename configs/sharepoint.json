@@ -1,0 +1,11 @@
+{
+  "sharepoint": {
+    "command": "python",
+    "args": ["-m", "sharepoint_mcp"],
+    "env": {
+      "TENANT_ID": "YOUR_AZURE_TENANT_ID",
+      "CLIENT_ID": "YOUR_AZURE_CLIENT_ID",
+      "CLIENT_SECRET": "YOUR_AZURE_CLIENT_SECRET"
+    }
+  }
+}

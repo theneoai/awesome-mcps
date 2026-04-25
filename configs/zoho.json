@@ -1,0 +1,11 @@
+{
+  "zoho": {
+    "command": "python",
+    "args": ["-m", "zoho_mcp"],
+    "env": {
+      "ZOHO_CLIENT_ID": "YOUR_ZOHO_CLIENT_ID",
+      "ZOHO_CLIENT_SECRET": "YOUR_ZOHO_CLIENT_SECRET",
+      "ZOHO_REFRESH_TOKEN": "YOUR_ZOHO_REFRESH_TOKEN"
+    }
+  }
+}

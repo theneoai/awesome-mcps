@@ -1,0 +1,11 @@
+{
+  "servicenow-enterprise": {
+    "command": "python",
+    "args": ["-m", "servicenow_mcp"],
+    "env": {
+      "SERVICENOW_INSTANCE_URL": "https://your-instance.service-now.com",
+      "SERVICENOW_USERNAME": "YOUR_USERNAME",
+      "SERVICENOW_PASSWORD": "YOUR_PASSWORD"
+    }
+  }
+}
