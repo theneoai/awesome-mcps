@@ -90,6 +90,7 @@
 | 名称 | 描述 | 语言 | Stars |
 |------|------|------|-------|
 | [Grafana Loki MCP](https://github.com/grafana/loki-mcp) | 日志查询、标签过滤 | Go | ![](https://img.shields.io/github/stars/grafana/loki-mcp?style=flat-square) |
+| [ELK Stack MCP](https://github.com/elastic/mcp-server) | 企业日志，Elasticsearch 查询、Logstash 管理 | Rust | ![](https://img.shields.io/github/stars/elastic/mcp-server?style=flat-square) |
 
 ---
 
