@@ -60,6 +60,7 @@
 | [Jest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/jest) | Anthropic 官方 | JavaScript 测试框架，支持测试运行、覆盖率 | TypeScript | — |
 | [Pytest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/pytest) | Anthropic 官方 | Python 测试框架，支持测试发现、运行、报告 | Python | — |
 | [Selenium MCP](https://github.com/seleniumhq/selenium-mcp) | Selenium 官方 | 跨浏览器自动化测试框架 | Python | ![](https://img.shields.io/github/stars/seleniumhq/selenium-mcp?style=flat-square) |
+| [Cypress MCP](https://github.com/cypress-io/cypress-mcp) | Cypress 官方 | 现代 Web E2E 测试框架，支持组件测试、录制回放 | TypeScript | ![](https://img.shields.io/github/stars/cypress-io/cypress-mcp?style=flat-square) |
 
 ### 基础设施即代码
 
@@ -145,6 +146,7 @@
 | [Jest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/jest) | Anthropic Official | JavaScript testing framework, test running, coverage | TypeScript | — |
 | [Pytest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/pytest) | Anthropic Official | Python testing framework, test discovery, execution, reporting | Python | — |
 | [Selenium MCP](https://github.com/seleniumhq/selenium-mcp) | Selenium Official | Cross-browser automation testing framework | Python | ![](https://img.shields.io/github/stars/seleniumhq/selenium-mcp?style=flat-square) |
+| [Cypress MCP](https://github.com/cypress-io/cypress-mcp) | Cypress Official | Modern Web E2E testing framework, component testing, record/replay | TypeScript | ![](https://img.shields.io/github/stars/cypress-io/cypress-mcp?style=flat-square) |
 
 ### Infrastructure as Code
 

@@ -33,6 +33,7 @@ Copy any of these commands to install a specific MCP:
 | Jest | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jest.json and install` |
 | Pytest | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pytest.json and install` |
 | Selenium | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/selenium.json and install` |
+| Cypress | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cypress.json and install` |
 
 ### Database & Data
 
