@@ -1,0 +1,9 @@
+{
+  "intercom": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-intercom"],
+    "env": {
+      "INTERCOM_ACCESS_TOKEN": "YOUR_INTERCOM_ACCESS_TOKEN"
+    }
+  }
+}

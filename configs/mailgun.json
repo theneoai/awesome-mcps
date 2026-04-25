@@ -1,0 +1,10 @@
+{
+  "mailgun": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-mailgun"],
+    "env": {
+      "MAILGUN_API_KEY": "YOUR_MAILGUN_API_KEY",
+      "MAILGUN_DOMAIN": "YOUR_MAILGUN_DOMAIN"
+    }
+  }
+}

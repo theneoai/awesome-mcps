@@ -1,0 +1,9 @@
+{
+  "sendgrid": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-sendgrid"],
+    "env": {
+      "SENDGRID_API_KEY": "YOUR_SENDGRID_API_KEY"
+    }
+  }
+}
