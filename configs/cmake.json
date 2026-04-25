@@ -1,0 +1,10 @@
+{
+  "cmake": {
+    "command": "pip",
+    "args": ["install", "cmake-mcp-server"],
+    "env": {
+      "CMAKE_PREFIX_PATH": "./install",
+      "CMAKE_GENERATOR": "Unix Makefiles"
+    }
+  }
+}

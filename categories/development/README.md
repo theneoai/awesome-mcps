@@ -72,6 +72,13 @@
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [SysOperator MCP](https://github.com/tarnover/mcp-sysoperator) | 社区 | Terraform、Ansible、LocalStack IaC | TypeScript | ![](https://img.shields.io/github/stars/tarnover/mcp-sysoperator?style=flat-square) |
+| [CMake MCP](https://github.com/cmake-server/mcp) | 社区 | C++ 构建系统，编译配置管理 | Python | ![](https://img.shields.io/github/stars/cmake-server/mcp?style=flat-square) |
+
+### 构建工具
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [CMake MCP](https://github.com/cmake-server/mcp) | 社区 | C++ 构建系统，编译配置管理 | Python | ![](https://img.shields.io/github/stars/cmake-server/mcp?style=flat-square) |
 
 ### 构建工具
 
@@ -169,6 +176,13 @@
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [SysOperator MCP](https://github.com/tarnover/mcp-sysoperator) | Community | Terraform, Ansible, LocalStack IaC | TypeScript | ![](https://img.shields.io/github/stars/tarnover/mcp-sysoperator?style=flat-square) |
+| [CMake MCP](https://github.com/cmake-server/mcp) | Community | C++ build system, compilation config management | Python | ![](https://img.shields.io/github/stars/cmake-server/mcp?style=flat-square) |
+
+### Build Tools
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [CMake MCP](https://github.com/cmake-server/mcp) | Community | C++ build system, compilation config management | Python | ![](https://img.shields.io/github/stars/cmake-server/mcp?style=flat-square) |
 
 ### Build Tools
 

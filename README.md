@@ -36,6 +36,7 @@ Copy any of these commands to install a specific MCP:
 | Cypress | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cypress.json and install` |
 | Codacy | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/codacy.json and install` |
 | Jenkins | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jenkins.json and install` |
+| CMake | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cmake.json and install` |
 | GitLab CI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gitlab-ci.json and install` |
 | Argo CD | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/argocd.json and install` |
 | Tekton | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tekton.json and install` |
