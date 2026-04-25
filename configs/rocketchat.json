@@ -1,0 +1,11 @@
+{
+  "rocketchat": {
+    "command": "npx",
+    "args": ["-y", "@rocketchat/mcp-server"],
+    "env": {
+      "ROCKETCHAT_URL": "http://localhost:3000",
+      "ROCKETCHAT_USER": "YOUR_USERNAME",
+      "ROCKETCHAT_PASSWORD": "YOUR_PASSWORD"
+    }
+  }
+}

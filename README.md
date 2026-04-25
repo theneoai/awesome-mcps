@@ -72,6 +72,7 @@ Copy any of these commands to install a specific MCP:
 | SendGrid | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/sendgrid.json and install` |
 | Discord | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/discord.json and install` |
 | Telegram | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/telegram.json and install` |
+| Rocket.Chat | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/rocketchat.json and install` |
 
 ### Productivity
 
