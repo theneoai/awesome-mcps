@@ -97,6 +97,7 @@
 | 名称 | 描述 | 语言 | Stars |
 |------|------|------|-------|
 | [Jaeger MCP](https://github.com/jaegertracing/jaeger-mcp) | 分布式追踪，Trace 查询、分析 | Go | ![](https://img.shields.io/github/stars/jaegertracing/jaeger-mcp?style=flat-square) |
+| [Zipkin MCP](https://github.com/openzipkin/zipkin-mcp) | 追踪系统，Span、依赖分析 | Java | ![](https://img.shields.io/github/stars/openzipkin/zipkin-mcp?style=flat-square) |
 
 ---
 

@@ -1,0 +1,9 @@
+{
+  "zipkin": {
+    "command": "npx",
+    "args": ["-y", "@openzipkin/mcp-server"],
+    "env": {
+      "ZIPKIN_URL": "http://localhost:9411"
+    }
+  }
+}
