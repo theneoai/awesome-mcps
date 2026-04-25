@@ -72,6 +72,12 @@
 | [Kafka MCP](https://github.com/confluentinc/mcp-kafka) | 事件流平台，Topic、Producer、Consumer 管理 | ![](https://img.shields.io/github/stars/confluentinc/mcp-kafka?style=flat-square) |
 | [RabbitMQ MCP](https://github.com/rabbitmq/mcp-server) | 消息队列，Queue、Exchange、管理 | TypeScript | ![](https://img.shields.io/github/stars/rabbitmq/mcp-server?style=flat-square) |
 
+### 监控与可观测性
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Prometheus MCP](https://github.com/prometheus/mcp-server) | 云原生监控，指标查询、告警规则管理 | Go | ![](https://img.shields.io/github/stars/prometheus/mcp-server?style=flat-square) |
+
 ---
 
 ## English
@@ -142,3 +148,9 @@
 | [RabbitMQ MCP](https://github.com/rabbitmq/mcp-server) | Message queue — Queue, Exchange, management | TypeScript | ![](https://img.shields.io/github/stars/rabbitmq/mcp-server?style=flat-square) |
 | [Tencent Cloud MCP](https://github.com/tencentcloud/mcp-server) | Tencent Cloud Official | COS, CVM, database resource management | ![](https://img.shields.io/github/stars/tencentcloud/mcp-server?style=flat-square) |
 | [Huawei Cloud MCP](https://github.com/huaweicloud/mcp-server) | Huawei Cloud Official | ECS, VPC, OBS resource management | ![](https://img.shields.io/github/stars/huaweicloud/mcp-server?style=flat-square) |
+
+### Monitoring & Observability
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Prometheus MCP](https://github.com/prometheus/mcp-server) | Cloud-native monitoring, metrics query, alerting rules management | Go | ![](https://img.shields.io/github/stars/prometheus/mcp-server?style=flat-square) |

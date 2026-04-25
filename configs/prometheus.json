@@ -1,0 +1,10 @@
+{
+  "prometheus": {
+    "command": "npx",
+    "args": ["-y", "@prometheus/mcp-server"],
+    "env": {
+      "PROMETHEUS_URL": "http://localhost:9090",
+      "PROMETHEUS_RULES_URL": "http://localhost:9090/rules"
+    }
+  }
+}
