@@ -89,6 +89,7 @@ Copy any of these commands to install a specific MCP:
 | Monday.com | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/monday.json and install` |
 | Plane | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/plane.json and install` |
 | YouTrack | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/youtrack.json and install` |
+| Figma | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/figma.json and install` |
 
 ### Cloud
 

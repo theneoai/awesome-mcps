@@ -91,3 +91,9 @@
 | [Apple Calendar MCP](https://github.com/Omar-Hosni/AppleCalendar-Claude-MCP) | Community | macOS system calendar read/write | Swift | ![](https://img.shields.io/github/stars/Omar-Hosni/AppleCalendar-Claude-MCP?style=flat-square) |
 | [Time MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | Anthropic Official | Timezone conversion and current time | TypeScript | — |
 | [ActivityWatch MCP](https://github.com/8bitgentleman/activitywatch-mcp-server) | Community | Time tracking and productivity data | Python | ![](https://img.shields.io/github/stars/8bitgentleman/activitywatch-mcp-server?style=flat-square) |
+
+### Design & Collaboration
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Figma MCP](https://github.com/figma/mcp-server) | Figma Official | Design collaboration, design files, comments | TypeScript | ![](https://img.shields.io/github/stars/figma/mcp-server?style=flat-square) |

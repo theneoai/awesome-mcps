@@ -1,0 +1,10 @@
+{
+  "figma": {
+    "command": "npx",
+    "args": ["-y", "@figma/mcp-server"],
+    "env": {
+      "FIGMA_ACCESS_TOKEN": "YOUR_FIGMA_ACCESS_TOKEN",
+      "FIGMA_FILE_KEY": "YOUR_FILE_KEY"
+    }
+  }
+}
