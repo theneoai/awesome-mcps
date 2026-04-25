@@ -57,17 +57,38 @@
             <div class="section-title">
                 <span data-i18n="quickInstall">&#9889; Quick Install - All MCPs</span>
             </div>
-            <div class="code-block">
-                <div class="code-header">
-                    <span class="code-dot red"></span>
-                    <span class="code-dot yellow"></span>
-                    <span class="code-dot green"></span>
-                    <span style="color: var(--gray); font-size: 0.75rem; margin-left: 0.5rem;">bash</span>
-                    <button class="copy-btn" onclick="copyInstallCommand(this)" data-i18n="copyText">Copy</button>
-                </div>
-                <pre><code>git</code> clone https://github.com/theneoai/awesome-mcps.git
+            <div class="quick-install-tabs">
+                <button class="tab-btn active" onclick="switchQuickInstallTab('user', this)">&#128187; 用户安装</button>
+                <button class="tab-btn" onclick="switchQuickInstallTab('ai', this)">&#129302; AI 命令</button>
+            </div>
+            <div id="userInstallSection">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="code-dot red"></span>
+                        <span class="code-dot yellow"></span>
+                        <span class="code-dot green"></span>
+                        <span style="color: var(--gray); font-size: 0.75rem; margin-left: 0.5rem;">bash</span>
+                        <button class="copy-btn" onclick="copyInstallCommand(this)" data-i18n="copyText">复制</button>
+                    </div>
+                    <pre><code>git</code> clone https://github.com/theneoai/awesome-mcps.git
 <code>cd</code> awesome-mcps
 <code>bash</code> install.sh --all</code></pre>
+                </div>
+            </div>
+            <div id="aiInstallSection" style="display:none;">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="code-dot red"></span>
+                        <span class="code-dot yellow"></span>
+                        <span class="code-dot green"></span>
+                        <span style="color: var(--gray); font-size: 0.75rem; margin-left: 0.5rem;">AI Agent</span>
+                        <button class="copy-btn" onclick="copyAiInstallCommand(this)">复制</button>
+                    </div>
+                    <pre><code>read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/[mcp-name].json and install</code></pre>
+                </div>
+                <p style="color: var(--gray-light); font-size: 0.8125rem; margin-top: 0.75rem;">
+                    将 [mcp-name] 替换为具体 MCP 名，如 <code>github</code>、<code>filesystem</code>、<code>postgres</code>
+                </p>
             </div>
         </div>
     </section>

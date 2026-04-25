@@ -237,6 +237,12 @@ body {
     padding: 2rem;
 }
 
+.quick-install-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
 .quick-install-inner {
     max-width: 900px;
     margin: 0 auto;
@@ -808,6 +814,40 @@ body {
     white-space: pre-wrap;
     word-break: break-all;
     line-height: 1.6;
+}
+
+.install-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 0.625rem 1rem;
+    background: var(--dark-light);
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    color: var(--gray);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tab-btn:hover {
+    border-color: var(--primary);
+    color: var(--light);
+}
+
+.tab-btn.active {
+    background: rgba(99, 102, 241, 0.15);
+    border-color: var(--primary);
+    color: var(--primary-light);
+}
+
+.tab-content {
+    margin-bottom: 0.5rem;
 }
 
 .modal-footer {

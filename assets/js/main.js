@@ -155,8 +155,20 @@ function copyText(text, btn) {
 }
 
 function copyInstallCommand(btn) {
-    const text = `git clone https://github.com/theneoai/awesome-mcps.git\ncd awesome-mcps\nbash install.sh`;
+    const text = `git clone https://github.com/theneoai/awesome-mcps.git\ncd awesome-mcps\nbash install.sh --all`;
     copyText(text, btn);
+}
+
+function copyAiInstallCommand(btn) {
+    const text = `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/[mcp-name].json and install`;
+    copyText(text, btn);
+}
+
+function switchQuickInstallTab(tab, btn) {
+    document.querySelector('.quick-install-tabs .tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('userInstallSection').style.display = tab === 'user' ? 'block' : 'none';
+    document.getElementById('aiInstallSection').style.display = tab === 'ai' ? 'block' : 'none';
 }
 
 function showToast(message, type = 'success') {
@@ -465,10 +477,43 @@ function showMcpDetails(name) {
     document.getElementById('modalDescription').textContent = description;
 
     if (mcp.config_file) {
+        const aiCommand = `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/${mcp.config_file} and install`;
         const config = mcp.config || getDefaultConfig(mcp);
-        document.getElementById('modalContent').textContent = JSON.stringify(config, null, 2);
+        const jsonContent = JSON.stringify(config, null, 2);
+        document.getElementById('modalContent').innerHTML = `
+<div class="install-tabs">
+    <button class="tab-btn active" onclick="switchInstallTab('ai', this)">🤖 AI 命令</button>
+    <button class="tab-btn" onclick="switchInstallTab('json', this)">⚙️ JSON 配置</button>
+</div>
+<div id="aiCommandSection" class="tab-content">
+    <div class="code-block">
+        <div class="code-header">
+            <span class="code-dot red"></span>
+            <span class="code-dot yellow"></span>
+            <span class="code-dot green"></span>
+            <span style="color: var(--gray); font-size: 0.75rem; margin-left: 0.5rem;">AI Agent</span>
+            <button class="copy-btn" onclick="copyText(\`${aiCommand}\`, this)">复制</button>
+        </div>
+        <pre><code>${aiCommand}</code></pre>
+    </div>
+    <p style="color: var(--gray-light); font-size: 0.8125rem; margin-top: 0.75rem;">
+        ${currentLang === 'zh' ? '复制此命令，粘贴到支持 MCP 的 AI 应用中即可安装' : 'Copy and paste into your AI app that supports MCP'}
+    </p>
+</div>
+<div id="jsonConfigSection" class="tab-content" style="display:none;">
+    <div class="code-block">
+        <div class="code-header">
+            <span class="code-dot red"></span>
+            <span class="code-dot yellow"></span>
+            <span class="code-dot green"></span>
+            <span style="color: var(--gray); font-size: 0.75rem; margin-left: 0.5rem;">JSON</span>
+            <button class="copy-btn" onclick="copyText(\`${jsonContent.replace(/`/g, '\\`')}\`, this)">复制</button>
+        </div>
+        <pre><code>${jsonContent}</code></pre>
+    </div>
+</div>`;
     } else {
-        document.getElementById('modalContent').textContent = currentLang === 'zh'
+        document.getElementById('modalContent').innerHTML = currentLang === 'zh'
             ? '// 此 MCP 无需配置\n// No configuration needed'
             : '// No configuration needed';
     }
@@ -481,6 +526,13 @@ function showMcpDetails(name) {
     }
 
     openModal();
+}
+
+function switchInstallTab(tab, btn) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('aiCommandSection').style.display = tab === 'ai' ? 'block' : 'none';
+    document.getElementById('jsonConfigSection').style.display = tab === 'json' ? 'block' : 'none';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
