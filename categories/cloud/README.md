@@ -37,6 +37,7 @@
 |------|------|-------|
 | [MCP Toolbox for Databases](https://github.com/googleapis/mcp-toolbox-for-databases) | Cloud SQL、AlloyDB、Spanner、Bigtable、Firestore | ![](https://img.shields.io/github/stars/googleapis/mcp-toolbox-for-databases?style=flat-square) |
 | [BigQuery MCP](https://github.com/LucasHild/mcp-server-bigquery) | BigQuery 数据仓库分析 | ![](https://img.shields.io/github/stars/LucasHild/mcp-server-bigquery?style=flat-square) |
+| [Cloud Run MCP](https://github.com/googlecloudplatform/cloud-run-mcp) | 官方，部署和管理 Cloud Run 服务 | ![](https://img.shields.io/github/stars/GoogleCloudPlatform/cloud-run-mcp?style=flat-square) |
 | [Google Drive MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive) | Google Drive 文档管理（官方） | — |
 | [Google Maps MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) | Places、Geocoding、Directions（官方） | — |
 
@@ -45,6 +46,13 @@
 | 名称 | 描述 | Stars |
 |------|------|-------|
 | [Cloudflare MCP](https://github.com/cloudflare/mcp-server-cloudflare) | DNS、Workers、R2 Storage、Zero Trust，覆盖 2500+ API 端点 | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-cloudflare?style=flat-square) |
+
+### 平台即服务 (PaaS)
+
+| 名称 | 描述 | Stars |
+|------|------|-------|
+| [Heroku MCP](https://github.com/heroku/heroku-mcp-server) | 官方，应用管理、Dynos、PostgreSQL、Pipeline | ![](https://img.shields.io/github/stars/heroku/heroku-mcp-server?style=flat-square) |
+| [Railway MCP](https://github.com/railwayapp/railway-mcp-server) | 官方，项目部署、环境变量、服务管理 | ![](https://img.shields.io/github/stars/railwayapp/railway-mcp-server?style=flat-square) |
 
 ### 其他云平台
 
@@ -92,6 +100,7 @@
 |------|-------------|-------|
 | [MCP Toolbox for Databases](https://github.com/googleapis/mcp-toolbox-for-databases) | Cloud SQL, AlloyDB, Spanner, Bigtable, Firestore | ![](https://img.shields.io/github/stars/googleapis/mcp-toolbox-for-databases?style=flat-square) |
 | [BigQuery MCP](https://github.com/LucasHild/mcp-server-bigquery) | BigQuery data warehouse analytics | ![](https://img.shields.io/github/stars/LucasHild/mcp-server-bigquery?style=flat-square) |
+| [Cloud Run MCP](https://github.com/googlecloudplatform/cloud-run-mcp) | Official — deploy and manage Cloud Run services | ![](https://img.shields.io/github/stars/GoogleCloudPlatform/cloud-run-mcp?style=flat-square) |
 | [Google Maps MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) | Places, Geocoding, Directions (Official) | — |
 
 ### Cloudflare
@@ -99,6 +108,13 @@
 | Name | Description | Stars |
 |------|-------------|-------|
 | [Cloudflare MCP](https://github.com/cloudflare/mcp-server-cloudflare) | DNS, Workers, R2 Storage, Zero Trust — 2,500+ API endpoints | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-cloudflare?style=flat-square) |
+
+### Platform as a Service (PaaS)
+
+| Name | Description | Stars |
+|------|-------------|-------|
+| [Heroku MCP](https://github.com/heroku/heroku-mcp-server) | Official — apps, dynos, PostgreSQL, pipelines | ![](https://img.shields.io/github/stars/heroku/heroku-mcp-server?style=flat-square) |
+| [Railway MCP](https://github.com/railwayapp/railway-mcp-server) | Official — projects, deployments, env vars, services | ![](https://img.shields.io/github/stars/railwayapp/railway-mcp-server?style=flat-square) |
 
 ### Other Cloud Platforms
 
