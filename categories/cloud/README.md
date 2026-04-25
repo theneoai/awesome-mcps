@@ -85,6 +85,12 @@
 |------|------|------|-------|
 | [Prometheus MCP](https://github.com/prometheus/mcp-server) | 云原生监控，指标查询、告警规则管理 | Go | ![](https://img.shields.io/github/stars/prometheus/mcp-server?style=flat-square) |
 
+### 日志系统
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Grafana Loki MCP](https://github.com/grafana/loki-mcp) | 日志查询、标签过滤 | Go | ![](https://img.shields.io/github/stars/grafana/loki-mcp?style=flat-square) |
+
 ---
 
 ## English
@@ -168,3 +174,9 @@
 | Name | Description | Language | Stars |
 |------|-------------|----------|-------|
 | [Prometheus MCP](https://github.com/prometheus/mcp-server) | Cloud-native monitoring, metrics query, alerting rules management | Go | ![](https://img.shields.io/github/stars/prometheus/mcp-server?style=flat-square) |
+
+### Logging
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Grafana Loki MCP](https://github.com/grafana/loki-mcp) | Log query, label filtering | Go | ![](https://img.shields.io/github/stars/grafana/loki-mcp?style=flat-square) |
