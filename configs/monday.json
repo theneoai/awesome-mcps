@@ -1,0 +1,9 @@
+{
+  "monday": {
+    "command": "npx",
+    "args": ["-y", "@mondaydotcomorg/monday-api-mcp@latest"],
+    "env": {
+      "MONDAY_TOKEN": "YOUR_MONDAY_TOKEN_HERE"
+    }
+  }
+}

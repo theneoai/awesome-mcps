@@ -1,0 +1,10 @@
+{
+  "plane": {
+    "command": "npx",
+    "args": ["-y", "@plane/mcp-server@latest"],
+    "env": {
+      "PLANE_API_KEY": "YOUR_PLANE_API_KEY_HERE",
+      "PLANE_WORKSPACE_URL": "YOUR_PLANE_WORKSPACE_URL_HERE"
+    }
+  }
+}

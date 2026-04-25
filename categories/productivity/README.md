@@ -21,6 +21,8 @@
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
+| [Monday.com MCP](https://github.com/mondaycom/mcp) | Monday.com 官方 | 看板、任务、项群组管理与动态 API 工具 | TypeScript | ![](https://img.shields.io/github/stars/mondaycom/mcp?style=flat-square) |
+| [Plane MCP](https://github.com/makeplane/plane-mcp-server) | Plane 官方 | 项目、Issue、工作项状态管理 | TypeScript | ![](https://img.shields.io/github/stars/makeplane/plane-mcp-server?style=flat-square) |
 | [Linear MCP](https://github.com/jerhadf/linear-mcp-server) | 社区 | Issue 创建、查询、更新与项目管理 | TypeScript | ![](https://img.shields.io/github/stars/jerhadf/linear-mcp-server?style=flat-square) |
 | [Asana MCP](https://github.com/Asana/asana-mcp-server) | Asana 官方 | 任务、项目、工作区管理 | TypeScript | ![](https://img.shields.io/github/stars/Asana/asana-mcp-server?style=flat-square) |
 | [Jira/Confluence MCP](https://github.com/sooperset/mcp-atlassian) | 社区 | Jira Issue、Sprint、Confluence 文档 | TypeScript | ![](https://img.shields.io/github/stars/sooperset/mcp-atlassian?style=flat-square) |
@@ -54,6 +56,8 @@
 
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
+| [Monday.com MCP](https://github.com/mondaycom/mcp) | Monday.com Official | Boards, tasks, item groups management and dynamic API tools | TypeScript | ![](https://img.shields.io/github/stars/mondaycom/mcp?style=flat-square) |
+| [Plane MCP](https://github.com/makeplane/plane-mcp-server) | Plane Official | Projects, issues, work item states management | TypeScript | ![](https://img.shields.io/github/stars/makeplane/plane-mcp-server?style=flat-square) |
 | [Linear MCP](https://github.com/jerhadf/linear-mcp-server) | Community | Issue creation, queries, updates and project management | TypeScript | ![](https://img.shields.io/github/stars/jerhadf/linear-mcp-server?style=flat-square) |
 | [Asana MCP](https://github.com/Asana/asana-mcp-server) | Asana Official | Tasks, projects, workspaces management | TypeScript | ![](https://img.shields.io/github/stars/Asana/asana-mcp-server?style=flat-square) |
 | [Jira/Confluence MCP](https://github.com/sooperset/mcp-atlassian) | Community | Jira issues, sprints, Confluence docs | TypeScript | ![](https://img.shields.io/github/stars/sooperset/mcp-atlassian?style=flat-square) |
