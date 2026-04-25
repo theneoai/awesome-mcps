@@ -1,0 +1,12 @@
+{
+  "sap_abap": {
+    "command": "python",
+    "args": ["-m", "mcp_abap_adt"],
+    "env": {
+      "SAP_ABAP_HOST": "https://your-sap-host.com",
+      "SAP_ABAP_CLIENT": "100",
+      "SAP_ABAP_USER": "YOUR_USERNAME",
+      "SAP_ABAP_PASSWORD": "YOUR_PASSWORD"
+    }
+  }
+}

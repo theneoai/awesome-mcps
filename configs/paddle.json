@@ -1,0 +1,11 @@
+{
+  "paddle": {
+    "command": "npx",
+    "args": ["-y", "@paddle/paddle-mcp-server"],
+    "env": {
+      "PADDLE_CLIENT_ID": "YOUR_PADDLE_CLIENT_ID",
+      "PADDLE_CLIENT_SECRET": "YOUR_PADDLE_CLIENT_SECRET",
+      "PADDLE_ENVIRONMENT": "sandbox"
+    }
+  }
+}

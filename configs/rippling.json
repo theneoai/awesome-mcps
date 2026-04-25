@@ -1,0 +1,9 @@
+{
+  "rippling": {
+    "command": "python",
+    "args": ["-m", "rippling_mcp"],
+    "env": {
+      "RIPPING_API_KEY": "YOUR_RIPPING_API_KEY"
+    }
+  }
+}

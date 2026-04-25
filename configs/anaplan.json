@@ -1,0 +1,10 @@
+{
+  "anaplan": {
+    "command": "python",
+    "args": ["-m", "anaplan_mcp"],
+    "env": {
+      "ANAPLAN_API_KEY": "YOUR_ANAPLAN_API_KEY",
+      "ANAPLAN_TENANT_ID": "YOUR_TENANT_ID"
+    }
+  }
+}

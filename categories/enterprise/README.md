@@ -15,6 +15,8 @@
 | [Salesforce MCP](https://github.com/tsmztech/mcp-server-salesforce) | 社区 | Salesforce CRM 对象查询与数据访问 | TypeScript | ![](https://img.shields.io/github/stars/tsmztech/mcp-server-salesforce?style=flat-square) |
 | [HubSpot MCP](https://github.com/HubSpot/mcp-server) | HubSpot 官方 | CRM 联系人、交易、公司、营销操作 | TypeScript | ![](https://img.shields.io/github/stars/HubSpot/mcp-server?style=flat-square) |
 | [Zendesk MCP](https://github.com/reminia/mcp-zendesk) | 社区 | 工单管理与客户支持 | TypeScript | ![](https://img.shields.io/github/stars/reminia/mcp-zendesk?style=flat-square) |
+| [ServiceTitan MCP](https://github.com/montrellcruse/servicetitan-mcp) | 社区 | 企业级 field service CRM | TypeScript | ![](https://img.shields.io/github/stars/montrellcruse/servicetitan-mcp?style=flat-square) |
+| [Custify MCP](https://github.com/CustifyOfficial/custify-mcp) | Custify 官方 | 客户成功与账户管理 | TypeScript | ![](https://img.shields.io/github/stars/CustifyOfficial/custify-mcp?style=flat-square) |
 
 ### 金融与会计
 
@@ -23,6 +25,21 @@
 | [Stripe MCP](https://github.com/stripe/agent-toolkit) | Stripe 官方 | 支付、订阅、发票、账单管理 | TypeScript | ![](https://img.shields.io/github/stars/stripe/agent-toolkit?style=flat-square) |
 | [Xero MCP](https://github.com/XeroAPI/xero-mcp-server) | Xero 官方 | 会计账目、发票、财务报表 | TypeScript | ![](https://img.shields.io/github/stars/XeroAPI/xero-mcp-server?style=flat-square) |
 | [QuickBooks MCP](https://github.com/zbarnett/quickbooks-mcp) | 社区 | QuickBooks 财务数据访问 | Python | ![](https://img.shields.io/github/stars/zbarnett/quickbooks-mcp?style=flat-square) |
+| [FreshBooks MCP](https://github.com/Good-Samaritan-Software-LLC/freshbooks-mcp) | 社区 | 发票、会计、时间追踪 | TypeScript | ![](https://img.shields.io/github/stars/Good-Samaritan-Software-LLC/freshbooks-mcp?style=flat-square) |
+| [Paddle MCP](https://github.com/PaddleHQ/paddle-mcp-server) | Paddle 官方 | 支付、订阅计费管理 | TypeScript | ![](https://img.shields.io/github/stars/PaddleHQ/paddle-mcp-server?style=flat-square) |
+| [ChartMogul MCP](https://github.com/chartmogul/chartmogul-mcp-server) | ChartMogul 官方 | 订阅财务指标与 CRM | TypeScript | ![](https://img.shields.io/github/stars/chartmogul/chartmogul-mcp-server?style=flat-square) |
+
+### ERP 与运营
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [ServiceNow MCP](https://github.com/aartiq/servicenow-mcp) | 社区 | 企业 ITSM、ITOM、HRSD 等 150+ 工具 | Python | ![](https://img.shields.io/github/stars/aartiq/servicenow-mcp?style=flat-square) |
+| [ERPNext MCP](https://github.com/optimusbasti/erpnext-mcp) | 社区 | 开源 ERP CRM 与项目管理 | Python | ![](https://img.shields.io/github/stars/optimusbasti/erpnext-mcp?style=flat-square) |
+| [Odoo MCP](https://github.com/aadilakbar/ad-mcp-bridge-server) | 社区 | Odoo ERP 集成 | Python | ![](https://img.shields.io/github/stars/aadilakbar/ad-mcp-bridge-server?style=flat-square) |
+| [Dynamics 365 MCP](https://github.com/srikanth-paladugula/mcp-dynamics365-server) | 社区 | Microsoft Dynamics 365 集成 | TypeScript | ![](https://img.shields.io/github/stars/srikanth-paladugula/mcp-dynamics365-server?style=flat-square) |
+| [SAP ABAP ADT MCP](https://github.com/mario-andreschak/mcp-abap-adt) | 社区 | SAP ABAP 系统开发工具 | Python | ![](https://img.shields.io/github/stars/mario-andreschak/mcp-abap-adt?style=flat-square) |
+| [Rippling MCP](https://github.com/bifrost-mcp/rippling-mcp) | 社区 | HR、IT、财务平台 | Python | ![](https://img.shields.io/github/stars/bifrost-mcp/rippling-mcp?style=flat-square) |
+| [Anaplan MCP](https://github.com/larasrinath/anaplan-mcp) | 社区 | 企业规划与预算 | Python | ![](https://img.shields.io/github/stars/larasrinath/anaplan-mcp?style=flat-square) |
 
 ### SEO 与营销
 
@@ -43,6 +60,8 @@
 | [Salesforce MCP](https://github.com/tsmztech/mcp-server-salesforce) | Community | Salesforce CRM object queries and data access | TypeScript | ![](https://img.shields.io/github/stars/tsmztech/mcp-server-salesforce?style=flat-square) |
 | [HubSpot MCP](https://github.com/HubSpot/mcp-server) | HubSpot Official | CRM contacts, deals, companies, marketing | TypeScript | ![](https://img.shields.io/github/stars/HubSpot/mcp-server?style=flat-square) |
 | [Zendesk MCP](https://github.com/reminia/mcp-zendesk) | Community | Ticket management and customer support | TypeScript | ![](https://img.shields.io/github/stars/reminia/mcp-zendesk?style=flat-square) |
+| [ServiceTitan MCP](https://github.com/montrellcruse/servicetitan-mcp) | Community | Enterprise field service CRM | TypeScript | ![](https://img.shields.io/github/stars/montrellcruse/servicetitan-mcp?style=flat-square) |
+| [Custify MCP](https://github.com/CustifyOfficial/custify-mcp) | Custify Official | Customer success and account management | TypeScript | ![](https://img.shields.io/github/stars/CustifyOfficial/custify-mcp?style=flat-square) |
 
 ### Finance & Accounting
 
@@ -51,6 +70,21 @@
 | [Stripe MCP](https://github.com/stripe/agent-toolkit) | Stripe Official | Payments, subscriptions, invoices, billing | TypeScript | ![](https://img.shields.io/github/stars/stripe/agent-toolkit?style=flat-square) |
 | [Xero MCP](https://github.com/XeroAPI/xero-mcp-server) | Xero Official | Accounting, invoices, financial reports | TypeScript | ![](https://img.shields.io/github/stars/XeroAPI/xero-mcp-server?style=flat-square) |
 | [QuickBooks MCP](https://github.com/zbarnett/quickbooks-mcp) | Community | QuickBooks financial data access | Python | ![](https://img.shields.io/github/stars/zbarnett/quickbooks-mcp?style=flat-square) |
+| [FreshBooks MCP](https://github.com/Good-Samaritan-Software-LLC/freshbooks-mcp) | Community | Invoicing, accounting, time tracking | TypeScript | ![](https://img.shields.io/github/stars/Good-Samaritan-Software-LLC/freshbooks-mcp?style=flat-square) |
+| [Paddle MCP](https://github.com/PaddleHQ/paddle-mcp-server) | Paddle Official | Payments, subscriptions, billing | TypeScript | ![](https://img.shields.io/github/stars/PaddleHQ/paddle-mcp-server?style=flat-square) |
+| [ChartMogul MCP](https://github.com/chartmogul/chartmogul-mcp-server) | ChartMogul Official | Subscription metrics and CRM | TypeScript | ![](https://img.shields.io/github/stars/chartmogul/chartmogul-mcp-server?style=flat-square) |
+
+### ERP & Operations
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [ServiceNow MCP](https://github.com/aartiq/servicenow-mcp) | Community | Enterprise ITSM, ITOM, HRSD - 150+ tools | Python | ![](https://img.shields.io/github/stars/aartiq/servicenow-mcp?style=flat-square) |
+| [ERPNext MCP](https://github.com/optimusbasti/erpnext-mcp) | Community | Open source ERP CRM and project management | Python | ![](https://img.shields.io/github/stars/optimusbasti/erpnext-mcp?style=flat-square) |
+| [Odoo MCP](https://github.com/aadilakbar/ad-mcp-bridge-server) | Community | Odoo ERP integration | Python | ![](https://img.shields.io/github/stars/aadilakbar/ad-mcp-bridge-server?style=flat-square) |
+| [Dynamics 365 MCP](https://github.com/srikanth-paladugula/mcp-dynamics365-server) | Community | Microsoft Dynamics 365 integration | TypeScript | ![](https://img.shields.io/github/stars/srikanth-paladugula/mcp-dynamics365-server?style=flat-square) |
+| [SAP ABAP ADT MCP](https://github.com/mario-andreschak/mcp-abap-adt) | Community | SAP ABAP systems development tools | Python | ![](https://img.shields.io/github/stars/mario-andreschak/mcp-abap-adt?style=flat-square) |
+| [Rippling MCP](https://github.com/bifrost-mcp/rippling-mcp) | Community | HR, IT, Finance platform | Python | ![](https://img.shields.io/github/stars/bifrost-mcp/rippling-mcp?style=flat-square) |
+| [Anaplan MCP](https://github.com/larasrinath/anaplan-mcp) | Community | Enterprise planning and budgeting | Python | ![](https://img.shields.io/github/stars/larasrinath/anaplan-mcp?style=flat-square) |
 
 ### SEO & Marketing
 

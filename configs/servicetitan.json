@@ -1,0 +1,11 @@
+{
+  "servicetitan": {
+    "command": "npx",
+    "args": ["-y", "@servicetitan/mcp-server"],
+    "env": {
+      "SERVICETITAN_TENANT_ID": "YOUR_TENANT_ID",
+      "SERVICETITAN_CLIENT_ID": "YOUR_CLIENT_ID",
+      "SERVICETITAN_CLIENT_SECRET": "YOUR_CLIENT_SECRET"
+    }
+  }
+}

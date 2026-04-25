@@ -1,0 +1,12 @@
+{
+  "odoo": {
+    "command": "python",
+    "args": ["-m", "odoo_mcp"],
+    "env": {
+      "ODOO_URL": "https://your-odoo-instance.com",
+      "ODOO_DB": "your_database_name",
+      "ODOO_USER": "your@email.com",
+      "ODOO_API_KEY": "YOUR_API_KEY"
+    }
+  }
+}

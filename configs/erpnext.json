@@ -1,0 +1,11 @@
+{
+  "erpnext": {
+    "command": "python",
+    "args": ["-m", "erpnext_mcp"],
+    "env": {
+      "ERPNEXT_URL": "https://your-erpnext-instance.com",
+      "ERPNEXT_API_KEY": "YOUR_API_KEY",
+      "ERPNEXT_API_SECRET": "YOUR_API_SECRET"
+    }
+  }
+}

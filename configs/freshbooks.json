@@ -1,0 +1,11 @@
+{
+  "freshbooks": {
+    "command": "npx",
+    "args": ["-y", "@freshbooks/agent-toolkit"],
+    "env": {
+      "FRESHBOOKS_CLIENT_ID": "YOUR_CLIENT_ID",
+      "FRESHBOOKS_CLIENT_SECRET": "YOUR_CLIENT_SECRET",
+      "FRESHBOOKS_REDIRECT_URI": "http://localhost:8080/callback"
+    }
+  }
+}

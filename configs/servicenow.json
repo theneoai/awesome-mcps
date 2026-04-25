@@ -1,0 +1,11 @@
+{
+  "servicenow": {
+    "command": "python",
+    "args": ["-m", "servicenow_mcp"],
+    "env": {
+      "SERVICENOW_INSTANCE_URL": "https://your-instance.service-now.com",
+      "SERVICENOW_CLIENT_ID": "YOUR_CLIENT_ID",
+      "SERVICENOW_CLIENT_SECRET": "YOUR_CLIENT_SECRET"
+    }
+  }
+}

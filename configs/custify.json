@@ -1,0 +1,10 @@
+{
+  "custify": {
+    "command": "npx",
+    "args": ["-y", "@custify/mcp-server"],
+    "env": {
+      "CUSTIFY_API_KEY": "YOUR_CUSTIFY_API_KEY",
+      "CUSTIFY_API_URL": "https://api.custify.com"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "chartmogul": {
+    "command": "npx",
+    "args": ["-y", "@chartmogul/mcp-server"],
+    "env": {
+      "CHARTMOGUL_ACCOUNT_TOKEN": "YOUR_ACCOUNT_TOKEN",
+      "CHARTMOGUL_SECRET_KEY": "YOUR_SECRET_KEY"
+    }
+  }
+}
