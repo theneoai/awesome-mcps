@@ -1,0 +1,10 @@
+{
+  "redmine": {
+    "command": "npx",
+    "args": ["-y", "@redmine/mcp-server"],
+    "env": {
+      "REDMINE_URL": "http://localhost:3000",
+      "REDMINE_API_KEY": "YOUR_REDMINE_API_KEY"
+    }
+  }
+}
