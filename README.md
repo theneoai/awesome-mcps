@@ -144,6 +144,11 @@ Browse all 59+ configs at [configs/](configs/)
 - [Glama](https://glama.ai/mcp/servers) - MCP directory
 - [PulseMCP](https://pulsemcp.com/servers) - MCP directory
 
+## Related Projects
+
+- [Awesome Skills](https://github.com/theneoai/awesome-skills) - Curated library of 943+ AI skills for Claude Code, Cursor, and more
+- [GitHub Pages](https://theneoai.github.io/awesome-skills/) - Browse and search skills online
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
