@@ -33,6 +33,7 @@
 | [notion.json](notion.json) | Notion | 效率工具 | 是 |
 | [linear.json](linear.json) | Linear | 效率工具 | 是 |
 | [memory.json](memory.json) | 持久化记忆 | AI 工具 | 否 |
+| [groq.json](groq.json) | Groq LLM 推理 | AI 工具 | 是 |
 | [sqlite.json](sqlite.json) | SQLite | 数据库 | 否 |
 | [postgres.json](postgres.json) | PostgreSQL | 数据库 | 是 |
 | [qdrant.json](qdrant.json) | Qdrant 向量库 | 数据库 | 可选 |

@@ -16,6 +16,7 @@
 | [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity 官方 | 实时 AI 搜索与问答 | Python | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
 | [Replicate MCP](https://github.com/deepfates/mcp-replicate) | 社区 | Replicate 云端图像、音频、视频模型 | TypeScript | ![](https://img.shields.io/github/stars/deepfates/mcp-replicate?style=flat-square) |
 | [Fal MCP](https://github.com/fal-ai/fal-mcp) | fal.ai 官方 | 快速图像与视频生成 | TypeScript | ![](https://img.shields.io/github/stars/fal-ai/fal-mcp?style=flat-square) |
+| [Groq MCP](https://github.com/groq/groq-mcp-server) | Groq 官方 | Groq 硬件加速 LLM 推理 | Python | ![](https://img.shields.io/github/stars/groq/groq-mcp-server?style=flat-square) |
 
 ### Agent 框架集成
 
@@ -53,6 +54,7 @@
 | [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity Official | Real-time AI search and Q&A | Python | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
 | [Replicate MCP](https://github.com/deepfates/mcp-replicate) | Community | Cloud image, audio, video model inference | TypeScript | ![](https://img.shields.io/github/stars/deepfates/mcp-replicate?style=flat-square) |
 | [Fal MCP](https://github.com/fal-ai/fal-mcp) | fal.ai Official | Fast image and video generation | TypeScript | ![](https://img.shields.io/github/stars/fal-ai/fal-mcp?style=flat-square) |
+| [Groq MCP](https://github.com/groq/groq-mcp-server) | Groq Official | Hardware-accelerated LLM inference | Python | ![](https://img.shields.io/github/stars/groq/groq-mcp-server?style=flat-square) |
 
 ### Agent Framework Integrations
 
