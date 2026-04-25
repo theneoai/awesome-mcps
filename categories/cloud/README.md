@@ -64,8 +64,12 @@
 | [AlibabaCloud MCP](https://github.com/aliyun/alibabacloud-core-mcp-server) | 阿里云 官方 | ECS、VPC、CloudMonitor 资源管理 | ![](https://img.shields.io/github/stars/aliyun/alibabacloud-core-mcp-server?style=flat-square) |
 | [DigitalOcean MCP](https://github.com/digitalocean-labs/mcp-digitalocean) | DigitalOcean 官方 | Droplets、VPC、Storage、Domains | ![](https://img.shields.io/github/stars/digitalocean-labs/mcp-digitalocean?style=flat-square) |
 | [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify 官方 | 站点部署、函数、环境变量管理 | ![](https://img.shields.io/github/stars/netlify/netlify-mcp?style=flat-square) |
-| [腾讯云 MCP](https://github.com/tencentcloud/mcp-server) | 腾讯云官方 | COS、云服务器、数据库等资源管理 | ![](https://img.shields.io/github/stars/tencentcloud/mcp-server?style=flat-square) |
-| [华为云 MCP](https://github.com/huaweicloud/mcp-server) | 华为云官方 | ECS、VPC、OBS 等资源管理 | ![](https://img.shields.io/github/stars/huaweicloud/mcp-server?style=flat-square) |
+
+### 消息队列
+
+| 名称 | 描述 | Stars |
+|------|------|-------|
+| [Kafka MCP](https://github.com/confluentinc/mcp-kafka) | 事件流平台，Topic、Producer、Consumer 管理 | ![](https://img.shields.io/github/stars/confluentinc/mcp-kafka?style=flat-square) |
 
 ---
 
@@ -128,5 +132,11 @@
 | [AlibabaCloud MCP](https://github.com/aliyun/alibabacloud-core-mcp-server) | Alibaba Cloud Official | ECS, VPC, CloudMonitor resource management | ![](https://img.shields.io/github/stars/aliyun/alibabacloud-core-mcp-server?style=flat-square) |
 | [DigitalOcean MCP](https://github.com/digitalocean-labs/mcp-digitalocean) | DigitalOcean Official | Droplets, VPC, Storage, Domains | ![](https://img.shields.io/github/stars/digitalocean-labs/mcp-digitalocean?style=flat-square) |
 | [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify Official | Site deployments, functions, env vars | ![](https://img.shields.io/github/stars/netlify/netlify-mcp?style=flat-square) |
+
+### Message Queue
+
+| Name | Description | Stars |
+|------|-------------|-------|
+| [Kafka MCP](https://github.com/confluentinc/mcp-kafka) | Event streaming platform — Topic, Producer, Consumer management | ![](https://img.shields.io/github/stars/confluentinc/mcp-kafka?style=flat-square) |
 | [Tencent Cloud MCP](https://github.com/tencentcloud/mcp-server) | Tencent Cloud Official | COS, CVM, database resource management | ![](https://img.shields.io/github/stars/tencentcloud/mcp-server?style=flat-square) |
 | [Huawei Cloud MCP](https://github.com/huaweicloud/mcp-server) | Huawei Cloud Official | ECS, VPC, OBS resource management | ![](https://img.shields.io/github/stars/huaweicloud/mcp-server?style=flat-square) |

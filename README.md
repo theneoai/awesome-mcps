@@ -90,6 +90,7 @@ Copy any of these commands to install a specific MCP:
 | Cloudflare | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cloudflare.json and install` |
 | DigitalOcean | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/digitalocean.json and install` |
 | Netlify | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/netlify.json and install` |
+| Kafka | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/kafka.json and install` |
 | 腾讯云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tencentcloud.json and install` |
 | 华为云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/huaweicloud.json and install` |
 

@@ -1,0 +1,11 @@
+{
+  "kafka": {
+    "command": "npx",
+    "args": ["-y", "@confluentinc/mcp-kafka-server"],
+    "env": {
+      "KAFKA_BROKERS": "localhost:9092",
+      "KAFKA_CLIENT_ID": "mcp-kafka-client",
+      "KAFKA_AUTH_TYPE": "plaintext"
+    }
+  }
+}
