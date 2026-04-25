@@ -73,6 +73,7 @@ Copy any of these commands to install a specific MCP:
 | Discord | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/discord.json and install` |
 | Telegram | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/telegram.json and install` |
 | Rocket.Chat | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/rocketchat.json and install` |
+| Mattermost | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/mattermost.json and install` |
 
 ### Productivity
 

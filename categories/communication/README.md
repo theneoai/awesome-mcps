@@ -31,6 +31,7 @@
 | [Webex MCP](https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server) | 社区 | Cisco Webex 消息管理 | Python | ![](https://img.shields.io/github/stars/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server?style=flat-square) |
 | [WeChat MCP](https://github.com/cluic/wxauto-mcp) | 社区 | WeChat 自动化消息收发 | Python | ![](https://img.shields.io/github/stars/cluic/wxauto-mcp?style=flat-square) |
 | [Rocket.Chat MCP](https://github.com/RocketChat/Rocket.Chat.MCP) | 开源自托管协作平台，频道、消息 | TypeScript | ![](https://img.shields.io/github/stars/RocketChat/Rocket.Chat.MCP?style=flat-square) |
+| [Mattermost MCP](https://github.com/mattermost/mcp-server) | 开源 Slack 替代，频道、集成 | Go | ![](https://img.shields.io/github/stars/mattermost/mcp-server?style=flat-square) |
 
 ### 电子邮件
 
@@ -89,6 +90,7 @@
 | [Webex MCP](https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server) | Community | Cisco Webex messaging management | Python | ![](https://img.shields.io/github/stars/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server?style=flat-square) |
 | [WeChat MCP](https://github.com/cluic/wxauto-mcp) | Community | WeChat automation messaging | Python | ![](https://img.shields.io/github/stars/cluic/wxauto-mcp?style=flat-square) |
 | [Rocket.Chat MCP](https://github.com/RocketChat/Rocket.Chat.MCP) | 开源自托管协作平台，频道、消息 | TypeScript | ![](https://img.shields.io/github/stars/RocketChat/Rocket.Chat.MCP?style=flat-square) |
+| [Mattermost MCP](https://github.com/mattermost/mcp-server) | 开源 Slack 替代，频道、集成 | Go | ![](https://img.shields.io/github/stars/mattermost/mcp-server?style=flat-square) |
 
 ### Email
 
