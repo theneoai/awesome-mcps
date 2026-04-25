@@ -165,7 +165,7 @@ function copyAiInstallCommand(btn) {
 }
 
 function switchQuickInstallTab(tab, btn) {
-    document.querySelector('.quick-install-tabs .tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.quick-install-tabs .tab-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     document.getElementById('userInstallSection').style.display = tab === 'user' ? 'block' : 'none';
     document.getElementById('aiInstallSection').style.display = tab === 'ai' ? 'block' : 'none';
@@ -404,21 +404,19 @@ function generateBatchCommand() {
 
     const selectedData = allMcps.filter(mcp => selectedMcps.has(mcp.name));
 
-    let content = '{\n  "mcpServers": {\n';
-    content += selectedData.map((mcp, i) => {
-        const name = mcp.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-        const command = getMcpCommand(mcp);
-        const apiKeyName = getApiKeyName(mcp);
-        const trailing = i < selectedData.length - 1 ? ',' : '';
+    const commands = selectedData.map(mcp => {
+        if (mcp.config_file) {
+            return `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/${mcp.config_file} and install`;
+        }
+        return null;
+    }).filter(Boolean);
 
-        return `    "${name}": {\n      "command": "${command.split(' ')[0]}",\n      "args": ${JSON.stringify(command.split(' ').slice(1))}${mcp.api_key ? `,\n      "env": {\n        "${apiKeyName}": "${mcp.api_key}"\n      }` : ''}\n    }${trailing}`;
-    }).join('\n');
-    content += '\n  }\n}';
+    const content = commands.join('\n');
 
-    document.getElementById('modalTitle').textContent = currentLang === 'zh' ? '\uD83D\uDCCB 批量安装配置' : '\uD83D\uDCCB Batch Install Config';
+    document.getElementById('modalTitle').textContent = currentLang === 'zh' ? '\uD83D\uDCCB 批量 AI 安装命令' : '\uD83D\uDCCB Batch AI Install Commands';
     document.getElementById('modalDescription').textContent = currentLang === 'zh'
-        ? `${selectedMcps.size} 个 MCP 配置，复制到你的 claude_desktop_config.json`
-        : `${selectedMcps.size} MCP configs, copy to your claude_desktop_config.json`;
+        ? `${selectedMcps.size} 个 MCP，复制命令到支持 MCP 的 AI 应用中安装`
+        : `${selectedMcps.size} MCPs - copy commands to your AI app`;
     document.getElementById('modalContent').textContent = content;
     document.getElementById('modalGithubLink').style.display = 'none';
 
