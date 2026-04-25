@@ -1,0 +1,11 @@
+{
+  "confluence": {
+    "command": "npx",
+    "args": ["-y", "@atlassian/mcp-server-confluence"],
+    "env": {
+      "CONFLUENCE_URL": "https://your-company.atlassian.net/wiki",
+      "CONFLUENCE_EMAIL": "your-email@company.com",
+      "CONFLUENCE_API_TOKEN": "YOUR_CONFLUENCE_API_TOKEN"
+    }
+  }
+}

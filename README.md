@@ -83,6 +83,7 @@ Copy any of these commands to install a specific MCP:
 | MCP | Install Command |
 |-----|----------------|
 | Notion | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/notion.json and install` |
+| Confluence | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/confluence.json and install` |
 | Linear | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/linear.json and install` |
 | Google Drive | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gdrive.json and install` |
 | Memory | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/memory.json and install` |

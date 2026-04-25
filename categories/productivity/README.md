@@ -21,6 +21,7 @@
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
+| [Confluence MCP](https://github.com/atlassian/mcp-server-confluence) | 企业 Wiki，页面、空间、搜索 | TypeScript | ![](https://img.shields.io/github/stars/atlassian/mcp-server-confluence?style=flat-square) |
 | [Monday.com MCP](https://github.com/mondaycom/mcp) | Monday.com 官方 | 看板、任务、项群组管理与动态 API 工具 | TypeScript | ![](https://img.shields.io/github/stars/mondaycom/mcp?style=flat-square) |
 | [Plane MCP](https://github.com/makeplane/plane-mcp-server) | Plane 官方 | 项目、Issue，工作项状态管理 | TypeScript | ![](https://img.shields.io/github/stars/makeplane/plane-mcp-server?style=flat-square) |
 | [Linear MCP](https://github.com/jerhadf/linear-mcp-server) | 社区 | Issue 创建、查询、更新与项目管理 | TypeScript | ![](https://img.shields.io/github/stars/jerhadf/linear-mcp-server?style=flat-square) |
