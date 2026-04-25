@@ -1,0 +1,9 @@
+{
+  "jetbrains-mcp": {
+    "command": "node",
+    "args": ["/path/to/mcp-jetbrains/dist/index.js"],
+    "env": {
+      "JETBRAINS_TOKEN": "YOUR_JETBRAINS_TOKEN"
+    }
+  }
+}

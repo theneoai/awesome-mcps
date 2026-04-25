@@ -1,0 +1,9 @@
+{
+  "circleci-mcp": {
+    "command": "npx",
+    "args": ["-y", "@circleci/mcp-server-circleci"],
+    "env": {
+      "CIRCLECI_TOKEN": "YOUR_CIRCLECI_TOKEN"
+    }
+  }
+}

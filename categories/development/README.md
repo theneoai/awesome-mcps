@@ -26,6 +26,33 @@
 | [Kubernetes MCP (TS)](https://github.com/Flux159/mcp-server-kubernetes) | 社区 | Pod、Deployment、Service | TypeScript | ![](https://img.shields.io/github/stars/Flux159/mcp-server-kubernetes?style=flat-square) |
 | [Nomad MCP](https://github.com/kocierik/mcp-nomad) | 社区 | HashiCorp Nomad 作业编排 | Go | ![](https://img.shields.io/github/stars/kocierik/mcp-nomad?style=flat-square) |
 
+### CI/CD
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Azure DevOps MCP](https://github.com/microsoft/azure-devops-mcp) | Microsoft 官方 | Boards、Repos、Pipelines、Artefacts | TypeScript | ![](https://img.shields.io/github/stars/microsoft/azure-devops-mcp?style=flat-square) |
+| [CircleCI MCP](https://github.com/CircleCI-Public/mcp-server-circleci) | CircleCI 官方 | Pipelines、Jobs、Workflows | TypeScript | ![](https://img.shields.io/github/stars/CircleCI-Public/mcp-server-circleci?style=flat-square) |
+| [TeamCity MCP](https://github.com/Daghis/teamcity-mcp) | 社区 | Build、Test、Agents、Configs | TypeScript | ![](https://img.shields.io/github/stars/Daghis/teamcity-mcp?style=flat-square) |
+
+### IDE 插件
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [JetBrains MCP](https://github.com/JetBrains/mcp-jetbrains) | JetBrains 官方 | IntelliJ、PyCharm、WebStorm 等 IDE | JavaScript | ![](https://img.shields.io/github/stars/JetBrains/mcp-jetbrains?style=flat-square) |
+
+### 监控
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Datadog MCP](https://github.com/winor30/mcp-server-datadog) | 社区 | Metrics、Logs、Monitors、APM | TypeScript | ![](https://img.shields.io/github/stars/winor30/mcp-server-datadog?style=flat-square) |
+| [Zabbix MCP](https://github.com/initMAX/zabbix-mcp-server) | 社区 | Zabbix API 监控、231 工具 | Python | ![](https://img.shields.io/github/stars/initMAX/zabbix-mcp-server?style=flat-square) |
+
+### 基础设施即代码
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [SysOperator MCP](https://github.com/tarnover/mcp-sysoperator) | 社区 | Terraform、Ansible、LocalStack IaC | TypeScript | ![](https://img.shields.io/github/stars/tarnover/mcp-sysoperator?style=flat-square) |
+
 ### 浏览器自动化
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
@@ -62,6 +89,33 @@
 | [Docker MCP](https://github.com/ckreiling/mcp-server-docker) | Community | Containers, images, networks, volumes | Python | ![](https://img.shields.io/github/stars/ckreiling/mcp-server-docker?style=flat-square) |
 | [Kubernetes MCP](https://github.com/containers/kubernetes-mcp-server) | Red Hat | K8s & OpenShift cluster management | Go | ![](https://img.shields.io/github/stars/containers/kubernetes-mcp-server?style=flat-square) |
 | [Nomad MCP](https://github.com/kocierik/mcp-nomad) | Community | HashiCorp Nomad job orchestration | Go | ![](https://img.shields.io/github/stars/kocierik/mcp-nomad?style=flat-square) |
+
+### CI/CD
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Azure DevOps MCP](https://github.com/microsoft/azure-devops-mcp) | Microsoft Official | Boards, Repos, Pipelines, Artefacts | TypeScript | ![](https://img.shields.io/github/stars/microsoft/azure-devops-mcp?style=flat-square) |
+| [CircleCI MCP](https://github.com/CircleCI-Public/mcp-server-circleci) | CircleCI Official | Pipelines, Jobs, Workflows | TypeScript | ![](https://img.shields.io/github/stars/CircleCI-Public/mcp-server-circleci?style=flat-square) |
+| [TeamCity MCP](https://github.com/Daghis/teamcity-mcp) | Community | Build, Test, Agents, Configs | TypeScript | ![](https://img.shields.io/github/stars/Daghis/teamcity-mcp?style=flat-square) |
+
+### IDE Plugins
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [JetBrains MCP](https://github.com/JetBrains/mcp-jetbrains) | JetBrains Official | IntelliJ, PyCharm, WebStorm IDEs | JavaScript | ![](https://img.shields.io/github/stars/JetBrains/mcp-jetbrains?style=flat-square) |
+
+### Monitoring
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Datadog MCP](https://github.com/winor30/mcp-server-datadog) | Community | Metrics, Logs, Monitors, APM | TypeScript | ![](https://img.shields.io/github/stars/winor30/mcp-server-datadog?style=flat-square) |
+| [Zabbix MCP](https://github.com/initMAX/zabbix-mcp-server) | Community | Zabbix API monitoring, 231 tools | Python | ![](https://img.shields.io/github/stars/initMAX/zabbix-mcp-server?style=flat-square) |
+
+### Infrastructure as Code
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [SysOperator MCP](https://github.com/tarnover/mcp-sysoperator) | Community | Terraform, Ansible, LocalStack IaC | TypeScript | ![](https://img.shields.io/github/stars/tarnover/mcp-sysoperator?style=flat-square) |
 
 ### Browser Automation
 

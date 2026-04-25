@@ -1,0 +1,10 @@
+{
+  "datadog-mcp": {
+    "command": "node",
+    "args": ["/path/to/mcp-server-datadog"],
+    "env": {
+      "DATADOG_API_KEY": "YOUR_DATADOG_API_KEY",
+      "DATADOG_APP_KEY": "YOUR_DATADOG_APP_KEY"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "azure-devops-mcp": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-azure-devops"],
+    "env": {
+      "AZURE_DEVOPS_PAT": "YOUR_AZURE_DEVOPS_PAT"
+    }
+  }
+}
