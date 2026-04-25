@@ -51,6 +51,7 @@
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript) | DataForSEO 官方 | SEO 数据、关键词、SERP 分析 | TypeScript | ![](https://img.shields.io/github/stars/dataforseo/mcp-server-typescript?style=flat-square) |
+| [Google Analytics MCP](https://github.com/google/analytics-mcp) | Google 官方 | 数据分析，实时数据、用户行为 | Python | ![](https://img.shields.io/github/stars/google/analytics-mcp?style=flat-square) |
 
 ---
 
@@ -101,3 +102,4 @@
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript) | DataForSEO Official | SEO data, keywords, SERP analysis | TypeScript | ![](https://img.shields.io/github/stars/dataforseo/mcp-server-typescript?style=flat-square) |
+| [Google Analytics MCP](https://github.com/google/analytics-mcp) | Google Official | Data analytics, real-time data, user behavior | Python | ![](https://img.shields.io/github/stars/google/analytics-mcp?style=flat-square) |

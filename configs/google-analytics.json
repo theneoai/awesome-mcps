@@ -1,0 +1,10 @@
+{
+  "google-analytics": {
+    "command": "npx",
+    "args": ["-y", "@google/mcp-server-analytics"],
+    "env": {
+      "GA_PROPERTY_ID": "YOUR_GA_PROPERTY_ID",
+      "GOOGLE_SERVICE_ACCOUNT_JSON": "PATH_TO_SERVICE_ACCOUNT_JSON"
+    }
+  }
+}
