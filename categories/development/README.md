@@ -93,6 +93,12 @@
 | [LaunchDarkly MCP](https://github.com/launchdarkly/mcp-server) | LaunchDarkly 官方 | Feature Flags、A/B Testing、Targeting | TypeScript | ![](https://img.shields.io/github/stars/launchdarkly/mcp-server?style=flat-square) |
 | [Flipt MCP](https://github.com/flipt-io/mcp-server-flipt) | Flipt 官方 | 本地化 Feature Flags、Segments | Go | ![](https://img.shields.io/github/stars/flipt-io/mcp-server-flipt?style=flat-square) |
 
+### Bug 追踪
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Jira MCP](https://github.com/atlassian/mcp-server-jira) | 企业 Bug 追踪，Issue 管理、工作流、sprints | TypeScript | ![](https://img.shields.io/github/stars/atlassian/mcp-server-jira?style=flat-square) |
+
 ### 浏览器自动化
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
@@ -196,6 +202,12 @@
 |------|--------|-------------|----------|-------|
 | [LaunchDarkly MCP](https://github.com/launchdarkly/mcp-server) | LaunchDarkly Official | Feature Flags, A/B Testing, Targeting | TypeScript | ![](https://img.shields.io/github/stars/launchdarkly/mcp-server?style=flat-square) |
 | [Flipt MCP](https://github.com/flipt-io/mcp-server-flipt) | Flipt Official | Self-hosted Feature Flags, Segments | Go | ![](https://img.shields.io/github/stars/flipt-io/mcp-server-flipt?style=flat-square) |
+
+### Bug Tracking
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Jira MCP](https://github.com/atlassian/mcp-server-jira) | Enterprise bug tracking, Issue management, Workflows, Sprints | TypeScript | ![](https://img.shields.io/github/stars/atlassian/mcp-server-jira?style=flat-square) |
 
 ### Browser Automation
 
