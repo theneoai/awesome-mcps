@@ -34,6 +34,7 @@ Copy any of these commands to install a specific MCP:
 | Pytest | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pytest.json and install` |
 | Selenium | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/selenium.json and install` |
 | Cypress | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cypress.json and install` |
+| Codacy | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/codacy.json and install` |
 
 ### Database & Data
 

@@ -1,0 +1,10 @@
+{
+  "codacy": {
+    "command": "npx",
+    "args": ["-y", "@codacy/mcp-server"],
+    "env": {
+      "CODACY_API_TOKEN": "YOUR_CODACY_API_TOKEN",
+      "CODACY_PROJECT_TOKEN": "YOUR_CODACY_PROJECT_TOKEN"
+    }
+  }
+}

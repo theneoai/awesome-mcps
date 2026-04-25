@@ -61,6 +61,7 @@
 | [Pytest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/pytest) | Anthropic 官方 | Python 测试框架，支持测试发现、运行、报告 | Python | — |
 | [Selenium MCP](https://github.com/seleniumhq/selenium-mcp) | Selenium 官方 | 跨浏览器自动化测试框架 | Python | ![](https://img.shields.io/github/stars/seleniumhq/selenium-mcp?style=flat-square) |
 | [Cypress MCP](https://github.com/cypress-io/cypress-mcp) | Cypress 官方 | 现代 Web E2E 测试框架，支持组件测试、录制回放 | TypeScript | ![](https://img.shields.io/github/stars/cypress-io/cypress-mcp?style=flat-square) |
+| [Codacy MCP](https://github.com/codacy/mcp-server) | Codacy 官方 | 自动代码审查，质量分析、风格检查 | TypeScript | ![](https://img.shields.io/github/stars/codacy/mcp-server?style=flat-square) |
 
 ### 基础设施即代码
 
@@ -147,6 +148,7 @@
 | [Pytest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/pytest) | Anthropic Official | Python testing framework, test discovery, execution, reporting | Python | — |
 | [Selenium MCP](https://github.com/seleniumhq/selenium-mcp) | Selenium Official | Cross-browser automation testing framework | Python | ![](https://img.shields.io/github/stars/seleniumhq/selenium-mcp?style=flat-square) |
 | [Cypress MCP](https://github.com/cypress-io/cypress-mcp) | Cypress Official | Modern Web E2E testing framework, component testing, record/replay | TypeScript | ![](https://img.shields.io/github/stars/cypress-io/cypress-mcp?style=flat-square) |
+| [Codacy MCP](https://github.com/codacy/mcp-server) | Codacy Official | Automated code review, quality analysis, style checking | TypeScript | ![](https://img.shields.io/github/stars/codacy/mcp-server?style=flat-square) |
 
 ### Infrastructure as Code
 
