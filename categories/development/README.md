@@ -22,6 +22,7 @@
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [Docker MCP](https://github.com/ckreiling/mcp-server-docker) | 社区 | 容器、镜像、网络、卷管理 | Python | ![](https://img.shields.io/github/stars/ckreiling/mcp-server-docker?style=flat-square) |
+| [Docker Hub MCP](https://github.com/docker/mcp-server) | Docker 官方 | 容器镜像管理、构建触发 | TypeScript | ![](https://img.shields.io/github/stars/docker/mcp-server?style=flat-square) |
 | [Kubernetes MCP](https://github.com/containers/kubernetes-mcp-server) | Red Hat | K8s & OpenShift 集群管理 | Go | ![](https://img.shields.io/github/stars/containers/kubernetes-mcp-server?style=flat-square) |
 | [Kubernetes MCP (TS)](https://github.com/Flux159/mcp-server-kubernetes) | 社区 | Pod、Deployment、Service | TypeScript | ![](https://img.shields.io/github/stars/Flux159/mcp-server-kubernetes?style=flat-square) |
 | [Nomad MCP](https://github.com/kocierik/mcp-nomad) | 社区 | HashiCorp Nomad 作业编排 | Go | ![](https://img.shields.io/github/stars/kocierik/mcp-nomad?style=flat-square) |
@@ -40,6 +41,13 @@
 |------|------|------|------|-------|
 | [JetBrains MCP](https://github.com/JetBrains/mcp-jetbrains) | JetBrains 官方 | IntelliJ、PyCharm、WebStorm 等 IDE | JavaScript | ![](https://img.shields.io/github/stars/JetBrains/mcp-jetbrains?style=flat-square) |
 | [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | Sentry 官方 | iOS/macOS 项目构建、测试、打包 | TypeScript | ![](https://img.shields.io/github/stars/getsentry/XcodeBuildMCP?style=flat-square) |
+
+### Bug 追踪
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Phabricator MCP](https://github.com/phacility/phabricator-mcp) | Facebook 开源开发平台，Maniphest API | PHP | ![](https://img.shields.io/github/stars/phacility/phabricator-mcp?style=flat-square) |
+| [YouTrack MCP](https://github.com/JetBrains/youtrack-mcp) | JetBrains 官方 | JetBrains 任务追踪，时间跟踪、sprints | Kotlin | ![](https://img.shields.io/github/stars/JetBrains/youtrack-mcp?style=flat-square) |
 
 ### 监控与可观测性
 
@@ -100,6 +108,7 @@
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [Docker MCP](https://github.com/ckreiling/mcp-server-docker) | Community | Containers, images, networks, volumes | Python | ![](https://img.shields.io/github/stars/ckreiling/mcp-server-docker?style=flat-square) |
+| [Docker Hub MCP](https://github.com/docker/mcp-server) | Docker Official | Container image management, build triggers | TypeScript | ![](https://img.shields.io/github/stars/docker/mcp-server?style=flat-square) |
 | [Kubernetes MCP](https://github.com/containers/kubernetes-mcp-server) | Red Hat | K8s & OpenShift cluster management | Go | ![](https://img.shields.io/github/stars/containers/kubernetes-mcp-server?style=flat-square) |
 | [Nomad MCP](https://github.com/kocierik/mcp-nomad) | Community | HashiCorp Nomad job orchestration | Go | ![](https://img.shields.io/github/stars/kocierik/mcp-nomad?style=flat-square) |
 

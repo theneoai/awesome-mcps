@@ -24,6 +24,7 @@ Copy any of these commands to install a specific MCP:
 | MCP | Install Command |
 |-----|----------------|
 | GitHub | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/github.json and install` |
+| Docker Hub | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/dockerhub.json and install` |
 | Filesystem | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/filesystem.json and install` |
 | Git | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/git.json and install` |
 | Playwright | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/playwright.json and install` |

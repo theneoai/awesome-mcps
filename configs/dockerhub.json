@@ -1,0 +1,10 @@
+{
+  "dockerhub": {
+    "command": "npx",
+    "args": ["-y", "@docker/mcp-server"],
+    "env": {
+      "DOCKERHUB_TOKEN": "YOUR_DOCKERHUB_TOKEN",
+      "DOCKERHUB_USERNAME": "YOUR_DOCKERHUB_USERNAME"
+    }
+  }
+}
