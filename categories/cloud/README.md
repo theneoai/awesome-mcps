@@ -14,6 +14,7 @@
 |------|------|-------|
 | [AWS MCP Servers](https://github.com/awslabs/mcp) | 官方套件，60+ 服务：EC2、S3、Lambda、EKS、Bedrock、DynamoDB 等 | ![](https://img.shields.io/github/stars/awslabs/mcp?style=flat-square) |
 | [AWS KB Retrieval](https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval-server) | Bedrock 知识库 RAG 检索（Anthropic 官方） | — |
+| [Route53 MCP](https://github.com/aws/mcp-server-route53) | AWS DNS 服务，域名管理、解析 | TypeScript | ![](https://img.shields.io/github/stars/aws/mcp-server-route53?style=flat-square) |
 
 **AWS MCP 套件涵盖的服务：**
 - 计算：EC2、ECS、Lambda、Fargate
@@ -125,6 +126,7 @@
 |------|-------------|-------|
 | [AWS MCP Servers](https://github.com/awslabs/mcp) | Official suite, 60+ services: EC2, S3, Lambda, EKS, Bedrock, DynamoDB, etc. | ![](https://img.shields.io/github/stars/awslabs/mcp?style=flat-square) |
 | [AWS KB Retrieval](https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval-server) | Bedrock knowledge base RAG retrieval (Anthropic Official) | — |
+| [Route53 MCP](https://github.com/aws/mcp-server-route53) | AWS DNS, domain management, resolution | TypeScript | ![](https://img.shields.io/github/stars/aws/mcp-server-route53?style=flat-square) |
 
 **AWS MCP suite covers:**
 - Compute: EC2, ECS, Lambda, Fargate

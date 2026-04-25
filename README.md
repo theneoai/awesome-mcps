@@ -100,6 +100,7 @@ Copy any of these commands to install a specific MCP:
 | MCP | Install Command |
 |-----|----------------|
 | AWS KB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/aws.json and install` |
+| Route53 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/route53.json and install` |
 | Cloudflare | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cloudflare.json and install` |
 | DigitalOcean | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/digitalocean.json and install` |
 | Netlify | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/netlify.json and install` |
