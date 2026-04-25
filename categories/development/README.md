@@ -72,6 +72,12 @@
 |------|------|------|------|-------|
 | [SysOperator MCP](https://github.com/tarnover/mcp-sysoperator) | 社区 | Terraform、Ansible、LocalStack IaC | TypeScript | ![](https://img.shields.io/github/stars/tarnover/mcp-sysoperator?style=flat-square) |
 
+### 构建工具
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Bazel MCP](https://github.com/aspect-build/mcp-server) | Google 构建工具，构建分析、缓存管理 | Go | ![](https://img.shields.io/github/stars/aspect-build/mcp-server?style=flat-square) |
+
 ### 特性开关
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
@@ -161,6 +167,12 @@
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [SysOperator MCP](https://github.com/tarnover/mcp-sysoperator) | Community | Terraform, Ansible, LocalStack IaC | TypeScript | ![](https://img.shields.io/github/stars/tarnover/mcp-sysoperator?style=flat-square) |
+
+### Build Tools
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Bazel MCP](https://github.com/aspect-build/mcp-server) | Google | Build tool, build analysis, cache management | Go | ![](https://img.shields.io/github/stars/aspect-build/mcp-server?style=flat-square) |
 
 ### Feature Flags
 
