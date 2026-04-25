@@ -61,6 +61,12 @@
 | [Helm MCP](https://github.com/helm/mcp-server) | K8s 包管理，Chart 仓库、部署 | Go | ![](https://img.shields.io/github/stars/helm/mcp-server?style=flat-square) |
 | [Flux MCP](https://github.com/fluxcd/mcp-server) | GitOps 应用同步，Kustomize、HelmRelease | Go | ![](https://img.shields.io/github/stars/fluxcd/mcp-server?style=flat-square) |
 
+### API 网关
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Kong MCP](https://github.com/Kong/mcp-server) | API 网关，Route、Plugin 管理 | Lua | ![](https://img.shields.io/github/stars/Kong/mcp-server?style=flat-square) |
+
 ### 其他云平台
 
 | 名称 | 厂商 | 描述 | Stars |
@@ -157,6 +163,12 @@
 |------|-------------|----------|-------|
 | [Helm MCP](https://github.com/helm/mcp-server) | K8s package management, Chart repository, deployment | Go | ![](https://img.shields.io/github/stars/helm/mcp-server?style=flat-square) |
 | [Flux MCP](https://github.com/fluxcd/mcp-server) | GitOps app sync, Kustomize, HelmRelease | Go | ![](https://img.shields.io/github/stars/fluxcd/mcp-server?style=flat-square) |
+
+### API Gateway
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Kong MCP](https://github.com/Kong/mcp-server) | API Gateway, Route and Plugin management | Lua | ![](https://img.shields.io/github/stars/Kong/mcp-server?style=flat-square) |
 
 ### Other Cloud Platforms
 
