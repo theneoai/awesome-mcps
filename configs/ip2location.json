@@ -1,0 +1,9 @@
+{
+  "ip2location": {
+    "command": "uvx",
+    "args": ["mcp-ip2location-io"],
+    "env": {
+      "IP2LOCATION_API_KEY": "YOUR_IP2LOCATION_API_KEY"
+    }
+  }
+}

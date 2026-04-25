@@ -18,6 +18,10 @@
 | [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity 官方 | 实时 AI 搜索与问答 | Python | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
 | [Google Maps MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) | Anthropic 官方 | 地点搜索、路线、地理编码 | TypeScript | — |
 | [Wikipedia MCP](https://github.com/Rudra-ravi/wikipedia-mcp) | 社区 | 维基百科搜索与内容检索 | Python | ![](https://img.shields.io/github/stars/Rudra-ravi/wikipedia-mcp?style=flat-square) |
+| [Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp) | 社区 | 域名 WHOIS 查询与注册信息检索 | Python | ![](https://img.shields.io/github/stars/bharathvaj-ganesan/whois-mcp?style=flat-square) |
+| [IP2Location MCP](https://github.com/ip2location/mcp-ip2location-io) | IP2Location 官方 | IP 地理位置查询 | Python | ![](https://img.shields.io/github/stars/ip2location/mcp-ip2location-io?style=flat-square) |
+| [Paper Search MCP](https://github.com/Dianel555/paper-search-mcp-nodejs) | 社区 | 学术论文搜索（arXiv、PubMed、Google Scholar 等 14 个平台） | JavaScript | ![](https://img.shields.io/github/stars/Dianel555/paper-search-mcp-nodejs?style=flat-square) |
+| [PubMed MCP](https://github.com/PetrefiedThunder/mcp-pubmed) | 社区 | 生物医学文献数据库搜索与引用追踪 | Python | ![](https://img.shields.io/github/stars/PetrefiedThunder/mcp-pubmed?style=flat-square) |
 
 ### 网页抓取
 
@@ -40,6 +44,7 @@
 | [Vercel MCP](https://github.com/vercel/mcp-server) | Vercel 官方 | 部署、域名、日志管理 | TypeScript | ![](https://img.shields.io/github/stars/vercel/mcp-server?style=flat-square) |
 | [MCP Proxy](https://github.com/tbxark/mcp-proxy) | 社区 | 聚合多个 MCP 为单一 HTTP 端点 | Go | ![](https://img.shields.io/github/stars/tbxark/mcp-proxy?style=flat-square) |
 | [Time MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | Anthropic 官方 | 时区转换与当前时间 | TypeScript | — |
+| [Terminal Controller MCP](https://github.com/GongRzhe/terminal-controller-mcp) | 社区 | 终端命令执行、目录导航、文件系统操作 | Python | ![](https://img.shields.io/github/stars/GongRzhe/terminal-controller-mcp?style=flat-square) |
 
 ---
 
@@ -57,6 +62,10 @@
 | [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity Official | Real-time AI search and Q&A | Python | ![](https://img.shields.io/github/stars/perplexityai/modelcontextprotocol?style=flat-square) |
 | [Google Maps MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps) | Anthropic Official | Places, routing, geocoding | TypeScript | — |
 | [Wikipedia MCP](https://github.com/Rudra-ravi/wikipedia-mcp) | Community | Wikipedia search and content retrieval | Python | ![](https://img.shields.io/github/stars/Rudra-ravi/wikipedia-mcp?style=flat-square) |
+| [Whois MCP](https://github.com/bharathvaj-ganesan/whois-mcp) | Community | Domain WHOIS lookup and registration details | Python | ![](https://img.shields.io/github/stars/bharathvaj-ganesan/whois-mcp?style=flat-square) |
+| [IP2Location MCP](https://github.com/ip2location/mcp-ip2location-io) | IP2Location Official | IP geolocation lookup | Python | ![](https://img.shields.io/github/stars/ip2location/mcp-ip2location-io?style=flat-square) |
+| [Paper Search MCP](https://github.com/Dianel555/paper-search-mcp-nodejs) | Community | Academic paper search across 14 platforms (arXiv, PubMed, Google Scholar, etc.) | JavaScript | ![](https://img.shields.io/github/stars/Dianel555/paper-search-mcp-nodejs?style=flat-square) |
+| [PubMed MCP](https://github.com/PetrefiedThunder/mcp-pubmed) | Community | Biomedical literature search and citation tracking | Python | ![](https://img.shields.io/github/stars/PetrefiedThunder/mcp-pubmed?style=flat-square) |
 
 ### Web Scraping
 
@@ -80,3 +89,4 @@
 | [Vercel MCP](https://github.com/vercel/mcp-server) | Vercel Official | Deployments, domains, log management | TypeScript | ![](https://img.shields.io/github/stars/vercel/mcp-server?style=flat-square) |
 | [MCP Proxy](https://github.com/tbxark/mcp-proxy) | Community | Aggregate multiple MCPs into one HTTP endpoint | Go | ![](https://img.shields.io/github/stars/tbxark/mcp-proxy?style=flat-square) |
 | [Time MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | Anthropic Official | Timezone conversion and current time | TypeScript | — |
+| [Terminal Controller MCP](https://github.com/GongRzhe/terminal-controller-mcp) | Community | Secure terminal command execution, directory navigation, file system operations | Python | ![](https://img.shields.io/github/stars/GongRzhe/terminal-controller-mcp?style=flat-square) |

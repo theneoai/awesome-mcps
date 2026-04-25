@@ -1,0 +1,9 @@
+{
+  "whois": {
+    "command": "uvx",
+    "args": ["whois-mcp"],
+    "env": {
+      "IP2WHOIS_API_KEY": "YOUR_IP2WHOIS_API_KEY"
+    }
+  }
+}
