@@ -1,0 +1,10 @@
+{
+  "discord": {
+    "command": "npx",
+    "args": ["-y", "@discord/mcp-server"],
+    "env": {
+      "DISCORD_BOT_TOKEN": "YOUR_DISCORD_BOT_TOKEN",
+      "DISCORD_GUILD_ID": "YOUR_GUILD_ID"
+    }
+  }
+}

@@ -70,6 +70,7 @@ Copy any of these commands to install a specific MCP:
 | Zoom | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/zoom.json and install` |
 | Intercom | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/intercom.json and install` |
 | SendGrid | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/sendgrid.json and install` |
+| Discord | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/discord.json and install` |
 
 ### Productivity
 
