@@ -1,0 +1,10 @@
+{
+  "hotjar": {
+    "command": "npx",
+    "args": ["-y", "@hotjar/mcp-server"],
+    "env": {
+      "HOTJAR_SITE_ID": "YOUR_HOTJAR_SITE_ID",
+      "HOTJAR_API_KEY": "YOUR_HOTJAR_API_KEY"
+    }
+  }
+}

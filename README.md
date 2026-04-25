@@ -124,6 +124,7 @@ Copy any of these commands to install a specific MCP:
 | Mixpanel | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/mixpanel.json and install` |
 | Amplitude | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/amplitude.json and install` |
 | Klaviyo | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/klaviyo.json and install` |
+| Hotjar | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/hotjar.json and install` |
 
 ## All Configs
 

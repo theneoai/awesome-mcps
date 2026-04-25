@@ -54,6 +54,7 @@
 | [Mixpanel MCP](https://github.com/mixpanel/mcp-server) | 产品分析，用户行为、漏斗分析 | JavaScript | ![](https://img.shields.io/github/stars/mixpanel/mcp-server?style=flat-square) |
 | [Amplitude MCP](https://github.com/amplitude/mcp-server) | 产品分析，事件跟踪、用户分析 | JavaScript | ![](https://img.shields.io/github/stars/amplitude/mcp-server?style=flat-square) |
 | [Klaviyo MCP](https://github.com/klaviyo/mcp-server) | 电商邮件，自动化、campaigns | Python | ![](https://img.shields.io/github/stars/klaviyo/mcp-server?style=flat-square) |
+| [Hotjar MCP](https://github.com/hotjar/mcp-server) | 用户行为分析，热图、会话记录 | JavaScript | ![](https://img.shields.io/github/stars/hotjar/mcp-server?style=flat-square) |
 
 ---
 
@@ -108,3 +109,4 @@
 | [Amplitude MCP](https://github.com/amplitude/mcp-server) | Product analytics, event tracking, user analysis | JavaScript | ![](https://img.shields.io/github/stars/amplitude/mcp-server?style=flat-square) |
 | [Google Analytics MCP](https://github.com/google/analytics-mcp) | Google Official | Data analytics, real-time data, user behavior | Python | ![](https://img.shields.io/github/stars/google/analytics-mcp?style=flat-square) |
 | [Klaviyo MCP](https://github.com/klaviyo/mcp-server) | E-commerce email, automation, campaigns | Python | ![](https://img.shields.io/github/stars/klaviyo/mcp-server?style=flat-square) |
+| [Hotjar MCP](https://github.com/hotjar/mcp-server) | User behavior analytics, heatmaps, session recordings | JavaScript | ![](https://img.shields.io/github/stars/hotjar/mcp-server?style=flat-square) |
