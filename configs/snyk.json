@@ -1,0 +1,9 @@
+{
+  "snyk-mcp": {
+    "command": "npx",
+    "args": ["-y", "@sammcj/mcp-snyk"],
+    "env": {
+      "SNYK_TOKEN": "YOUR_SNYK_API_TOKEN"
+    }
+  }
+}
