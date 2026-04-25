@@ -106,6 +106,12 @@
 | [Jaeger MCP](https://github.com/jaegertracing/jaeger-mcp) | 分布式追踪，Trace 查询、分析 | Go | ![](https://img.shields.io/github/stars/jaegertracing/jaeger-mcp?style=flat-square) |
 | [Zipkin MCP](https://github.com/openzipkin/zipkin-mcp) | 追踪系统，Span、依赖分析 | Java | ![](https://img.shields.io/github/stars/openzipkin/zipkin-mcp?style=flat-square) |
 
+### 服务网格
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|-------|
+| [Istio MCP](https://github.com/istio/mcp-server) | 服务网格，VirtualService、DestinationRule | Go | ![](https://img.shields.io/github/stars/istio/mcp-server?style=flat-square) |
+
 ---
 
 ## English
