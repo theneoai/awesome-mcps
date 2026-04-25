@@ -1,5 +1,5 @@
 title: Awesome MCPs
-description: 精选优秀的 Model Context Protocol 服务器合集
+description: Curated collection of Model Context Protocol servers and tools
 url: https://theneoai.github.io
 baseurl: /awesome-mcps
 
@@ -12,6 +12,10 @@ kramdown:
 include:
   - assets
   - configs
+
+header_pages:
+  - README.md
+  - README.zh.md
 
 exclude:
   - install.sh
