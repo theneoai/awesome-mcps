@@ -38,6 +38,7 @@ Copy any of these commands to install a specific MCP:
 | Jenkins | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jenkins.json and install` |
 | GitLab CI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gitlab-ci.json and install` |
 | Argo CD | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/argocd.json and install` |
+| Tekton | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tekton.json and install` |
 | Bazel | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/bazel.json and install` |
 
 ### Database & Data

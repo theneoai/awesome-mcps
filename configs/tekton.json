@@ -1,0 +1,11 @@
+{
+  "tekton": {
+    "command": "npx",
+    "args": ["-y", "@tektoncd/mcp-server"],
+    "env": {
+      "TEKTON_API_URL": "http://localhost:8080",
+      "TEKTON_NAMESPACE": "default",
+      "TEKTON_TOKEN": "YOUR_TEKTON_TOKEN"
+    }
+  }
+}
