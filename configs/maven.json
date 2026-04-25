@@ -1,0 +1,9 @@
+{
+  "maven": {
+    "command": "npx",
+    "args": ["-y", "@apache/maven-mcp-server"],
+    "env": {
+      "MAVEN_REPO_URL": "https://repo.maven.apache.org/maven2"
+    }
+  }
+}
