@@ -1,0 +1,85 @@
+---
+layout: default
+title: Categories | 分类
+---
+
+<div class="categories-page">
+    <h1>Categories | 分类</h1>
+
+    <div class="categories-grid">
+        <a href="categories/development/" class="category-card">
+            <span class="category-emoji">&#128270;</span>
+            <span class="category-name">Development | 开发工具</span>
+            <span class="category-desc">Code hosting, CI/CD, containers, browser automation</span>
+        </a>
+
+        <a href="categories/data/" class="category-card">
+            <span class="category-emoji">&#127744;</span>
+            <span class="category-name">Data | 数据与数据库</span>
+            <span class="category-desc">SQL, NoSQL, vector databases, data warehouses</span>
+        </a>
+
+        <a href="categories/communication/" class="category-card">
+            <span class="category-emoji">&#128228;</span>
+            <span class="category-name">Communication | 通信与协作</span>
+            <span class="category-desc">Messaging, email, meetings, team collaboration</span>
+        </a>
+
+        <a href="categories/productivity/" class="category-card">
+            <span class="category-emoji">&#10003;</span>
+            <span class="category-name">Productivity | 效率与工作流</span>
+            <span class="category-desc">Project management, calendars, notes, tasks</span>
+        </a>
+
+        <a href="categories/cloud/" class="category-card">
+            <span class="category-emoji">&#2601;&#65039;</span>
+            <span class="category-name">Cloud | 云服务与基础设施</span>
+            <span class="category-desc">AWS, GCP, Azure, Cloudflare</span>
+        </a>
+
+        <a href="categories/ai/" class="category-card">
+            <span class="category-emoji">&#129302;</span>
+            <span class="category-name">AI | AI 与机器学习</span>
+            <span class="category-desc">Model inference, vector retrieval, Agent frameworks</span>
+        </a>
+
+        <a href="categories/enterprise/" class="category-card">
+            <span class="category-emoji">&#127970;</span>
+            <span class="category-name">Enterprise | 企业与商业</span>
+            <span class="category-desc">CRM, ERP, finance, payments</span>
+        </a>
+
+        <a href="categories/security/" class="category-card">
+            <span class="category-emoji">&#128274;</span>
+            <span class="category-name">Security | 安全</span>
+            <span class="category-desc">Key management, code scanning, vulnerability detection</span>
+        </a>
+
+        <a href="categories/utilities/" class="category-card">
+            <span class="category-emoji">&#128736;&#65039;</span>
+            <span class="category-name">Utilities | 实用工具</span>
+            <span class="category-desc">Search, scraping, file processing</span>
+        </a>
+
+        <a href="categories/frameworks/" class="category-card">
+            <span class="category-emoji">&#128221;</span>
+            <span class="category-name">Frameworks | 框架与 SDK</span>
+            <span class="category-desc">MCP SDKs and integration frameworks</span>
+        </a>
+    </div>
+</div>
+
+<style>
+.categories-page { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+.categories-page h1 { color: #fff; margin-bottom: 2rem; }
+.categories-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+.category-card {
+    display: flex; flex-direction: column; gap: 0.5rem;
+    background: #1a1a25; border: 1px solid #2a2a3a; border-radius: 16px; padding: 1.5rem;
+    text-decoration: none; transition: all 0.2s;
+}
+.category-card:hover { border-color: #6366f1; transform: translateY(-2px); }
+.category-emoji { font-size: 2rem; }
+.category-name { font-weight: 600; color: #fff; font-size: 1.1rem; }
+.category-desc { font-size: 0.875rem; color: #6b7280; }
+</style>

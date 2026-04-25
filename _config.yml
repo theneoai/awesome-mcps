@@ -4,7 +4,7 @@ url: "https://theneoai.github.io"
 baseurl: "/awesome-mcps"
 lang: "zh-CN"
 
-# Theme - cayman is a clean, professional GitHub Pages theme
+# Theme
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
@@ -13,15 +13,16 @@ plugins:
 
 # Navigation
 header_pages:
-  - README.md
-  - README.en.md
+  - index.html
+  - configs.html
+  - categories.html
 
 # SEO
 author: "theneoai"
 twitter:
   username: theneoai
 github:
-  is_project_page: true
+  is_project page: true
   repository_url: "https://github.com/theneoai/awesome-mcps"
   repository_name: "awesome-mcps"
 
@@ -30,6 +31,10 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# Include assets
+include:
+  - assets
 
 # Exclude from build
 exclude:
@@ -41,3 +46,4 @@ exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
+  - docs/
