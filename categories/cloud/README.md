@@ -53,6 +53,9 @@
 | [IBM MCP](https://github.com/IBM/mcp) | IBM 官方 | IBM Cloud、watsonx AI 服务集成 | ![](https://img.shields.io/github/stars/IBM/mcp?style=flat-square) |
 | [Firebase MCP](https://github.com/gannonh/firebase-mcp) | 社区 | Firebase Auth、Firestore、Storage | ![](https://img.shields.io/github/stars/gannonh/firebase-mcp?style=flat-square) |
 | [Kubernetes MCP](https://github.com/containers/kubernetes-mcp-server) | Red Hat | K8s & OpenShift 集群管理 | ![](https://img.shields.io/github/stars/containers/kubernetes-mcp-server?style=flat-square) |
+| [AlibabaCloud MCP](https://github.com/aliyun/alibabacloud-core-mcp-server) | 阿里云 官方 | ECS、VPC、CloudMonitor 资源管理 | ![](https://img.shields.io/github/stars/aliyun/alibabacloud-core-mcp-server?style=flat-square) |
+| [DigitalOcean MCP](https://github.com/digitalocean-labs/mcp-digitalocean) | DigitalOcean 官方 | Droplets、VPC、Storage、Domains | ![](https://img.shields.io/github/stars/digitalocean-labs/mcp-digitalocean?style=flat-square) |
+| [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify 官方 | 站点部署、函数、环境变量管理 | ![](https://img.shields.io/github/stars/netlify/netlify-mcp?style=flat-square) |
 
 ---
 
@@ -103,3 +106,7 @@
 |------|--------|-------------|-------|
 | [IBM MCP](https://github.com/IBM/mcp) | IBM Official | IBM Cloud and watsonx AI services | ![](https://img.shields.io/github/stars/IBM/mcp?style=flat-square) |
 | [Firebase MCP](https://github.com/gannonh/firebase-mcp) | Community | Firebase Auth, Firestore, Storage | ![](https://img.shields.io/github/stars/gannonh/firebase-mcp?style=flat-square) |
+| [Kubernetes MCP](https://github.com/containers/kubernetes-mcp-server) | Red Hat | K8s & OpenShift cluster management | ![](https://img.shields.io/github/stars/containers/kubernetes-mcp-server?style=flat-square) |
+| [AlibabaCloud MCP](https://github.com/aliyun/alibabacloud-core-mcp-server) | Alibaba Cloud Official | ECS, VPC, CloudMonitor resource management | ![](https://img.shields.io/github/stars/aliyun/alibabacloud-core-mcp-server?style=flat-square) |
+| [DigitalOcean MCP](https://github.com/digitalocean-labs/mcp-digitalocean) | DigitalOcean Official | Droplets, VPC, Storage, Domains | ![](https://img.shields.io/github/stars/digitalocean-labs/mcp-digitalocean?style=flat-square) |
+| [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify Official | Site deployments, functions, env vars | ![](https://img.shields.io/github/stars/netlify/netlify-mcp?style=flat-square) |

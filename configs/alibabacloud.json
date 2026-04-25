@@ -1,0 +1,11 @@
+{
+  "alibabacloud": {
+    "command": "npx",
+    "args": ["-y", "@alibabacloud/mcp-server"],
+    "env": {
+      "ALIBABA_CLOUD_ACCESS_KEY_ID": "YOUR_ALIBABA_CLOUD_ACCESS_KEY_ID",
+      "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "YOUR_ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+      "ALIBABA_CLOUD_REGION": "cn-hangzhou"
+    }
+  }
+}

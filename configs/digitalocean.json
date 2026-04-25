@@ -1,0 +1,9 @@
+{
+  "digitalocean": {
+    "command": "npx",
+    "args": ["-y", "@digitalocean/mcp-server-digitalocean"],
+    "env": {
+      "DIGITALOCEAN_TOKEN": "YOUR_DIGITALOCEAN_TOKEN"
+    }
+  }
+}
