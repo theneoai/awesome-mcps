@@ -121,6 +121,7 @@ Copy any of these commands to install a specific MCP:
 | Salesforce | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/salesforce.json and install` |
 | HubSpot | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/hubspot.json and install` |
 | Google Analytics | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/google-analytics.json and install` |
+| Mixpanel | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/mixpanel.json and install` |
 
 ## All Configs
 

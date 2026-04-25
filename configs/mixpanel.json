@@ -1,0 +1,10 @@
+{
+  "mixpanel": {
+    "command": "npx",
+    "args": ["-y", "@mixpanel/mcp-server"],
+    "env": {
+      "MIXPANEL_TOKEN": "YOUR_MIXPANEL_TOKEN",
+      "MIXPANEL_PROJECT_ID": "YOUR_PROJECT_ID"
+    }
+  }
+}
