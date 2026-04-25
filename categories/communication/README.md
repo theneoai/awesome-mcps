@@ -38,6 +38,8 @@
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [Google Meet MCP](https://github.com/google/meet-mcp-server) | Google 官方 | GCP 视频会议，Calendar API 集成 | TypeScript | ![](https://img.shields.io/github/stars/google/meet-mcp-server?style=flat-square) |
+| [Whereby MCP](https://github.com/whereby/mcp-server) | Whereby 官方 | 轻量级视频房间，Rooms API | TypeScript | ![](https://img.shields.io/github/stars/whereby/mcp-server?style=flat-square) |
+| [Jitsi MCP](https://github.com/jitsi/jitsi-mcp) | Jitsi 官方 | 开源视频会议，MUC API | Java | ![](https://img.shields.io/github/stars/jitsi/jitsi-mcp?style=flat-square) |
 
 ### 电子邮件
 
@@ -103,6 +105,8 @@
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [Google Meet MCP](https://github.com/google/meet-mcp-server) | Google Official | GCP video conferencing, Calendar API integration | TypeScript | ![](https://img.shields.io/github/stars/google/meet-mcp-server?style=flat-square) |
+| [Whereby MCP](https://github.com/whereby/mcp-server) | Whereby Official | Lightweight video rooms, Rooms API | TypeScript | ![](https://img.shields.io/github/stars/whereby/mcp-server?style=flat-square) |
+| [Jitsi MCP](https://github.com/jitsi/jitsi-mcp) | Jitsi Official | Open-source video conferencing, MUC API | Java | ![](https://img.shields.io/github/stars/jitsi/jitsi-mcp?style=flat-square) |
 
 ### Email
 

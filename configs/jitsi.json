@@ -1,0 +1,10 @@
+{
+  "jitsi": {
+    "command": "npx",
+    "args": ["-y", "@jitsi/jitsi-mcp-server"],
+    "env": {
+      "JITSI_URL": "https://meet.jit.si",
+      "JITSI_TOKEN": "YOUR_JITSI_TOKEN"
+    }
+  }
+}

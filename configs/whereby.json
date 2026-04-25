@@ -1,0 +1,10 @@
+{
+  "whereby": {
+    "command": "npx",
+    "args": ["-y", "@whereby/mcp-server"],
+    "env": {
+      "WHEREBY_API_KEY": "YOUR_WHEREBY_API_KEY",
+      "WHEREBY_SUBDOMAIN": "your-subdomain"
+    }
+  }
+}
