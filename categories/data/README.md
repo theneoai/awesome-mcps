@@ -18,6 +18,7 @@
 | [MCP Toolbox](https://github.com/googleapis/mcp-toolbox-for-databases) | Google 官方 | PostgreSQL、MySQL、AlloyDB、Spanner | Python | ![](https://img.shields.io/github/stars/googleapis/mcp-toolbox-for-databases?style=flat-square) |
 | [Snowflake MCP](https://github.com/datawiz168/mcp-snowflake-service) | 社区 | Snowflake 数仓查询与 schema 探索 | Python | ![](https://img.shields.io/github/stars/datawiz168/mcp-snowflake-service?style=flat-square) |
 | [Supabase MCP](https://github.com/supabase-community/supabase-mcp) | Supabase 社区 | PostgreSQL 数据库、认证、Edge Functions | TypeScript | ![](https://img.shields.io/github/stars/supabase-community/supabase-mcp?style=flat-square) |
+| [CrateDB MCP](https://github.com/crate/cratedb-mcp) | CrateDB 官方 | 自然语言 Text-to-SQL 查询 | Python | ![](https://img.shields.io/github/stars/crate/cratedb-mcp?style=flat-square) |
 
 ### NoSQL 与缓存
 
@@ -47,6 +48,10 @@
 | [ClickHouse MCP](https://github.com/ClickHouse/mcp-clickhouse) | ClickHouse 官方 | OLAP 数据库查询与分析 | Python | ![](https://img.shields.io/github/stars/ClickHouse/mcp-clickhouse?style=flat-square) |
 | [Databricks MCP](https://github.com/JordiNeil/mcp-databricks-server) | 社区 | Databricks 数据仓库与 Unity Catalog | Python | ![](https://img.shields.io/github/stars/JordiNeil/mcp-databricks-server?style=flat-square) |
 | [InfluxDB MCP](https://github.com/influxdata/influxdb3_mcp_server) | InfluxData 官方 | 时序数据存储与查询 | TypeScript | ![](https://img.shields.io/github/stars/influxdata/influxdb3_mcp_server?style=flat-square) |
+| [StarRocks MCP](https://github.com/StarRocks/mcp-server-starrocks) | StarRocks 官方 | OLAP 数据库查询与 schema 探索 | Python | ![](https://img.shields.io/github/stars/StarRocks/mcp-server-starrocks?style=flat-square) |
+| [Teradata MCP](https://github.com/Teradata/teradata-mcp-server) | Teradata 官方 | 企业级数据仓库查询与分析 | Python | ![](https://img.shields.io/github/stars/Teradata/teradata-mcp-server?style=flat-square) |
+| [OceanBase MCP](https://github.com/oceanbase/mcp-oceanbase) | OceanBase 官方 | 分布式 SQL 数据库 | Python | ![](https://img.shields.io/github/stars/oceanbase/mcp-oceanbase?style=flat-square) |
+| [Cloudera Iceberg MCP](https://github.com/cloudera/iceberg-mcp-server) | Cloudera 官方 | Apache Iceberg 表查询 via Impala | Python | ![](https://img.shields.io/github/stars/cloudera/iceberg-mcp-server?style=flat-square) |
 
 ---
 
@@ -64,6 +69,7 @@
 | [MCP Toolbox](https://github.com/googleapis/mcp-toolbox-for-databases) | Google Official | PostgreSQL, MySQL, AlloyDB, Spanner | Python | ![](https://img.shields.io/github/stars/googleapis/mcp-toolbox-for-databases?style=flat-square) |
 | [Snowflake MCP](https://github.com/datawiz168/mcp-snowflake-service) | Community | Snowflake data warehouse queries | Python | ![](https://img.shields.io/github/stars/datawiz168/mcp-snowflake-service?style=flat-square) |
 | [Supabase MCP](https://github.com/supabase-community/supabase-mcp) | Supabase Community | PostgreSQL database, auth, Edge Functions | TypeScript | ![](https://img.shields.io/github/stars/supabase-community/supabase-mcp?style=flat-square) |
+| [CrateDB MCP](https://github.com/crate/cratedb-mcp) | CrateDB Official | Natural language Text-to-SQL queries | Python | ![](https://img.shields.io/github/stars/crate/cratedb-mcp?style=flat-square) |
 
 ### NoSQL & Cache
 
@@ -93,3 +99,7 @@
 | [ClickHouse MCP](https://github.com/ClickHouse/mcp-clickhouse) | ClickHouse Official | OLAP database queries and analytics | Python | ![](https://img.shields.io/github/stars/ClickHouse/mcp-clickhouse?style=flat-square) |
 | [Databricks MCP](https://github.com/JordiNeil/mcp-databricks-server) | Community | Databricks data warehouse and Unity Catalog | Python | ![](https://img.shields.io/github/stars/JordiNeil/mcp-databricks-server?style=flat-square) |
 | [InfluxDB MCP](https://github.com/influxdata/influxdb3_mcp_server) | InfluxData Official | Time-series data storage and queries | TypeScript | ![](https://img.shields.io/github/stars/influxdata/influxdb3_mcp_server?style=flat-square) |
+| [StarRocks MCP](https://github.com/StarRocks/mcp-server-starrocks) | StarRocks Official | OLAP database queries and schema exploration | Python | ![](https://img.shields.io/github/stars/StarRocks/mcp-server-starrocks?style=flat-square) |
+| [Teradata MCP](https://github.com/Teradata/teradata-mcp-server) | Teradata Official | Enterprise data warehouse queries and analytics | Python | ![](https://img.shields.io/github/stars/Teradata/teradata-mcp-server?style=flat-square) |
+| [OceanBase MCP](https://github.com/oceanbase/mcp-oceanbase) | OceanBase Official | Distributed SQL database | Python | ![](https://img.shields.io/github/stars/oceanbase/mcp-oceanbase?style=flat-square) |
+| [Cloudera Iceberg MCP](https://github.com/cloudera/iceberg-mcp-server) | Cloudera Official | Apache Iceberg tables via Impala | Python | ![](https://img.shields.io/github/stars/cloudera/iceberg-mcp-server?style=flat-square) |
