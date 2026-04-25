@@ -27,6 +27,7 @@ Copy any of these commands to install a specific MCP:
 | Filesystem | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/filesystem.json and install` |
 | Git | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/git.json and install` |
 | Playwright | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/playwright.json and install` |
+| PyPI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pypi.json and install` |
 | JetBrains | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jetbrains.json and install` |
 | Azure DevOps | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/azure-devops.json and install` |
 | CircleCI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/circleci.json and install` |

@@ -57,6 +57,12 @@
 | [Log Analyzer MCP](https://github.com/Fato07/log-analyzer-mcp) | 社区 | 日志解析、搜索、错误提取 | Python | ![](https://img.shields.io/github/stars/Fato07/log-analyzer-mcp?style=flat-square) |
 | [SonarQube MCP](https://github.com/mshegolev/sonarqube-mcp) | 社区 | Code Quality、Issues、Quality Gate | TypeScript | ![](https://img.shields.io/github/stars/mshegolev/sonarqube-mcp?style=flat-square) |
 
+### 包管理
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [PyPI MCP](https://github.com/pypi/mcp-server) | Python 官方 | Python 包管理，packages、releases | Python | ![](https://img.shields.io/github/stars/pypi/mcp-server?style=flat-square) |
+
 ### 代码质量与测试
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
@@ -170,6 +176,12 @@
 | [New Relic MCP](https://github.com/piekstra/newrelic-mcp-server) | Community | APM, NRQL, Alerts, Dashboards | Python | ![](https://img.shields.io/github/stars/piekstra/newrelic-mcp-server?style=flat-square) |
 | [Log Analyzer MCP](https://github.com/Fato07/log-analyzer-mcp) | Community | Log parsing, search, error extraction | Python | ![](https://img.shields.io/github/stars/Fato07/log-analyzer-mcp?style=flat-square) |
 | [SonarQube MCP](https://github.com/mshegolev/sonarqube-mcp) | Community | Code Quality, Issues, Quality Gate | TypeScript | ![](https://img.shields.io/github/stars/mshegolev/sonarqube-mcp?style=flat-square) |
+
+### Package Management
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [PyPI MCP](https://github.com/pypi/mcp-server) | Python Official | Python package management, packages, releases | Python | ![](https://img.shields.io/github/stars/pypi/mcp-server?style=flat-square) |
 
 ### Code Quality & Testing
 
