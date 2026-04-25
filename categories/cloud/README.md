@@ -44,9 +44,10 @@
 
 ### Cloudflare
 
-| 名称 | 描述 | Stars |
-|------|------|-------|
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
 | [Cloudflare MCP](https://github.com/cloudflare/mcp-server-cloudflare) | DNS、Workers、R2 Storage、Zero Trust，覆盖 2500+ API 端点 | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-cloudflare?style=flat-square) |
+| [Cloudflare DNS MCP](https://github.com/cloudflare/mcp-server-dns) | DNS 管理，域名解析、记录管理 | TypeScript | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-dns?style=flat-square) |
 
 ### 平台即服务 (PaaS)
 
@@ -155,9 +156,10 @@
 
 ### Cloudflare
 
-| Name | Description | Stars |
-|------|-------------|-------|
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
 | [Cloudflare MCP](https://github.com/cloudflare/mcp-server-cloudflare) | DNS, Workers, R2 Storage, Zero Trust — 2,500+ API endpoints | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-cloudflare?style=flat-square) |
+| [Cloudflare DNS MCP](https://github.com/cloudflare/mcp-server-dns) | DNS management, domain resolution, record management | TypeScript | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-dns?style=flat-square) |
 
 ### Platform as a Service (PaaS)
 

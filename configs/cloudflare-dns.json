@@ -1,0 +1,10 @@
+{
+  "cloudflare-dns": {
+    "command": "npx",
+    "args": ["-y", "@cloudflare/mcp-server-dns"],
+    "env": {
+      "CLOUDFLARE_API_TOKEN": "YOUR_CLOUDFLARE_API_TOKEN",
+      "CLOUDFLARE_ZONE_ID": "YOUR_ZONE_ID"
+    }
+  }
+}
