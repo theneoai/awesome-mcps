@@ -1,6 +1,6 @@
 # Awesome MCPs
 
-> Curated collection of Model Context Protocol (MCP) servers and tools. 115+ MCPs available.
+> Curated collection of Model Context Protocol (MCP) servers and tools. 160+ MCPs available.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -28,6 +28,13 @@ Copy any of these commands to install a specific MCP:
 | Git | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/git.json and install` |
 | Playwright | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/playwright.json and install` |
 | PyPI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pypi.json and install` |
+| npm | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/npm.json and install` |
+| Maven | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/maven.json and install` |
+| Docker Hub | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/dockerhub.json and install` |
+| MinIO | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/minio.json and install` |
+| GitBook | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gitbook.json and install` |
+| Gerrit | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gerrit.json and install` |
+| Google Repo | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/google-repo.json and install` |
 | JetBrains | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jetbrains.json and install` |
 | Azure DevOps | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/azure-devops.json and install` |
 | CircleCI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/circleci.json and install` |
@@ -80,6 +87,15 @@ Copy any of these commands to install a specific MCP:
 | Telegram | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/telegram.json and install` |
 | Rocket.Chat | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/rocketchat.json and install` |
 | Mattermost | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/mattermost.json and install` |
+| WhatsApp | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/whatsapp.json and install` |
+| LINE | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/line.json and install` |
+| Skype | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/skype.json and install` |
+| Lark | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/lark.json and install` |
+| Feishu | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/feishu.json and install` |
+| DingTalk | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/dingtalk.json and install` |
+| Worktile | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/worktile.json and install` |
+| WeChat Work | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/wechat-work.json and install` |
+| Webex | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/webex.json and install` |
 
 ### Productivity
 
@@ -94,6 +110,25 @@ Copy any of these commands to install a specific MCP:
 | Plane | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/plane.json and install` |
 | YouTrack | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/youtrack.json and install` |
 | Figma | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/figma.json and install` |
+| Canny | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/canny.json and install` |
+| Productboard | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/productboard.json and install` |
+| Shortcut | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/shortcut.json and install` |
+| Aha! | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/aha.json and install` |
+| ZenHub | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/zenhub.json and install` |
+| Bitbucket | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/bitbucket.json and install` |
+| GitHub Projects | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/github-projects.json and install` |
+| Jira Software | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jira-software.json and install` |
+| Trello | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/trello.json and install` |
+| Asana | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/asana.json and install` |
+| Wrike | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/wrike.json and install` |
+| Smartsheet | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/smartsheet.json and install` |
+| Airtable | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/airtable.json and install` |
+| ClickUp | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/clickup.json and install` |
+| Notion API | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/notion-api.json and install` |
+| Roam Research | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/roam.json and install` |
+| Obsidian | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/obsidian.json and install` |
+| Logseq | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/logseq.json and install` |
+| RemNote | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/remnote.json and install` |
 
 ### Cloud
 
@@ -120,12 +155,54 @@ Copy any of these commands to install a specific MCP:
 | 腾讯云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tencentcloud.json and install` |
 | 华为云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/huaweicloud.json and install` |
 | 百度云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/baiducloud.json and install` |
+| 阿里云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/alibabacloud.json and install` |
+| GCP | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gcp.json and install` |
+| Azure | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/azure.json and install` |
+| Oracle Cloud | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/oracle-cloud.json and install` |
+| IBM Cloud | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/ibm-cloud.json and install` |
+| OpenStack | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/openstack.json and install` |
+| Terraform | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/terraform.json and install` |
+| Ansible | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/ansible.json and install` |
+| Pulumi | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pulumi.json and install` |
+| Vault | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/vault.json and install` |
+| Consul | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/consul.json and install` |
+| Nomad | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/nomad.json and install` |
+| Podman | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/podman.json and install` |
+| Containerd | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/containerd.json and install` |
+| Harbor | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/harbor.json and install` |
+| JFrog Artifactory | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jfrog.json and install` |
+| Nexus | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/nexus.json and install` |
+| Grafana | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/grafana.json and install` |
+| Alertmanager | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/alertmanager.json and install` |
+| PagerDuty | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pagerduty.json and install` |
+| Opsgenie | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/opsgenie.json and install` |
 
 ### AI & ML
 
 | MCP | Install Command |
 |-----|----------------|
 | Groq | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/groq.json and install` |
+| OpenAI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/openai.json and install` |
+| Anthropic | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/anthropic.json and install` |
+| Google AI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/google-ai.json and install` |
+| Azure OpenAI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/azure-openai.json and install` |
+| AWS Bedrock | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/aws-bedrock.json and install` |
+| Cohere | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cohere.json and install` |
+| AI21 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/ai21.json and install` |
+| Ollama | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/ollama.json and install` |
+| vLLM | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/vllm.json and install` |
+| LangChain | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/langchain.json and install` |
+| Weaviate | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/weaviate.json and install` |
+| Pinecone | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pinecone.json and install` |
+| Chroma | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/chroma.json and install` |
+| Milvus | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/milvus.json and install` |
+| MLflow | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/mlflow.json and install` |
+| Kubeflow | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/kubeflow.json and install` |
+| Ray | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/ray.json and install` |
+| TensorBoard | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tensorboard.json and install` |
+| Weights & Biases | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/wandb.json and install` |
+| Hugging Face | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/huggingface.json and install` |
+| Replicate | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/replicate.json and install` |
 
 ### Utilities
 
@@ -136,6 +213,20 @@ Copy any of these commands to install a specific MCP:
 | Tavily | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tavily.json and install` |
 | Fetch | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/fetch.json and install` |
 | Firecrawl | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/firecrawl.json and install` |
+| SerpAPI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/serpapi.json and install` |
+| DuckDuckGo | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/duckduckgo.json and install` |
+| Google Search | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/google-search.json and install` |
+| Bing Search | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/bing-search.json and install` |
+| Sitemap | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/sitemap.json and install` |
+| URL Preview | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/url-preview.json and install` |
+| QR Code | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/qrcode.json and install` |
+| JSON Utils | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/json-utils.json and install` |
+| Cron | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cron.json and install` |
+| Clock | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/clock.json and install` |
+| Email | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/email.json and install` |
+| Webhook | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/webhook.json and install` |
+| Browser | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/browser.json and install` |
+| Puppeteer | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/puppeteer.json and install` |
 
 ### Security
 
@@ -143,6 +234,24 @@ Copy any of these commands to install a specific MCP:
 |-----|----------------|
 | 1Password | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/1password.json and install` |
 | Snyk | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/snyk.json and install` |
+| GitGuardian | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gitguardian.json and install` |
+| HashiCorp Vault | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/hashicorp-vault.json and install` |
+| AWS Secrets Manager | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/aws-secrets.json and install` |
+| Doppler | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/doppler.json and install` |
+| CyberArk | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cyberark.json and install` |
+| CrowdStrike | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/crowdstrike.json and install` |
+| SentinelOne | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/sentinelone.json and install` |
+| Qualys | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/qualys.json and install` |
+| Tenable | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tenable.json and install` |
+| Wiz | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/wiz.json and install` |
+| Datadog Security | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/datadog-security.json and install` |
+| Splunk | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/splunk.json and install` |
+| Sumo Logic | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/sumologic.json and install` |
+| Falco | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/falco.json and install` |
+| Aqua Security | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/aqua.json and install` |
+| Prisma Cloud | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/prisma-cloud.json and install` |
+| Snyk Container | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/snyk-container.json and install` |
+| Trivy | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/trivy.json and install` |
 
 ### Enterprise
 
@@ -153,10 +262,38 @@ Copy any of these commands to install a specific MCP:
 | ERPNext | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/erpnext.json and install` |
 | Zoho | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/zoho.json and install` |
 | Segment | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/segment.json and install` |
+| Salesforce | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/salesforce.json and install` |
+| HubSpot | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/hubspot.json and install` |
+| Dynamics 365 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/dynamics365.json and install` |
+| Pipedrive | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pipedrive.json and install` |
+| Close | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/close.json and install` |
+| Freshsales | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/freshsales.json and install` |
+| SAP | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/sap.json and install` |
+| Oracle | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/oracle.json and install` |
+| Microsoft 365 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/microsoft365.json and install` |
+| SharePoint | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/sharepoint.json and install` |
+| Dropbox | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/dropbox.json and install` |
+| Box | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/box.json and install` |
+| Egnyte | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/egnyte.json and install` |
+| DocuSign | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/docusign.json and install` |
+| HelloSign | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/hellosign.json and install` |
+| PandaDoc | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pandadoc.json and install` |
+| Bamboo HR | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/bamboohr.json and install` |
+| Workday | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/workday.json and install` |
+| Gusto | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gusto.json and install` |
+| Expensify | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/expensify.json and install` |
+| QuickBooks | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/quickbooks.json and install` |
+| Xero | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/xero.json and install` |
+| FreshBooks | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/freshbooks.json and install` |
+| Billing | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/billing.json and install` |
+| Chargebee | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/chargebee.json and install` |
+| Recurly | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/recurly.json and install` |
+| Chargify | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/chargify.json and install` |
+| Zuora | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/zuora.json and install` |
 
 ## All Configs
 
-Browse all 59+ configs at [configs/](configs/)
+Browse all 104+ configs at [configs/](configs/)
 
 ## Categories
 
