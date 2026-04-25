@@ -29,6 +29,7 @@
 | [Todoist MCP](https://github.com/abhiz123/todoist-mcp-server) | 社区 | 任务创建，完成与项目管理 | Python | ![](https://img.shields.io/github/stars/abhiz123/todoist-mcp-server?style=flat-square) |
 | [Trello MCP](https://github.com/delorenj/mcp-server-trello) | 社区 | Trello 看板、卡片、列表管理 | TypeScript | ![](https://img.shields.io/github/stars/delorenj/mcp-server-trello?style=flat-square) |
 | [ClickUp MCP](https://github.com/hauptsacheNet/clickup-mcp) | 社区 | ClickUp 任务、列表、文件夹管理 | TypeScript | ![](https://img.shields.io/github/stars/hauptsacheNet/clickup-mcp?style=flat-square) |
+| [Miro MCP](https://github.com/mirohq/mcp-server) | 白板协作，画板、模板 | TypeScript | ![](https://img.shields.io/github/stars/mirohq/mcp-server?style=flat-square) |
 
 ### 任务与清单
 
@@ -76,6 +77,7 @@
 | [Todoist MCP](https://github.com/abhiz123/todoist-mcp-server) | Community | Task creation, completion and project management | Python | ![](https://img.shields.io/github/stars/abhiz123/todoist-mcp-server?style=flat-square) |
 | [Trello MCP](https://github.com/delorenj/mcp-server-trello) | Community | Trello boards, cards, lists management | TypeScript | ![](https://img.shields.io/github/stars/delorenj/mcp-server-trello?style=flat-square) |
 | [ClickUp MCP](https://github.com/hauptsacheNet/clickup-mcp) | Community | ClickUp tasks, lists, folders management | TypeScript | ![](https://img.shields.io/github/stars/hauptsacheNet/clickup-mcp?style=flat-square) |
+| [Miro MCP](https://github.com/mirohq/mcp-server) | Miro Official | Whiteboard collaboration, boards, templates | TypeScript | ![](https://img.shields.io/github/stars/mirohq/mcp-server?style=flat-square) |
 
 ### Tasks & Lists
 

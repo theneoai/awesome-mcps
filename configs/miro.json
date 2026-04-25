@@ -1,0 +1,9 @@
+{
+  "miro": {
+    "command": "npx",
+    "args": ["-y", "@miro/mcp-server"],
+    "env": {
+      "MIRO_ACCESS_TOKEN": "YOUR_MIRO_ACCESS_TOKEN"
+    }
+  }
+}
