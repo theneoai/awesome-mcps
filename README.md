@@ -100,6 +100,7 @@ Copy any of these commands to install a specific MCP:
 | Kafka | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/kafka.json and install` |
 | RabbitMQ | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/rabbitmq.json and install` |
 | Kong | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/kong.json and install` |
+| Apigee | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/apigee.json and install` |
 | Istio | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/istio.json and install` |
 | 腾讯云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tencentcloud.json and install` |
 | 华为云 | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/huaweicloud.json and install` |

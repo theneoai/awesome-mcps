@@ -65,6 +65,7 @@
 
 | 名称 | 描述 | 语言 | Stars |
 |------|------|------|-------|
+| [Apigee MCP](https://github.com/google/apigee-mcp) | GCP API 管理，API Proxy、Developer 管理 | Node.js | ![](https://img.shields.io/github/stars/google/apigee-mcp?style=flat-square) |
 | [Kong MCP](https://github.com/Kong/mcp-server) | API 网关，Route、Plugin 管理 | Lua | ![](https://img.shields.io/github/stars/Kong/mcp-server?style=flat-square) |
 
 ### 其他云平台
@@ -174,6 +175,7 @@
 
 | Name | Description | Language | Stars |
 |------|-------------|----------|-------|
+| [Apigee MCP](https://github.com/google/apigee-mcp) | GCP API management, API Proxy, Developer management | Node.js | ![](https://img.shields.io/github/stars/google/apigee-mcp?style=flat-square) |
 | [Kong MCP](https://github.com/Kong/mcp-server) | API Gateway, Route and Plugin management | Lua | ![](https://img.shields.io/github/stars/Kong/mcp-server?style=flat-square) |
 
 ### Other Cloud Platforms

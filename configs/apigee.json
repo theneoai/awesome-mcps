@@ -1,0 +1,11 @@
+{
+  "apigee": {
+    "command": "npx",
+    "args": ["-y", "@google/apigee-mcp-server"],
+    "env": {
+      "APIGEE_ORG": "YOUR_APIGEE_ORG",
+      "APIGEE_TOKEN": "YOUR_APIGEE_TOKEN",
+      "APIGEE_ENV": "test"
+    }
+  }
+}
