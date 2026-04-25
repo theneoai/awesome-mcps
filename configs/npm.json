@@ -1,0 +1,9 @@
+{
+  "npm": {
+    "command": "npx",
+    "args": ["-y", "@npm/mcp-server"],
+    "env": {
+      "NPM_TOKEN": "YOUR_NPM_TOKEN"
+    }
+  }
+}
