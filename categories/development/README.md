@@ -35,6 +35,7 @@
 | [Jenkins MCP](https://github.com/jenkinsci/mcp-plugin) | Jenkins 官方 | 构建触发、Job 管理、日志 | Java | ![](https://img.shields.io/github/stars/jenkinsci/mcp-plugin?style=flat-square) |
 | [TeamCity MCP](https://github.com/Daghis/teamcity-mcp) | 社区 | Build、Test、Agents、Configs | TypeScript | ![](https://img.shields.io/github/stars/Daghis/teamcity-mcp?style=flat-square) |
 | [GitLab CI MCP](https://github.com/gitlab-org/mcp-server) | GitLab 官方 | GitLab Pipeline 管理、MR 集成 | TypeScript | ![](https://img.shields.io/github/stars/gitlab-org/mcp-server?style=flat-square) |
+| [Argo CD MCP](https://github.com/argoproj-labs/argocd-mcp) | Argo CD 官方 | GitOps 应用部署工具，Sync 状态管理 | Go | ![](https://img.shields.io/github/stars/argoproj-labs/argocd-mcp?style=flat-square) |
 
 ### IDE 插件
 
@@ -124,6 +125,7 @@
 | [Jenkins MCP](https://github.com/jenkinsci/mcp-plugin) | Jenkins Official | Build triggers, Job management, Logs | Java | ![](https://img.shields.io/github/stars/jenkinsci/mcp-plugin?style=flat-square) |
 | [TeamCity MCP](https://github.com/Daghis/teamcity-mcp) | Community | Build, Test, Agents, Configs | TypeScript | ![](https://img.shields.io/github/stars/Daghis/teamcity-mcp?style=flat-square) |
 | [GitLab CI MCP](https://github.com/gitlab-org/mcp-server) | GitLab Official | Pipeline management, MR integration | TypeScript | ![](https://img.shields.io/github/stars/gitlab-org/mcp-server?style=flat-square) |
+| [Argo CD MCP](https://github.com/argoproj-labs/argocd-mcp) | Argo CD Official | GitOps application deployment, Sync status management | Go | ![](https://img.shields.io/github/stars/argoproj-labs/argocd-mcp?style=flat-square) |
 
 ### IDE Plugins
 

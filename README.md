@@ -37,6 +37,7 @@ Copy any of these commands to install a specific MCP:
 | Codacy | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/codacy.json and install` |
 | Jenkins | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jenkins.json and install` |
 | GitLab CI | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gitlab-ci.json and install` |
+| Argo CD | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/argocd.json and install` |
 
 ### Database & Data
 
