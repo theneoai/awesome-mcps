@@ -1,0 +1,10 @@
+{
+  "amplitude": {
+    "command": "npx",
+    "args": ["-y", "@amplitude/mcp-server"],
+    "env": {
+      "AMPLITUDE_API_KEY": "YOUR_AMPLITUDE_API_KEY",
+      "AMPLITUDE_SECRET_KEY": "YOUR_AMPLITUDE_SECRET_KEY"
+    }
+  }
+}

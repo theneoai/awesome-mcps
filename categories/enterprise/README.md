@@ -52,6 +52,7 @@
 |------|------|------|------|-------|
 | [DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript) | DataForSEO 官方 | SEO 数据、关键词、SERP 分析 | TypeScript | ![](https://img.shields.io/github/stars/dataforseo/mcp-server-typescript?style=flat-square) |
 | [Mixpanel MCP](https://github.com/mixpanel/mcp-server) | 产品分析，用户行为、漏斗分析 | JavaScript | ![](https://img.shields.io/github/stars/mixpanel/mcp-server?style=flat-square) |
+| [Amplitude MCP](https://github.com/amplitude/mcp-server) | 产品分析，事件跟踪、用户分析 | JavaScript | ![](https://img.shields.io/github/stars/amplitude/mcp-server?style=flat-square) |
 
 ---
 
@@ -103,4 +104,5 @@
 |------|--------|-------------|----------|-------|
 | [DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript) | DataForSEO Official | SEO data, keywords, SERP analysis | TypeScript | ![](https://img.shields.io/github/stars/dataforseo/mcp-server-typescript?style=flat-square) |
 | [Mixpanel MCP](https://github.com/mixpanel/mcp-server) | Product analytics, user behavior, funnel analysis | JavaScript | ![](https://img.shields.io/github/stars/mixpanel/mcp-server?style=flat-square) |
+| [Amplitude MCP](https://github.com/amplitude/mcp-server) | Product analytics, event tracking, user analysis | JavaScript | ![](https://img.shields.io/github/stars/amplitude/mcp-server?style=flat-square) |
 | [Google Analytics MCP](https://github.com/google/analytics-mcp) | Google Official | Data analytics, real-time data, user behavior | Python | ![](https://img.shields.io/github/stars/google/analytics-mcp?style=flat-square) |
