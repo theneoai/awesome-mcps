@@ -14,7 +14,7 @@
 |------|------|------|------|-------|
 | [Salesforce MCP](https://github.com/tsmztech/mcp-server-salesforce) | 社区 | Salesforce CRM 对象查询与数据访问 | TypeScript | ![](https://img.shields.io/github/stars/tsmztech/mcp-server-salesforce?style=flat-square) |
 | [Salesforce MCP](https://github.com/salesforce/mcp-server) | Salesforce 官方 | 企业 CRM，销售数据、流程自动化 | Apex | ![](https://img.shields.io/github/stars/salesforce/mcp-server?style=flat-square) |
-| [HubSpot MCP](https://github.com/HubSpot/mcp-server) | HubSpot 官方 | CRM 联系人、交易、公司、营销操作 | TypeScript | ![](https://img.shields.io/github/stars/HubSpot/mcp-server?style=flat-square) |
+| [HubSpot MCP](https://github.com/HubSpot/hubspot-mcp-server) | 营销 CRM，联系人、Deal、Workflow | TypeScript | ![](https://img.shields.io/github/stars/HubSpot/hubspot-mcp-server?style=flat-square) |
 | [Zendesk MCP](https://github.com/reminia/mcp-zendesk) | 社区 | 工单管理与客户支持 | TypeScript | ![](https://img.shields.io/github/stars/reminia/mcp-zendesk?style=flat-square) |
 | [ServiceTitan MCP](https://github.com/montrellcruse/servicetitan-mcp) | 社区 | 企业级 field service CRM | TypeScript | ![](https://img.shields.io/github/stars/montrellcruse/servicetitan-mcp?style=flat-square) |
 | [Custify MCP](https://github.com/CustifyOfficial/custify-mcp) | Custify 官方 | 客户成功与账户管理 | TypeScript | ![](https://img.shields.io/github/stars/CustifyOfficial/custify-mcp?style=flat-square) |
@@ -65,7 +65,7 @@
 |------|--------|-------------|----------|-------|
 | [Salesforce MCP](https://github.com/tsmztech/mcp-server-salesforce) | Community | Salesforce CRM object queries and data access | TypeScript | ![](https://img.shields.io/github/stars/tsmztech/mcp-server-salesforce?style=flat-square) |
 | [Salesforce MCP](https://github.com/salesforce/mcp-server) | Salesforce Official | Enterprise CRM, sales data, process automation | Apex | ![](https://img.shields.io/github/stars/salesforce/mcp-server?style=flat-square) |
-| [HubSpot MCP](https://github.com/HubSpot/mcp-server) | HubSpot Official | CRM contacts, deals, companies, marketing | TypeScript | ![](https://img.shields.io/github/stars/HubSpot/mcp-server?style=flat-square) |
+| [HubSpot MCP](https://github.com/HubSpot/hubspot-mcp-server) | Marketing CRM, contacts, deals, workflows | TypeScript | ![](https://img.shields.io/github/stars/HubSpot/hubspot-mcp-server?style=flat-square) |
 | [Zendesk MCP](https://github.com/reminia/mcp-zendesk) | Community | Ticket management and customer support | TypeScript | ![](https://img.shields.io/github/stars/reminia/mcp-zendesk?style=flat-square) |
 | [ServiceTitan MCP](https://github.com/montrellcruse/servicetitan-mcp) | Community | Enterprise field service CRM | TypeScript | ![](https://img.shields.io/github/stars/montrellcruse/servicetitan-mcp?style=flat-square) |
 | [Custify MCP](https://github.com/CustifyOfficial/custify-mcp) | Custify Official | Customer success and account management | TypeScript | ![](https://img.shields.io/github/stars/CustifyOfficial/custify-mcp?style=flat-square) |
