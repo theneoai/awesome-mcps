@@ -39,19 +39,32 @@
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [JetBrains MCP](https://github.com/JetBrains/mcp-jetbrains) | JetBrains 官方 | IntelliJ、PyCharm、WebStorm 等 IDE | JavaScript | ![](https://img.shields.io/github/stars/JetBrains/mcp-jetbrains?style=flat-square) |
+| [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | Sentry 官方 | iOS/macOS 项目构建、测试、打包 | TypeScript | ![](https://img.shields.io/github/stars/getsentry/XcodeBuildMCP?style=flat-square) |
 
-### 监控
+### 监控与可观测性
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [Datadog MCP](https://github.com/winor30/mcp-server-datadog) | 社区 | Metrics、Logs、Monitors、APM | TypeScript | ![](https://img.shields.io/github/stars/winor30/mcp-server-datadog?style=flat-square) |
 | [Zabbix MCP](https://github.com/initMAX/zabbix-mcp-server) | 社区 | Zabbix API 监控、231 工具 | Python | ![](https://img.shields.io/github/stars/initMAX/zabbix-mcp-server?style=flat-square) |
+| [Grafana MCP](https://github.com/grafana/mcp-grafana) | Grafana 官方 | Dashboards、Metrics、Logs、Prometheus | Go | ![](https://img.shields.io/github/stars/grafana/mcp-grafana?style=flat-square) |
+| [Sentry MCP](https://github.com/getsentry/sentry-mcp) | Sentry 官方 | 错误跟踪、Issue、Performance | TypeScript | ![](https://img.shields.io/github/stars/getsentry/sentry-mcp?style=flat-square) |
+| [New Relic MCP](https://github.com/piekstra/newrelic-mcp-server) | 社区 | APM、NRQL、Alerts、Dashboards | Python | ![](https://img.shields.io/github/stars/piekstra/newrelic-mcp-server?style=flat-square) |
+| [Log Analyzer MCP](https://github.com/Fato07/log-analyzer-mcp) | 社区 | 日志解析、搜索、错误提取 | Python | ![](https://img.shields.io/github/stars/Fato07/log-analyzer-mcp?style=flat-square) |
+| [SonarQube MCP](https://github.com/mshegolev/sonarqube-mcp) | 社区 | Code Quality、Issues、Quality Gate | TypeScript | ![](https://img.shields.io/github/stars/mshegolev/sonarqube-mcp?style=flat-square) |
 
 ### 基础设施即代码
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [SysOperator MCP](https://github.com/tarnover/mcp-sysoperator) | 社区 | Terraform、Ansible、LocalStack IaC | TypeScript | ![](https://img.shields.io/github/stars/tarnover/mcp-sysoperator?style=flat-square) |
+
+### 特性开关
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [LaunchDarkly MCP](https://github.com/launchdarkly/mcp-server) | LaunchDarkly 官方 | Feature Flags、A/B Testing、Targeting | TypeScript | ![](https://img.shields.io/github/stars/launchdarkly/mcp-server?style=flat-square) |
+| [Flipt MCP](https://github.com/flipt-io/mcp-server-flipt) | Flipt 官方 | 本地化 Feature Flags、Segments | Go | ![](https://img.shields.io/github/stars/flipt-io/mcp-server-flipt?style=flat-square) |
 
 ### 浏览器自动化
 
@@ -103,19 +116,32 @@
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [JetBrains MCP](https://github.com/JetBrains/mcp-jetbrains) | JetBrains Official | IntelliJ, PyCharm, WebStorm IDEs | JavaScript | ![](https://img.shields.io/github/stars/JetBrains/mcp-jetbrains?style=flat-square) |
+| [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | Sentry Official | iOS/macOS build, test, package | TypeScript | ![](https://img.shields.io/github/stars/getsentry/XcodeBuildMCP?style=flat-square) |
 
-### Monitoring
+### Monitoring & Observability
 
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [Datadog MCP](https://github.com/winor30/mcp-server-datadog) | Community | Metrics, Logs, Monitors, APM | TypeScript | ![](https://img.shields.io/github/stars/winor30/mcp-server-datadog?style=flat-square) |
 | [Zabbix MCP](https://github.com/initMAX/zabbix-mcp-server) | Community | Zabbix API monitoring, 231 tools | Python | ![](https://img.shields.io/github/stars/initMAX/zabbix-mcp-server?style=flat-square) |
+| [Grafana MCP](https://github.com/grafana/mcp-grafana) | Grafana Official | Dashboards, Metrics, Logs, Prometheus | Go | ![](https://img.shields.io/github/stars/grafana/mcp-grafana?style=flat-square) |
+| [Sentry MCP](https://github.com/getsentry/sentry-mcp) | Sentry Official | Error tracking, Issues, Performance | TypeScript | ![](https://img.shields.io/github/stars/getsentry/sentry-mcp?style=flat-square) |
+| [New Relic MCP](https://github.com/piekstra/newrelic-mcp-server) | Community | APM, NRQL, Alerts, Dashboards | Python | ![](https://img.shields.io/github/stars/piekstra/newrelic-mcp-server?style=flat-square) |
+| [Log Analyzer MCP](https://github.com/Fato07/log-analyzer-mcp) | Community | Log parsing, search, error extraction | Python | ![](https://img.shields.io/github/stars/Fato07/log-analyzer-mcp?style=flat-square) |
+| [SonarQube MCP](https://github.com/mshegolev/sonarqube-mcp) | Community | Code Quality, Issues, Quality Gate | TypeScript | ![](https://img.shields.io/github/stars/mshegolev/sonarqube-mcp?style=flat-square) |
 
 ### Infrastructure as Code
 
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [SysOperator MCP](https://github.com/tarnover/mcp-sysoperator) | Community | Terraform, Ansible, LocalStack IaC | TypeScript | ![](https://img.shields.io/github/stars/tarnover/mcp-sysoperator?style=flat-square) |
+
+### Feature Flags
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [LaunchDarkly MCP](https://github.com/launchdarkly/mcp-server) | LaunchDarkly Official | Feature Flags, A/B Testing, Targeting | TypeScript | ![](https://img.shields.io/github/stars/launchdarkly/mcp-server?style=flat-square) |
+| [Flipt MCP](https://github.com/flipt-io/mcp-server-flipt) | Flipt Official | Self-hosted Feature Flags, Segments | Go | ![](https://img.shields.io/github/stars/flipt-io/mcp-server-flipt?style=flat-square) |
 
 ### Browser Automation
 
