@@ -1,0 +1,11 @@
+{
+  "jaeger": {
+    "command": "npx",
+    "args": ["-y", "@jaegertracing/mcp-server"],
+    "env": {
+      "JAEGER_AGENT_HOST": "localhost",
+      "JAEGER_AGENT_PORT": "6831",
+      "JAEGER_QUERY_URL": "http://localhost:16686"
+    }
+  }
+}

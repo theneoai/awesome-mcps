@@ -93,6 +93,7 @@ Copy any of these commands to install a specific MCP:
 | Helm | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/helm.json and install` |
 | Prometheus | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/prometheus.json and install` |
 | Loki | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/loki.json and install` |
+| Jaeger | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/jaeger.json and install` |
 | ELK Stack | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/elk.json and install` |
 | Flux | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/flux.json and install` |
 | Kafka | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/kafka.json and install` |

@@ -92,6 +92,12 @@
 | [Grafana Loki MCP](https://github.com/grafana/loki-mcp) | 日志查询、标签过滤 | Go | ![](https://img.shields.io/github/stars/grafana/loki-mcp?style=flat-square) |
 | [ELK Stack MCP](https://github.com/elastic/mcp-server) | 企业日志，Elasticsearch 查询、Logstash 管理 | Rust | ![](https://img.shields.io/github/stars/elastic/mcp-server?style=flat-square) |
 
+### 追踪
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Jaeger MCP](https://github.com/jaegertracing/jaeger-mcp) | 分布式追踪，Trace 查询、分析 | Go | ![](https://img.shields.io/github/stars/jaegertracing/jaeger-mcp?style=flat-square) |
+
 ---
 
 ## English
@@ -181,3 +187,9 @@
 | Name | Description | Language | Stars |
 |------|-------------|----------|-------|
 | [Grafana Loki MCP](https://github.com/grafana/loki-mcp) | Log query, label filtering | Go | ![](https://img.shields.io/github/stars/grafana/loki-mcp?style=flat-square) |
+
+### Tracing
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Jaeger MCP](https://github.com/jaegertracing/jaeger-mcp) | Distributed tracing, Trace query and analysis | Go | ![](https://img.shields.io/github/stars/jaegertracing/jaeger-mcp?style=flat-square) |
