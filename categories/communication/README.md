@@ -33,6 +33,12 @@
 | [Rocket.Chat MCP](https://github.com/RocketChat/Rocket.Chat.MCP) | 开源自托管协作平台，频道、消息 | TypeScript | ![](https://img.shields.io/github/stars/RocketChat/Rocket.Chat.MCP?style=flat-square) |
 | [Mattermost MCP](https://github.com/mattermost/mcp-server) | 开源 Slack 替代，频道、集成 | Go | ![](https://img.shields.io/github/stars/mattermost/mcp-server?style=flat-square) |
 
+### 视频会议
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Google Meet MCP](https://github.com/google/meet-mcp-server) | Google 官方 | GCP 视频会议，Calendar API 集成 | TypeScript | ![](https://img.shields.io/github/stars/google/meet-mcp-server?style=flat-square) |
+
 ### 电子邮件
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
@@ -91,6 +97,12 @@
 | [WeChat MCP](https://github.com/cluic/wxauto-mcp) | Community | WeChat automation messaging | Python | ![](https://img.shields.io/github/stars/cluic/wxauto-mcp?style=flat-square) |
 | [Rocket.Chat MCP](https://github.com/RocketChat/Rocket.Chat.MCP) | 开源自托管协作平台，频道、消息 | TypeScript | ![](https://img.shields.io/github/stars/RocketChat/Rocket.Chat.MCP?style=flat-square) |
 | [Mattermost MCP](https://github.com/mattermost/mcp-server) | 开源 Slack 替代，频道、集成 | Go | ![](https://img.shields.io/github/stars/mattermost/mcp-server?style=flat-square) |
+
+### Video Conferencing
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Google Meet MCP](https://github.com/google/meet-mcp-server) | Google Official | GCP video conferencing, Calendar API integration | TypeScript | ![](https://img.shields.io/github/stars/google/meet-mcp-server?style=flat-square) |
 
 ### Email
 

@@ -68,6 +68,7 @@ Copy any of these commands to install a specific MCP:
 | Microsoft Teams | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/teams.json and install` |
 | Gmail | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gmail.json and install` |
 | Zoom | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/zoom.json and install` |
+| Google Meet | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/google-meet.json and install` |
 | Intercom | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/intercom.json and install` |
 | SendGrid | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/sendgrid.json and install` |
 | Discord | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/discord.json and install` |
