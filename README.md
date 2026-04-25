@@ -65,6 +65,7 @@ Copy any of these commands to install a specific MCP:
 | MCP | Install Command |
 |-----|----------------|
 | Slack | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/slack.json and install` |
+| Microsoft Teams | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/teams.json and install` |
 | Gmail | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gmail.json and install` |
 | Zoom | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/zoom.json and install` |
 | Intercom | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/intercom.json and install` |

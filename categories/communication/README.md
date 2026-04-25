@@ -15,6 +15,7 @@
 | [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | Anthropic 官方 | 消息发送、频道管理、用户查询 | TypeScript | — |
 | [Discord MCP](https://github.com/SasePriv/mcp-discord) | 社区 | 消息与频道、Guild 管理 | Python | ![](https://img.shields.io/github/stars/SasePriv/mcp-discord?style=flat-square) |
 | [Telegram MCP](https://github.com/chigwell/telegram-mcp) | 社区 | Telegram Bot 消息收发 | Python | ![](https://img.shields.io/github/stars/chigwell/telegram-mcp?style=flat-square) |
+| [Microsoft Teams MCP](https://github.com/microsoft/teams-mcp-server) | Microsoft 官方 | 企业协作平台，消息、频道、会议 | TypeScript | ![](https://img.shields.io/github/stars/microsoft/teams-mcp-server?style=flat-square) |
 | [Microsoft Teams MCP](https://github.com/softeria-ss/ms-teams-mcp-server) | 社区 | Teams 消息与会议管理 | TypeScript | ![](https://img.shields.io/github/stars/softeria-ss/ms-teams-mcp-server?style=flat-square) |
 | [Microsoft 365 MCP](https://github.com/Softeria/microsoft-365-mcp-server) | 社区 | Teams、Outlook、SharePoint 综合集成 | TypeScript | ![](https://img.shields.io/github/stars/Softeria/microsoft-365-mcp-server?style=flat-square) |
 | [WhatsApp MCP](https://github.com/lharries/whatsapp-mcp) | 社区 | WhatsApp 个人消息收发 | Go | ![](https://img.shields.io/github/stars/lharries/whatsapp-mcp?style=flat-square) |
@@ -69,6 +70,7 @@
 | [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | Anthropic Official | Send messages, manage channels, query users | TypeScript | — |
 | [Discord MCP](https://github.com/SasePriv/mcp-discord) | Community | Messages, channels, Guild management | Python | ![](https://img.shields.io/github/stars/SasePriv/mcp-discord?style=flat-square) |
 | [Telegram MCP](https://github.com/chigwell/telegram-mcp) | Community | Telegram Bot message send/receive | Python | ![](https://img.shields.io/github/stars/chigwell/telegram-mcp?style=flat-square) |
+| [Microsoft Teams MCP](https://github.com/microsoft/teams-mcp-server) | Microsoft Official | Enterprise collaboration platform, messages, channels, meetings | TypeScript | ![](https://img.shields.io/github/stars/microsoft/teams-mcp-server?style=flat-square) |
 | [Microsoft Teams MCP](https://github.com/softeria-ss/ms-teams-mcp-server) | Community | Teams messages and meeting management | TypeScript | ![](https://img.shields.io/github/stars/softeria-ss/ms-teams-mcp-server?style=flat-square) |
 | [Microsoft 365 MCP](https://github.com/Softeria/microsoft-365-mcp-server) | Community | Teams, Outlook, SharePoint integration | TypeScript | ![](https://img.shields.io/github/stars/Softeria/microsoft-365-mcp-server?style=flat-square) |
 | [WhatsApp MCP](https://github.com/lharries/whatsapp-mcp) | Community | Personal WhatsApp message send/receive | Go | ![](https://img.shields.io/github/stars/lharries/whatsapp-mcp?style=flat-square) |
