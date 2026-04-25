@@ -53,6 +53,12 @@
 | [Log Analyzer MCP](https://github.com/Fato07/log-analyzer-mcp) | 社区 | 日志解析、搜索、错误提取 | Python | ![](https://img.shields.io/github/stars/Fato07/log-analyzer-mcp?style=flat-square) |
 | [SonarQube MCP](https://github.com/mshegolev/sonarqube-mcp) | 社区 | Code Quality、Issues、Quality Gate | TypeScript | ![](https://img.shields.io/github/stars/mshegolev/sonarqube-mcp?style=flat-square) |
 
+### 代码质量与测试
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Jest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/jest) | Anthropic 官方 | JavaScript 测试框架，支持测试运行、覆盖率 | TypeScript | — |
+
 ### 基础设施即代码
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
@@ -129,6 +135,12 @@
 | [New Relic MCP](https://github.com/piekstra/newrelic-mcp-server) | Community | APM, NRQL, Alerts, Dashboards | Python | ![](https://img.shields.io/github/stars/piekstra/newrelic-mcp-server?style=flat-square) |
 | [Log Analyzer MCP](https://github.com/Fato07/log-analyzer-mcp) | Community | Log parsing, search, error extraction | Python | ![](https://img.shields.io/github/stars/Fato07/log-analyzer-mcp?style=flat-square) |
 | [SonarQube MCP](https://github.com/mshegolev/sonarqube-mcp) | Community | Code Quality, Issues, Quality Gate | TypeScript | ![](https://img.shields.io/github/stars/mshegolev/sonarqube-mcp?style=flat-square) |
+
+### Code Quality & Testing
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Jest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/jest) | Anthropic Official | JavaScript testing framework, test running, coverage | TypeScript | — |
 
 ### Infrastructure as Code
 

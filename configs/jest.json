@@ -1,0 +1,9 @@
+{
+  "jest": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-jest"],
+    "env": {
+      "JEST_CONFIG_PATH": "./jest.config.js"
+    }
+  }
+}
