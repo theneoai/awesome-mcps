@@ -1,6 +1,6 @@
 # Awesome MCPs
 
-> 104+ Model Context Protocol 服务器，一条命令安装。
+> 131+ Model Context Protocol 服务器，一条命令安装。
 
 ## 快速安装
 

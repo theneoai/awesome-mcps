@@ -1,0 +1,12 @@
+{
+  "redis": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-redis"
+    ],
+    "env": {
+      "REDIS_URL": "redis://localhost:6379"
+    }
+  }
+}

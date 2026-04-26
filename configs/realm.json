@@ -1,0 +1,13 @@
+{
+  "realm": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-realm"
+    ],
+    "env": {
+      "REALM_APP_ID": "your-app-id",
+      "REALM_API_KEY": "your-api-key"
+    }
+  }
+}

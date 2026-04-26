@@ -1,0 +1,14 @@
+{
+  "spanner": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-spanner"
+    ],
+    "env": {
+      "GOOGLE_APPLICATION_CREDENTIALS": "/path/to/service-account.json",
+      "SPANNER_PROJECT_ID": "your-project-id",
+      "SPANNER_INSTANCE_ID": "your-instance-id",
+      "SPANNER_DATABASE_ID": "your-database-id"
+    }
+  }
+}

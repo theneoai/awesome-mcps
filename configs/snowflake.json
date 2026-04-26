@@ -1,0 +1,15 @@
+{
+  "snowflake": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-snowflake"
+    ],
+    "env": {
+      "SNOWFLAKE_ACCOUNT": "your-account",
+      "SNOWFLAKE_USER": "your-user",
+      "SNOWFLAKE_PASSWORD": "your-password",
+      "SNOWFLAKE_DATABASE": "your-database",
+      "SNOWFLAKE_WAREHOUSE": "your-warehouse"
+    }
+  }
+}

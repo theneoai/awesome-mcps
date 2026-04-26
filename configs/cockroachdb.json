@@ -1,0 +1,16 @@
+{
+  "cockroachdb": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-cockroachdb"
+    ],
+    "env": {
+      "CRDB_HOST": "localhost",
+      "CRDB_PORT": "26257",
+      "CRDB_USER": "root",
+      "CRDB_PASSWORD": "",
+      "CRDB_DATABASE": "defaultdb"
+    }
+  }
+}

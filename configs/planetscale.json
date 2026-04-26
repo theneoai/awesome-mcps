@@ -1,0 +1,15 @@
+{
+  "planetscale": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-planetscale"
+    ],
+    "env": {
+      "PLANETSCALE_HOST": "aws.connect.psdb.cloud",
+      "PLANETSCALE_USER": "your-username",
+      "PLANETSCALE_PASSWORD": "your-password",
+      "PLANETSCALE_DATABASE": "your-database"
+    }
+  }
+}

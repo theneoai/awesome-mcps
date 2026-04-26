@@ -1,0 +1,12 @@
+{
+  "apache-drill": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-drill"
+    ],
+    "env": {
+      "DRILL_HOST": "localhost",
+      "DRILL_PORT": "8047"
+    }
+  }
+}

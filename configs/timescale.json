@@ -1,0 +1,11 @@
+{
+  "timescale": {
+    "command": "uvx",
+    "args": [
+      "mcp-alchemy"
+    ],
+    "env": {
+      "DATABASE_URL": "postgresql://user:pass@localhost:5432/timeseries"
+    }
+  }
+}

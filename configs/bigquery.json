@@ -1,0 +1,11 @@
+{
+  "bigquery": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-google-bq"
+    ],
+    "env": {
+      "GOOGLE_APPLICATION_CREDENTIALS": "/path/to/service-account.json"
+    }
+  }
+}
