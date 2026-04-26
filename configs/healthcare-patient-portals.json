@@ -1,0 +1,12 @@
+{
+  "epic-mychart": {"command": "uvx", "args": ["mcp-server-epic-mychart", "--client-id", "${EPIC_CLIENT_ID}", "--client-secret", "${EPIC_CLIENT_SECRET}"], "env": {"EPIC_CLIENT_ID": "xxx", "EPIC_CLIENT_SECRET": "xxx"}},
+  "followmyhealth": {"command": "uvx", "args": ["mcp-server-followmyhealth", "--api-key", "${FMH_API_KEY}"], "env": {"FMH_API_KEY": "xxx"}},
+  "curemd": {"command": "uvx", "args": ["mcp-server-curemd", "--api-key", "${CUREMD_API_KEY}"], "env": {"CUREMD_API_KEY": "xxx"}},
+  "medi-touch": {"command": "uvx", "args": ["mcp-server-meditech", "--api-key", "${MEDITECH_API_KEY}"], "env": {"MEDITECH_API_KEY": "xxx"}},
+  "nextgen": {"command": "uvx", "args": ["mcp-server-nextgen", "--api-key", "${NEXTGEN_API_KEY}"], "env": {"NEXTGEN_API_KEY": "xxx"}},
+  "eclinicalworks": {"command": "uvx", "args": ["mcp-server-eclinicalworks", "--api-key", "${ECLINICALWORKS_API_KEY}"], "env": {"ECLINICALWORKS_API_KEY": "xxx"}},
+  "amadeus": {"command": "uvx", "args": ["mcp-server-amadeus", "--api-key", "${AMADEUS_API_KEY}", "--api-secret", "${AMADEUS_API_SECRET}"], "env": {"AMADEUS_API_KEY": "xxx", "AMADEUS_API_SECRET": "xxx"}},
+  "sap-fiori": {"command": "uvx", "args": ["mcp-server-sap-fiori", "--host", "${SAP_FIORI_HOST}"], "env": {"SAP_FIORI_HOST": "https://xxx", "SAP_FIORI_USER": "xxx", "SAP_FIORI_PASSWORD": "xxx"}},
+  " workday-hcm": {"command": "uvx", "args": ["mcp-server-workday-hcm", "--host", "${WORKDAY_HOST}", "--client-id", "${WORKDAY_CLIENT_ID}", "--client-secret", "${WORKDAY_CLIENT_SECRET}"], "env": {"WORKDAY_HOST": "https://wd2-impl.workday.com", "WORKDAY_CLIENT_ID": "xxx", "WORKDAY_CLIENT_SECRET": "xxx"}},
+  "service-now-hr": {"command": "uvx", "args": ["mcp-server-servicenow-hr", "--instance", "${SN_INSTANCE}", "--username", "${SN_USERNAME}", "--password", "${SN_PASSWORD}"], "env": {"SN_INSTANCE": "xxx", "SN_USERNAME": "xxx", "SN_PASSWORD": "xxx"}}
+}

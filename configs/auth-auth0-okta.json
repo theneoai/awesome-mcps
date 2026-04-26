@@ -1,0 +1,12 @@
+{
+  "auth0-clients": {"command": "uvx", "args": ["mcp-server-auth0-clients", "--domain", "${AUTH0_DOMAIN}", "--client-id", "${AUTH0_CLIENT_ID}", "--client-secret", "${AUTH0_CLIENT_SECRET}"], "env": {"AUTH0_DOMAIN": "xxx.auth0.com", "AUTH0_CLIENT_ID": "xxx", "AUTH0_CLIENT_SECRET": "xxx"}},
+  "auth0-users": {"command": "uvx", "args": ["mcp-server-auth0-users", "--domain", "${AUTH0_DOMAIN}", "--client-id", "${AUTH0_CLIENT_ID}", "--client-secret", "${AUTH0_CLIENT_SECRET}"], "env": {"AUTH0_DOMAIN": "xxx.auth0.com", "AUTH0_CLIENT_ID": "xxx", "AUTH0_CLIENT_SECRET": "xxx"}},
+  "auth0-connections": {"command": "uvx", "args": ["mcp-server-auth0-connections", "--domain", "${AUTH0_DOMAIN}", "--client-id", "${AUTH0_CLIENT_ID}", "--client-secret", "${AUTH0_CLIENT_SECRET}"], "env": {"AUTH0_DOMAIN": "xxx.auth0.com", "AUTH0_CLIENT_ID": "xxx", "AUTH0_CLIENT_SECRET": "xxx"}},
+  "auth0-rules": {"command": "uvx", "args": ["mcp-server-auth0-rules", "--domain", "${AUTH0_DOMAIN}", "--client-id", "${AUTH0_CLIENT_ID}", "--client-secret", "${AUTH0_CLIENT_SECRET}"], "env": {"AUTH0_DOMAIN": "xxx.auth0.com", "AUTH0_CLIENT_ID": "xxx", "AUTH0_CLIENT_SECRET": "xxx"}},
+  "auth0-resource-servers": {"command": "uvx", "args": ["mcp-server-auth0-resource-servers", "--domain", "${AUTH0_DOMAIN}", "--client-id", "${AUTH0_CLIENT_ID}", "--client-secret", "${AUTH0_CLIENT_SECRET}"], "env": {"AUTH0_DOMAIN": "xxx.auth0.com", "AUTH0_CLIENT_ID": "xxx", "AUTH0_CLIENT_SECRET": "xxx"}},
+  "okta-applications": {"command": "uvx", "args": ["mcp-server-okta-applications", "--domain", "${OKTA_DOMAIN}", "--api-token", "${OKTA_API_TOKEN}"], "env": {"OKTA_DOMAIN": "xxx.okta.com", "OKTA_API_TOKEN": "xxx"}},
+  "okta-users": {"command": "uvx", "args": ["mcp-server-okta-users", "--domain", "${OKTA_DOMAIN}", "--api-token", "${OKTA_API_TOKEN}"], "env": {"OKTA_DOMAIN": "xxx.okta.com", "OKTA_API_TOKEN": "xxx"}},
+  "okta-groups": {"command": "uvx", "args": ["mcp-server-okta-groups", "--domain", "${OKTA_DOMAIN}", "--api-token", "${OKTA_API_TOKEN}"], "env": {"OKTA_DOMAIN": "xxx.okta.com", "OKTA_API_TOKEN": "xxx"}},
+  "okta-factors": {"command": "uvx", "args": ["mcp-server-okta-factors", "--domain", "${OKTA_DOMAIN}", "--api-token", "${OKTA_API_TOKEN}"], "env": {"OKTA_DOMAIN": "xxx.okta.com", "OKTA_API_TOKEN": "xxx"}},
+  "okta-policies": {"command": "uvx", "args": ["mcp-server-okta-policies", "--domain", "${OKTA_DOMAIN}", "--api-token", "${OKTA_API_TOKEN}"], "env": {"OKTA_DOMAIN": "xxx.okta.com", "OKTA_API_TOKEN": "xxx"}}
+}

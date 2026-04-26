@@ -1,0 +1,12 @@
+{
+  "lightstep-projects": {"command": "uvx", "args": ["mcp-server-lightstep-projects", "--api-key", "${LIGHTSTEP_API_KEY}"], "env": {"LIGHTSTEP_API_KEY": "xxx"}},
+  "lightstep-traces": {"command": "uvx", "args": ["mcp-server-lightstep-traces", "--api-key", "${LIGHTSTEP_API_KEY}"], "env": {"LIGHTSTEP_API_KEY": "xxx"}},
+  "sentry-issues": {"command": "uvx", "args": ["mcp-server-sentry-issues", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "sentry-releases": {"command": "uvx", "args": ["mcp-server-sentry-releases", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "bugsnag-errors": {"command": "uvx", "args": ["mcp-server-bugsnag-errors", "--api-key", "${BUGSNAG_API_KEY}"], "env": {"BUGSNAG_API_KEY": "xxx"}},
+  "bugsnag-releases": {"command": "uvx", "args": ["mcp-server-bugsnag-releases", "--api-key", "${BUGSNAG_API_KEY}"], "env": {"BUGSNAG_API_KEY": "xxx"}},
+  "rollbar-items": {"command": "uvx", "args": ["mcp-server-rollbar-items", "--access-token", "${ROLLBAR_ACCESS_TOKEN}"], "env": {"ROLLBAR_ACCESS_TOKEN": "xxx"}},
+  "rollbar-deploys": {"command": "uvx", "args": ["mcp-server-rollbar-deploys", "--access-token", "${ROLLBAR_ACCESS_TOKEN}"], "env": {"ROLLBAR_ACCESS_TOKEN": "xxx"}},
+  "raygun-messages": {"command": "uvx", "args": ["mcp-server-raygun-messages", "--api-key", "${RAYGUN_API_KEY}"], "env": {"RAYGUN_API_KEY": "xxx"}},
+  "airbrake-errors": {"command": "uvx", "args": ["mcp-server-airbrake-errors", "--project-id", "${AIRBRAKE_PROJECT_ID}", "--api-key", "${AIRBRAKE_API_KEY}"], "env": {"AIRBRAKE_PROJECT_ID": "xxx", "AIRBRAKE_API_KEY": "xxx"}}
+}

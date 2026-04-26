@@ -1,0 +1,12 @@
+{
+  "google-translate": {"command": "uvx", "args": ["mcp-server-google-translate", "--api-key", "${GOOGLE_TRANSLATE_API_KEY}"], "env": {"GOOGLE_TRANSLATE_API_KEY": "xxx"}},
+  "deepl-translate": {"command": "uvx", "args": ["mcp-server-deepl-translate", "--api-key", "${DEEPL_API_KEY}"], "env": {"DEEPL_API_KEY": "xxx"}},
+  "aws-comprehend": {"command": "uvx", "args": ["mcp-server-aws-comprehend", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "azure-translator": {"command": "uvx", "args": ["mcp-server-azure-translator", "--api-key", "${AZURE_TRANSLATOR_KEY}"], "env": {"AZURE_TRANSLATOR_ENDPOINT": "https://xxx.cognitiveservices.azure.com/", "AZURE_TRANSLATOR_KEY": "xxx"}},
+  "papago-translate": {"command": "uvx", "args": ["mcp-server-papago-translate", "--client-id", "${PAPAGO_CLIENT_ID}", "--client-secret", "${PAPAGO_CLIENT_SECRET}"], "env": {"PAPAGO_CLIENT_ID": "xxx", "PAPAGO_CLIENT_SECRET": "xxx"}},
+  "yandex-translate": {"command": "uvx", "args": ["mcp-server-yandex-translate", "--api-key", "${YANDEX_TRANSLATE_API_KEY}"], "env": {"YANDEX_TRANSLATE_API_KEY": "xxx"}},
+  "reverso-translate": {"command": "uvx", "args": ["mcp-server-reverso-translate", "--api-key", "${REVERSO_API_KEY}"], "env": {"REVERSO_API_KEY": "xxx"}},
+  "systran-translate": {"command": "uvx", "args": ["mcp-server-systran-translate", "--api-key", "${SYSTRAN_API_KEY}"], "env": {"SYSTRAN_API_KEY": "xxx"}},
+  "xl8-translate": {"command": "uvx", "args": ["mcp-server-xl8-translate", "--api-key", "${XL8_API_KEY}"], "env": {"XL8_API_KEY": "xxx"}},
+  "unbabel-translate": {"command": "uvx", "args": ["mcp-server-unbabel-translate", "--api-key", "${UNBABEL_API_KEY}"], "env": {"UNBABEL_API_KEY": "xxx"}}
+}

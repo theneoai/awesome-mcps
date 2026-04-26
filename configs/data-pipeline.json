@@ -1,0 +1,12 @@
+{
+  "airbyte-connections": {"command": "uvx", "args": ["mcp-server-airbyte-connections", "--api-url", "${AIRBYTE_API_URL}", "--api-key", "${AIRBYTE_API_KEY}"], "env": {"AIRBYTE_API_URL": "http://localhost:8000", "AIRBYTE_API_KEY": "xxx"}},
+  "airbyte-sources": {"command": "uvx", "args": ["mcp-server-airbyte-sources", "--api-url", "${AIRBYTE_API_URL}", "--api-key", "${AIRBYTE_API_KEY}"], "env": {"AIRBYTE_API_URL": "http://localhost:8000", "AIRBYTE_API_KEY": "xxx"}},
+  "airbyte-destinations": {"command": "uvx", "args": ["mcp-server-airbyte-destinations", "--api-url", "${AIRBYTE_API_URL}", "--api-key", "${AIRBYTE_API_KEY}"], "env": {"AIRBYTE_API_URL": "http://localhost:8000", "AIRBYTE_API_KEY": "xxx"}},
+  "airbyte-jobs": {"command": "uvx", "args": ["mcp-server-airbyte-jobs", "--api-url", "${AIRBYTE_API_URL}", "--api-key", "${AIRBYTE_API_KEY}"], "env": {"AIRBYTE_API_URL": "http://localhost:8000", "AIRBYTE_API_KEY": "xxx"}},
+  "fivetran-connectors": {"command": "uvx", "args": ["mcp-server-fivetran-connectors", "--api-key", "${FIVETRAN_API_KEY}", "--api-secret", "${FIVETRAN_API_SECRET}"], "env": {"FIVETRAN_API_KEY": "xxx", "FIVETRAN_API_SECRET": "xxx"}},
+  "fivetran-destinations": {"command": "uvx", "args": ["mcp-server-fivetran-destinations", "--api-key", "${FIVETRAN_API_KEY}", "--api-secret", "${FIVETRAN_API_SECRET}"], "env": {"FIVETRAN_API_KEY": "xxx", "FIVETRAN_API_SECRET": "xxx"}},
+  "fivetran-transforms": {"command": "uvx", "args": ["mcp-server-fivetran-transforms", "--api-key", "${FIVETRAN_API_KEY}", "--api-secret", "${FIVETRAN_API_SECRET}"], "env": {"FIVETRAN_API_KEY": "xxx", "FIVETRAN_API_SECRET": "xxx"}},
+  "segment-sources": {"command": "uvx", "args": ["mcp-server-segment-sources", "--write-key", "${SEGMENT_WRITE_KEY}"], "env": {"SEGMENT_WRITE_KEY": "xxx"}},
+  "segment-destinations": {"command": "uvx", "args": ["mcp-server-segment-destinations", "--write-key", "${SEGMENT_WRITE_KEY}"], "env": {"SEGMENT_WRITE_KEY": "xxx"}},
+  "segment-tracking-plans": {"command": "uvx", "args": ["mcp-server-segment-tracking-plans", "--api-key", "${SEGMENT_API_KEY}"], "env": {"SEGMENT_API_KEY": "xxx"}}
+}

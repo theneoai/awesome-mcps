@@ -1,0 +1,12 @@
+{
+  "linkedin-ads-campaigns": {"command": "uvx", "args": ["mcp-server-linkedin-ads-campaigns", "--access-token", "${LINKEDIN_ACCESS_TOKEN}"], "env": {"LINKEDIN_ACCESS_TOKEN": "xxx"}},
+  "linkedin-ads-creatives": {"command": "uvx", "args": ["mcp-server-linkedin-ads-creatives", "--access-token", "${LINKEDIN_ACCESS_TOKEN}"], "env": {"LINKEDIN_ACCESS_TOKEN": "xxx"}},
+  "linkedin-ads-analytics": {"command": "uvx", "args": ["mcp-server-linkedin-ads-analytics", "--access-token", "${LINKEDIN_ACCESS_TOKEN}"], "env": {"LINKEDIN_ACCESS_TOKEN": "xxx"}},
+  "twitter-ads-campaigns": {"command": "uvx", "args": ["mcp-server-twitter-ads-campaigns", "--api-key", "${TWITTER_API_KEY}", "--api-secret", "${TWITTER_API_SECRET}"], "env": {"TWITTER_API_KEY": "xxx", "TWITTER_API_SECRET": "xxx", "TWITTER_ACCESS_TOKEN": "xxx", "TWITTER_ACCESS_SECRET": "xxx"}},
+  "twitter-ads-promoted-accounts": {"command": "uvx", "args": ["mcp-server-twitter-ads-promoted-accounts", "--api-key", "${TWITTER_API_KEY}", "--api-secret", "${TWITTER_API_SECRET}"], "env": {"TWITTER_API_KEY": "xxx", "TWITTER_API_SECRET": "xxx", "TWITTER_ACCESS_TOKEN": "xxx", "TWITTER_ACCESS_SECRET": "xxx"}},
+  "twitter-ads-promoted-tweets": {"command": "uvx", "args": ["mcp-server-twitter-ads-promoted-tweets", "--api-key", "${TWITTER_API_KEY}", "--api-secret", "${TWITTER_API_SECRET}"], "env": {"TWITTER_API_KEY": "xxx", "TWITTER_API_SECRET": "xxx", "TWITTER_ACCESS_TOKEN": "xxx", "TWITTER_ACCESS_SECRET": "xxx"}},
+  "snapchat-ads-campaigns": {"command": "uvx", "args": ["mcp-server-snapchat-ads-campaigns", "--api-key", "${SNAPCHAT_API_KEY}"], "env": {"SNAPCHAT_API_KEY": "xxx"}},
+  "snapchat-ads-ads": {"command": "uvx", "args": ["mcp-server-snapchat-ads-ads", "--api-key", "${SNAPCHAT_API_KEY}"], "env": {"SNAPCHAT_API_KEY": "xxx"}},
+  "snapchat-ads-media": {"command": "uvx", "args": ["mcp-server-snapchat-ads-media", "--api-key", "${SNAPCHAT_API_KEY}"], "env": {"SNAPCHAT_API_KEY": "xxx"}},
+  "pinterest-ads-campaigns": {"command": "uvx", "args": ["mcp-server-pinterest-ads-campaigns", "--api-key", "${PINTEREST_API_KEY}"], "env": {"PINTEREST_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "github-projects": {"command": "uvx", "args": ["mcp-server-github-projects", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-project-boards": {"command": "uvx", "args": ["mcp-server-github-project-boards", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "notion-databases-full": {"command": "uvx", "args": ["mcp-server-notion-databases-full", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "asana-goals": {"command": "uvx", "args": ["mcp-server-asana-goals", "--access-token", "${ASANA_ACCESS_TOKEN}"], "env": {"ASANA_ACCESS_TOKEN": "xxx"}},
+  "linear-roadmap": {"command": "uvx", "args": ["mcp-server-linear-roadmap", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "lin_api_xxx"}},
+  "jira-roadmap": {"command": "uvx", "args": ["mcp-server-jira-roadmap", "--host", "${JIRA_HOST}", "--email", "${JIRA_EMAIL}", "--api-token", "${JIRA_API_TOKEN}"], "env": {"JIRA_HOST": "https://xxx.atlassian.net", "JIRA_EMAIL": "xxx", "JIRA_API_TOKEN": "xxx"}},
+  "monday-roadmap": {"command": "uvx", "args": ["mcp-server-monday-roadmap", "--api-key", "${MONDAY_API_KEY}"], "env": {"MONDAY_API_KEY": "xxx"}},
+  "clickup-goals": {"command": "uvx", "args": ["mcp-server-clickup-goals", "--api-key", "${CLICKUP_API_KEY}"], "env": {"CLICKUP_API_KEY": "xxx"}},
+  "wrike": {"command": "uvx", "args": ["mcp-server-wrike", "--api-key", "${WRIKE_API_KEY}"], "env": {"WRIKE_API_KEY": "xxx"}},
+  "smartsheet": {"command": "uvx", "args": ["mcp-server-smartsheet", "--api-key", "${SMARTSHEET_API_KEY}"], "env": {"SMARTSHEET_API_KEY": "xxx"}}
+}

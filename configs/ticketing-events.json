@@ -1,0 +1,12 @@
+{
+  "eventbrite-events": {"command": "uvx", "args": ["mcp-server-eventbrite-events", "--api-key", "${EVENTBRITE_API_KEY}"], "env": {"EVENTBRITE_API_KEY": "xxx"}},
+  "eventbrite-attendees": {"command": "uvx", "args": ["mcp-server-eventbrite-attendees", "--api-key", "${EVENTBRITE_API_KEY}"], "env": {"EVENTBRITE_API_KEY": "xxx"}},
+  "eventbrite-orders": {"command": "uvx", "args": ["mcp-server-eventbrite-orders", "--api-key", "${EVENTBRITE_API_KEY}"], "env": {"EVENTBRITE_API_KEY": "xxx"}},
+  "ticketmaster-events": {"command": "uvx", "args": ["mcp-server-ticketmaster-events", "--api-key", "${TICKETMASTER_API_KEY}"], "env": {"TICKETMASTER_API_KEY": "xxx"}},
+  "ticketmaster-venues": {"command": "uvx", "args": ["mcp-server-ticketmaster-venues", "--api-key", "${TICKETMASTER_API_KEY}"], "env": {"TICKETMASTER_API_KEY": "xxx"}},
+  "ticketmaster-attractions": {"command": "uvx", "args": ["mcp-server-ticketmaster-attractions", "--api-key", "${TICKETMASTER_API_KEY}"], "env": {"TICKETMASTER_API_KEY": "xxx"}},
+  "stubhub-events": {"command": "uvx", "args": ["mcp-server-stubhub-events", "--api-key", "${STUBHUB_API_KEY}"], "env": {"STUBHUB_API_KEY": "xxx"}},
+  "seatgeek-events": {"command": "uvx", "args": ["mcp-server-seatgeek-events", "--api-key", "${SEATGEEK_API_KEY}"], "env": {"SEATGEEK_API_KEY": "xxx"}},
+  "axs-events": {"command": "uvx", "args": ["mcp-server-axs-events", "--api-key", "${AXS_API_KEY}"], "env": {"AXS_API_KEY": "xxx"}},
+  "songkick-events": {"command": "uvx", "args": ["mcp-server-songkick-events", "--api-key", "${SONGKICK_API_KEY}"], "env": {"SONGKICK_API_KEY": "xxx"}}
+}

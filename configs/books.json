@@ -1,0 +1,27 @@
+{
+  "openlibrary": {
+    "command": "uvx",
+    "args": ["mcp-server-openlibrary"],
+    "env": {}
+  },
+  "goodreads": {
+    "command": "uvx",
+    "args": ["mcp-server-goodreads", "--api-key", "${GOODREADS_API_KEY}"],
+    "env": {"GOODREADS_API_KEY": "xxx"}
+  },
+  "google-books": {
+    "command": "uvx",
+    "args": ["mcp-server-google-books", "--api-key", "${GOOGLE_BOOKS_API_KEY}"],
+    "env": {"GOOGLE_BOOKS_API_KEY": "xxx"}
+  },
+  "isbndb": {
+    "command": "uvx",
+    "args": ["mcp-server-isbndb", "--api-key", "${ISBNDB_API_KEY}"],
+    "env": {"ISBNDB_API_KEY": "xxx"}
+  },
+  "oclc": {
+    "command": "uvx",
+    "args": ["mcp-server-oclc", "--api-key", "${OCLC_API_KEY}"],
+    "env": {"OCLC_API_KEY": "xxx"}
+  }
+}

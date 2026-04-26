@@ -1,0 +1,12 @@
+{
+  "google-maps-directions": {"command": "uvx", "args": ["mcp-server-google-maps-directions", "--api-key", "${GOOGLE_MAPS_API_KEY}"], "env": {"GOOGLE_MAPS_API_KEY": "xxx"}},
+  "google-maps-places": {"command": "uvx", "args": ["mcp-server-google-maps-places", "--api-key", "${GOOGLE_MAPS_API_KEY}"], "env": {"GOOGLE_MAPS_API_KEY": "xxx"}},
+  "google-maps-geocoding": {"command": "uvx", "args": ["mcp-server-google-maps-geocoding", "--api-key", "${GOOGLE_MAPS_API_KEY}"], "env": {"GOOGLE_MAPS_API_KEY": "xxx"}},
+  "google-maps-elevation": {"command": "uvx", "args": ["mcp-server-google-maps-elevation", "--api-key", "${GOOGLE_MAPS_API_KEY}"], "env": {"GOOGLE_MAPS_API_KEY": "xxx"}},
+  "google-maps-timezone": {"command": "uvx", "args": ["mcp-server-google-maps-timezone", "--api-key", "${GOOGLE_MAPS_API_KEY}"], "env": {"GOOGLE_MAPS_API_KEY": "xxx"}},
+  "mapbox-directions": {"command": "uvx", "args": ["mcp-server-mapbox-directions", "--api-key", "${MAPBOX_API_KEY}"], "env": {"MAPBOX_API_KEY": "xxx"}},
+  "mapbox-geocoding": {"command": "uvx", "args": ["mcp-server-mapbox-geocoding", "--api-key", "${MAPBOX_API_KEY}"], "env": {"MAPBOX_API_KEY": "xxx"}},
+  "mapbox-tilesets": {"command": "uvx", "args": ["mcp-server-mapbox-tilesets", "--api-key", "${MAPBOX_API_KEY}"], "env": {"MAPBOX_API_KEY": "xxx"}},
+  "mapbox-matrix": {"command": "uvx", "args": ["mcp-server-mapbox-matrix", "--api-key", "${MAPBOX_API_KEY}"], "env": {"MAPBOX_API_KEY": "xxx"}},
+  "here-routing": {"command": "uvx", "args": ["mcp-server-here-routing", "--api-key", "${HERE_API_KEY}"], "env": {"HERE_API_KEY": "xxx"}}
+}

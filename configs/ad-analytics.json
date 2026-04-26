@@ -1,0 +1,12 @@
+{
+  "moat-analytics": {"command": "uvx", "args": ["mcp-server-moat-analytics", "--api-key", "${MOAT_API_KEY}"], "env": {"MOAT_API_KEY": "xxx"}},
+  "ias-tracking": {"command": "uvx", "args": ["mcp-server-ias-tracking", "--api-key", "${IAS_API_KEY}"], "env": {"IAS_API_KEY": "xxx"}},
+  "doubleverify": {"command": "uvx", "args": ["mcp-server-doubleverify", "--api-key", "${DOUBLEVERIFY_API_KEY}"], "env": {"DOUBLEVERIFY_API_KEY": "xxx"}},
+  "ads.txt": {"command": "uvx", "args": ["mcp-server-ads-txt", "--api-key", "${ADSTXT_API_KEY}"], "env": {"ADSTXT_API_KEY": "xxx"}},
+  "custom-cursor-ads": {"command": "uvx", "args": ["mcp-server-custom-cursor-ads", "--api-key", "${CURSOR_ADS_API_KEY}"], "env": {"CURSOR_ADS_API_KEY": "xxx"}},
+  "chartboost-ads": {"command": "uvx", "args": ["mcp-server-chartboost-ads", "--api-key", "${CHARTBOOST_API_KEY}"], "env": {"CHARTBOOST_API_KEY": "xxx"}},
+  "unity-ads": {"command": "uvx", "args": ["mcp-server-unity-ads", "--api-key", "${UNITY_ADS_API_KEY}"], "env": {"UNITY_ADS_API_KEY": "xxx"}},
+  "ironsource-ads": {"command": "uvx", "args": ["mcp-server-ironsource-ads", "--api-key", "${IRONSOURE_API_KEY}"], "env": {"IRONSOURE_API_KEY": "xxx"}},
+  "appodeal-ads": {"command": "uvx", "args": ["mcp-server-appodeal-ads", "--api-key", "${APPODEAL_API_KEY}"], "env": {"APPODEAL_API_KEY": "xxx"}},
+  "admob-ads": {"command": "uvx", "args": ["mcp-server-admob-ads", "--api-key", "${ADMOB_API_KEY}"], "env": {"ADMOB_API_KEY": "xxx"}}
+}

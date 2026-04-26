@@ -1,0 +1,12 @@
+{
+  "slack-channels": {"command": "uvx", "args": ["mcp-server-slack-channels", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-messages": {"command": "uvx", "args": ["mcp-server-slack-messages", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-users": {"command": "uvx", "args": ["mcp-server-slack-users", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-files": {"command": "uvx", "args": ["mcp-server-slack-files", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-reactions": {"command": "uvx", "args": ["mcp-server-slack-reactions", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-threads": {"command": "uvx", "args": ["mcp-server-slack-threads", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-channel-history": {"command": "uvx", "args": ["mcp-server-slack-channel-history", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-reminders": {"command": "uvx", "args": ["mcp-server-slack-reminders", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-schedules": {"command": "uvx", "args": ["mcp-server-slack-schedules", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-custom-emoji": {"command": "uvx", "args": ["mcp-server-slack-custom-emoji", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}}
+}

@@ -1,0 +1,11 @@
+{
+  "epic-fhir": {"command": "uvx", "args": ["mcp-server-epic-fhir", "--client-id", "${EPIC_CLIENT_ID}", "--client-secret", "${EPIC_CLIENT_SECRET}", "--server-url", "${EPIC_SERVER_URL}"], "env": {"EPIC_CLIENT_ID": "xxx", "EPIC_CLIENT_SECRET": "xxx", "EPIC_SERVER_URL": "https://fhir.epic.com/interconnect-fhir-oauth"}},
+  "cerner": {"command": "uvx", "args": ["mcp-server-cerner", "--api-key", "${CERNER_API_KEY}"], "env": {"CERNER_API_KEY": "xxx"}},
+  "allscripts": {"command": "uvx", "args": ["mcp-server-allscripts", "--api-key", "${ALLSCRIPTS_API_KEY}"], "env": {"ALLSCRIPTS_API_KEY": "xxx"}},
+  "athenahealth": {"command": "uvx", "args": ["mcp-server-athenahealth", "--api-key", "${ATHENA_API_KEY}"], "env": {"ATHENA_API_KEY": "xxx"}},
+  "drchrono": {"command": "uvx", "args": ["mcp-server-drchrono", "--api-key", "${DRCHRONO_API_KEY}"], "env": {"DRCHRONO_API_KEY": "xxx"}},
+  " Kareo": {"command": "uvx", "args": ["mcp-server-kareo", "--api-key", "${KAREO_API_KEY}"], "env": {"KAREO_API_KEY": "xxx"}},
+  "thera-n": {"command": "uvx", "args": ["mcp-server-theran", "--api-key", "${THERAN_API_KEY}"], "env": {"THERAN_API_KEY": "xxx"}},
+  "zocdoc": {"command": "uvx", "args": ["mcp-server-zocdoc", "--api-key", "${ZOCDOC_API_KEY}"], "env": {"ZOCDOC_API_KEY": "xxx"}},
+  "doximity": {"command": "uvx", "args": ["mcp-server-doximity", "--api-key", "${DOXIMITY_API_KEY}"], "env": {"DOXIMITY_API_KEY": "xxx"}}
+}

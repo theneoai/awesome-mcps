@@ -1,0 +1,12 @@
+{
+  "scikit-learn": {"command": "uvx", "args": ["mcp-server-sklearn"], "env": {}},
+  "tensorflow-serving": {"command": "uvx", "args": ["mcp-server-tensorflow-serving", "--host", "${TF_HOST}"], "env": {"TF_HOST": "localhost:8501"}},
+  "pytorch": {"command": "uvx", "args": ["mcp-server-pytorch", "--host", "${PYTORCH_HOST}"], "env": {"PYTORCH_HOST": "localhost:8000"}},
+  "jax": {"command": "uvx", "args": ["mcp-server-jax"], "env": {}},
+  "mlflow": {"command": "uvx", "args": ["mcp-server-mlflow", "--host", "${MLFLOW_HOST}"], "env": {"MLFLOW_HOST": "http://localhost:5000"}},
+  "weights-biases": {"command": "uvx", "args": ["mcp-server-wandb", "--api-key", "${WANDB_API_KEY}"], "env": {"WANDB_API_KEY": "xxx"}},
+  "tensorboard": {"command": "uvx", "args": ["mcp-server-tensorboard", "--logdir", "${TENSORBOARD_LOGDIR}"], "env": {"TENSORBOARD_LOGDIR": "./logs"}},
+  "modeldb": {"command": "uvx", "args": ["mcp-server-modeldb", "--host", "${MODELDB_HOST}"], "env": {"MODELDB_HOST": "localhost:8080"}},
+  "neptune": {"command": "uvx", "args": ["mcp-server-neptune", "--api-token", "${NEPTUNE_API_TOKEN}"], "env": {"NEPTUNE_API_TOKEN": "xxx"}},
+  "comet": {"command": "uvx", "args": ["mcp-server-comet", "--api-key", "${COMET_API_KEY}"], "env": {"COMET_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "milvus-collections": {"command": "uvx", "args": ["mcp-server-milvus-collections", "--uri", "${MILVUS_URI}"], "env": {"MILVUS_URI": "http://localhost:19530"}},
+  "milvus-partitions": {"command": "uvx", "args": ["mcp-server-milvus-partitions", "--uri", "${MILVUS_URI}"], "env": {"MILVUS_URI": "http://localhost:19530"}},
+  "milvus-vectors": {"command": "uvx", "args": ["mcp-server-milvus-vectors", "--uri", "${MILVUS_URI}"], "env": {"MILVUS_URI": "http://localhost:19530"}},
+  "milvus-search": {"command": "uvx", "args": ["mcp-server-milvus-search", "--uri", "${MILVUS_URI}"], "env": {"MILVUS_URI": "http://localhost:19530"}},
+  "chroma-collections": {"command": "uvx", "args": ["mcp-server-chroma-collections", "--url", "${CHROMA_URL}"], "env": {"CHROMA_URL": "http://localhost:8000"}},
+  "chroma-vectors": {"command": "uvx", "args": ["mcp-server-chroma-vectors", "--url", "${CHROMA_URL}"], "env": {"CHROMA_URL": "http://localhost:8000"}},
+  "chroma-search": {"command": "uvx", "args": ["mcp-server-chroma-search", "--url", "${CHROMA_URL}"], "env": {"CHROMA_URL": "http://localhost:8000"}},
+  "lancedb-tables": {"command": "uvx", "args": ["mcp-server-lancedb-tables", "--api-key", "${LANCEDB_API_KEY}"], "env": {"LANCEDB_API_KEY": "xxx"}},
+  "lancedb-vectors": {"command": "uvx", "args": ["mcp-server-lancedb-vectors", "--api-key", "${LANCEDB_API_KEY}"], "env": {"LANCEDB_API_KEY": "xxx"}},
+  "lancedb-search": {"command": "uvx", "args": ["mcp-server-lancedb-search", "--api-key", "${LANCEDB_API_KEY}"], "env": {"LANCEDB_API_KEY": "xxx"}}
+}

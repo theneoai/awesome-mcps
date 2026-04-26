@@ -1,22 +1,12 @@
 {
-  "dropbox": {
-    "command": "uvx",
-    "args": [
-      "mcp-server-dropbox",
-      "--access-token", "${DROPBOX_ACCESS_TOKEN}"
-    ],
-    "env": {
-      "DROPBOX_ACCESS_TOKEN": "your-access-token"
-    }
-  },
-  "gdrive": {
-    "command": "uvx",
-    "args": [
-      "mcp-server-gdrive",
-      "--credentials-path", "${GDrive_CREDENTIALS_PATH}"
-    ],
-    "env": {
-      "GDrive_CREDENTIALS_PATH": "/path/to/credentials.json"
-    }
-  }
+  "dropbox-files": {"command": "uvx", "args": ["mcp-server-dropbox-files", "--access-token", "${DROPBOX_ACCESS_TOKEN}"], "env": {"DROPBOX_ACCESS_TOKEN": "xxx"}},
+  "dropbox-sharing": {"command": "uvx", "args": ["mcp-server-dropbox-sharing", "--access-token", "${DROPBOX_ACCESS_TOKEN}"], "env": {"DROPBOX_ACCESS_TOKEN": "xxx"}},
+  "dropbox-paper": {"command": "uvx", "args": ["mcp-server-dropbox-paper", "--access-token", "${DROPBOX_ACCESS_TOKEN}"], "env": {"DROPBOX_ACCESS_TOKEN": "xxx"}},
+  "google-drive-files": {"command": "uvx", "args": ["mcp-server-google-drive-files", "--api-key", "${GOOGLE_DRIVE_API_KEY}"], "env": {"GOOGLE_DRIVE_API_KEY": "xxx"}},
+  "google-drive-permissions": {"command": "uvx", "args": ["mcp-server-google-drive-permissions", "--api-key", "${GOOGLE_DRIVE_API_KEY}"], "env": {"GOOGLE_DRIVE_API_KEY": "xxx"}},
+  "google-drive-revisions": {"command": "uvx", "args": ["mcp-server-google-drive-revisions", "--api-key", "${GOOGLE_DRIVE_API_KEY}"], "env": {"GOOGLE_DRIVE_API_KEY": "xxx"}},
+  "onedrive-files": {"command": "uvx", "args": ["mcp-server-onedrive-files", "--access-token", "${ONEDRIVE_ACCESS_TOKEN}"], "env": {"ONEDRIVE_ACCESS_TOKEN": "xxx"}},
+  "onedrive-permissions": {"command": "uvx", "args": ["mcp-server-onedrive-permissions", "--access-token", "${ONEDRIVE_ACCESS_TOKEN}"], "env": {"ONEDRIVE_ACCESS_TOKEN": "xxx"}},
+  "box-files": {"command": "uvx", "args": ["mcp-server-box-files", "--access-token", "${BOX_ACCESS_TOKEN}"], "env": {"BOX_ACCESS_TOKEN": "xxx"}},
+  "box-folders": {"command": "uvx", "args": ["mcp-server-box-folders", "--access-token", "${BOX_ACCESS_TOKEN}"], "env": {"BOX_ACCESS_TOKEN": "xxx"}}
 }

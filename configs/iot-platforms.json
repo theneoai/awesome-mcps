@@ -1,0 +1,11 @@
+{
+  "aws-iot": {"command": "uvx", "args": ["mcp-server-aws-iot", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-iot-hub": {"command": "uvx", "args": ["mcp-server-azure-iot-hub", "--connection-string", "${IOT_HUB_CONNECTION_STRING}"], "env": {"IOT_HUB_CONNECTION_STRING": "xxx"}},
+  "google-cloud-iot": {"command": "uvx", "args": ["mcp-server-gcp-iot", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "ibm-watson-iot": {"command": "uvx", "args": ["mcp-server-watson-iot", "--org-id", "${WATSON_IOT_ORG_ID}", "--api-key", "${WATSON_IOT_API_KEY}"], "env": {"WATSON_IOT_ORG_ID": "xxx", "WATSON_IOT_API_KEY": "xxx"}},
+  "particle": {"command": "uvx", "args": ["mcp-server-particle", "--access-token", "${PARTICLE_ACCESS_TOKEN}"], "env": {"PARTICLE_ACCESS_TOKEN": "xxx"}},
+  "balena": {"command": "uvx", "args": ["mcp-server-balena", "--api-key", "${BALENA_API_KEY}"], "env": {"BALENA_API_KEY": "xxx"}},
+  "thethingsnetwork": {"command": "uvx", "args": ["mcp-server-ttn", "--api-key", "${TTN_API_KEY}"], "env": {"TTN_API_KEY": "xxx"}},
+  "lorawan": {"command": "uvx", "args": ["mcp-server-lorawan", "--host", "${LORAWAN_HOST}"], "env": {"LORAWAN_HOST": "http://localhost:8080"}},
+  "aws-iot-greengrass": {"command": "uvx", "args": ["mcp-server-aws-greengrass", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}}
+}

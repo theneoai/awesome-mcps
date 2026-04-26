@@ -1,0 +1,12 @@
+{
+  "ipfs-files": {"command": "uvx", "args": ["mcp-server-ipfs-files", "--api-url", "${IPFS_API_URL}"], "env": {"IPFS_API_URL": "http://localhost:5001"}},
+  "ipfs-pins": {"command": "uvx", "args": ["mcp-server-ipfs-pins", "--api-url", "${IPFS_API_URL}"], "env": {"IPFS_API_URL": "http://localhost:5001"}},
+  "pinata-pins": {"command": "uvx", "args": ["mcp-server-pinata-pins", "--api-key", "${PINATA_API_KEY}"], "env": {"PINATA_API_KEY": "xxx", "PINATA_API_SECRET": "xxx"}},
+  "pinata-files": {"command": "uvx", "args": ["mcp-server-pinata-files", "--api-key", "${PINATA_API_KEY}"], "env": {"PINATA_API_KEY": "xxx", "PINATA_API_SECRET": "xxx"}},
+  "web3-storage-files": {"command": "uvx", "args": ["mcp-server-web3-storage-files", "--api-key", "${WEB3_STORAGE_API_KEY}"], "env": {"WEB3_STORAGE_API_KEY": "xxx"}},
+  "web3-storage-uploads": {"command": "uvx", "args": ["mcp-server-web3-storage-uploads", "--api-key", "${WEB3_STORAGE_API_KEY}"], "env": {"WEB3_STORAGE_API_KEY": "xxx"}},
+  "nft-storage-files": {"command": "uvx", "args": ["mcp-server-nft-storage-files", "--api-key", "${NFT_STORAGE_API_KEY}"], "env": {"NFT_STORAGE_API_KEY": "xxx"}},
+  "nft-storage-uploads": {"command": "uvx", "args": ["mcp-server-nft-storage-uploads", "--api-key", "${NFT_STORAGE_API_KEY}"], "env": {"NFT_STORAGE_API_KEY": "xxx"}},
+  "filecoin-deals": {"command": "uvx", "args": ["mcp-server-filecoin-deals", "--api-key", "${FILECOIN_API_KEY}"], "env": {"FILECOIN_API_KEY": "xxx"}},
+  "filecoin-miners": {"command": "uvx", "args": ["mcp-server-filecoin-miners", "--api-key", "${FILECOIN_API_KEY}"], "env": {"FILECOIN_API_KEY": "xxx"}}
+}

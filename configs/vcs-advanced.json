@@ -1,0 +1,12 @@
+{
+  "github-repo-forces": {"command": "uvx", "args": ["mcp-server-github-repo-forces", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-fork-repos": {"command": "uvx", "args": ["mcp-server-github-fork-repos", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-merge-branches": {"command": "uvx", "args": ["mcp-server-github-merge-branches", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "gitlab-fork-repos": {"command": "uvx", "args": ["mcp-server-gitlab-fork-repos", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-merge-braches": {"command": "uvx", "args": ["mcp-server-gitlab-merge-branches", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "bitbucket-fork-repos": {"command": "uvx", "args": ["mcp-server-bitbucket-fork-repos", "--workspace", "${BB_WORKSPACE}", "--token", "${BB_TOKEN}"], "env": {"BB_WORKSPACE": "xxx", "BB_TOKEN": "xxx"}},
+  "circleci-orbs": {"command": "uvx", "args": ["mcp-server-circleci-orbs", "--token", "${CIRCLECI_TOKEN}"], "env": {"CIRCLECI_TOKEN": "xxx"}},
+  "circleci-ssh": {"command": "uvx", "args": ["mcp-server-circleci-ssh", "--token", "${CIRCLECI_TOKEN}"], "env": {"CIRCLECI_TOKEN": "xxx"}},
+  "github-actions-cache": {"command": "uvx", "args": ["mcp-server-github-actions-cache", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "gitlab-ci-cache": {"command": "uvx", "args": ["mcp-server-gitlab-ci-cache", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}}
+}

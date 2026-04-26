@@ -1,0 +1,12 @@
+{
+  "gcp-compute": {"command": "uvx", "args": ["mcp-server-gcp-compute", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-storage": {"command": "uvx", "args": ["mcp-server-gcp-storage", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-bigquery-mcp": {"command": "uvx", "args": ["mcp-server-gcp-bigquery", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-pubsub-mcp": {"command": "uvx", "args": ["mcp-server-gcp-pubsub", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-functions": {"command": "uvx", "args": ["mcp-server-gcp-functions", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-run": {"command": "uvx", "args": ["mcp-server-gcp-run", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-iam": {"command": "uvx", "args": ["mcp-server-gcp-iam", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-kms": {"command": "uvx", "args": ["mcp-server-gcp-kms", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-spanner": {"command": "uvx", "args": ["mcp-server-gcp-spanner", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-firestore": {"command": "uvx", "args": ["mcp-server-gcp-firestore", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}}
+}

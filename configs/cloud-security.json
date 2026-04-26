@@ -1,0 +1,12 @@
+{
+  "google-security-command-center": {"command": "uvx", "args": ["mcp-server-google-security-command-center", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "azure-security-center": {"command": "uvx", "args": ["mcp-server-azure-security-center", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}", "--tenant-id", "${AZURE_TENANT_ID}"], "env": {"AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx", "AZURE_TENANT_ID": "xxx"}},
+  "atlassian-access": {"command": "uvx", "args": ["mcp-server-atlassian-access", "--domain", "${ATLASSIAN_DOMAIN}", "--api-token", "${ATLASSIAN_API_TOKEN}"], "env": {"ATLASSIAN_DOMAIN": "xxx.atlassian.net", "ATLASSIAN_API_TOKEN": "xxx"}},
+  "atlassian-admin": {"command": "uvx", "args": ["mcp-server-atlassian-admin", "--domain", "${ATLASSIAN_DOMAIN}", "--api-token", "${ATLASSIAN_API_TOKEN}"], "env": {"ATLASSIAN_DOMAIN": "xxx.atlassian.net", "ATLASSIAN_API_TOKEN": "xxx"}},
+  "okta-logStream": {"command": "uvx", "args": ["mcp-server-okta-logs", "--domain", "${OKTA_DOMAIN}", "--api-token", "${OKTA_API_TOKEN}"], "env": {"OKTA_DOMAIN": "xxx.okta.com", "OKTA_API_TOKEN": "xxx"}},
+  "auth0-logs": {"command": "uvx", "args": ["mcp-server-auth0-logs", "--domain", "${AUTH0_DOMAIN}", "--client-id", "${AUTH0_CLIENT_ID}", "--client-secret", "${AUTH0_CLIENT_SECRET}"], "env": {"AUTH0_DOMAIN": "xxx.auth0.com", "AUTH0_CLIENT_ID": "xxx", "AUTH0_CLIENT_SECRET": "xxx"}},
+  "cloudflare-analytics": {"command": "uvx", "args": ["mcp-server-cloudflare-analytics", "--api-key", "${CF_API_KEY}", "--email", "${CF_EMAIL}"], "env": {"CF_API_KEY": "xxx", "CF_EMAIL": "xxx@xxx.com"}},
+  "cloudflare-logpush": {"command": "uvx", "args": ["mcp-server-cloudflare-logpush", "--api-key", "${CF_API_KEY}", "--email", "${CF_EMAIL}"], "env": {"CF_API_KEY": "xxx", "CF_EMAIL": "xxx@xxx.com"}},
+  "akamai-monitor": {"command": "uvx", "args": ["mcp-server-akamai-monitor", "--api-key", "${AKAMAI_API_KEY}"], "env": {"AKAMAI_API_KEY": "xxx"}},
+  "fastly-analytics": {"command": "uvx", "args": ["mcp-server-fastly-analytics", "--api-key", "${FASTLY_API_KEY}"], "env": {"FASTLY_API_KEY": "xxx"}}
+}

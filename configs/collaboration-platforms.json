@@ -1,0 +1,11 @@
+{
+  "slack-channels": {"command": "uvx", "args": ["mcp-server-slack-channels", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-messages": {"command": "uvx", "args": ["mcp-server-slack-messages", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "slack-files": {"command": "uvx", "args": ["mcp-server-slack-files", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "discord-servers": {"command": "uvx", "args": ["mcp-server-discord-servers", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "discord-messages": {"command": "uvx", "args": ["mcp-server-discord-messages", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "microsoft-teams-channels": {"command": "uvx", "args": ["mcp-server-ms-teams-channels", "--client-id", "${TEAMS_CLIENT_ID}", "--client-secret": "${TEAMS_CLIENT_SECRET}", "--tenant-id": "${TEAMS_TENANT_ID}"], "env": {"TEAMS_CLIENT_ID": "xxx", "TEAMS_CLIENT_SECRET": "xxx", "TEAMS_TENANT_ID": "xxx"}},
+  "microsoft-teams-messages": {"command": "uvx", "args": ["mcp-server-ms-teams-messages", "--client-id", "${TEAMS_CLIENT_ID}", "--client-secret": "${TEAMS_CLIENT_SECRET}", "--tenant-id": "${TEAMS_TENANT_ID}"], "env": {"TEAMS_CLIENT_ID": "xxx", "TEAMS_CLIENT_SECRET": "xxx", "TEAMS_TENANT_ID": "xxx"}},
+  "zoom-meetings": {"command": "uvx", "args": ["mcp-server-zoom-meetings", "--api-key", "${ZOOM_API_KEY}", "--api-secret", "${ZOOM_API_SECRET}"], "env": {"ZOOM_API_KEY": "xxx", "ZOOM_API_SECRET": "xxx"}},
+  "zoom-recordings": {"command": "uvx", "args": ["mcp-server-zoom-recordings", "--api-key", "${ZOOM_API_KEY}", "--api-secret", "${ZOOM_API_SECRET}"], "env": {"ZOOM_API_KEY": "xxx", "ZOOM_API_SECRET": "xxx"}}
+}

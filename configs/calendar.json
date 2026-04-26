@@ -1,0 +1,22 @@
+{
+  "google-calendar": {
+    "command": "uvx",
+    "args": ["mcp-server-google-calendar", "--credentials-path", "${GCALENDAR_CREDENTIALS_PATH}"],
+    "env": {"GCALENDAR_CREDENTIALS_PATH": "/path/to/credentials.json"}
+  },
+  "office365-calendar": {
+    "command": "uvx",
+    "args": ["mcp-server-office365-calendar", "--client-id", "${O365_CLIENT_ID}", "--client-secret", "${O365_CLIENT_SECRET}"],
+    "env": {"O365_CLIENT_ID": "xxx", "O365_CLIENT_SECRET": "xxx"}
+  },
+  "apple-calendar": {
+    "command": "uvx",
+    "args": ["mcp-server-apple-calendar", "--api-key", "${APPLE_CALENDAR_API_KEY}"],
+    "env": {"APPLE_CALENDAR_API_KEY": "xxx"}
+  },
+  "caldav": {
+    "command": "uvx",
+    "args": ["mcp-server-caldav", "--url", "${CALDAV_URL}", "--username", "${CALDAV_USERNAME}", "--password", "${CALDAV_PASSWORD}"],
+    "env": {"CALDAV_URL": "https://caldav.example.com", "CALDAV_USERNAME": "xxx", "CALDAV_PASSWORD": "xxx"}
+  }
+}

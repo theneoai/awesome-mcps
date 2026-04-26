@@ -1,0 +1,12 @@
+{
+  "stripe-connect-full": {"command": "uvx", "args": ["mcp-server-stripe-connect-full", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-connect-accounts": {"command": "uvx", "args": ["mcp-server-stripe-connect-accounts", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-connect-charges": {"command": "uvx", "args": ["mcp-server-stripe-connect-charges", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-connect-payouts": {"command": "uvx", "args": ["mcp-server-stripe-connect-payouts", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-connect-transfers": {"command": "uvx", "args": ["mcp-server-stripe-connect-transfers", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-connect-onboarding": {"command": "uvx", "args": ["mcp-server-stripe-connect-onboarding", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-connect-capabilities": {"command": "uvx", "args": ["mcp-server-stripe-connect-capabilities", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-connect-terms-of-service": {"command": "uvx", "args": ["mcp-server-stripe-connect-terms-of-service", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-connect-login-links": {"command": "uvx", "args": ["mcp-server-stripe-connect-login-links", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "paypal-marketplace": {"command": "uvx", "args": ["mcp-server-paypal-marketplace", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}}
+}

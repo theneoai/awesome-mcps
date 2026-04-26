@@ -1,0 +1,12 @@
+{
+  "openai-audio-spas": {"command": "uvx", "args": ["mcp-server-openai-audio-spas", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "eleven-labs-webhooks": {"command": "uvx", "args": ["mcp-server-eleven-labs-webhooks", "--api-key", "${ELEVEN_LABS_API_KEY}"], "env": {"ELEVEN_LABS_API_KEY": "xxx"}},
+  "deepgram-webhooks": {"command": "uvx", "args": ["mcp-server-deepgram-webhooks", "--api-key", "${DEEPGRAM_API_KEY}"], "env": {"DEEPGRAM_API_KEY": "xxx"}},
+  "assemblyai-webhooks": {"command": "uvx", "args": ["mcp-server-assemblyai-webhooks", "--api-key", "${ASSEMBLYAI_API_KEY}"], "env": {"ASSEMBLYAI_API_KEY": "xxx"}},
+  "rev-ai-webhooks": {"command": "uvx", "args": ["mcp-server-rev-ai-webhooks", "--api-key", "${REV_AI_API_KEY}"], "env": {"REV_AI_API_KEY": "xxx"}},
+  "azure-speech-webhooks": {"command": "uvx", "args": ["mcp-server-azure-speech-webhooks", "--key", "${AZURE_SPEECH_KEY}"], "env": {"AZURE_SPEECH_KEY": "xxx", "AZURE_SPEECH_REGION": "eastus"}},
+  "aws-transcribe-webhooks": {"command": "uvx", "args": ["mcp-server-aws-transcribe-webhooks", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "google-speech-webhooks": {"command": "uvx", "args": ["mcp-server-google-speech-webhooks", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "nvidia-riva-webhooks": {"command": "uvx", "args": ["mcp-server-nvidia-riva-webhooks", "--host", "${RIVA_HOST}"], "env": {"RIVA_HOST": "localhost:50051"}},
+  "speechmatics-webhooks": {"command": "uvx", "args": ["mcp-server-speechmatics-webhooks", "--api-key", "${SPEECHMATICS_API_KEY}"], "env": {"SPEECHMATICS_API_KEY": "xxx"}}
+}

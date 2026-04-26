@@ -1,0 +1,6 @@
+{
+  "grpcurl": {"command": "uvx", "args": ["mcp-server-grpcurl", "--host", "${GRPC_HOST}", "--port", "${GRPC_PORT}"], "env": {"GRPC_HOST": "localhost", "GRPC_PORT": "50051"}},
+  "buf": {"command": "uvx", "args": ["mcp-server-buf", "--proto-path", "${BUF_PROTO_PATH}"], "env": {"BUF_PROTO_PATH": "./proto"}},
+  "envoy": {"command": "uvx", "args": ["mcp-server-envoy", "--admin-url", "${ENVOY_ADMIN_URL}"], "env": {"ENVOY_ADMIN_URL": "http://localhost:9901"}},
+  "grpc-web": {"command": "uvx", "args": ["mcp-server-grpc-web", "--host", "${GRPC_WEB_HOST}"], "env": {"GRPC_WEB_HOST": "http://localhost:8080"}}
+}

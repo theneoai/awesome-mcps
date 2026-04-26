@@ -1,0 +1,12 @@
+{
+  "stripe-terminal": {"command": "uvx", "args": ["mcp-server-stripe-terminal", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "square-terminal": {"command": "uvx", "args": ["mcp-server-square-terminal", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "braintree-terminal": {"command": "uvx", "args": ["mcp-server-braintree-terminal", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "adyen-pos": {"command": "uvx", "args": ["mcp-server-adyen-pos", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "clover-pos": {"command": "uvx", "args": ["mcp-server-clover-pos", "--api-key", "${CLOVER_API_KEY}"], "env": {"CLOVER_API_KEY": "xxx"}},
+  "square-pos": {"command": "uvx", "args": ["mcp-server-square-pos", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "shopify-pos": {"command": "uvx", "args": ["mcp-server-shopify-pos", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "Lightspeed-pos": {"command": "uvx", "args": ["mcp-server-lightspeed-pos", "--api-key", "${LIGHTSPEED_API_KEY}"], "env": {"LIGHTSPEED_API_KEY": "xxx"}},
+  "Toast-pos": {"command": "uvx", "args": ["mcp-server-toast-pos", "--api-key", "${TOAST_API_KEY}"], "env": {"TOAST_API_KEY": "xxx"}},
+  "Vend-pos": {"command": "uvx", "args": ["mcp-server-vend-pos", "--api-key", "${VEND_API_KEY}"], "env": {"VEND_API_KEY": "xxx"}}
+}

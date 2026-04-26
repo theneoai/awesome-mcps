@@ -1,0 +1,12 @@
+{
+  "gemini-ticker": {"command": "uvx", "args": ["mcp-server-gemini-ticker", "--api-key", "${GEMINI_API_KEY}"], "env": {"GEMINI_API_KEY": "xxx", "GEMINI_API_SECRET": "xxx"}},
+  "gemini-orderbook": {"command": "uvx", "args": ["mcp-server-gemini-orderbook", "--api-key", "${GEMINI_API_KEY}"], "env": {"GEMINI_API_KEY": "xxx", "GEMINI_API_SECRET": "xxx"}},
+  "gemini-trades": {"command": "uvx", "args": ["mcp-server-gemini-trades", "--api-key", "${GEMINI_API_KEY}"], "env": {"GEMINI_API_KEY": "xxx", "GEMINI_API_SECRET": "xxx"}},
+  "bitstamp-ticker": {"command": "uvx", "args": ["mcp-server-bitstamp-ticker", "--api-key", "${BITSTAMP_API_KEY}"], "env": {"BITSTAMP_API_KEY": "xxx", "BITSTAMP_API_SECRET": "xxx"}},
+  "bitstamp-orderbook": {"command": "uvx", "args": ["mcp-server-bitstamp-orderbook", "--api-key", "${BITSTAMP_API_KEY}"], "env": {"BITSTAMP_API_KEY": "xxx", "BITSTAMP_API_SECRET": "xxx"}},
+  "bitstamp-trades": {"command": "uvx", "args": ["mcp-server-bitstamp-trades", "--api-key", "${BITSTAMP_API_KEY}"], "env": {"BITSTAMP_API_KEY": "xxx", "BITSTAMP_API_SECRET": "xxx"}},
+  "ftx-ticker": {"command": "uvx", "args": ["mcp-server-ftx-ticker", "--api-key", "${FTX_API_KEY}"], "env": {"FTX_API_KEY": "xxx", "FTX_API_SECRET": "xxx"}},
+  "ftx-markets": {"command": "uvx", "args": ["mcp-server-ftx-markets", "--api-key", "${FTX_API_KEY}"], "env": {"FTX_API_KEY": "xxx", "FTX_API_SECRET": "xxx"}},
+  "kucoin-ticker": {"command": "uvx", "args": ["mcp-server-kucoin-ticker", "--api-key", "${KUCOIN_API_KEY}"], "env": {"KUCOIN_API_KEY": "xxx", "KUCOIN_API_SECRET": "xxx"}},
+  "kucoin-orderbook": {"command": "uvx", "args": ["mcp-server-kucoin-orderbook", "--api-key", "${KUCOIN_API_KEY}"], "env": {"KUCOIN_API_KEY": "xxx", "KUCOIN_API_SECRET": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "aws-lambda": {"command": "uvx", "args": ["mcp-server-aws-lambda", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-functions": {"command": "uvx", "args": ["mcp-server-azure-functions", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"], "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "google-cloud-functions": {"command": "uvx", "args": ["mcp-server-gcp-functions", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "cloudflare-workers": {"command": "uvx", "args": ["mcp-server-cf-workers", "--api-token", "${CF_API_TOKEN}"], "env": {"CF_API_TOKEN": "xxx"}},
+  "vercel-functions": {"command": "uvx", "args": ["mcp-server-vercel-functions", "--token", "${VERCEL_TOKEN}"], "env": {"VERCEL_TOKEN": "xxx"}},
+  "netlify-functions": {"command": "uvx", "args": ["mcp-server-netlify-functions", "--access-token", "${NETLIFY_ACCESS_TOKEN}"], "env": {"NETLIFY_ACCESS_TOKEN": "xxx"}},
+  "firebase-functions": {"command": "uvx", "args": ["mcp-server-firebase-functions", "--credentials-path", "${FIREBASE_CREDENTIALS_PATH}"], "env": {"FIREBASE_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "knative-functions": {"command": "uvx", "args": ["mcp-server-knative-functions", "--kubeconfig", "${KUBECONFIG_PATH}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "openwhisk": {"command": "uvx", "args": ["mcp-server-openwhisk", "--auth", "${OPENWHISK_AUTH}"], "env": {"OPENWHISK_AUTH": "xxx"}},
+  "spotinst-functions": {"command": "uvx", "args": ["mcp-server-spotinst", "--account-id", "${SPOTINST_ACCOUNT_ID}", "--token", "${SPOTINST_TOKEN}"], "env": {"SPOTINST_ACCOUNT_ID": "xxx", "SPOTINST_TOKEN": "xxx"}}
+}

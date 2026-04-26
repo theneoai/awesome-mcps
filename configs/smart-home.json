@@ -1,0 +1,12 @@
+{
+  "home-assistant-smart": {"command": "uvx", "args": ["mcp-server-home-assistant", "--host", "${HA_HOST}", "--token", "${HA_TOKEN}"], "env": {"HA_HOST": "http://home-assistant:8123", "HA_TOKEN": "xxx"}},
+  "apple-homekit": {"command": "uvx", "args": ["mcp-server-apple-homekit", "--api-key", "${HOMEKIT_API_KEY}"], "env": {"HOMEKIT_API_KEY": "xxx"}},
+  "google-nest": {"command": "uvx", "args": ["mcp-server-google-nest", "--credentials-path", "${NEST_CREDENTIALS_PATH}"], "env": {"NEST_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "samsung-smartthings": {"command": "uvx", "args": ["mcp-server-smartthings", "--api-key", "${SMARTTHINGS_API_KEY}"], "env": {"SMARTTHINGS_API_KEY": "xxx"}},
+  "amazon-alexa": {"command": "uvx", "args": ["mcp-server-amazon-alexa", "--client-id", "${ALEXA_CLIENT_ID}", "--client-secret", "${ALEXA_CLIENT_SECRET}"], "env": {"ALEXA_CLIENT_ID": "xxx", "ALEXA_CLIENT_SECRET": "xxx"}},
+  "mqtt": {"command": "uvx", "args": ["mcp-server-mqtt", "--broker", "${MQTT_BROKER}", "--port", "${MQTT_PORT}"], "env": {"MQTT_BROKER": "localhost", "MQTT_PORT": "1883"}},
+  "zigbee2mqtt": {"command": "uvx", "args": ["mcp-server-zigbee2mqtt", "--host", "${Z2M_HOST}"], "env": {"Z2M_HOST": "http://localhost:8080"}},
+  "tuya": {"command": "uvx", "args": ["mcp-server-tuya", "--api-key", "${TUYA_API_KEY}", "--api-secret", "${TUYA_API_SECRET}"], "env": {"TUYA_API_KEY": "xxx", "TUYA_API_SECRET": "xxx"}},
+  "wink": {"command": "uvx", "args": ["mcp-server-wink", "--api-key", "${WINK_API_KEY}"], "env": {"WINK_API_KEY": "xxx"}},
+  "iota": {"command": "uvx", "args": ["mcp-server-iota", "--host", "${IOTA_HOST}"], "env": {"IOTA_HOST": "http://localhost:1880"}}
+}

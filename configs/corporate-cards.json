@@ -1,0 +1,12 @@
+{
+  "stripe-issuing-cards": {"command": "uvx", "args": ["mcp-server-stripe-issuing-cards", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-issuing-transactions": {"command": "uvx", "args": ["mcp-server-stripe-issuing-transactions", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-issuing-authorizations": {"command": "uvx", "args": ["mcp-server-stripe-issuing-authorizations", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-issuing-disputes": {"command": "uvx", "args": ["mcp-server-stripe-issuing-disputes", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "brex Issuing": {"command": "uvx", "args": ["mcp-server-brex-issuing", "--api-key", "${BREX_API_KEY}"], "env": {"BREX_API_KEY": "xxx"}},
+  "ramp-cards": {"command": "uvx", "args": ["mcp-server-ramp-cards", "--api-key", "${RAMP_API_KEY}"], "env": {"RAMP_API_KEY": "xxx"}},
+  "mercury-cards": {"command": "uvx", "args": ["mcp-server-mercury-cards", "--api-key", "${MERCURY_API_KEY}"], "env": {"MERCURY_API_KEY": "xxx"}},
+  "stripe-capital": {"command": "uvx", "args": ["mcp-server-stripe-capital", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-finance": {"command": "uvx", "args": ["mcp-server-stripe-finance", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "quickbooks-expenses": {"command": "uvx", "args": ["mcp-server-quickbooks-expenses", "--client-id", "${QB_CLIENT_ID}", "--client-secret", "${QB_CLIENT_SECRET}"], "env": {"QB_CLIENT_ID": "xxx", "QB_CLIENT_SECRET": "xxx"}}
+}

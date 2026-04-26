@@ -1,0 +1,12 @@
+{
+  "travis-ci-builds": {"command": "uvx", "args": ["mcp-server-travis-ci-builds", "--api-key", "${TRAVIS_API_KEY}"], "env": {"TRAVIS_API_KEY": "xxx"}},
+  "travis-ci-repos": {"command": "uvx", "args": ["mcp-server-travis-ci-repos", "--api-key", "${TRAVIS_API_KEY}"], "env": {"TRAVIS_API_KEY": "xxx"}},
+  "appveyor-builds": {"command": "uvx", "args": ["mcp-server-appveyor-builds", "--api-key", "${APPVEYOR_API_KEY}"], "env": {"APPVEYOR_API_KEY": "xxx"}},
+  "appveyor-projects": {"command": "uvx", "args": ["mcp-server-appveyor-projects", "--api-key", "${APPVEYOR_API_KEY}"], "env": {"APPVEYOR_API_KEY": "xxx"}},
+  "semaphore-projects": {"command": "uvx", "args": ["mcp-server-semaphore-projects", "--api-key", "${SEMAPHORE_API_KEY}"], "env": {"SEMAPHORE_API_KEY": "xxx"}},
+  "semaphore-pipelines": {"command": "uvx", "args": ["mcp-server-semaphore-pipelines", "--api-key", "${SEMAPHORE_API_KEY}"], "env": {"SEMAPHORE_API_KEY": "xxx"}},
+  "drone-ci-builds": {"command": "uvx", "args": ["mcp-server-drone-ci-builds", "--api-key", "${DRONE_API_KEY}"], "env": {"DRONE_API_KEY": "xxx"}},
+  "drone-ci-repos": {"command": "uvx", "args": ["mcp-server-drone-ci-repos", "--api-key", "${DRONE_API_KEY}"], "env": {"DRONE_API_KEY": "xxx"}},
+  "woodpecker-ci-builds": {"command": "uvx", "args": ["mcp-server-woodpecker-ci-builds", "--url", "${WOODPECKER_URL}", "--api-key", "${WOODPECKER_API_KEY}"], "env": {"WOODPECKER_URL": "http://localhost:8000", "WOODPECKER_API_KEY": "xxx"}},
+  "woodpecker-ci-repos": {"command": "uvx", "args": ["mcp-server-woodpecker-ci-repos", "--url", "${WOODPECKER_URL}", "--api-key", "${WOODPECKER_API_KEY}"], "env": {"WOODPECKER_URL": "http://localhost:8000", "WOODPECKER_API_KEY": "xxx"}}
+}

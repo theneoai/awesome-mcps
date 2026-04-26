@@ -1,0 +1,12 @@
+{
+  "evernote-notes": {"command": "uvx", "args": ["mcp-server-evernote-notes", "--developer-token", "${EVERNOTE_DEV_TOKEN}"], "env": {"EVERNOTE_DEV_TOKEN": "xxx"}},
+  "notion-workspace": {"command": "uvx", "args": ["mcp-server-notion-workspace", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "bear-notes": {"command": "uvx", "args": ["mcp-server-bear-notes", "--api-key", "${BEAR_API_KEY}"], "env": {"BEAR_API_KEY": "xxx"}},
+  "apple-notes": {"command": "uvx", "args": ["mcp-server-apple-notes", "--api-key", "${APPLE_NOTES_API_KEY}"], "env": {"APPLE_NOTES_API_KEY": "xxx"}},
+  "samsung-notes": {"command": "uvx", "args": ["mcp-server-samsung-notes", "--api-key", "${SAMSUNG_NOTES_API_KEY}"], "env": {"SAMSUNG_NOTES_API_KEY": "xxx"}},
+  "google-keep": {"command": "uvx", "args": ["mcp-server-google-keep", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "onenote": {"command": "uvx", "args": ["mcp-server-onenote", "--client-id", "${ONENOTE_CLIENT_ID}", "--client-secret", "${ONENOTE_CLIENT_SECRET}"], "env": {"ONENOTE_CLIENT_ID": "xxx", "ONENOTE_CLIENT_SECRET": "xxx"}},
+  "simplenote": {"command": "uvx", "args": ["mcp-server-simplenote", "--api-key", "${SIMPLENOTE_API_KEY}"], "env": {"SIMPLENOTE_API_KEY": "xxx"}},
+  "notable": {"command": "uvx", "args": ["mcp-server-notable", "--api-key", "${NOTABLE_API_KEY}"], "env": {"NOTABLE_API_KEY": "xxx"}},
+  "tomboy": {"command": "uvx", "args": ["mcp-server-tomboy", "--api-key", "${TOMBOY_API_KEY}"], "env": {"TOMBOY_API_KEY": "xxx"}}
+}

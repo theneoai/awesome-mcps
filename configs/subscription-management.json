@@ -1,0 +1,12 @@
+{
+  "shopify-selling-plans": {"command": "uvx", "args": ["mcp-server-shopify-selling-plans", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-subscriptions-full": {"command": "uvx", "args": ["mcp-server-shopify-subscriptions-full", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "stripe-subscription-items": {"command": "uvx", "args": ["mcp-server-stripe-subscription-items", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-subscription-schedules": {"command": "uvx", "args": ["mcp-server-stripe-subscription-schedules", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-subscription-trials": {"command": "uvx", "args": ["mcp-server-stripe-subscription-trials", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "chargebee-subscription-items": {"command": "uvx", "args": ["mcp-server-chargebee-subscription-items", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}},
+  "chargebee-addons": {"command": "uvx", "args": ["mcp-server-chargebee-addons", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}},
+  "paddle-subscription-items": {"command": "uvx", "args": ["mcp-server-paddle-subscription-items", "--vendor-id", "${PADDLE_VENDOR_ID}", "--api-key", "${PADDLE_API_KEY}"], "env": {"PADDLE_VENDOR_ID": "xxx", "PADDLE_API_KEY": "xxx"}},
+  "recurly-subscriptions": {"command": "uvx", "args": ["mcp-server-recurly-subscriptions", "--api-key", "${RECURLY_API_KEY}"], "env": {"RECURLY_API_KEY": "xxx"}},
+  "zuora-subscriptions": {"command": "uvx", "args": ["mcp-server-zuora-subscriptions", "--api-key", "${ZUORA_API_KEY}"], "env": {"ZUORA_API_KEY": "xxx"}}
+}

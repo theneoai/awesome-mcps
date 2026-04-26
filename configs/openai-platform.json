@@ -1,0 +1,12 @@
+{
+  "openai-completions": {"command": "uvx", "args": ["mcp-server-openai-completions", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-chat": {"command": "uvx", "args": ["mcp-server-openai-chat", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-embeddings": {"command": "uvx", "args": ["mcp-server-openai-embeddings", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-images": {"command": "uvx", "args": ["mcp-server-openai-images", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-audio": {"command": "uvx", "args": ["mcp-server-openai-audio", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-files": {"command": "uvx", "args": ["mcp-server-openai-files", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-fine-tunes": {"command": "uvx", "args": ["mcp-server-openai-fine-tunes", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-moderations": {"command": "uvx", "args": ["mcp-server-openai-moderations", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-engines": {"command": "uvx", "args": ["mcp-server-openai-engines", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-models": {"command": "uvx", "args": ["mcp-server-openai-models", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}}
+}

@@ -1,0 +1,11 @@
+{
+  "zoom-events": {"command": "uvx", "args": ["mcp-server-zoom-events", "--api-key", "${ZOOM_API_KEY}", "--api-secret", "${ZOOM_API_SECRET}"], "env": {"ZOOM_API_KEY": "xxx", "ZOOM_API_SECRET": "xxx"}},
+  "cvent": {"command": "uvx", "args": ["mcp-server-cvent", "--api-key", "${CVENT_API_KEY}"], "env": {"CVENT_API_KEY": "xxx"}},
+  "eventbrite-events": {"command": "uvx", "args": ["mcp-server-eventbrite-events", "--api-key", "${EVENTBRITE_API_KEY}"], "env": {"EVENTBRITE_API_KEY": "xxx"}},
+  "luma": {"command": "uvx", "args": ["mcp-server-luma", "--api-key", "${LUMA_API_KEY}"], "env": {"LUMA_API_KEY": "xxx"}},
+  " Tito": {"command": "uvx", "args": ["mcp-server-tito", "--api-key", "${TITO_API_KEY}"], "env": {"TITO_API_KEY": "xxx"}},
+  "hopin": {"command": "uvx", "args": ["mcp-server-hopin", "--api-key", "${HOPIN_API_KEY}"], "env": {"HOPIN_API_KEY": "xxx"}},
+  "runtheworld": {"command": "uvx", "args": ["mcp-server-runtheworld", "--api-key", "${RTW_API_KEY}"], "env": {"RTW_API_KEY": "xxx"}},
+  "konference": {"command": "uvx", "args": ["mcp-server-konference", "--api-key", "${KONFERENCE_API_KEY}"], "env": {"KONFERENCE_API_KEY": "xxx"}},
+  "remotion": {"command": "uvx", "args": ["mcp-server-remotion", "--api-key", "${REMOTION_API_KEY}"], "env": {"REMOTION_API_KEY": "xxx"}}
+}

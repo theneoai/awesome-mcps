@@ -1,0 +1,12 @@
+{
+  "linear-issues": {"command": "uvx", "args": ["mcp-server-linear-issues", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "xxx"}},
+  "linear-projects": {"command": "uvx", "args": ["mcp-server-linear-projects", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "xxx"}},
+  "linear-teams": {"command": "uvx", "args": ["mcp-server-linear-teams", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "xxx"}},
+  "linear-users": {"command": "uvx", "args": ["mcp-server-linear-users", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "xxx"}},
+  "linear-comments": {"command": "uvx", "args": ["mcp-server-linear-comments", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "xxx"}},
+  "linear-attachments": {"command": "uvx", "args": ["mcp-server-linear-attachments", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "xxx"}},
+  "asana-projects": {"command": "uvx", "args": ["mcp-server-asana-projects", "--access-token", "${ASANA_ACCESS_TOKEN}"], "env": {"ASANA_ACCESS_TOKEN": "xxx"}},
+  "asana-tasks": {"command": "uvx", "args": ["mcp-server-asana-tasks", "--access-token", "${ASANA_ACCESS_TOKEN}"], "env": {"ASANA_ACCESS_TOKEN": "xxx"}},
+  "asana-subtasks": {"command": "uvx", "args": ["mcp-server-asana-subtasks", "--access-token", "${ASANA_ACCESS_TOKEN}"], "env": {"ASANA_ACCESS_TOKEN": "xxx"}},
+  "asana-teams": {"command": "uvx", "args": ["mcp-server-asana-teams", "--access-token", "${ASANA_ACCESS_TOKEN}"], "env": {"ASANA_ACCESS_TOKEN": "xxx"}}
+}

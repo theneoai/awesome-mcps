@@ -1,0 +1,12 @@
+{
+  "mixpanel-events": {"command": "uvx", "args": ["mcp-server-mixpanel-events", "--api-key", "${MIXPANEL_API_KEY}"], "env": {"MIXPANEL_API_KEY": "xxx"}},
+  "mixpanel-funnels": {"command": "uvx", "args": ["mcp-server-mixpanel-funnels", "--api-key", "${MIXPANEL_API_KEY}"], "env": {"MIXPANEL_API_KEY": "xxx"}},
+  "mixpanel-segments": {"command": "uvx", "args": ["mcp-server-mixpanel-segments", "--api-key", "${MIXPANEL_API_KEY}"], "env": {"MIXPANEL_API_KEY": "xxx"}},
+  "mixpanel-insights": {"command": "uvx", "args": ["mcp-server-mixpanel-insights", "--api-key", "${MIXPANEL_API_KEY}"], "env": {"MIXPANEL_API_KEY": "xxx"}},
+  "amplitude-projects": {"command": "uvx", "args": ["mcp-server-amplitude-projects", "--api-key", "${AMPLITUDE_API_KEY}"], "env": {"AMPLITUDE_API_KEY": "xxx"}},
+  "amplitude-events": {"command": "uvx", "args": ["mcp-server-amplitude-events", "--api-key", "${AMPLITUDE_API_KEY}"], "env": {"AMPLITUDE_API_KEY": "xxx"}},
+  "amplitude-chart": {"command": "uvx", "args": ["mcp-server-amplitude-chart", "--api-key", "${AMPLITUDE_API_KEY}"], "env": {"AMPLITUDE_API_KEY": "xxx"}},
+  "posthog-events": {"command": "uvx", "args": ["mcp-server-posthog-events", "--api-key", "${POSTHOG_API_KEY}"], "env": {"POSTHOG_API_KEY": "phc_xxx"}},
+  "posthog-feature-flags": {"command": "uvx", "args": ["mcp-server-posthog-feature-flags", "--api-key", "${POSTHOG_API_KEY}"], "env": {"POSTHOG_API_KEY": "phc_xxx"}},
+  "posthog-cohorts": {"command": "uvx", "args": ["mcp-server-posthog-cohorts", "--api-key", "${POSTHOG_API_KEY}"], "env": {"POSTHOG_API_KEY": "phc_xxx"}}
+}

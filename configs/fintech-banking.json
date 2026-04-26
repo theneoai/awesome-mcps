@@ -1,0 +1,11 @@
+{
+  "stripe-atlas": {"command": "uvx", "args": ["mcp-server-stripe-atlas", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "mercury": {"command": "uvx", "args": ["mcp-server-mercury", "--api-key", "${MERCURY_API_KEY}"], "env": {"MERCURY_API_KEY": "xxx"}},
+  "silicon-valley-bank": {"command": "uvx", "args": ["mcp-server-svb", "--api-key", "${SVB_API_KEY}"], "env": {"SVB_API_KEY": "xxx"}},
+  "first共和国": {"command": "uvx", "args": ["mcp-server-first-republic", "--api-key", "${FIRST_REPUBLIC_API_KEY}"], "env": {"FIRST_REPUBLIC_API_KEY": "xxx"}},
+  "Brex": {"command": "uvx", "args": ["mcp-server-brex", "--api-key", "${BREX_API_KEY}"], "env": {"BREX_API_KEY": "xxx"}},
+  "ramp": {"command": "uvx", "args": ["mcp-server-ramp", "--api-key", "${RAMP_API_KEY}"], "env": {"RAMP_API_KEY": "xxx"}},
+  "deel": {"command": "uvx", "args": ["mcp-server-deel", "--api-key", "${DEEL_API_KEY}"], "env": {"DEEL_API_KEY": "xxx"}},
+  "remote": {"command": "uvx", "args": ["mcp-server-remote", "--api-key", "${REMOTE_API_KEY}"], "env": {"REMOTE_API_KEY": "xxx"}},
+  "ofi": {"command": "uvx", "args": ["mcp-server-obi", "--api-key", "${OFI_API_KEY}"], "env": {"OFI_API_KEY": "xxx"}}
+}

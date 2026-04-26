@@ -1,0 +1,11 @@
+{
+  "make-com": {"command": "uvx", "args": ["mcp-server-make-com", "--api-key", "${MAKE_API_KEY}"], "env": {"MAKE_API_KEY": "xxx"}},
+  "zapier": {"command": "uvx", "args": ["mcp-server-zapier", "--api-key", "${ZAPIER_API_KEY}"], "env": {"ZAPIER_API_KEY": "xxx"}},
+  "integromat": {"command": "uvx", "args": ["mcp-server-integromat", "--api-key", "${INTEGROMAT_API_KEY}"], "env": {"INTEGROMAT_API_KEY": "xxx"}},
+  "n8n": {"command": "uvx", "args": ["mcp-server-n8n", "--url", "${N8N_URL}", "--api-key", "${N8N_API_KEY}"], "env": {"N8N_URL": "http://localhost:5678", "N8N_API_KEY": "xxx"}},
+  "pipedream": {"command": "uvx", "args": ["mcp-server-pipedream", "--api-key", "${PIPEDREAM_API_KEY}"], "env": {"PIPEDREAM_API_KEY": "xxx"}},
+  "automate-io": {"command": "uvx", "args": ["mcp-server-automate-io", "--api-key", "${AUTOMATE_IO_API_KEY}"], "env": {"AUTOMATE_IO_API_KEY": "xxx"}},
+  "workato": {"command": "uvx", "args": ["mcp-server-workato", "--api-key", "${WORKATO_API_KEY}"], "env": {"WORKATO_API_KEY": "xxx"}},
+  "boomi": {"command": "uvx", "args": ["mcp-server-boomi", "--api-key", "${BOOMI_API_KEY}"], "env": {"BOOMI_API_KEY": "xxx"}},
+  "jira-automation": {"command": "uvx", "args": ["mcp-server-jira-automation", "--host", "${JIRA_HOST}", "--email", "${JIRA_EMAIL}", "--api-token", "${JIRA_API_TOKEN}"], "env": {"JIRA_HOST": "https://xxx.atlassian.net", "JIRA_EMAIL": "xxx", "JIRA_API_TOKEN": "xxx"}}
+}

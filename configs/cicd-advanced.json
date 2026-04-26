@@ -1,0 +1,12 @@
+{
+  "github-actions-runs": {"command": "uvx", "args": ["mcp-server-github-actions-runs", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-actions-workflows": {"command": "uvx", "args": ["mcp-server-github-actions-workflows", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-actions-artifacts": {"command": "uvx", "args": ["mcp-server-github-actions-artifacts", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-actions-secrets": {"command": "uvx", "args": ["mcp-server-github-actions-secrets", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "gitlab-ci-pipelines": {"command": "uvx", "args": ["mcp-server-gitlab-ci-pipelines", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-ci-jobs": {"command": "uvx", "args": ["mcp-server-gitlab-ci-jobs", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "argo-cd-applications": {"command": "uvx", "args": ["mcp-server-argo-cd-applications", "--url", "${ARGOCD_URL}", "--username", "${ARGOCD_USERNAME}", "--password", "${ARGOCD_PASSWORD}"], "env": {"ARGOCD_URL": "http://localhost:8080", "ARGOCD_USERNAME": "admin", "ARGOCD_PASSWORD": "xxx"}},
+  "argo-cd-projects": {"command": "uvx", "args": ["mcp-server-argo-cd-projects", "--url", "${ARGOCD_URL}", "--username", "${ARGOCD_USERNAME}", "--password", "${ARGOCD_PASSWORD}"], "env": {"ARGOCD_URL": "http://localhost:8080", "ARGOCD_USERNAME": "admin", "ARGOCD_PASSWORD": "xxx"}},
+  "argo-rollouts": {"command": "uvx", "args": ["mcp-server-argo-rollouts", "--url", "${ARGOCD_URL}", "--username", "${ARGOCD_USERNAME}", "--password", "${ARGOCD_PASSWORD}"], "env": {"ARGOCD_URL": "http://localhost:8080", "ARGOCD_USERNAME": "admin", "ARGOCD_PASSWORD": "xxx"}},
+  "argocd-applications": {"command": "uvx", "args": ["mcp-server-argocd-applications", "--url", "${ARGOCD_URL}", "--username", "${ARGOCD_USERNAME}", "--password", "${ARGOCD_PASSWORD}"], "env": {"ARGOCD_URL": "http://localhost:8080", "ARGOCD_USERNAME": "admin", "ARGOCD_PASSWORD": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "openweathermap-current": {"command": "uvx", "args": ["mcp-server-owm-current", "--api-key", "${OWM_API_KEY}"], "env": {"OWM_API_KEY": "xxx"}},
+  "openweathermap-forecast": {"command": "uvx", "args": ["mcp-server-owm-forecast", "--api-key", "${OWM_API_KEY}"], "env": {"OWM_API_KEY": "xxx"}},
+  "weatherapi-current": {"command": "uvx", "args": ["mcp-server-weatherapi-current", "--api-key", "${WEATHERAPI_KEY}"], "env": {"WEATHERAPI_KEY": "xxx"}},
+  "weatherapi-forecast": {"command": "uvx", "args": ["mcp-server-weatherapi-forecast", "--api-key", "${WEATHERAPI_KEY}"], "env": {"WEATHERAPI_KEY": "xxx"}},
+  "darksky-weather": {"command": "uvx", "args": ["mcp-server-darksky-weather", "--api-key", "${DARK_SKY_API_KEY}"], "env": {"DARK_SKY_API_KEY": "xxx"}},
+  "accuweather-current": {"command": "uvx", "args": ["mcp-server-accuweather-current", "--api-key", "${ACCUWEATHER_API_KEY}"], "env": {"ACCUWEATHER_API_KEY": "xxx"}},
+  "accuweather-forecast": {"command": "uvx", "args": ["mcp-server-accuweather-forecast", "--api-key", "${ACCUWEATHER_API_KEY}"], "env": {"ACCUWEATHER_API_KEY": "xxx"}},
+  "weatherbit": {"command": "uvx", "args": ["mcp-server-weatherbit", "--api-key", "${WEATHERBIT_API_KEY}"], "env": {"WEATHERBIT_API_KEY": "xxx"}},
+  "weatherunlocked": {"command": "uvx", "args": ["mcp-server-weatherunlocked", "--api-key", "${WEATHERUNLOCKED_API_KEY}"], "env": {"WEATHERUNLOCKED_API_KEY": "xxx"}},
+  "visual-crossing": {"command": "uvx", "args": ["mcp-server-visual-crossing", "--api-key", "${VISUALCROSSING_API_KEY}"], "env": {"VISUALCROSSING_API_KEY": "xxx"}}
+}

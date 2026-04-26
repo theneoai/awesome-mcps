@@ -1,0 +1,12 @@
+{
+  "openai-retrieval": {"command": "uvx", "args": ["mcp-server-openai-retrieval", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-batches": {"command": "uvx", "args": ["mcp-server-openai-batches", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "anthropic.batch-api": {"command": "uvx", "args": ["mcp-server-anthropic-batch-api", "--api-key", "${ANTHROPIC_API_KEY}"], "env": {"ANTHROPIC_API_KEY": "sk-ant-xxx"}},
+  "google-gemini-batch": {"command": "uvx", "args": ["mcp-server-google-gemini-batch", "--api-key", "${GOOGLE_GEMINI_API_KEY}"], "env": {"GOOGLE_GEMINI_API_KEY": "xxx"}},
+  "cohere-rerank": {"command": "uvx", "args": ["mcp-server-cohere-rerank", "--api-key", "${COHERE_API_KEY}"], "env": {"COHERE_API_KEY": "xxx"}},
+  "cohere-classify": {"command": "uvx", "args": ["mcp-server-cohere-classify", "--api-key", "${COHERE_API_KEY}"], "env": {"COHERE_API_KEY": "xxx"}},
+  "cohere-summarize": {"command": "uvx", "args": ["mcp-server-cohere-summarize", "--api-key", "${COHERE_API_KEY}"], "env": {"COHERE_API_KEY": "xxx"}},
+  "ai21-summarize": {"command": "uvx", "args": ["mcp-server-ai21-summarize", "--api-key", "${AI21_API_KEY}"], "env": {"AI21_API_KEY": "xxx"}},
+  "mistral-embeddings": {"command": "uvx", "args": ["mcp-server-mistral-embeddings", "--api-key", "${MISTRAL_API_KEY}"], "env": {"MISTRAL_API_KEY": "xxx"}},
+  "together-ai-embeddings": {"command": "uvx", "args": ["mcp-server-together-ai-embeddings", "--api-key", "${TOGETHER_API_KEY}"], "env": {"TOGETHER_API_KEY": "xxx"}}
+}

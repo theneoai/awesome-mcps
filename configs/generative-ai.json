@@ -1,0 +1,12 @@
+{
+  "mistral-embeddings": {"command": "uvx", "args": ["mcp-server-mistral-embeddings", "--api-key", "${MISTRAL_API_KEY}"], "env": {"MISTRAL_API_KEY": "xxx"}},
+  "stability-ai-images": {"command": "uvx", "args": ["mcp-server-stability-ai-images", "--api-key", "${STABILITY_API_KEY}"], "env": {"STABILITY_API_KEY": "xxx"}},
+  "stability-ai-text-to-speech": {"command": "uvx", "args": ["mcp-server-stability-ai-tts", "--api-key", "${STABILITY_API_KEY}"], "env": {"STABILITY_API_KEY": "xxx"}},
+  "midjourney-images": {"command": "uvx", "args": ["mcp-server-midjourney-images", "--api-key", "${MIDJOURNEY_API_KEY}"], "env": {"MIDJOURNEY_API_KEY": "xxx"}},
+  "dall-e-images": {"command": "uvx", "args": ["mcp-server-dall-e-images", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "stable-diffusion-images": {"command": "uvx", "args": ["mcp-server-stable-diffusion-images", "--api-key", "${STABILITY_API_KEY}"], "env": {"STABILITY_API_KEY": "xxx"}},
+  "runway-ml": {"command": "uvx", "args": ["mcp-server-runway-ml", "--api-key", "${RUNWAY_API_KEY}"], "env": {"RUNWAY_API_KEY": "xxx"}},
+  "replicate-stable-diffusion": {"command": "uvx", "args": ["mcp-server-replicate-stable-diffusion", "--api-key", "${REPLICATE_API_KEY}"], "env": {"REPLICATE_API_KEY": "xxx"}},
+  "replicate-video": {"command": "uvx", "args": ["mcp-server-replicate-video", "--api-key", "${REPLICATE_API_KEY}"], "env": {"REPLICATE_API_KEY": "xxx"}},
+  "luma-video": {"command": "uvx", "args": ["mcp-server-luma-video", "--api-key", "${LUMA_API_KEY}"], "env": {"LUMA_API_KEY": "xxx"}}
+}

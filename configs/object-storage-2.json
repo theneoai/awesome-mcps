@@ -1,0 +1,12 @@
+{
+  "vultr-object-storage": {"command": "uvx", "args": ["mcp-server-vultr-object-storage", "--api-key", "${VULTR_API_KEY}"], "env": {"VULTR_API_KEY": "xxx"}},
+  "linode-object-storage": {"command": "uvx", "args": ["mcp-server-linode-object-storage", "--api-key", "${LINODE_API_KEY}"], "env": {"LINODE_API_KEY": "xxx"}},
+  "scaleway-object-storage": {"command": "uvx", "args": ["mcp-server-scaleway-object-storage", "--api-key", "${SCW_API_KEY}"], "env": {"SCW_API_KEY": "xxx"}},
+  "aliyun-oss": {"command": "uvx", "args": ["mcp-server-aliyun-oss", "--access-key-id", "${ALIYUN_ACCESS_KEY_ID}", "--access-key-secret", "${ALIYUN_ACCESS_KEY_SECRET}"], "env": {"ALIYUN_ACCESS_KEY_ID": "xxx", "ALIYUN_ACCESS_KEY_SECRET": "xxx"}},
+  "tencent-cos": {"command": "uvx", "args": ["mcp-server-tencent-cos", "--secret-id", "${TENCENT_SECRET_ID}", "--secret-key", "${TENCENT_SECRET_KEY}"], "env": {"TENCENT_SECRET_ID": "xxx", "TENCENT_SECRET_KEY": "xxx"}},
+  "huawei-obs": {"command": "uvx", "args": ["mcp-server-huawei-obs", "--access-key-id", "${HUAWEI_ACCESS_KEY_ID}", "--access-key-secret", "${HUAWEI_ACCESS_KEY_SECRET}"], "env": {"HUAWEI_ACCESS_KEY_ID": "xxx", "HUAWEI_ACCESS_KEY_SECRET": "xxx"}},
+  "oracle-oss": {"command": "uvx", "args": ["mcp-server-oracle-oss", "--api-key", "${ORACLE_API_KEY}"], "env": {"ORACLE_API_KEY": "xxx"}},
+  "ibm-cos": {"command": "uvx", "args": ["mcp-server-ibm-cos", "--api-key", "${IBM_COS_API_KEY}"], "env": {"IBM_COS_API_KEY": "xxx", "IBM_COS_ENDPOINT": "https://xxx.s3.us-south.cloud-object-storage.appdomain.cloud"}},
+  "rackspace-files": {"command": "uvx", "args": ["mcp-server-rackspace-files", "--username", "${RACKSPACE_USERNAME}", "--api-key", "${RACKSPACE_API_KEY}"], "env": {"RACKSPACE_USERNAME": "xxx", "RACKSPACE_API_KEY": "xxx"}},
+  "vercel-blob": {"command": "uvx", "args": ["mcp-server-vercel-blob", "--api-token", "${VERCEL_API_TOKEN}"], "env": {"VERCEL_API_TOKEN": "xxx"}}
+}

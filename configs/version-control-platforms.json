@@ -1,0 +1,12 @@
+{
+  "github-rest-api": {"command": "uvx", "args": ["mcp-server-github-rest-api", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-graphql": {"command": "uvx", "args": ["mcp-server-github-graphql", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-code-search": {"command": "uvx", "args": ["mcp-server-github-code-search", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-notifications": {"command": "uvx", "args": ["mcp-server-github-notifications", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-repos-search": {"command": "uvx", "args": ["mcp-server-github-repos-search", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "gitlab-rest-api": {"command": "uvx", "args": ["mcp-server-gitlab-rest-api", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-graphql": {"command": "uvx", "args": ["mcp-server-gitlab-graphql", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "bitbucket-rest-api": {"command": "uvx", "args": ["mcp-server-bitbucket-rest-api", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "bitbucket-graphql": {"command": "uvx", "args": ["mcp-server-bitbucket-graphql", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "gitea-repos": {"command": "uvx", "args": ["mcp-server-gitea-repos", "--url", "${GITEA_URL}", "--token", "${GITEA_TOKEN}"], "env": {"GITEA_URL": "https://gitea.com", "GITEA_TOKEN": "xxx"}}
+}

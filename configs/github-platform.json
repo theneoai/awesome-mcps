@@ -1,0 +1,12 @@
+{
+  "github-repos": {"command": "uvx", "args": ["mcp-server-github-repos", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-issues": {"command": "uvx", "args": ["mcp-server-github-issues", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-pull-requests": {"command": "uvx", "args": ["mcp-server-github-pull-requests", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-actions": {"command": "uvx", "args": ["mcp-server-github-actions", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-releases": {"command": "uvx", "args": ["mcp-server-github-releases", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-branches": {"command": "uvx", "args": ["mcp-server-github-branches", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-commits": {"command": "uvx", "args": ["mcp-server-github-commits", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-projects": {"command": "uvx", "args": ["mcp-server-github-projects", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-discussions": {"command": "uvx", "args": ["mcp-server-github-discussions", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "github-packages": {"command": "uvx", "args": ["mcp-server-github-packages", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}}
+}

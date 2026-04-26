@@ -1,0 +1,12 @@
+{
+  "helm-releases": {"command": "uvx", "args": ["mcp-server-helm-releases", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "helm-charts": {"command": "uvx", "args": ["mcp-server-helm-charts", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "docker-containers": {"command": "uvx", "args": ["mcp-server-docker-containers", "--host", "${DOCKER_HOST}"], "env": {"DOCKER_HOST": "unix:///var/run/docker.sock"}},
+  "docker-images": {"command": "uvx", "args": ["mcp-server-docker-images", "--host", "${DOCKER_HOST}"], "env": {"DOCKER_HOST": "unix:///var/run/docker.sock"}},
+  "docker-networks": {"command": "uvx", "args": ["mcp-server-docker-networks", "--host", "${DOCKER_HOST}"], "env": {"DOCKER_HOST": "unix:///var/run/docker.sock"}},
+  "docker-volumes": {"command": "uvx", "args": ["mcp-server-docker-volumes", "--host", "${DOCKER_HOST}"], "env": {"DOCKER_HOST": "unix:///var/run/docker.sock"}},
+  "docker-compose": {"command": "uvx", "args": ["mcp-server-docker-compose", "--host", "${DOCKER_HOST}"], "env": {"DOCKER_HOST": "unix:///var/run/docker.sock"}},
+  "terraform-workspaces": {"command": "uvx", "args": ["mcp-server-terraform-workspaces", "--host", "${TERRAFORM_HOST}", "--token", "${TERRAFORM_TOKEN}"], "env": {"TERRAFORM_HOST": "https://app.terraform.io", "TERRAFORM_TOKEN": "xxx"}},
+  "terraform-state": {"command": "uvx", "args": ["mcp-server-terraform-state", "--host", "${TERRAFORM_HOST}", "--token", "${TERRAFORM_TOKEN}"], "env": {"TERRAFORM_HOST": "https://app.terraform.io", "TERRAFORM_TOKEN": "xxx"}},
+  "terraform-runs": {"command": "uvx", "args": ["mcp-server-terraform-runs", "--host", "${TERRAFORM_HOST}", "--token", "${TERRAFORM_TOKEN}"], "env": {"TERRAFORM_HOST": "https://app.terraform.io", "TERRAFORM_TOKEN": "xxx"}}
+}

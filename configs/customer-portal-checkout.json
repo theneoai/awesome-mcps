@@ -1,0 +1,12 @@
+{
+  "stripe-billing-portal": {"command": "uvx", "args": ["mcp-server-stripe-billing-portal", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-customer-portal": {"command": "uvx", "args": ["mcp-server-stripe-customer-portal", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "shopify-customer-portal": {"command": "uvx", "args": ["mcp-server-shopify-customer-portal", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-checkout": {"command": "uvx", "args": ["mcp-server-shopify-checkout", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-checkout-customization": {"command": "uvx", "args": ["mcp-server-shopify-checkout-customization", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-checkout-flow": {"command": "uvx", "args": ["mcp-server-shopify-checkout-flow", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-checkout": {"command": "uvx", "args": ["mcp-server-woocommerce-checkout", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "bigcommerce-checkout": {"command": "uvx", "args": ["mcp-server-bigcommerce-checkout", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}},
+  "magento-checkout": {"command": "uvx", "args": ["mcp-server-magento-checkout", "--url", "${MAGENTO_URL}"], "env": {"MAGENTO_URL": "https://xxx.com", "MAGENTO_USERNAME": "xxx", "MAGENTO_PASSWORD": "xxx"}},
+  "paypal-checkout": {"command": "uvx", "args": ["mcp-server-paypal-checkout", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}}
+}

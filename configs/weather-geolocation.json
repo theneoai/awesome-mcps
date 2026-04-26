@@ -1,0 +1,12 @@
+{
+  "here-geocoding": {"command": "uvx", "args": ["mcp-server-here-geocoding", "--api-key", "${HERE_API_KEY}"], "env": {"HERE_API_KEY": "xxx"}},
+  "here-places": {"command": "uvx", "args": ["mcp-server-here-places", "--api-key", "${HERE_API_KEY}"], "env": {"HERE_API_KEY": "xxx"}},
+  "here-weather": {"command": "uvx", "args": ["mcp-server-here-weather", "--api-key", "${HERE_API_KEY}"], "env": {"HERE_API_KEY": "xxx"}},
+  "openweather-current": {"command": "uvx", "args": ["mcp-server-openweather-current", "--api-key", "${OPENWEATHER_API_KEY}"], "env": {"OPENWEATHER_API_KEY": "xxx"}},
+  "openweather-forecast": {"command": "uvx", "args": ["mcp-server-openweather-forecast", "--api-key", "${OPENWEATHER_API_KEY}"], "env": {"OPENWEATHER_API_KEY": "xxx"}},
+  "openweather-historical": {"command": "uvx", "args": ["mcp-server-openweather-historical", "--api-key", "${OPENWEATHER_API_KEY}"], "env": {"OPENWEATHER_API_KEY": "xxx"}},
+  "darksky-current": {"command": "uvx", "args": ["mcp-server-darksky-current", "--api-key", "${DARKSKY_API_KEY}"], "env": {"DARKSKY_API_KEY": "xxx"}},
+  "darksky-forecast": {"command": "uvx", "args": ["mcp-server-darksky-forecast", "--api-key", "${DARKSKY_API_KEY}"], "env": {"DARKSKY_API_KEY": "xxx"}},
+  "weatherapi-current": {"command": "uvx", "args": ["mcp-server-weatherapi-current", "--api-key", "${WEATHERAPI_API_KEY}"], "env": {"WEATHERAPI_API_KEY": "xxx"}},
+  "weatherapi-forecast": {"command": "uvx", "args": ["mcp-server-weatherapi-forecast", "--api-key", "${WEATHERAPI_API_KEY}"], "env": {"WEATHERAPI_API_KEY": "xxx"}}
+}

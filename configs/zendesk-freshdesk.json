@@ -1,0 +1,12 @@
+{
+  "zendesk-users": {"command": "uvx", "args": ["mcp-server-zendesk-users", "--subdomain", "${ZENDESK_SUBDOMAIN}", "--email", "${ZENDESK_EMAIL}", "--api-token", "${ZENDESK_API_TOKEN}"], "env": {"ZENDESK_SUBDOMAIN": "xxx", "ZENDESK_EMAIL": "xxx@xxx.com", "ZENDESK_API_TOKEN": "xxx"}},
+  "zendesk-groups": {"command": "uvx", "args": ["mcp-server-zendesk-groups", "--subdomain", "${ZENDESK_SUBDOMAIN}", "--email", "${ZENDESK_EMAIL}", "--api-token", "${ZENDESK_API_TOKEN}"], "env": {"ZENDESK_SUBDOMAIN": "xxx", "ZENDESK_EMAIL": "xxx@xxx.com", "ZENDESK_API_TOKEN": "xxx"}},
+  "zendesk-views": {"command": "uvx", "args": ["mcp-server-zendesk-views", "--subdomain", "${ZENDESK_SUBDOMAIN}", "--email", "${ZENDESK_EMAIL}", "--api-token", "${ZENDESK_API_TOKEN}"], "env": {"ZENDESK_SUBDOMAIN": "xxx", "ZENDESK_EMAIL": "xxx@xxx.com", "ZENDESK_API_TOKEN": "xxx"}},
+  "zendesk-articles": {"command": "uvx", "args": ["mcp-server-zendesk-articles", "--subdomain", "${ZENDESK_SUBDOMAIN}", "--email", "${ZENDESK_EMAIL}", "--api-token", "${ZENDESK_API_TOKEN}"], "env": {"ZENDESK_SUBDOMAIN": "xxx", "ZENDESK_EMAIL": "xxx@xxx.com", "ZENDESK_API_TOKEN": "xxx"}},
+  "freshdesk-tickets": {"command": "uvx", "args": ["mcp-server-freshdesk-tickets", "--domain", "${FRESHDESK_DOMAIN}", "--api-key", "${FRESHDESK_API_KEY}"], "env": {"FRESHDESK_DOMAIN": "xxx.freshdesk.com", "FRESHDESK_API_KEY": "xxx"}},
+  "freshdesk-contacts": {"command": "uvx", "args": ["mcp-server-freshdesk-contacts", "--domain", "${FRESHDESK_DOMAIN}", "--api-key", "${FRESHDESK_API_KEY}"], "env": {"FRESHDESK_DOMAIN": "xxx.freshdesk.com", "FRESHDESK_API_KEY": "xxx"}},
+  "freshdesk-groups": {"command": "uvx", "args": ["mcp-server-freshdesk-groups", "--domain", "${FRESHDESK_DOMAIN}", "--api-key", "${FRESHDESK_API_KEY}"], "env": {"FRESHDESK_DOMAIN": "xxx.freshdesk.com", "FRESHDESK_API_KEY": "xxx"}},
+  "freshdesk-solutions": {"command": "uvx", "args": ["mcp-server-freshdesk-solutions", "--domain", "${FRESHDESK_DOMAIN}", "--api-key", "${FRESHDESK_API_KEY}"], "env": {"FRESHDESK_DOMAIN": "xxx.freshdesk.com", "FRESHDESK_API_KEY": "xxx"}},
+  "freshdesk-reports": {"command": "uvx", "args": ["mcp-server-freshdesk-reports", "--domain", "${FRESHDESK_DOMAIN}", "--api-key", "${FRESHDESK_API_KEY}"], "env": {"FRESHDESK_DOMAIN": "xxx.freshdesk.com", "FRESHDESK_API_KEY": "xxx"}},
+  "help-scout-mailboxes": {"command": "uvx", "args": ["mcp-server-helpscout-mailboxes", "--api-key", "${HELPSCOUT_API_KEY}"], "env": {"HELPSCOUT_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "shopify-draft-orders": {"command": "uvx", "args": ["mcp-server-shopify-draft-orders", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-orders-risks": {"command": "uvx", "args": ["mcp-server-shopify-orders-risks", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-orders-transactions": {"command": "uvx", "args": ["mcp-server-shopify-orders-transactions", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-orders-full": {"command": "uvx", "args": ["mcp-server-woocommerce-orders-full", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "stripe-orders": {"command": "uvx", "args": ["mcp-server-stripe-orders", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "square-orders": {"command": "uvx", "args": ["mcp-server-square-orders", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "braintree-orders": {"command": "uvx", "args": ["mcp-server-braintree-orders", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "adyen-orders": {"command": "uvx", "args": ["mcp-server-adyen-orders", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "paypal-orders": {"command": "uvx", "args": ["mcp-server-paypal-orders", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "bigcommerce-orders": {"command": "uvx", "args": ["mcp-server-bigcommerce-orders", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}}
+}

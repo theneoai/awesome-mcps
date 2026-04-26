@@ -1,0 +1,12 @@
+{
+  "sendinblue-campaigns": {"command": "uvx", "args": ["mcp-server-sendinblue-campaigns", "--api-key", "${SENDINBLUE_API_KEY}"], "env": {"SENDINBLUE_API_KEY": "xxx"}},
+  "sendinblue-transactional": {"command": "uvx", "args": ["mcp-server-sendinblue-transactional", "--api-key", "${SENDINBLUE_API_KEY}"], "env": {"SENDINBLUE_API_KEY": "xxx"}},
+  "sendinblue-sms": {"command": "uvx", "args": ["mcp-server-sendinblue-sms", "--api-key", "${SENDINBLUE_API_KEY}"], "env": {"SENDINBLUE_API_KEY": "xxx"}},
+  "clever-elements": {"command": "uvx", "args": ["mcp-server-clever-elements", "--api-key", "${CLEVERELEMENTS_API_KEY}"], "env": {"CLEVERELEMENTS_API_KEY": "xxx"}},
+  "mailjet-contacts": {"command": "uvx", "args": ["mcp-server-mailjet-contacts", "--api-key", "${MAILJET_API_KEY}"], "env": {"MAILJET_API_KEY": "xxx", "MAILJET_API_SECRET": "xxx"}},
+  "mailjet-campaigns": {"command": "uvx", "args": ["mcp-server-mailjet-campaigns", "--api-key", "${MAILJET_API_KEY}"], "env": {"MAILJET_API_KEY": "xxx", "MAILJET_API_SECRET": "xxx"}},
+  "mailjet-sms": {"command": "uvx", "args": ["mcp-server-mailjet-sms", "--api-key", "${MAILJET_API_KEY}"], "env": {"MAILJET_API_KEY": "xxx", "MAILJET_API_SECRET": "xxx"}},
+  "sailthru-contacts": {"command": "uvx", "args": ["mcp-server-sailthru-contacts", "--api-key", "${SAILTHRU_API_KEY}"], "env": {"SAILTHRU_API_KEY": "xxx", "SAILTHRU_API_SECRET": "xxx"}},
+  "sailthru-campaigns": {"command": "uvx", "args": ["mcp-server-sailthru-campaigns", "--api-key", "${SAILTHRU_API_KEY}"], "env": {"SAILTHRU_API_KEY": "xxx", "SAILTHRU_API_SECRET": "xxx"}},
+  "sailthru-content": {"command": "uvx", "args": ["mcp-server-sailthru-content", "--api-key", "${SAILTHRU_API_KEY}"], "env": {"SAILTHRU_API_KEY": "xxx", "SAILTHRU_API_SECRET": "xxx"}}
+}

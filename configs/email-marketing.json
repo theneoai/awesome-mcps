@@ -1,0 +1,12 @@
+{
+  "klaviyo-campaigns": {"command": "uvx", "args": ["mcp-server-klaviyo-campaigns", "--api-key", "${KLAVIYO_API_KEY}"], "env": {"KLAVIYO_API_KEY": "xxx"}},
+  "klaviyo-lists": {"command": "uvx", "args": ["mcp-server-klaviyo-lists", "--api-key", "${KLAVIYO_API_KEY}"], "env": {"KLAVIYO_API_KEY": "xxx"}},
+  "klaviyo-profiles": {"command": "uvx", "args": ["mcp-server-klaviyo-profiles", "--api-key", "${KLAVIYO_API_KEY}"], "env": {"KLAVIYO_API_KEY": "xxx"}},
+  "klaviyo-events": {"command": "uvx", "args": ["mcp-server-klaviyo-events", "--api-key", "${KLAVIYO_API_KEY}"], "env": {"KLAVIYO_API_KEY": "xxx"}},
+  "klaviyo-segments": {"command": "uvx", "args": ["mcp-server-klaviyo-segments", "--api-key", "${KLAVIYO_API_KEY}"], "env": {"KLAVIYO_API_KEY": "xxx"}},
+  "mailchimp-lists": {"command": "uvx", "args": ["mcp-server-mailchimp-lists", "--api-key", "${MAILCHIMP_API_KEY}"], "env": {"MAILCHIMP_API_KEY": "xxx", "MAILCHIMP_SERVER_PREFIX": "us1"}},
+  "mailchimp-campaigns": {"command": "uvx", "args": ["mcp-server-mailchimp-campaigns", "--api-key", "${MAILCHIMP_API_KEY}"], "env": {"MAILCHIMP_API_KEY": "xxx", "MAILCHIMP_SERVER_PREFIX": "us1"}},
+  "mailchimp-members": {"command": "uvx", "args": ["mcp-server-mailchimp-members", "--api-key", "${MAILCHIMP_API_KEY}"], "env": {"MAILCHIMP_API_KEY": "xxx", "MAILCHIMP_SERVER_PREFIX": "us1"}},
+  "mailchimp-reports": {"command": "uvx", "args": ["mcp-server-mailchimp-reports", "--api-key", "${MAILCHIMP_API_KEY}"], "env": {"MAILCHIMP_API_KEY": "xxx", "MAILCHIMP_SERVER_PREFIX": "us1"}},
+  "mailchimp-templates": {"command": "uvx", "args": ["mcp-server-mailchimp-templates", "--api-key", "${MAILCHIMP_API_KEY}"], "env": {"MAILCHIMP_API_KEY": "xxx", "MAILCHIMP_SERVER_PREFIX": "us1"}}
+}

@@ -1,0 +1,12 @@
+{
+  "jira-software": {"command": "uvx", "args": ["mcp-server-jira-software", "--host", "${JIRA_HOST}", "--email", "${JIRA_EMAIL}", "--api-token", "${JIRA_API_TOKEN}"], "env": {"JIRA_HOST": "https://xxx.atlassian.net", "JIRA_EMAIL": "xxx", "JIRA_API_TOKEN": "xxx"}},
+  "confluence-wiki": {"command": "uvx", "args": ["mcp-server-confluence", "--url", "${CONFLUENCE_URL}", "--username", "${CONFLUENCE_USERNAME}", "--api-token", "${CONFLUENCE_API_TOKEN}"], "env": {"CONFLUENCE_URL": "https://xxx.atlassian.net", "CONFLUENCE_USERNAME": "xxx", "CONFLUENCE_API_TOKEN": "xxx"}},
+  "bitbucket": {"command": "uvx", "args": ["mcp-server-bitbucket", "--workspace", "${BB_WORKSPACE}", "--token", "${BB_TOKEN}"], "env": {"BB_WORKSPACE": "xxx", "BB_TOKEN": "xxx"}},
+  "gitlab": {"command": "uvx", "args": ["mcp-server-gitlab", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "github-enterprise": {"command": "uvx", "args": ["mcp-server-github", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "azure-devops-wi": {"command": "uvx", "args": ["mcp-server-azure-devops", "--organization", "${AZURE_DEVOPS_ORG}"], "env": {"AZURE_DEVOPS_ORG": "https://dev.azure.com/xxx", "AZURE_DEVOPS_TOKEN": "xxx"}},
+  "asana-projects": {"command": "uvx", "args": ["mcp-server-asana", "--access-token", "${ASANA_ACCESS_TOKEN}"], "env": {"ASANA_ACCESS_TOKEN": "xxx"}},
+  "trello-boards": {"command": "uvx", "args": ["mcp-server-trello", "--api-key", "${TRELLO_API_KEY}", "--token", "${TRELLO_TOKEN}"], "env": {"TRELLO_API_KEY": "xxx", "TRELLO_TOKEN": "xxx"}},
+  "monday-com": {"command": "uvx", "args": ["mcp-server-monday", "--api-key", "${MONDAY_API_KEY}"], "env": {"MONDAY_API_KEY": "xxx"}},
+  "clickup": {"command": "uvx", "args": ["mcp-server-clickup", "--api-key", "${CLICKUP_API_KEY}"], "env": {"CLICKUP_API_KEY": "xxx"}}
+}

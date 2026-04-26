@@ -1,0 +1,11 @@
+{
+  "auth0-management": {"command": "uvx", "args": ["mcp-server-auth0-management", "--domain", "${AUTH0_DOMAIN}", "--client-id", "${AUTH0_CLIENT_ID}", "--client-secret", "${AUTH0_CLIENT_SECRET}"], "env": {"AUTH0_DOMAIN": "xxx.auth0.com", "AUTH0_CLIENT_ID": "xxx", "AUTH0_CLIENT_SECRET": "xxx"}},
+  "okta-users": {"command": "uvx", "args": ["mcp-server-okta-users", "--domain", "${OKTA_DOMAIN}", "--api-token", "${OKTA_API_TOKEN}"], "env": {"OKTA_DOMAIN": "xxx.okta.com", "OKTA_API_TOKEN": "xxx"}},
+  "azure-ad": {"command": "uvx", "args": ["mcp-server-azure-ad", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}", "--tenant-id", "${AZURE_TENANT_ID}"], "env": {"AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx", "AZURE_TENANT_ID": "xxx"}},
+  "google-identity": {"command": "uvx", "args": ["mcp-server-google-identity", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "keycloak": {"command": "uvx", "args": ["mcp-server-keycloak", "--url", "${KEYCLOAK_URL}"], "env": {"KEYCLOAK_URL": "http://localhost:8080", "KEYCLOAK_USERNAME": "xxx", "KEYCLOAK_PASSWORD": "xxx"}},
+  "fusionauth": {"command": "uvx", "args": ["mcp-server-fusionauth", "--url", "${FUSIONAUTH_URL}"], "env": {"FUSIONAUTH_URL": "http://localhost:9011", "FUSIONAUTH_API_KEY": "xxx"}},
+  " Clerk": {"command": "uvx", "args": ["mcp-server-clerk", "--api-key", "${CLERK_API_KEY}"], "env": {"CLERK_API_KEY": "xxx"}},
+  "stytch": {"command": "uvx", "args": ["mcp-server-stytch", "--project-id", "${STYTCH_PROJECT_ID}", "--secret", "${STYTCH_SECRET}"], "env": {"STYTCH_PROJECT_ID": "xxx", "STYTCH_SECRET": "xxx"}},
+  "logto": {"command": "uvx", "args": ["mcp-server-logto", "--endpoint", "${LOGTO_ENDPOINT}"], "env": {"LOGTO_ENDPOINT": "http://localhost:3001", "LOGTO_APP_ID": "xxx", "LOGTO_APP_SECRET": "xxx"}}
+}

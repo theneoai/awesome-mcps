@@ -1,0 +1,12 @@
+{
+  "gcp-compute": {"command": "uvx", "args": ["mcp-server-gcp-compute", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "gcp-storage": {"command": "uvx", "args": ["mcp-server-gcp-storage", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "gcp-bigquery": {"command": "uvx", "args": ["mcp-server-gcp-bigquery", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "gcp-cloud-functions": {"command": "uvx", "args": ["mcp-server-gcp-cloud-functions", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "gcp-app-engine": {"command": "uvx", "args": ["mcp-server-gcp-app-engine", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "gcp-cloud-run": {"command": "uvx", "args": ["mcp-server-gcp-cloud-run", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "gcp-kubernetes-engine": {"command": "uvx", "args": ["mcp-server-gcp-kubernetes-engine", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "gcp-cloud-sql": {"command": "uvx", "args": ["mcp-server-gcp-cloud-sql", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "gcp-spanner": {"command": "uvx", "args": ["mcp-server-gcp-spanner", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "gcp-secret-manager": {"command": "uvx", "args": ["mcp-server-gcp-secret-manager", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}}
+}

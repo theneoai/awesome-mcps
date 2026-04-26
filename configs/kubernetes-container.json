@@ -1,0 +1,12 @@
+{
+  "kubernetes-pods": {"command": "uvx", "args": ["mcp-server-kubernetes-pods", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "kubernetes-deployments": {"command": "uvx", "args": ["mcp-server-kubernetes-deployments", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "kubernetes-services": {"command": "uvx", "args": ["mcp-server-kubernetes-services", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "kubernetes-configmaps": {"command": "uvx", "args": ["mcp-server-kubernetes-configmaps", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "kubernetes-secrets": {"command": "uvx", "args": ["mcp-server-kubernetes-secrets", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "kubernetes-namespaces": {"command": "uvx", "args": ["mcp-server-kubernetes-namespaces", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "kubernetes-nodes": {"command": "uvx", "args": ["mcp-server-kubernetes-nodes", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "kubernetes-ingresses": {"command": "uvx", "args": ["mcp-server-kubernetes-ingresses", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "kubernetes-persistentvolumeclaims": {"command": "uvx", "args": ["mcp-server-kubernetes-persistentvolumeclaims", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}},
+  "kubernetes-resourcequotas": {"command": "uvx", "args": ["mcp-server-kubernetes-resourcequotas", "--kubeconfig", "${KUBECONFIG}"], "env": {"KUBECONFIG_PATH": "~/.kube/config"}}
+}

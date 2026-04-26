@@ -1,0 +1,11 @@
+{
+  "twilio-sms-verify": {"command": "uvx", "args": ["mcp-server-twilio-sms-verify", "--account-sid", "${TWILIO_ACCOUNT_SID}", "--auth-token", "${TWILIO_AUTH_TOKEN}"], "env": {"TWILIO_ACCOUNT_SID": "xxx", "TWILIO_AUTH_TOKEN": "xxx"}},
+  "nexmo-sms": {"command": "uvx", "args": ["mcp-server-nexmo-sms", "--api-key", "${NEXMO_API_KEY}", "--api-secret", "${NEXMO_API_SECRET}"], "env": {"NEXMO_API_KEY": "xxx", "NEXMO_API_SECRET": "xxx"}},
+  "messagebird-sms": {"command": "uvx", "args": ["mcp-server-messagebird-sms", "--api-key", "${MESSAGEBIRD_API_KEY}"], "env": {"MESSAGEBIRD_API_KEY": "xxx"}},
+  "plivo-sms": {"command": "uvx", "args": ["mcp-server-plivo-sms", "--auth-id", "${PLIVO_AUTH_ID}", "--auth-token", "${PLIVO_AUTH_TOKEN}"], "env": {"PLIVO_AUTH_ID": "xxx", "PLIVO_AUTH_TOKEN": "xxx"}},
+  "telnyx-sms": {"command": "uvx", "args": ["mcp-server-telnyx-sms", "--api-key", "${TELNYX_API_KEY}"], "env": {"TELNYX_API_KEY": "xxx"}},
+  "bandwidth-sms": {"command": "uvx", "args": ["mcp-server-bandwidth-sms", "--username", "${BANDWIDTH_USERNAME}", "--password", "${BANDWIDTH_PASSWORD}", "--account-id", "${BANDWIDTH_ACCOUNT_ID}"], "env": {"BANDWIDTH_USERNAME": "xxx", "BANDWIDTH_PASSWORD": "xxx", "BANDWIDTH_ACCOUNT_ID": "xxx"}},
+  "clockwork-sms": {"command": "uvx", "args": ["mcp-server-clockwork-sms", "--api-key", "${CLOCKWORK_API_KEY}"], "env": {"CLOCKWORK_API_KEY": "xxx"}},
+  "sms77": {"command": "uvx", "args": ["mcp-server-sms77", "--api-key", "${SMS77_API_KEY}"], "env": {"SMS77_API_KEY": "xxx"}},
+  "telesign": {"command": "uvx", "args": ["mcp-server-telesign", "--customer-id", "${TELESIGN_CUSTOMER_ID}", "--api-key", "${TELESIGN_API_KEY}"], "env": {"TELESIGN_CUSTOMER_ID": "xxx", "TELESIGN_API_KEY": "xxx"}}
+}

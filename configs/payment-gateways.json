@@ -1,0 +1,12 @@
+{
+  "gumroad-products": {"command": "uvx", "args": ["mcp-server-gumroad-products", "--api-key", "${GUMROAD_API_KEY}"], "env": {"GUMROAD_API_KEY": "xxx"}},
+  "gumroad-sales": {"command": "uvx", "args": ["mcp-server-gumroad-sales", "--api-key", "${GUMROAD_API_KEY}"], "env": {"GUMROAD_API_KEY": "xxx"}},
+  "gumroad-followers": {"command": "uvx", "args": ["mcp-server-gumroad-followers", "--api-key", "${GUMROAD_API_KEY}"], "env": {"GUMROAD_API_KEY": "xxx"}},
+  "paypal-subscriptions": {"command": "uvx", "args": ["mcp-server-paypal-subscriptions", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "paypal-invoices": {"command": "uvx", "args": ["mcp-server-paypal-invoices", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "paypal-orders": {"command": "uvx", "args": ["mcp-server-paypal-orders", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "braintree-transactions": {"command": "uvx", "args": ["mcp-server-braintree-transactions", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "braintree-subscriptions": {"command": "uvx", "args": ["mcp-server-braintree-subscriptions", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "adyen-payments": {"command": "uvx", "args": ["mcp-server-adyen-payments", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "adyen-recurring": {"command": "uvx", "args": ["mcp-server-adyen-recurring", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}}
+}

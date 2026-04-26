@@ -1,0 +1,12 @@
+{
+  "infura-ethereum": {"command": "uvx", "args": ["mcp-server-infura-ethereum", "--api-key", "${INFURA_API_KEY}"], "env": {"INFURA_API_KEY": "xxx", "INFURA_API_SECRET": "xxx"}},
+  "infura-ipfs": {"command": "uvx", "args": ["mcp-server-infura-ipfs", "--api-key", "${INFURA_API_KEY}"], "env": {"INFURA_API_KEY": "xxx", "INFURA_API_SECRET": "xxx"}},
+  "alchemy-ethereum": {"command": "uvx", "args": ["mcp-server-alchemy-ethereum", "--api-key", "${ALCHEMY_API_KEY}"], "env": {"ALCHEMY_API_KEY": "xxx"}},
+  "alchemy-nft": {"command": "uvx", "args": ["mcp-server-alchemy-nft", "--api-key", "${ALCHEMY_API_KEY}"], "env": {"ALCHEMY_API_KEY": "xxx"}},
+  "alchemy-transactions": {"command": "uvx", "args": ["mcp-server-alchemy-transactions", "--api-key", "${ALCHEMY_API_KEY}"], "env": {"ALCHEMY_API_KEY": "xxx"}},
+  "moralis-solana": {"command": "uvx", "args": ["mcp-server-moralis-solana", "--api-key", "${MORALIS_API_KEY}"], "env": {"MORALIS_API_KEY": "xxx"}},
+  "moralis-evm": {"command": "uvx", "args": ["mcp-server-moralis-evm", "--api-key", "${MORALIS_API_KEY}"], "env": {"MORALIS_API_KEY": "xxx"}},
+  "moralis-nft": {"command": "uvx", "args": ["mcp-server-moralis-nft", "--api-key", "${MORALIS_API_KEY}"], "env": {"MORALIS_API_KEY": "xxx"}},
+  "quicknode-ethereum": {"command": "uvx", "args": ["mcp-server-quicknode-ethereum", "--api-key", "${QUICKNODE_API_KEY}"], "env": {"QUICKNODE_API_KEY": "xxx"}},
+  "quicknode-solana": {"command": "uvx", "args": ["mcp-server-quicknode-solana", "--api-key", "${QUICKNODE_API_KEY}"], "env": {"QUICKNODE_API_KEY": "xxx"}}
+}

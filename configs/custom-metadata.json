@@ -1,0 +1,12 @@
+{
+  "shopify-metafields": {"command": "uvx", "args": ["mcp-server-shopify-metafields", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-custom-collections": {"command": "uvx", "args": ["mcp-server-shopify-custom-collections", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-smart-collections": {"command": "uvx", "args": ["mcp-server-shopify-smart-collections", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-product-variants": {"command": "uvx", "args": ["mcp-server-shopify-product-variants", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-product-images": {"command": "uvx", "args": ["mcp-server-shopify-product-images", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-metafields": {"command": "uvx", "args": ["mcp-server-woocommerce-metafields", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "bigcommerce-custom-fields": {"command": "uvx", "args": ["mcp-server-bigcommerce-custom-fields", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}},
+  "magento-custom-options": {"command": "uvx", "args": ["mcp-server-magento-custom-options", "--url", "${MAGENTO_URL}"], "env": {"MAGENTO_URL": "https://xxx.com", "MAGENTO_USERNAME": "xxx", "MAGENTO_PASSWORD": "xxx"}},
+  "stripe-metadata": {"command": "uvx", "args": ["mcp-server-stripe-metadata", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "notion-databases-extra": {"command": "uvx", "args": ["mcp-server-notion-databases-extra", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}}
+}

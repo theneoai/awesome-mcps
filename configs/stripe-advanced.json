@@ -1,0 +1,12 @@
+{
+  "stripe-accounts": {"command": "uvx", "args": ["mcp-server-stripe-accounts", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-balance": {"command": "uvx", "args": ["mcp-server-stripe-balance", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-bank-accounts": {"command": "uvx", "args": ["mcp-server-stripe-bank-accounts", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-cards": {"command": "uvx", "args": ["mcp-server-stripe-cards", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-webhooks": {"command": "uvx", "args": ["mcp-server-stripe-webhooks", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-files": {"command": "uvx", "args": ["mcp-server-stripe-files", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-file-links": {"command": "uvx", "args": ["mcp-server-stripe-file-links", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-reporting": {"command": "uvx", "args": ["mcp-server-stripe-reporting", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-radar": {"command": "uvx", "args": ["mcp-server-stripe-radar", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-sigma": {"command": "uvx", "args": ["mcp-server-stripe-sigma", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}}
+}

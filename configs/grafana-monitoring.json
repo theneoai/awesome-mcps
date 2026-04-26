@@ -1,0 +1,12 @@
+{
+  "grafana-alerts": {"command": "uvx", "args": ["mcp-server-grafana-alerts", "--url", "${GRAFANA_URL}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_URL": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "grafana-dashboards": {"command": "uvx", "args": ["mcp-server-grafana-dashboards", "--url", "${GRAFANA_URL}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_URL": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "grafana-folders": {"command": "uvx", "args": ["mcp-server-grafana-folders", "--url", "${GRAFANA_URL}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_URL": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "grafana-datasources": {"command": "uvx", "args": ["mcp-server-grafana-datasources", "--url", "${GRAFANA_URL}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_URL": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "grafana-notification-channels": {"command": "uvx", "args": ["mcp-server-grafana-notification-channels", "--url", "${GRAFANA_URL}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_URL": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "grafana-users": {"command": "uvx", "args": ["mcp-server-grafana-users", "--url", "${GRAFANA_URL}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_URL": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "grafana-teams": {"command": "uvx", "args": ["mcp-server-grafana-teams", "--url", "${GRAFANA_URL}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_URL": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "grafana-service-accounts": {"command": "uvx", "args": ["mcp-server-grafana-service-accounts", "--url", "${GRAFANA_URL}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_URL": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "grafana-annotations": {"command": "uvx", "args": ["mcp-server-grafana-annotations", "--url", "${GRAFANA_URL}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_URL": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "grafana-playlists": {"command": "uvx", "args": ["mcp-server-grafana-playlists", "--url", "${GRAFANA_URL}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_URL": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}}
+}

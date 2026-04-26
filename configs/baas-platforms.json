@@ -1,0 +1,12 @@
+{
+  "firebase-auth": {"command": "uvx", "args": ["mcp-server-firebase-auth", "--credentials-path", "${FIREBASE_CREDENTIALS_PATH}"], "env": {"FIREBASE_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "firebase-firestore-db": {"command": "uvx", "args": ["mcp-server-firebase-firestore-db", "--credentials-path", "${FIREBASE_CREDENTIALS_PATH}"], "env": {"FIREBASE_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "firebase-realtime-db-auth": {"command": "uvx", "args": ["mcp-server-firebase-rtdb-auth", "--credentials-path", "${FIREBASE_CREDENTIALS_PATH}"], "env": {"FIREBASE_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "supabase-auth": {"command": "uvx", "args": ["mcp-server-supabase-auth", "--url", "${SUPABASE_URL}", "--anon-key", "${SUPABASE_ANON_KEY}"], "env": {"SUPABASE_URL": "https://xxx.supabase.co", "SUPABASE_ANON_KEY": "xxx"}},
+  "supabase-db": {"command": "uvx", "args": ["mcp-server-supabase-db", "--url", "${SUPABASE_URL}", "--service-key", "${SUPABASE_SERVICE_KEY}"], "env": {"SUPABASE_URL": "https://xxx.supabase.co", "SUPABASE_SERVICE_KEY": "xxx"}},
+  "supabase-storage": {"command": "uvx", "args": ["mcp-server-supabase-storage", "--url", "${SUPABASE_URL}", "--service-key", "${SUPABASE_SERVICE_KEY}"], "env": {"SUPABASE_URL": "https://xxx.supabase.co", "SUPABASE_SERVICE_KEY": "xxx"}},
+  "planetscale-conn": {"command": "uvx", "args": ["mcp-server-planetscale-conn", "--url", "${PLANETSCALE_URL}"], "env": {"PLANETSCALE_URL": "mysql://xxx@aws.connect.psdb.cloud/db?sslaccept=strict", "PLANETSCALE_AUTH_TOKEN": "xxx"}},
+  "neon-db": {"command": "uvx", "args": ["mcp-server-neon-db", "--project-id", "${NEON_PROJECT_ID}", "--api-key", "${NEON_API_KEY}"], "env": {"NEON_PROJECT_ID": "xxx", "NEON_API_KEY": "xxx"}},
+  "turso-db": {"command": "uvx", "args": ["mcp-server-turso-db", "--url", "${TURSO_URL}", "--auth-token", "${TURSO_AUTH_TOKEN}"], "env": {"TURSO_URL": "libsql://xxx.turso.io", "TURSO_AUTH_TOKEN": "xxx"}},
+  "upstash-redis": {"command": "uvx", "args": ["mcp-server-upstash-redis", "--email", "${UPSTASH_EMAIL}", "--api-key", "${UPSTASH_API_KEY}"], "env": {"UPSTASH_EMAIL": "xxx", "UPSTASH_API_KEY": "xxx"}}
+}

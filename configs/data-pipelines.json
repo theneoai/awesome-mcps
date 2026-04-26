@@ -1,0 +1,10 @@
+{
+  "airbyte": {"command": "uvx", "args": ["mcp-server-airbyte", "--host", "${AIRBYTE_HOST}", "--api-key", "${AIRBYTE_API_KEY}"], "env": {"AIRBYTE_HOST": "http://localhost:8000", "AIRBYTE_API_KEY": "xxx"}},
+  "fivetran": {"command": "uvx", "args": ["mcp-server-fivetran", "--api-key", "${FIVETRAN_API_KEY}"], "env": {"FIVETRAN_API_KEY": "xxx"}},
+  "stitch": {"command": "uvx", "args": ["mcp-server-stitch", "--api-key", "${STITCH_API_KEY}"], "env": {"STITCH_API_KEY": "xxx"}},
+  "segment-sources": {"command": "uvx", "args": ["mcp-server-segment-sources", "--write-key", "${SEGMENT_WRITE_KEY}"], "env": {"SEGMENT_WRITE_KEY": "xxx"}},
+  "aws-glue": {"command": "uvx", "args": ["mcp-server-aws-glue", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-data-factory": {"command": "uvx", "args": ["mcp-server-azure-df", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"], "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "google-dataflow": {"command": "uvx", "args": ["mcp-server-gcp-dataflow", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "dbt": {"command": "uvx", "args": ["mcp-server-dbt", "--profile", "${DBT_PROFILE}"], "env": {"DBT_PROFILE": "default"}}
+}

@@ -1,0 +1,12 @@
+{
+  "opensea": {"command": "uvx", "args": ["mcp-server-opensea", "--api-key", "${OPENSEA_API_KEY}"], "env": {"OPENSEA_API_KEY": "xxx"}},
+  "rarible": {"command": "uvx", "args": ["mcp-server-rarible", "--api-key", "${RARIBLE_API_KEY}"], "env": {"RARIBLE_API_KEY": "xxx"}},
+  "niftory": {"command": "uvx", "args": ["mcp-server-niftory", "--api-key", "${NIFTORY_API_KEY}"], "env": {"NIFTORY_API_KEY": "xxx"}},
+  "moralis": {"command": "uvx", "args": ["mcp-server-moralis", "--api-key", "${MORALIS_API_KEY}"], "env": {"MORALIS_API_KEY": "xxx"}},
+  "alchemy-nft": {"command": "uvx", "args": ["mcp-server-alchemy-nft", "--api-key", "${ALCHEMY_API_KEY}"], "env": {"ALCHEMY_API_KEY": "xxx"}},
+  "simplehash": {"command": "uvx", "args": ["mcp-server-simplehash", "--api-key", "${SIMPLEHASH_API_KEY}"], "env": {"SIMPLEHASH_API_KEY": "xxx"}},
+  "web3-storage": {"command": "uvx", "args": ["mcp-server-web3-storage", "--api-token", "${WEB3_STORAGE_TOKEN}"], "env": {"WEB3_STORAGE_TOKEN": "xxx"}},
+  "ipfs": {"command": "uvx", "args": ["mcp-server-ipfs", "--host", "${IPFS_HOST}", "--port", "${IPFS_PORT}"], "env": {"IPFS_HOST": "localhost", "IPFS_PORT": "5001"}},
+  "pinata": {"command": "uvx", "args": ["mcp-server-pinata", "--api-key", "${PINATA_API_KEY}", "--api-secret", "${PINATA_API_SECRET}"], "env": {"PINATA_API_KEY": "xxx", "PINATA_API_SECRET": "xxx"}},
+  "nftport": {"command": "uvx", "args": ["mcp-server-nftport", "--api-key", "${NFTPORT_API_KEY}"], "env": {"NFTPORT_API_KEY": "xxx"}}
+}

@@ -1,0 +1,10 @@
+{
+  "apollo-gateway": {"command": "uvx", "args": ["mcp-server-apollo-gateway", "--gateway-url", "${APOLLO_GW_URL}"], "env": {"APOLLO_GW_URL": "http://localhost:4000"}},
+  "graphql-yoga": {"command": "uvx", "args": ["mcp-server-graphql-yoga", "--host", "${GRAPHQL_YOGA_HOST}"], "env": {"GRAPHQL_YOGA_HOST": "http://localhost:4000"}},
+  "hasura": {"command": "uvx", "args": ["mcp-server-hasura", "--graphql-url", "${HASURA_GRAPHQL_URL}", "--admin-secret", "${HASURA_ADMIN_SECRET}"], "env": {"HASURA_GRAPHQL_URL": "https://xxx.hasura.app/v1/graphql", "HASURA_ADMIN_SECRET": "xxx"}},
+  "dgraph": {"command": "uvx", "args": ["mcp-server-dgraph", "--url", "${DGRAPH_URL}"], "env": {"DGRAPH_URL": "http://localhost:8080"}},
+  "graphql-code-generator": {"command": "uvx", "args": ["mcp-server-graphql-codegen"], "env": {}},
+  "prisma": {"command": "uvx", "args": ["mcp-server-prisma", "--schema", "${PRISMA_SCHEMA}"], "env": {"PRISMA_SCHEMA": "./prisma/schema.prisma"}},
+  "graphql-ws": {"command": "uvx", "args": ["mcp-server-graphql-ws", "--url", "${GRAPHQL_WS_URL}"], "env": {"GRAPHQL_WS_URL": "ws://localhost:4000/graphql"}},
+  "urql": {"command": "uvx", "args": ["mcp-server-urql", "--url", "${URQL_URL}"], "env": {"URQL_URL": "http://localhost:3000/graphql"}}
+}

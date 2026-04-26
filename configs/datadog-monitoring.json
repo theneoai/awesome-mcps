@@ -1,0 +1,12 @@
+{
+  "datadog-monitors": {"command": "uvx", "args": ["mcp-server-datadog-monitors", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-dashboards": {"command": "uvx", "args": ["mcp-server-datadog-dashboards", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-logs": {"command": "uvx", "args": ["mcp-server-datadog-logs", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-traces": {"command": "uvx", "args": ["mcp-server-datadog-traces", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-events": {"command": "uvx", "args": ["mcp-server-datadog-events", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "datadog-service-level-objectives": {"command": "uvx", "args": ["mcp-server-datadog-slos", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-downtimes": {"command": "uvx", "args": ["mcp-server-datadog-downtimes", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "datadog-users": {"command": "uvx", "args": ["mcp-server-datadog-users", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-roles": {"command": "uvx", "args": ["mcp-server-datadog-roles", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-synthetics": {"command": "uvx", "args": ["mcp-server-datadog-synthetics", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}}
+}

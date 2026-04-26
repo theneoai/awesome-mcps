@@ -1,0 +1,11 @@
+{
+  "blackboard-learn": {"command": "uvx", "args": ["mcp-server-blackboard-learn", "--host", "${BLACKBOARD_HOST}", "--token", "${BLACKBOARD_TOKEN}"], "env": {"BLACKBOARD_HOST": "https://xxx.blackboard.com", "BLACKBOARD_TOKEN": "xxx"}},
+  "canvas-lms-admin": {"command": "uvx", "args": ["mcp-server-canvas-lms-admin", "--host", "${CANVAS_HOST}", "--token", "${CANVAS_TOKEN}"], "env": {"CANVAS_HOST": "https://xxx.instructure.com", "CANVAS_TOKEN": "xxx"}},
+  "moodle-lms": {"command": "uvx", "args": ["mcp-server-moodle-lms", "--host", "${MOODLE_HOST}", "--token", "${MOODLE_TOKEN}"], "env": {"MOODLE_HOST": "https://xxx.com", "MOODLE_TOKEN": "xxx"}},
+  "schoology": {"command": "uvx", "args": ["mcp-server-schoology", "--api-key", "${SCHOOLOGY_API_KEY}"], "env": {"SCHOOLOGY_API_KEY": "xxx"}},
+  "d2l-brightspace": {"command": "uvx", "args": ["mcp-server-d2l-brightspace", "--host", "${D2L_HOST}"], "env": {"D2L_HOST": "https://xxx.d2l.com", "D2L_API_KEY": "xxx", "D2L_API_SECRET": "xxx"}},
+  "moodle": {"command": "uvx", "args": ["mcp-server-moodle", "--host", "${MOODLE_HOST}", "--token", "${MOODLE_TOKEN}"], "env": {"MOODLE_HOST": "https://xxx.com", "MOODLE_TOKEN": "xxx"}},
+  "sakai": {"command": "uvx", "args": ["mcp-server-sakai", "--url", "${SAKAI_URL}"], "env": {"SAKAI_URL": "https://xxx.sakai.com", "SAKAI_USERNAME": "xxx", "SAKAI_PASSWORD": "xxx"}},
+  "claroline": {"command": "uvx", "args": ["mcp-server-claroline", "--url", "${CLAROLINE_URL}"], "env": {"CLAROLINE_URL": "http://localhost", "CLAROLINE_USERNAME": "xxx", "CLAROLINE_PASSWORD": "xxx"}},
+  "chamilo": {"command": "uvx", "args": ["mcp-server-chamilo", "--url", "${CHAMILO_URL}"], "env": {"CHAMILO_URL": "http://localhost", "CHAMILO_KEY": "xxx"}}
+}

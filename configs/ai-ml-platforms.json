@@ -1,0 +1,52 @@
+{
+  "openai-assistants": {
+    "command": "uvx",
+    "args": ["mcp-server-openai-assistants", "--api-key", "${OPENAI_API_KEY}"],
+    "env": {"OPENAI_API_KEY": "sk-xxx"}
+  },
+  "anthropic-claude": {
+    "command": "uvx",
+    "args": ["mcp-server-anthropic-claude", "--api-key", "${ANTHROPIC_API_KEY}"],
+    "env": {"ANTHROPIC_API_KEY": "sk-ant-xxx"}
+  },
+  "google-gemini": {
+    "command": "uvx",
+    "args": ["mcp-server-google-gemini", "--api-key", "${GOOGLE_GEMINI_API_KEY}"],
+    "env": {"GOOGLE_GEMINI_API_KEY": "xxx"}
+  },
+  "mistral": {
+    "command": "uvx",
+    "args": ["mcp-server-mistral", "--api-key", "${MISTRAL_API_KEY}"],
+    "env": {"MISTRAL_API_KEY": "xxx"}
+  },
+  "cohere": {
+    "command": "uvx",
+    "args": ["mcp-server-cohere", "--api-key", "${COHERE_API_KEY}"],
+    "env": {"COHERE_API_KEY": "xxx"}
+  },
+  "ai21": {
+    "command": "uvx",
+    "args": ["mcp-server-ai21", "--api-key", "${AI21_API_KEY}"],
+    "env": {"AI21_API_KEY": "xxx"}
+  },
+  "ai21labs": {
+    "command": "uvx",
+    "args": ["mcp-server-ai21labs", "--api-key", "${AI21LABS_API_KEY}"],
+    "env": {"AI21LABS_API_KEY": "xxx"}
+  },
+  "stability-ai": {
+    "command": "uvx",
+    "args": ["mcp-server-stability-ai", "--api-key", "${STABILITY_AI_API_KEY}"],
+    "env": {"STABILITY_AI_API_KEY": "xxx"}
+  },
+  "midjourney": {
+    "command": "uvx",
+    "args": ["mcp-server-midjourney", "--api-key", "${MIDJOURNEY_API_KEY}"],
+    "env": {"MIDJOURNEY_API_KEY": "xxx"}
+  },
+  "replicate": {
+    "command": "uvx",
+    "args": ["mcp-server-replicate", "--api-key", "${REPLICATE_API_KEY}"],
+    "env": {"REPLICATE_API_KEY": "xxx"}
+  }
+}

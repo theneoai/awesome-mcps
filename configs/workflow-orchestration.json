@@ -1,0 +1,12 @@
+{
+  "airflow-dags": {"command": "uvx", "args": ["mcp-server-airflow-dags", "--host", "${AIRFLOW_HOST}", "--username", "${AIRFLOW_USERNAME}", "--password", "${AIRFLOW_PASSWORD}"], "env": {"AIRFLOW_HOST": "http://localhost:8080", "AIRFLOW_USERNAME": "airflow", "AIRFLOW_PASSWORD": "airflow"}},
+  "airflow-tasks": {"command": "uvx", "args": ["mcp-server-airflow-tasks", "--host", "${AIRFLOW_HOST}", "--username", "${AIRFLOW_USERNAME}", "--password", "${AIRFLOW_PASSWORD}"], "env": {"AIRFLOW_HOST": "http://localhost:8080", "AIRFLOW_USERNAME": "airflow", "AIRFLOW_PASSWORD": "airflow"}},
+  "airflow-logs": {"command": "uvx", "args": ["mcp-server-airflow-logs", "--host", "${AIRFLOW_HOST}", "--username", "${AIRFLOW_USERNAME}", "--password", "${AIRFLOW_PASSWORD}"], "env": {"AIRFLOW_HOST": "http://localhost:8080", "AIRFLOW_USERNAME": "airflow", "AIRFLOW_PASSWORD": "airflow"}},
+  "prefect-flows": {"command": "uvx", "args": ["mcp-server-prefect-flows", "--api-key", "${PREFECT_API_KEY}"], "env": {"PREFECT_API_URL": "https://api.prefect.cloud/api/accounts/xxx/workspaces/xxx", "PREFECT_API_KEY": "pnu_xxx"}},
+  "prefect-deployments": {"command": "uvx", "args": ["mcp-server-prefect-deployments", "--api-key", "${PREFECT_API_KEY}"], "env": {"PREFECT_API_URL": "https://api.prefect.cloud/api/accounts/xxx/workspaces/xxx", "PREFECT_API_KEY": "pnu_xxx"}},
+  "prefect-work-queues": {"command": "uvx", "args": ["mcp-server-prefect-work-queues", "--api-key", "${PREFECT_API_KEY}"], "env": {"PREFECT_API_URL": "https://api.prefect.cloud/api/accounts/xxx/workspaces/xxx", "PREFECT_API_KEY": "pnu_xxx"}},
+  "dagster-repositories": {"command": "uvx", "args": ["mcp-server-dagster-repositories", "--host", "${DAGSTER_HOST}"], "env": {"DAGSTER_HOST": "http://localhost:3000"}},
+  "dagster-pipelines": {"command": "uvx", "args": ["mcp-server-dagster-pipelines", "--host", "${DAGSTER_HOST}"], "env": {"DAGSTER_HOST": "http://localhost:3000"}},
+  "dagster-runs": {"command": "uvx", "args": ["mcp-server-dagster-runs", "--host", "${DAGSTER_HOST}"], "env": {"DAGSTER_HOST": "http://localhost:3000"}},
+  "temporal-workflows": {"command": "uvx", "args": ["mcp-server-temporal-workflows", "--host", "${TEMPORAL_HOST}"], "env": {"TEMPORAL_HOST": "localhost:7233"}}
+}

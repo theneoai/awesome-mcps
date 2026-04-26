@@ -1,0 +1,12 @@
+{
+  "shopify-multi-currency": {"command": "uvx", "args": ["mcp-server-shopify-multi-currency", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "stripe-fx": {"command": "uvx", "args": ["mcp-server-stripe-fx", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "wise-multi-currency": {"command": "uvx", "args": ["mcp-server-wise-multi-currency", "--api-key", "${WISE_API_KEY}"], "env": {"WISE_API_KEY": "xxx"}},
+  "revolut-multi-currency": {"command": "uvx", "args": ["mcp-server-revolut-multi-currency", "--api-token", "${REVOLUT_API_TOKEN}"], "env": {"REVOLUT_API_TOKEN": "xxx"}},
+  "paypal-multi-currency": {"command": "uvx", "args": ["mcp-server-paypal-multi-currency", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "square-multi-currency": {"command": "uvx", "args": ["mcp-server-square-multi-currency", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "braintree-multi-currency": {"command": "uvx", "args": ["mcp-server-braintree-multi-currency", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "adyen-multi-currency": {"command": "uvx", "args": ["mcp-server-adyen-multi-currency", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "currencylayer": {"command": "uvx", "args": ["mcp-server-currencylayer", "--api-key", "${CURRENCYLAYER_API_KEY}"], "env": {"CURRENCYLAYER_API_KEY": "xxx"}},
+  "openexchangerates": {"command": "uvx", "args": ["mcp-server-openexchangerates", "--api-key", "${OPENEXCHANGERATES_API_KEY}"], "env": {"OPENEXCHANGERATES_API_KEY": "xxx"}}
+}

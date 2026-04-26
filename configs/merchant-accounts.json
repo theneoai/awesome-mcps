@@ -1,0 +1,12 @@
+{
+  "stripe-accounts": {"command": "uvx", "args": ["mcp-server-stripe-accounts", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-capabilities": {"command": "uvx", "args": ["mcp-server-stripe-capabilities", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-login-links": {"command": "uvx", "args": ["mcp-server-stripe-login-links", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-external-accounts": {"command": "uvx", "args": ["mcp-server-stripe-external-accounts", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-persons": {"command": "uvx", "args": ["mcp-server-stripe-persons", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "adyen-account-holders": {"command": "uvx", "args": ["mcp-server-adyen-account-holders", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "paypal-merchant": {"command": "uvx", "args": ["mcp-server-paypal-merchant", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "square-merchant": {"command": "uvx", "args": ["mcp-server-square-merchant", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "braintree-merchant": {"command": "uvx", "args": ["mcp-server-braintree-merchant", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "clever-cloud": {"command": "uvx", "args": ["mcp-server-clever-cloud", "--api-key", "${CLEVER_API_KEY}"], "env": {"CLEVER_API_KEY": "xxx"}}
+}

@@ -1,0 +1,27 @@
+{
+  "youtube-data": {
+    "command": "uvx",
+    "args": ["mcp-server-youtube-data", "--api-key", "${YOUTUBE_API_KEY}"],
+    "env": {"YOUTUBE_API_KEY": "xxx"}
+  },
+  "vimeo": {
+    "command": "uvx",
+    "args": ["mcp-server-vimeo", "--access-token", "${VIMEO_ACCESS_TOKEN}"],
+    "env": {"VIMEO_ACCESS_TOKEN": "xxx"}
+  },
+  "dailymotion": {
+    "command": "uvx",
+    "args": ["mcp-server-dailymotion", "--api-key", "${DAILYMOTION_API_KEY}"],
+    "env": {"DAILYMOTION_API_KEY": "xxx"}
+  },
+  "twitch": {
+    "command": "uvx",
+    "args": ["mcp-server-twitch", "--client-id", "${TWITCH_CLIENT_ID}", "--client-secret", "${TWITCH_CLIENT_SECRET}"],
+    "env": {"TWITCH_CLIENT_ID": "xxx", "TWITCH_CLIENT_SECRET": "xxx"}
+  },
+  "mixer": {
+    "command": "uvx",
+    "args": ["mcp-server-mixer", "--api-key", "${MIXER_API_KEY}"],
+    "env": {"MIXER_API_KEY": "xxx"}
+  }
+}

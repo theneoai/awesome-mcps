@@ -1,0 +1,12 @@
+{
+  "hubspot-line-items": {"command": "uvx", "args": ["mcp-server-hubspot-line-items", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-products": {"command": "uvx", "args": ["mcp-server-hubspot-products", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-quotes": {"command": "uvx", "args": ["mcp-server-hubspot-quotes", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "salesforce-line-items": {"command": "uvx", "args": ["mcp-server-salesforce-line-items", "--client-id", "${SALESFORCE_CLIENT_ID}", "--client-secret", "${SALESFORCE_CLIENT_SECRET}"], "env": {"SALESFORCE_CLIENT_ID": "xxx", "SALESFORCE_CLIENT_SECRET": "xxx"}},
+  "salesforce-quotes": {"command": "uvx", "args": ["mcp-server-salesforce-quotes", "--client-id", "${SALESFORCE_CLIENT_ID}", "--client-secret", "${SALESFORCE_CLIENT_SECRET}"], "env": {"SALESFORCE_CLIENT_ID": "xxx", "SALESFORCE_CLIENT_SECRET": "xxx"}},
+  "pipedrive-products": {"command": "uvx", "args": ["mcp-server-pipedrive-products", "--api-token", "${PIPEDRIVE_API_TOKEN}"], "env": {"PIPEDRIVE_API_TOKEN": "xxx"}},
+  "pipedrive-deals": {"command": "uvx", "args": ["mcp-server-pipedrive-deals", "--api-token", "${PIPEDRIVE_API_TOKEN}"], "env": {"PIPEDRIVE_API_TOKEN": "xxx"}},
+  "zoho-products": {"command": "uvx", "args": ["mcp-server-zoho-products", "--client-id", "${ZOHO_CLIENT_ID}", "--client-secret", "${ZOHO_CLIENT_SECRET}"], "env": {"ZOHO_CLIENT_ID": "xxx", "ZOHO_CLIENT_SECRET": "xxx"}},
+  "freshsales-products": {"command": "uvx", "args": ["mcp-server-freshsales-products", "--api-key", "${FRESHSALES_API_KEY}"], "env": {"FRESHSALES_API_KEY": "xxx"}},
+  "capsule-products": {"command": "uvx", "args": ["mcp-server-capsule-products", "--api-key", "${CAPSULE_API_KEY}"], "env": {"CAPSULE_API_KEY": "xxx"}}
+}

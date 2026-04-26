@@ -1,0 +1,12 @@
+{
+  "clearbit-companies": {"command": "uvx", "args": ["mcp-server-clearbit-companies", "--api-key", "${CLEARBIT_API_KEY}"], "env": {"CLEARBIT_API_KEY": "xxx"}},
+  "clearbit-enrichment": {"command": "uvx", "args": ["mcp-server-clearbit-enrichment", "--api-key", "${CLEARBIT_API_KEY}"], "env": {"CLEARBIT_API_KEY": "xxx"}},
+  "fullcontact-persons": {"command": "uvx", "args": ["mcp-server-fullcontact-persons", "--api-key", "${FULLCONTACT_API_KEY}"], "env": {"FULLCONTACT_API_KEY": "xxx"}},
+  "fullcontact-companies": {"command": "uvx", "args": ["mcp-server-fullcontact-companies", "--api-key", "${FULLCONTACT_API_KEY}"], "env": {"FULLCONTACT_API_KEY": "xxx"}},
+  "people-data-labs": {"command": "uvx", "args": ["mcp-server-people-data-labs", "--api-key", "${PDL_API_KEY}"], "env": {"PDL_API_KEY": "xxx"}},
+  "pipl-persons": {"command": "uvx", "args": ["mcp-server-pipl-persons", "--api-key", "${PIPL_API_KEY}"], "env": {"PIPL_API_KEY": "xxx"}},
+  "catchorg-persons": {"command": "uvx", "args": ["mcp-server-catchorg-persons", "--api-key", "${CATCH_API_KEY}"], "env": {"CATCH_API_KEY": "xxx"}},
+  "阅els-persons": {"command": "uvx", "args": ["mcp-server-toutPersons", "--api-key", "${TOUT_API_KEY}"], "env": {"TOUT_API_KEY": "xxx"}},
+  "sherlock-persons": {"command": "uvx", "args": ["mcp-server-sherlock-persons", "--api-key", "${SHERLOCK_API_KEY}"], "env": {"SHERLOCK_API_KEY": "xxx"}},
+  "peopledatalabs-companies": {"command": "uvx", "args": ["mcp-server-peopledatalabs-companies", "--api-key", "${PDL_API_KEY}"], "env": {"PDL_API_KEY": "xxx"}}
+}

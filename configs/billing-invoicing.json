@@ -1,0 +1,12 @@
+{
+  "stripe-customer-portal": {"command": "uvx", "args": ["mcp-server-stripe-customer-portal", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "billing-stripe": {"command": "uvx", "args": ["mcp-server-billing-stripe", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "invoicing-stripe": {"command": "uvx", "args": ["mcp-server-invoicing-stripe", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "billing-razorpay": {"command": "uvx", "args": ["mcp-server-billing-razorpay", "--key-id", "${RAZORPAY_KEY_ID}", "--key-secret", "${RAZORPAY_KEY_SECRET}"], "env": {"RAZORPAY_KEY_ID": "xxx", "RAZORPAY_KEY_SECRET": "xxx"}},
+  "billing-adyen": {"command": "uvx", "args": ["mcp-server-billing-adyen", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "billing-quickbooks": {"command": "uvx", "args": ["mcp-server-billing-quickbooks", "--client-id", "${QB_CLIENT_ID}", "--client-secret", "${QB_CLIENT_SECRET}"], "env": {"QB_CLIENT_ID": "xxx", "QB_CLIENT_SECRET": "xxx"}},
+  "billing-xero": {"command": "uvx", "args": ["mcp-server-billing-xero", "--client-id", "${XERO_CLIENT_ID}", "--client-secret", "${XERO_CLIENT_SECRET}"], "env": {"XERO_CLIENT_ID": "xxx", "XERO_CLIENT_SECRET": "xxx"}},
+  "billing-netsuite": {"command": "uvx", "args": ["mcp-server-billing-netsuite", "--account-id", "${NETSUITE_ACCOUNT_ID}", "--consumer-key", "${NETSUITE_CONSUMER_KEY}", "--consumer-secret", "${NETSUITE_CONSUMER_SECRET}", "--token-key", "${NETSUITE_TOKEN_KEY}", "--token-secret", "${NETSUITE_TOKEN_SECRET}"], "env": {"NETSUITE_ACCOUNT_ID": "xxx", "NETSUITE_CONSUMER_KEY": "xxx", "NETSUITE_CONSUMER_SECRET": "xxx", "NETSUITE_TOKEN_KEY": "xxx", "NETSUITE_TOKEN_SECRET": "xxx"}},
+  "billing-sage": {"command": "uvx", "args": ["mcp-server-billing-sage", "--api-key", "${SAGE_API_KEY}"], "env": {"SAGE_API_KEY": "xxx"}},
+  "billing-freshbooks": {"command": "uvx", "args": ["mcp-server-billing-freshbooks", "--api-key", "${FRESHBOOKS_API_KEY}"], "env": {"FRESHBOOKS_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "stripe-payments": {"command": "uvx", "args": ["mcp-server-stripe-payments", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_test_xxx"}},
+  "braintree-payments": {"command": "uvx", "args": ["mcp-server-braintree-payments", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "adyen-payments": {"command": "uvx", "args": ["mcp-server-adyen-payments", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "square-payments": {"command": "uvx", "args": ["mcp-server-square-payments", "--access-token", "${SQUARE_ACCESS_TOKEN}", "--environment", "${SQUARE_ENVIRONMENT}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx", "SQUARE_ENVIRONMENT": "sandbox"}},
+  "paypal-payments": {"command": "uvx", "args": ["mcp-server-paypal-payments", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "razorpay-payments": {"command": "uvx", "args": ["mcp-server-razorpay-payments", "--key-id", "${RAZORPAY_KEY_ID}", "--key-secret", "${RAZORPAY_KEY_SECRET}"], "env": {"RAZORPAY_KEY_ID": "xxx", "RAZORPAY_KEY_SECRET": "xxx"}},
+  "checkout-payments": {"command": "uvx", "args": ["mcp-server-checkout-payments", "--api-key", "${CHECKOUT_API_KEY}"], "env": {"CHECKOUT_API_KEY": "xxx"}},
+  "payoneer": {"command": "uvx", "args": ["mcp-server-payoneer", "--api-key", "${PAYONEER_API_KEY}"], "env": {"PAYONEER_API_KEY": "xxx"}},
+  "skrill": {"command": "uvx", "args": ["mcp-server-skrill", "--api-key", "${SKRILL_API_KEY}"], "env": {"SKRILL_API_KEY": "xxx"}},
+  "paypal-braintree": {"command": "uvx", "args": ["mcp-server-paypal-braintree", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "discord-servers": {"command": "uvx", "args": ["mcp-server-discord-servers", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "discord-channels": {"command": "uvx", "args": ["mcp-server-discord-channels", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "discord-messages": {"command": "uvx", "args": ["mcp-server-discord-messages", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "discord-members": {"command": "uvx", "args": ["mcp-server-discord-members", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "discord-roles": {"command": "uvx", "args": ["mcp-server-discord-roles", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "discord-emojis": {"command": "uvx", "args": ["mcp-server-discord-emojis", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "discord-threads": {"command": "uvx", "args": ["mcp-server-discord-threads", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "discord-voice": {"command": "uvx", "args": ["mcp-server-discord-voice", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "discord-webhooks": {"command": "uvx", "args": ["mcp-server-discord-webhooks", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "discord-invites": {"command": "uvx", "args": ["mcp-server-discord-invites", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}}
+}

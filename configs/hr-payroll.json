@@ -1,0 +1,12 @@
+{
+  "workday-hr": {"command": "uvx", "args": ["mcp-server-workday-hr", "--api-key", "${WORKDAY_API_KEY}"], "env": {"WORKDAY_API_KEY": "xxx"}},
+  "workday-payroll": {"command": "uvx", "args": ["mcp-server-workday-payroll", "--api-key", "${WORKDAY_API_KEY}"], "env": {"WORKDAY_API_KEY": "xxx"}},
+  "workday-expenses": {"command": "uvx", "args": ["mcp-server-workday-expenses", "--api-key", "${WORKDAY_API_KEY}"], "env": {"WORKDAY_API_KEY": "xxx"}},
+  "bamboohr-employees": {"command": "uvx", "args": ["mcp-server-bamboohr-employees", "--api-key", "${BAMBOO_API_KEY}"], "env": {"BAMBOO_API_KEY": "xxx", "BAMBOO_SUBDOMAIN": "xxx"}},
+  "bamboohr-time-off": {"command": "uvx", "args": ["mcp-server-bamboohr-time-off", "--api-key", "${BAMBOO_API_KEY}"], "env": {"BAMBOO_API_KEY": "xxx", "BAMBOO_SUBDOMAIN": "xxx"}},
+  "bamboohr-companies": {"command": "uvx", "args": ["mcp-server-bamboohr-companies", "--api-key", "${BAMBOO_API_KEY}"], "env": {"BAMBOO_API_KEY": "xxx", "BAMBOO_SUBDOMAIN": "xxx"}},
+  "adp-payroll": {"command": "uvx", "args": ["mcp-server-adp-payroll", "--api-key", "${ADP_API_KEY}"], "env": {"ADP_API_KEY": "xxx"}},
+  "adp-employees": {"command": "uvx", "args": ["mcp-server-adp-employees", "--api-key", "${ADP_API_KEY}"], "env": {"ADP_API_KEY": "xxx"}},
+  "adp-time-tracking": {"command": "uvx", "args": ["mcp-server-adp-time-tracking", "--api-key", "${ADP_API_KEY}"], "env": {"ADP_API_KEY": "xxx"}},
+  "gusto-employees": {"command": "uvx", "args": ["mcp-server-gusto-employees", "--api-key", "${GUSTO_API_KEY}"], "env": {"GUSTO_API_KEY": "xxx"}}
+}

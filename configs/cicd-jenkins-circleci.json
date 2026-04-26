@@ -1,0 +1,12 @@
+{
+  "jenkins-jobs": {"command": "uvx", "args": ["mcp-server-jenkins-jobs", "--url", "${JENKINS_URL}", "--username", "${JENKINS_USERNAME}", "--api-token", "${JENKINS_API_TOKEN}"], "env": {"JENKINS_URL": "http://localhost:8080", "JENKINS_USERNAME": "admin", "JENKINS_API_TOKEN": "xxx"}},
+  "jenkins-builds": {"command": "uvx", "args": ["mcp-server-jenkins-builds", "--url", "${JENKINS_URL}", "--username", "${JENKINS_USERNAME}", "--api-token", "${JENKINS_API_TOKEN}"], "env": {"JENKINS_URL": "http://localhost:8080", "JENKINS_USERNAME": "admin", "JENKINS_API_TOKEN": "xxx"}},
+  "jenkins-nodes": {"command": "uvx", "args": ["mcp-server-jenkins-nodes", "--url", "${JENKINS_URL}", "--username", "${JENKINS_USERNAME}", "--api-token", "${JENKINS_API_TOKEN}"], "env": {"JENKINS_URL": "http://localhost:8080", "JENKINS_USERNAME": "admin", "JENKINS_API_TOKEN": "xxx"}},
+  "circleci-projects": {"command": "uvx", "args": ["mcp-server-circleci-projects", "--api-key", "${CIRCLECI_API_KEY}"], "env": {"CIRCLECI_API_KEY": "xxx"}},
+  "circleci-pipelines": {"command": "uvx", "args": ["mcp-server-circleci-pipelines", "--api-key", "${CIRCLECI_API_KEY}"], "env": {"CIRCLECI_API_KEY": "xxx"}},
+  "circleci-workflows": {"command": "uvx", "args": ["mcp-server-circleci-workflows", "--api-key", "${CIRCLECI_API_KEY}"], "env": {"CIRCLECI_API_KEY": "xxx"}},
+  "circleci-jobs": {"command": "uvx", "args": ["mcp-server-circleci-jobs", "--api-key", "${CIRCLECI_API_KEY}"], "env": {"CIRCLECI_API_KEY": "xxx"}},
+  "buildkite-pipelines": {"command": "uvx", "args": ["mcp-server-buildkite-pipelines", "--token", "${BUILDKITE_TOKEN}"], "env": {"BUILDKITE_TOKEN": "xxx"}},
+  "buildkite-builds": {"command": "uvx", "args": ["mcp-server-buildkite-builds", "--token", "${BUILDKITE_TOKEN}"], "env": {"BUILDKITE_TOKEN": "xxx"}},
+  "buildkite-jobs": {"command": "uvx", "args": ["mcp-server-buildkite-jobs", "--token", "${BUILDKITE_TOKEN}"], "env": {"BUILDKITE_TOKEN": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "aws-cost-explorer": {"command": "uvx", "args": ["mcp-server-aws-cost-explorer", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-budgets": {"command": "uvx", "args": ["mcp-server-aws-budgets", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-cost-management": {"command": "uvx", "args": ["mcp-server-aws-cost-management", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-cost-management": {"command": "uvx", "args": ["mcp-server-azure-cost-management", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"], "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "gcp-billing": {"command": "uvx", "args": ["mcp-server-gcp-billing", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "digitalocean-billing": {"command": "uvx", "args": ["mcp-server-digitalocean-billing", "--token", "${DO_TOKEN}"], "env": {"DO_TOKEN": "xxx"}},
+  "vultr-billing": {"command": "uvx", "args": ["mcp-server-vultr-billing", "--api-key", "${VULTR_API_KEY}"], "env": {"VULTR_API_KEY": "xxx"}},
+  "linode-billing": {"command": "uvx", "args": ["mcp-server-linode-billing", "--api-key", "${LINODE_API_KEY}"], "env": {"LINODE_API_KEY": "xxx"}},
+  "stripe-invoice-items": {"command": "uvx", "args": ["mcp-server-stripe-invoice-items", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "quickbooks-billing": {"command": "uvx", "args": ["mcp-server-quickbooks-billing", "--client-id", "${QB_CLIENT_ID}", "--client-secret", "${QB_CLIENT_SECRET}"], "env": {"QB_CLIENT_ID": "xxx", "QB_CLIENT_SECRET": "xxx"}}
+}

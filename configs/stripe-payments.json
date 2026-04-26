@@ -1,0 +1,12 @@
+{
+  "stripe-payments": {"command": "uvx", "args": ["mcp-server-stripe-payments", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-refunds": {"command": "uvx", "args": ["mcp-server-stripe-refunds", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-disputes": {"command": "uvx", "args": ["mcp-server-stripe-disputes", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-payment-intents": {"command": "uvx", "args": ["mcp-server-stripe-payment-intents", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-charges": {"command": "uvx", "args": ["mcp-server-stripe-charges", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-customers": {"command": "uvx", "args": ["mcp-server-stripe-customers", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-invoices": {"command": "uvx", "args": ["mcp-server-stripe-invoices", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-subscriptions": {"command": "uvx", "args": ["mcp-server-stripe-subscriptions", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-products": {"command": "uvx", "args": ["mcp-server-stripe-products", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-prices": {"command": "uvx", "args": ["mcp-server-stripe-prices", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}}
+}

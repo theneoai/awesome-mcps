@@ -1,0 +1,10 @@
+{
+  "webhook.site": {"command": "uvx", "args": ["mcp-server-webhook-site", "--id", "${WEBHOOK_SITE_ID}"], "env": {"WEBHOOK_SITE_ID": "xxx"}},
+  "ngrok": {"command": "uvx", "args": ["mcp-server-ngrok", "--auth-token", "${NGROK_AUTH_TOKEN}"], "env": {"NGROK_AUTH_TOKEN": "xxx"}},
+  "localtunnel": {"command": "uvx", "args": ["mcp-server-localtunnel", "--subdomain", "${LOCALTUNNEL_SUBDOMAIN}"], "env": {"LOCALTUNNEL_SUBDOMAIN": "xxx"}},
+  "cloudflare-tunnel": {"command": "uvx", "args": ["mcp-server-cf-tunnel", "--token", "${CF_TUNNEL_TOKEN}"], "env": {"CF_TUNNEL_TOKEN": "xxx"}},
+  "sse-server": {"command": "uvx", "args": ["mcp-server-sse-server", "--host", "${SSE_HOST}", "--port", "${SSE_PORT}"], "env": {"SSE_HOST": "localhost", "SSE_PORT": "8080"}},
+  "eventsource": {"command": "uvx", "args": ["mcp-server-eventsource", "--url", "${EVENTSOURCE_URL}"], "env": {"EVENTSOURCE_URL": "http://localhost:8080/events"}},
+  "socket-io": {"command": "uvx", "args": ["mcp-server-socket-io", "--url", "${SOCKET_IO_URL}"], "env": {"SOCKET_IO_URL": "http://localhost:3000"}},
+  "socketcluster": {"command": "uvx", "args": ["mcp-server-socketcluster", "--host", "${SC_HOST}"], "env": {"SC_HOST": "localhost:8000"}}
+}

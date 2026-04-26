@@ -1,0 +1,12 @@
+{
+  "onfido-documents": {"command": "uvx", "args": ["mcp-server-onfido-documents", "--api-key", "${ONFIDO_API_KEY}"], "env": {"ONFIDO_API_KEY": "xxx"}},
+  "onfido-checks": {"command": "uvx", "args": ["mcp-server-onfido-checks", "--api-key", "${ONFIDO_API_KEY}"], "env": {"ONFIDO_API_KEY": "xxx"}},
+  "onfido-applicants": {"command": "uvx", "args": ["mcp-server-onfido-applicants", "--api-key", "${ONFIDO_API_KEY}"], "env": {"ONFIDO_API_KEY": "xxx"}},
+  "onfido-webhooks": {"command": "uvx", "args": ["mcp-server-onfido-webhooks", "--api-key", "${ONFIDO_API_KEY}"], "env": {"ONFIDO_API_KEY": "xxx"}},
+  " Jumio-documents": {"command": "uvx", "args": ["mcp-server-jumio-documents", "--api-key", "${JUMIO_API_KEY}"], "env": {"JUMIO_API_KEY": "xxx", "JUMIO_API_SECRET": "xxx"}},
+  "jumio-scans": {"command": "uvx", "args": ["mcp-server-jumio-scans", "--api-key", "${JUMIO_API_KEY}"], "env": {"JUMIO_API_KEY": "xxx", "JUMIO_API_SECRET": "xxx"}},
+  "jumio-transactions": {"command": "uvx", "args": ["mcp-server-jumio-transactions", "--api-key", "${JUMIO_API_KEY}"], "env": {"JUMIO_API_KEY": "xxx", "JUMIO_API_SECRET": "xxx"}},
+  "idology-documents": {"command": "uvx", "args": ["mcp-server-idology-documents", "--api-key", "${IDOLOGY_API_KEY}"], "env": {"IDOLOGY_API_KEY": "xxx"}},
+  "idology-verifications": {"command": "uvx", "args": ["mcp-server-idology-verifications", "--api-key", "${IDOLOGY_API_KEY}"], "env": {"IDOLOGY_API_KEY": "xxx"}},
+  "clearbit-persons": {"command": "uvx", "args": ["mcp-server-clearbit-persons", "--api-key", "${CLEARBIT_API_KEY}"], "env": {"CLEARBIT_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "cloudflare-dns": {"command": "uvx", "args": ["mcp-server-cloudflare-dns", "--api-key", "${CF_API_KEY}", "--email", "${CF_EMAIL}"], "env": {"CF_API_KEY": "xxx", "CF_EMAIL": "xxx@xxx.com"}},
+  "cloudflare-zones": {"command": "uvx", "args": ["mcp-server-cloudflare-zones", "--api-key", "${CF_API_KEY}", "--email", "${CF_EMAIL}"], "env": {"CF_API_KEY": "xxx", "CF_EMAIL": "xxx@xxx.com"}},
+  "cloudflare-records": {"command": "uvx", "args": ["mcp-server-cloudflare-records", "--api-key", "${CF_API_KEY}", "--email", "${CF_EMAIL}"], "env": {"CF_API_KEY": "xxx", "CF_EMAIL": "xxx@xxx.com"}},
+  "cloudflare-workers": {"command": "uvx", "args": ["mcp-server-cloudflare-workers", "--api-key", "${CF_API_KEY}", "--email", "${CF_EMAIL}"], "env": {"CF_API_KEY": "xxx", "CF_EMAIL": "xxx@xxx.com"}},
+  "cloudflare-r2": {"command": "uvx", "args": ["mcp-server-cloudflare-r2", "--api-key", "${CF_API_KEY}", "--account-id", "${CF_ACCOUNT_ID}"], "env": {"CF_API_KEY": "xxx", "CF_ACCOUNT_ID": "xxx"}},
+  "route53-hosted-zones": {"command": "uvx", "args": ["mcp-server-route53-hosted-zones", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "route53-resource-record-sets": {"command": "uvx", "args": ["mcp-server-route53-resource-record-sets", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "route53-traffic-policies": {"command": "uvx", "args": ["mcp-server-route53-traffic-policies", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "dnsimple-domains": {"command": "uvx", "args": ["mcp-server-dnsimple-domains", "--api-key", "${DNSIMPLE_API_KEY}"], "env": {"DNSIMPLE_API_KEY": "xxx"}},
+  "dnsimple-records": {"command": "uvx", "args": ["mcp-server-dnsimple-records", "--api-key", "${DNSIMPLE_API_KEY}"], "env": {"DNSIMPLE_API_KEY": "xxx"}}
+}

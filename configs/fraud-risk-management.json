@@ -1,0 +1,12 @@
+{
+  "stripe-radar-value-list": {"command": "uvx", "args": ["mcp-server-stripe-radar-value-list", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-radar-value-list-items": {"command": "uvx", "args": ["mcp-server-stripe-radar-value-list-items", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-risk-controls": {"command": "uvx", "args": ["mcp-server-stripe-risk-controls", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "sift-risk-scores": {"command": "uvx", "args": ["mcp-server-sift-risk-scores", "--api-key", "${SIFT_API_KEY}"], "env": {"SIFT_API_KEY": "xxx"}},
+  "signifyd-case-files": {"command": "uvx", "args": ["mcp-server-signifyd-case-files", "--api-key", "${SIGNIFYD_API_KEY}"], "env": {"SIGNIFYD_API_KEY": "xxx"}},
+  "forter-decisions": {"command": "uvx", "args": ["mcp-server-forter-decisions", "--api-key", "${FORTER_API_KEY}"], "env": {"FORTER_API_KEY": "xxx"}},
+  "riskified-payment-review": {"command": "uvx", "args": ["mcp-server-riskified-payment-review", "--api-key", "${RISKRIFIED_API_KEY}"], "env": {"RISKRIFIED_API_KEY": "xxx"}},
+  "seon-device-fingerprint": {"command": "uvx", "args": ["mcp-server-seon-device-fingerprint", "--api-key", "${SEON_API_KEY}"], "env": {"SEON_API_KEY": "xxx"}},
+  "iovation-transaction-numbers": {"command": "uvx", "args": ["mcp-server-iovation-transaction-numbers", "--api-key", "${IOVATION_API_KEY}"], "env": {"IOVATION_API_KEY": "xxx"}},
+  "threatmetrix-profile": {"command": "uvx", "args": ["mcp-server-threatmetrix-profile", "--api-key", "${THREATMETRIX_API_KEY}"], "env": {"THREATMETRIX_API_KEY": "xxx"}}
+}

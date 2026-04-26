@@ -1,0 +1,12 @@
+{
+  "shopify-gift-card-topup": {"command": "uvx", "args": ["mcp-server-shopify-gift-card-topup", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-gift-card-create": {"command": "uvx", "args": ["mcp-server-shopify-gift-card-create", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "stripe-gift-cards": {"command": "uvx", "args": ["mcp-server-stripe-gift-cards", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "gyft": {"command": "uvx", "args": ["mcp-server-gyft", "--api-key", "${GYFT_API_KEY}"], "env": {"GYFT_API_KEY": "xxx"}},
+  "giftbit": {"command": "uvx", "args": ["mcp-server-giftbit", "--api-key", "${GIFTBIT_API_KEY}"], "env": {"GIFTBIT_API_KEY": "xxx"}},
+  "loomis": {"command": "uvx", "args": ["mcp-server-loomis", "--api-key", "${LOOMIS_API_KEY}"], "env": {"LOOMIS_API_KEY": "xxx"}},
+  "cheq": {"command": "uvx", "args": ["mcp-server-cheq", "--api-key", "${CHEQ_API_KEY}"], "env": {"CHEQ_API_KEY": "xxx"}},
+  "rosegal": {"command": "uvx", "args": ["mcp-server-rosegift", "--api-key", "${ROSEGAL_API_KEY}"], "env": {"ROSEGAL_API_KEY": "xxx"}},
+  "gift-card-reseller": {"command": "uvx", "args": ["mcp-server-gift-card-reseller", "--api-key", "${GIFT_CARD_RESELLER_API_KEY}"], "env": {"GIFT_CARD_RESELLER_API_KEY": "xxx"}},
+  "prepaid": {"command": "uvx", "args": ["mcp-server-prepaid", "--api-key", "${PREPAID_API_KEY}"], "env": {"PREPAID_API_KEY": "xxx"}}
+}

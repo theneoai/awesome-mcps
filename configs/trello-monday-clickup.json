@@ -1,0 +1,12 @@
+{
+  "trello-boards": {"command": "uvx", "args": ["mcp-server-trello-boards", "--api-key", "${TRELLO_API_KEY}", "--token", "${TRELLO_TOKEN}"], "env": {"TRELLO_API_KEY": "xxx", "TRELLO_TOKEN": "xxx"}},
+  "trello-lists": {"command": "uvx", "args": ["mcp-server-trello-lists", "--api-key", "${TRELLO_API_KEY}", "--token", "${TRELLO_TOKEN}"], "env": {"TRELLO_API_KEY": "xxx", "TRELLO_TOKEN": "xxx"}},
+  "trello-cards": {"command": "uvx", "args": ["mcp-server-trello-cards", "--api-key", "${TRELLO_API_KEY}", "--token", "${TRELLO_TOKEN}"], "env": {"TRELLO_API_KEY": "xxx", "TRELLO_TOKEN": "xxx"}},
+  "trello-members": {"command": "uvx", "args": ["mcp-server-trello-members", "--api-key", "${TRELLO_API_KEY}", "--token", "${TRELLO_TOKEN}"], "env": {"TRELLO_API_KEY": "xxx", "TRELLO_TOKEN": "xxx"}},
+  "trello-checklists": {"command": "uvx", "args": ["mcp-server-trello-checklists", "--api-key", "${TRELLO_API_KEY}", "--token", "${TRELLO_TOKEN}"], "env": {"TRELLO_API_KEY": "xxx", "TRELLO_TOKEN": "xxx"}},
+  "monday-boards": {"command": "uvx", "args": ["mcp-server-monday-boards", "--api-key", "${MONDAY_API_KEY}"], "env": {"MONDAY_API_KEY": "xxx"}},
+  "monday-items": {"command": "uvx", "args": ["mcp-server-monday-items", "--api-key", "${MONDAY_API_KEY}"], "env": {"MONDAY_API_KEY": "xxx"}},
+  "monday-updates": {"command": "uvx", "args": ["mcp-server-monday-updates", "--api-key", "${MONDAY_API_KEY}"], "env": {"MONDAY_API_KEY": "xxx"}},
+  "monday-teams": {"command": "uvx", "args": ["mcp-server-monday-teams", "--api-key", "${MONDAY_API_KEY}"], "env": {"MONDAY_API_KEY": "xxx"}},
+  "clickup-tasks": {"command": "uvx", "args": ["mcp-server-clickup-tasks", "--api-key", "${CLICKUP_API_KEY}"], "env": {"CLICKUP_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "nginx-status": {"command": "uvx", "args": ["mcp-server-nginx-status", "--url", "${NGINX_STATUS_URL}"], "env": {"NGINX_STATUS_URL": "http://localhost:8080/nginx_status"}},
+  "nginx-reverse-proxy": {"command": "uvx", "args": ["mcp-server-nginx-reverse-proxy", "--config-path", "${NGINX_CONFIG_PATH}"], "env": {"NGINX_CONFIG_PATH": "/etc/nginx/nginx.conf"}},
+  "traefik-routers": {"command": "uvx", "args": ["mcp-server-traefik-routers", "--api-url", "${TRAEFIK_API_URL}"], "env": {"TRAEFIK_API_URL": "http://localhost:8080/api"}},
+  "traefik-services": {"command": "uvx", "args": ["mcp-server-traefik-services", "--api-url", "${TRAEFIK_API_URL}"], "env": {"TRAEFIK_API_URL": "http://localhost:8080/api"}},
+  "traefik-middlewares": {"command": "uvx", "args": ["mcp-server-traefik-middlewares", "--api-url", "${TRAEFIK_API_URL}"], "env": {"TRAEFIK_API_URL": "http://localhost:8080/api"}},
+  "caddy-servers": {"command": "uvx", "args": ["mcp-server-caddy-servers", "--api-url", "${CADDY_API_URL}"], "env": {"CADDY_API_URL": "http://localhost:2019"}},
+  "haproxy-stats": {"command": "uvx", "args": ["mcp-server-haproxy-stats", "--socket-path", "${HAPROXY_SOCKET_PATH}"], "env": {"HAPROXY_SOCKET_PATH": "/var/run/haproxy/admin.sock"}},
+  "apache-status": {"command": "uvx", "args": ["mcp-server-apache-status", "--url", "${APACHE_STATUS_URL}"], "env": {"APACHE_STATUS_URL": "http://localhost/server-status"}},
+  "kong-services": {"command": "uvx", "args": ["mcp-server-kong-services", "--admin-url", "${KONG_ADMIN_URL}"], "env": {"KONG_ADMIN_URL": "http://localhost:8001"}},
+  "kong-routes": {"command": "uvx", "args": ["mcp-server-kong-routes", "--admin-url", "${KONG_ADMIN_URL}"], "env": {"KONG_ADMIN_URL": "http://localhost:8001"}}
+}

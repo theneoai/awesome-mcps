@@ -1,0 +1,42 @@
+{
+  "confluence": {
+    "command": "uvx",
+    "args": ["mcp-server-confluence", "--url", "${CONFLUENCE_URL}", "--username", "${CONFLUENCE_USERNAME}", "--api-token", "${CONFLUENCE_API_TOKEN}"],
+    "env": {"CONFLUENCE_URL": "https://your-domain.atlassian.net", "CONFLUENCE_USERNAME": "xxx", "CONFLUENCE_API_TOKEN": "xxx"}
+  },
+  "notion-so": {
+    "command": "uvx",
+    "args": ["mcp-server-notion-so", "--api-key", "${NOTION_API_KEY}"],
+    "env": {"NOTION_API_KEY": "secret_xxx"}
+  },
+  "slack-wiki": {
+    "command": "uvx",
+    "args": ["mcp-server-slack-wiki", "--bot-token", "${SLACK_BOT_TOKEN}"],
+    "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}
+  },
+  "guru": {
+    "command": "uvx",
+    "args": ["mcp-server-guru", "--api-key", "${GURU_API_KEY}"],
+    "env": {"GURU_API_KEY": "xxx"}
+  },
+  "slite": {
+    "command": "uvx",
+    "args": ["mcp-server-slite", "--api-key", "${SLITE_API_KEY}"],
+    "env": {"SLITE_API_KEY": "xxx"}
+  },
+  "dropbox-paper": {
+    "command": "uvx",
+    "args": ["mcp-server-dropbox-paper", "--access-token", "${DROPBOX_ACCESS_TOKEN}"],
+    "env": {"DROPBOX_ACCESS_TOKEN": "xxx"}
+  },
+  "quip": {
+    "command": "uvx",
+    "args": ["mcp-server-quip", "--access-token", "${QUIP_ACCESS_TOKEN}"],
+    "env": {"QUIP_ACCESS_TOKEN": "xxx"}
+  },
+  "boostnote": {
+    "command": "uvx",
+    "args": ["mcp-server-boostnote", "--api-key", "${BOOSTNOTE_API_KEY}"],
+    "env": {"BOOSTNOTE_API_KEY": "xxx"}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "github-deployments": {"command": "uvx", "args": ["mcp-server-github-deployments", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-deployment-status": {"command": "uvx", "args": ["mcp-server-github-deployment-status", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "gitlab-deployments": {"command": "uvx", "args": ["mcp-server-gitlab-deployments", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "bitbucket-deployments": {"command": "uvx", "args": ["mcp-server-bitbucket-deployments", "--workspace", "${BB_WORKSPACE}", "--token", "${BB_TOKEN}"], "env": {"BB_WORKSPACE": "xxx", "BB_TOKEN": "xxx"}},
+  "aws-code-deploy": {"command": "uvx", "args": ["mcp-server-aws-code-deploy", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-devops-deploy": {"command": "uvx", "args": ["mcp-server-azure-devops-deploy", "--organization", "${AZURE_DEVOPS_ORG}"], "env": {"AZURE_DEVOPS_ORG": "https://dev.azure.com/xxx", "AZURE_DEVOPS_TOKEN": "xxx"}},
+  "circleci-deployments": {"command": "uvx", "args": ["mcp-server-circleci-deployments", "--token", "${CIRCLECI_TOKEN}"], "env": {"CIRCLECI_TOKEN": "xxx"}},
+  "jenkins-deployments": {"command": "uvx", "args": ["mcp-server-jenkins-deployments", "--url", "${JENKINS_URL}", "--username", "${JENKINS_USERNAME}", "--token", "${JENKINS_TOKEN}"], "env": {"JENKINS_URL": "https://jenkins.example.com", "JENKINS_USERNAME": "xxx", "JENKINS_TOKEN": "xxx"}},
+  "argocd-deployments": {"command": "uvx", "args": ["mcp-server-argocd-deployments", "--url", "${ARGOCD_URL}", "--token", "${ARGOCD_TOKEN}"], "env": {"ARGOCD_URL": "https://argocd.example.com", "ARGOCD_TOKEN": "xxx"}},
+  "spinnaker-deployments": {"command": "uvx", "args": ["mcp-server-spinnaker-deployments", "--gate-url", "${SPINNAKER_GATE_URL}"], "env": {"SPINNAKER_GATE_URL": "https://spinnaker.example.com", "SPINNAKER_ACCOUNT": "xxx"}}
+}

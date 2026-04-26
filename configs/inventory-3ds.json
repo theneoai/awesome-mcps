@@ -1,0 +1,12 @@
+{
+  "shopify-quantity-rules": {"command": "uvx", "args": ["mcp-server-shopify-quantity-rules", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-product-availability": {"command": "uvx", "args": ["mcp-server-shopify-product-availability", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-inventory-settings": {"command": "uvx", "args": ["mcp-server-shopify-inventory-settings", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-inventory-settings": {"command": "uvx", "args": ["mcp-server-woocommerce-inventory-settings", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "bigcommerce-inventory-settings": {"command": "uvx", "args": ["mcp-server-bigcommerce-inventory-settings", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}},
+  "magento-inventory-settings": {"command": "uvx", "args": ["mcp-server-magento-inventory-settings", "--url", "${MAGENTO_URL}"], "env": {"MAGENTO_URL": "https://xxx.com", "MAGENTO_USERNAME": "xxx", "MAGENTO_PASSWORD": "xxx"}},
+  "stripe-radar-3ds": {"command": "uvx", "args": ["mcp-server-stripe-radar-3ds", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "adyen-3ds": {"command": "uvx", "args": ["mcp-server-adyen-3ds", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "braintree-3ds": {"command": "uvx", "args": ["mcp-server-braintree-3ds", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "square-3ds": {"command": "uvx", "args": ["mcp-server-square-3ds", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}}
+}
