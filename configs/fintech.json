@@ -1,0 +1,32 @@
+{
+  "plaid": {
+    "command": "uvx",
+    "args": ["mcp-server-plaid", "--client-id", "${PLAID_CLIENT_ID}", "--secret", "${PLAID_SECRET}"],
+    "env": {"PLAID_CLIENT_ID": "xxx", "PLAID_SECRET": "xxx", "PLAID_ENVIRONMENT": "sandbox"}
+  },
+  "stripe-atlas": {
+    "command": "uvx",
+    "args": ["mcp-server-stripe-atlas", "--api-key", "${STRIPE_API_KEY}"],
+    "env": {"STRIPE_API_KEY": "sk_xxx"}
+  },
+  "wise": {
+    "command": "uvx",
+    "args": ["mcp-server-wise", "--api-key", "${WISE_API_KEY}"],
+    "env": {"WISE_API_KEY": "xxx"}
+  },
+  "transferwise": {
+    "command": "uvx",
+    "args": ["mcp-server-transferwise", "--api-key", "${TRANSFERWISE_API_KEY}"],
+    "env": {"TRANSFERWISE_API_KEY": "xxx"}
+  },
+  " revolut": {
+    "command": "uvx",
+    "args": ["mcp-server-revolut", "--api-token", "${REVOLUT_API_TOKEN}"],
+    "env": {"REVOLUT_API_TOKEN": "xxx"}
+  },
+  "quickbooks-payments": {
+    "command": "uvx",
+    "args": ["mcp-server-quickbooks-payments", "--client-id", "${QB_CLIENT_ID}", "--client-secret", "${QB_CLIENT_SECRET}"],
+    "env": {"QB_CLIENT_ID": "xxx", "QB_CLIENT_SECRET": "xxx"}
+  }
+}

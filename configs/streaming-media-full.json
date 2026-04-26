@@ -1,0 +1,12 @@
+{
+  "spotify-saved-tracks": {"command": "uvx", "args": ["mcp-server-spotify-saved-tracks", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"], "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}},
+  "spotify-playlist-tracks": {"command": "uvx", "args": ["mcp-server-spotify-playlist-tracks", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"], "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}},
+  "spotify-top-tracks": {"command": "uvx", "args": ["mcp-server-spotify-top-tracks", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"], "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}},
+  "spotify-recently-played": {"command": "uvx", "args": ["mcp-server-spotify-recently-played", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"], "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}},
+  "apple-music-library": {"command": "uvx", "args": ["mcp-server-apple-music-library", "--key-id", "${APPLE_MUSIC_KEY_ID}", "--team-id", "${APPLE_MUSIC_TEAM_ID}", "--music-kit-token", "${APPLE_MUSIC_KIT_TOKEN}"], "env": {"APPLE_MUSIC_KEY_ID": "xxx", "APPLE_MUSIC_TEAM_ID": "xxx", "APPLE_MUSIC_KIT_TOKEN": "xxx"}},
+  "soundcloud-tracks": {"command": "uvx", "args": ["mcp-server-soundcloud-tracks", "--client-id", "${SOUNDCLOUD_CLIENT_ID}", "--client-secret", "${SOUNDCLOUD_CLIENT_SECRET}"], "env": {"SOUNDCLOUD_CLIENT_ID": "xxx", "SOUNDCLOUD_CLIENT_SECRET": "xxx"}},
+  "tidal-tracks": {"command": "uvx", "args": ["mcp-server-tidal-tracks", "--api-token", "${TIDAL_API_TOKEN}"], "env": {"TIDAL_API_TOKEN": "xxx"}},
+  "deezer-tracks": {"command": "uvx", "args": ["mcp-server-deezer-tracks", "--api-key", "${DEEZER_API_KEY}"], "env": {"DEEZER_API_KEY": "xxx"}},
+  "youtube-subscriptions": {"command": "uvx", "args": ["mcp-server-youtube-subscriptions", "--api-key", "${YOUTUBE_API_KEY}"], "env": {"YOUTUBE_API_KEY": "xxx"}},
+  "vimeo-subscriptions": {"command": "uvx", "args": ["mcp-server-vimeo-subscriptions", "--access-token", "${VIMEO_ACCESS_TOKEN}"], "env": {"VIMEO_ACCESS_TOKEN": "xxx"}}
+}

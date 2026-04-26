@@ -1,0 +1,7 @@
+{
+  "uipath": {"command": "uvx", "args": ["mcp-server-uipath", "--orchestrator-url", "${UIPATH_ORCHESTRATOR_URL}", "--tenant", "${UIPATH_TENANT}"], "env": {"UIPATH_ORCHESTRATOR_URL": "https://xxx.uipath.com", "UIPATH_TENANT": "xxx", "UIPATH_CLIENT_ID": "xxx", "UIPATH_CLIENT_SECRET": "xxx"}},
+  "automation-anywhere": {"command": "uvx", "args": ["mcp-server-automation-anywhere", "--api-key", "${AA_API_KEY}"], "env": {"AA_API_KEY": "xxx"}},
+  "blue-prism": {"command": "uvx", "args": ["mcp-server-blue-prism", "--host", "${BLUE_PRISM_HOST}"], "env": {"BLUE_PRISM_HOST": "http://localhost:5000"}},
+  "pega": {"command": "uvx", "args": ["mcp-server-pega", "--host", "${PEGA_HOST}", "--api-key", "${PEGA_API_KEY}"], "env": {"PEGA_HOST": "https://xxx.pega.com", "PEGA_API_KEY": "xxx"}},
+  "workfusion": {"command": "uvx", "args": ["mcp-server-workfusion", "--api-key", "${WORKFUSION_API_KEY}"], "env": {"WORKFUSION_API_KEY": "xxx"}}
+}

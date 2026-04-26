@@ -1,0 +1,37 @@
+{
+  "espn": {
+    "command": "uvx",
+    "args": ["mcp-server-espn", "--api-key", "${ESPN_API_KEY}"],
+    "env": {"ESPN_API_KEY": "xxx"}
+  },
+  "sportsradar": {
+    "command": "uvx",
+    "args": ["mcp-server-sportsradar", "--api-key", "${SPORTSRADAR_API_KEY}"],
+    "env": {"SPORTSRADAR_API_KEY": "xxx"}
+  },
+  "stats-perform": {
+    "command": "uvx",
+    "args": ["mcp-server-stats-perform", "--api-key", "${STATS_PERFORM_API_KEY}"],
+    "env": {"STATS_PERFORM_API_KEY": "xxx"}
+  },
+  "fitbit": {
+    "command": "uvx",
+    "args": ["mcp-server-fitbit", "--client-id", "${FITBIT_CLIENT_ID}", "--client-secret", "${FITBIT_CLIENT_SECRET}"],
+    "env": {"FITBIT_CLIENT_ID": "xxx", "FITBIT_CLIENT_SECRET": "xxx"}
+  },
+  "garmin": {
+    "command": "uvx",
+    "args": ["mcp-server-garmin", "--username", "${GARMIN_USERNAME}", "--password", "${GARMIN_PASSWORD}"],
+    "env": {"GARMIN_USERNAME": "xxx", "GARMIN_PASSWORD": "xxx"}
+  },
+  "strava": {
+    "command": "uvx",
+    "args": ["mcp-server-strava", "--client-id", "${STRAVA_CLIENT_ID}", "--client-secret", "${STRAVA_CLIENT_SECRET}"],
+    "env": {"STRAVA_CLIENT_ID": "xxx", "STRAVA_CLIENT_SECRET": "xxx"}
+  },
+  "withings": {
+    "command": "uvx",
+    "args": ["mcp-server-withings", "--client-id", "${WITHINGS_CLIENT_ID}", "--client-secret", "${WITHINGS_CLIENT_SECRET}"],
+    "env": {"WITHINGS_CLIENT_ID": "xxx", "WITHINGS_CLIENT_SECRET": "xxx"}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "opensea-assets": {"command": "uvx", "args": ["mcp-server-opensea-assets", "--api-key", "${OPENSEA_API_KEY}"], "env": {"OPENSEA_API_KEY": "xxx"}},
+  "opensea-collections": {"command": "uvx", "args": ["mcp-server-opensea-collections", "--api-key", "${OPENSEA_API_KEY}"], "env": {"OPENSEA_API_KEY": "xxx"}},
+  "opensea-orders": {"command": "uvx", "args": ["mcp-server-opensea-orders", "--api-key", "${OPENSEA_API_KEY}"], "env": {"OPENSEA_API_KEY": "xxx"}},
+  "rarible-items": {"command": "uvx", "args": ["mcp-server-rarible-items", "--api-key", "${RARIBLE_API_KEY}"], "env": {"RARIBLE_API_KEY": "xxx"}},
+  "rarible-collections": {"command": "uvx", "args": ["mcp-server-rarible-collections", "--api-key", "${RARIBLE_API_KEY}"], "env": {"RARIBLE_API_KEY": "xxx"}},
+  "rarible-orders": {"command": "uvx", "args": ["mcp-server-rarible-orders", "--api-key", "${RARIBLE_API_KEY}"], "env": {"RARIBLE_API_KEY": "xxx"}},
+  "foundation-items": {"command": "uvx", "args": ["mcp-server-foundation-items", "--api-key", "${FOUNDATION_API_KEY}"], "env": {"FOUNDATION_API_KEY": "xxx"}},
+  "foundation-collections": {"command": "uvx", "args": ["mcp-server-foundation-collections", "--api-key", "${FOUNDATION_API_KEY}"], "env": {"FOUNDATION_API_KEY": "xxx"}},
+  "superrare-items": {"command": "uvx", "args": ["mcp-server-superrare-items", "--api-key", "${SUPERRARE_API_KEY}"], "env": {"SUPERRARE_API_KEY": "xxx"}},
+  "superrare-users": {"command": "uvx", "args": ["mcp-server-superrare-users", "--api-key", "${SUPERRARE_API_KEY}"], "env": {"SUPERRARE_API_KEY": "xxx"}}
+}

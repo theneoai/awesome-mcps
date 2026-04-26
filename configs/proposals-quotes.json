@@ -1,0 +1,12 @@
+{
+  "stripe-quotes": {"command": "uvx", "args": ["mcp-server-stripe-quotes", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-quote-line-items": {"command": "uvx", "args": ["mcp-server-stripe-quote-line-items", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-quote-pdf": {"command": "uvx", "args": ["mcp-server-stripe-quote-pdf", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "proposal-stripe": {"command": "uvx", "args": ["mcp-server-proposal-stripe", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "hubspot-quotes": {"command": "uvx", "args": ["mcp-server-hubspot-quotes", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "salesforce-quotes-full": {"command": "uvx", "args": ["mcp-server-salesforce-quotes-full", "--client-id", "${SALESFORCE_CLIENT_ID}", "--client-secret", "${SALESFORCE_CLIENT_SECRET}"], "env": {"SALESFORCE_CLIENT_ID": "xxx", "SALESFORCE_CLIENT_SECRET": "xxx"}},
+  "pipedrive-quotes": {"command": "uvx", "args": ["mcp-server-pipedrive-quotes", "--api-token", "${PIPEDRIVE_API_TOKEN}"], "env": {"PIPEDRIVE_API_TOKEN": "xxx"}},
+  "zoho-quotes": {"command": "uvx", "args": ["mcp-server-zoho-quotes", "--client-id", "${ZOHO_CLIENT_ID}", "--client-secret", "${ZOHO_CLIENT_SECRET}"], "env": {"ZOHO_CLIENT_ID": "xxx", "ZOHO_CLIENT_SECRET": "xxx"}},
+  "freshsales-quotes": {"command": "uvx", "args": ["mcp-server-freshsales-quotes", "--api-key", "${FRESHSALES_API_KEY}"], "env": {"FRESHSALES_API_KEY": "xxx"}},
+  "quote-robot": {"command": "uvx", "args": ["mcp-server-quote-robot", "--api-key", "${QUOTE_ROBOT_API_KEY}"], "env": {"QUOTE_ROBOT_API_KEY": "xxx"}}
+}

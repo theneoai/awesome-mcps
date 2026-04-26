@@ -1,0 +1,12 @@
+{
+  "github-repo-issues": {"command": "uvx", "args": ["mcp-server-github-repo-issues", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-repo-prs": {"command": "uvx", "args": ["mcp-server-github-repo-prs", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-repo-releases": {"command": "uvx", "args": ["mcp-server-github-repo-releases", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-repo-branches": {"command": "uvx", "args": ["mcp-server-github-repo-branches", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-repo-tags": {"command": "uvx", "args": ["mcp-server-github-repo-tags", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-repo-commits": {"command": "uvx", "args": ["mcp-server-github-repo-commits", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-repo-contents": {"command": "uvx", "args": ["mcp-server-github-repo-contents", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "gitlab-repo-issues": {"command": "uvx", "args": ["mcp-server-gitlab-repo-issues", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-repo-mr": {"command": "uvx", "args": ["mcp-server-gitlab-repo-mr", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-repo-releases": {"command": "uvx", "args": ["mcp-server-gitlab-repo-releases", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}}
+}

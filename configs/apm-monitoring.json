@@ -1,0 +1,10 @@
+{
+  "sentry-monitoring": {"command": "uvx", "args": ["mcp-server-sentry", "--auth-token", "${SENTRY_AUTH_TOKEN}", "--organization", "${SENTRY_ORG}"], "env": {"SENTRY_AUTH_TOKEN": "xxx", "SENTRY_ORG": "org"}},
+  "datadog APM": {"command": "uvx", "args": ["mcp-server-datadog-apm", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "newrelic-apm": {"command": "uvx", "args": ["mcp-server-newrelic-apm", "--api-key", "${NEWRELIC_API_KEY}"], "env": {"NEWRELIC_API_KEY": "xxx"}},
+  "appdynamics": {"command": "uvx", "args": ["mcp-server-appdynamics", "--controller-url", "${APPDYNAMICS_CONTROLLER_URL}"], "env": {"APPDYNAMICS_CONTROLLER_URL": "https://xxx.saas.appdynamics.com", "APPDYNAMICS_ACCOUNT": "xxx", "APPDYNAMICS_api-key": "xxx"}},
+  "dynatrace": {"command": "uvx", "args": ["mcp-server-dynatrace", "--api-url", "${DYNATRACE_API_URL}", "--api-token", "${DYNATRACE_API_TOKEN}"], "env": {"DYNATRACE_API_URL": "https://xxx.dynatrace.com/api", "DYNATRACE_API_TOKEN": "xxx"}},
+  "instana": {"command": "uvx", "args": ["mcp-server-instana", "--api-token", "${INSTANA_API_TOKEN}"], "env": {"INSTANA_API_TOKEN": "xxx"}},
+  "elastic-apm": {"command": "uvx", "args": ["mcp-server-elastic-apm", "--url", "${ELASTIC_APM_URL}"], "env": {"ELASTIC_APM_URL": "http://localhost:8200"}},
+  "cloudsmith": {"command": "uvx", "args": ["mcp-server-cloudsmith", "--api-key", "${CLOUDSMITH_API_KEY}"], "env": {"CLOUDSMITH_API_KEY": "xxx"}}
+}

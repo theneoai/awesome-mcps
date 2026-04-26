@@ -1,0 +1,12 @@
+{
+  "stripe-radar-rules": {"command": "uvx", "args": ["mcp-server-stripe-radar-rules", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-radar-reports": {"command": "uvx", "args": ["mcp-server-stripe-radar-reports", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "sift-rules": {"command": "uvx", "args": ["mcp-server-sift-rules", "--api-key", "${SIFT_API_KEY}"], "env": {"SIFT_API_KEY": "xxx"}},
+  "sift-events": {"command": "uvx", "args": ["mcp-server-sift-events", "--api-key", "${SIFT_API_KEY}"], "env": {"SIFT_API_KEY": "xxx"}},
+  "riskified-orders": {"command": "uvx", "args": ["mcp-server-riskified-orders", "--api-key", "${RISKRIFIED_API_KEY}"], "env": {"RISKRIFIED_API_KEY": "xxx"}},
+  "signifyd-orders": {"command": "uvx", "args": ["mcp-server-signifyd-orders", "--api-key", "${SIGNIFYD_API_KEY}"], "env": {"SIGNIFYD_API_KEY": "xxx"}},
+  "forter-orders": {"command": "uvx", "args": ["mcp-server-forter-orders", "--api-key", "${FORTER_API_KEY}"], "env": {"FORTER_API_KEY": "xxx"}},
+  "seon-orders": {"command": "uvx", "args": ["mcp-server-seon-orders", "--api-key", "${SEON_API_KEY}"], "env": {"SEON_API_KEY": "xxx"}},
+  "iovation-orders": {"command": "uvx", "args": ["mcp-server-iovation-orders", "--api-key", "${IOVATION_API_KEY}"], "env": {"IOVATION_API_KEY": "xxx"}},
+  "threatmetrix-orders": {"command": "uvx", "args": ["mcp-server-threatmetrix-orders", "--api-key", "${THREATMETRIX_API_KEY}"], "env": {"THREATMETRIX_API_KEY": "xxx"}}
+}

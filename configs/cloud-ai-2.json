@@ -1,0 +1,12 @@
+{
+  "google-text-to-speech": {"command": "uvx", "args": ["mcp-server-google-text-to-speech", "--api-key", "${GOOGLE_TTS_API_KEY}"], "env": {"GOOGLE_TTS_API_KEY": "xxx"}},
+  "google-document-ai": {"command": "uvx", "args": ["mcp-server-google-document-ai", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "google-contact-center-ai": {"command": "uvx", "args": ["mcp-server-google-contact-center-ai", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "aws-bedrock": {"command": "uvx", "args": ["mcp-server-aws-bedrock", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-bedrock-agents": {"command": "uvx", "args": ["mcp-server-aws-bedrock-agents", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "cohere-command": {"command": "uvx", "args": ["mcp-server-cohere-command", "--api-key", "${COHERE_API_KEY}"], "env": {"COHERE_API_KEY": "xxx"}},
+  "cohere-rerank": {"command": "uvx", "args": ["mcp-server-cohere-rerank", "--api-key", "${COHERE_API_KEY}"], "env": {"COHERE_API_KEY": "xxx"}},
+  "ai21-models": {"command": "uvx", "args": ["mcp-server-ai21-models", "--api-key", "${AI21_API_KEY}"], "env": {"AI21_API_KEY": "xxx"}},
+  "ai21-embeddings": {"command": "uvx", "args": ["mcp-server-ai21-embeddings", "--api-key", "${AI21_API_KEY}"], "env": {"AI21_API_KEY": "xxx"}},
+  "mistral-models": {"command": "uvx", "args": ["mcp-server-mistral-models", "--api-key", "${MISTRAL_API_KEY}"], "env": {"MISTRAL_API_KEY": "xxx"}}
+}

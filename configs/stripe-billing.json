@@ -1,0 +1,12 @@
+{
+  "stripe-billing-portal": {"command": "uvx", "args": ["mcp-server-stripe-billing-portal", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-customer-portal": {"command": "uvx", "args": ["mcp-server-stripe-customer-portal", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-invoicing": {"command": "uvx", "args": ["mcp-server-stripe-invoicing", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-quotes": {"command": "uvx", "args": ["mcp-server-stripe-quotes", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-tax": {"command": "uvx", "args": ["mcp-server-stripe-tax", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-identity": {"command": "uvx", "args": ["mcp-server-stripe-identity", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-verify": {"command": "uvx", "args": ["mcp-server-stripe-verify", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-issuing": {"command": "uvx", "args": ["mcp-server-stripe-issuing", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-fraud-prevention": {"command": "uvx", "args": ["mcp-server-stripe-fraud-prevention", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-terminal": {"command": "uvx", "args": ["mcp-server-stripe-terminal", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}}
+}

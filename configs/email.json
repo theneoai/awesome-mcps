@@ -1,0 +1,42 @@
+{
+  "sendgrid": {
+    "command": "uvx",
+    "args": ["mcp-server-sendgrid", "--api-key", "${SENDGRID_API_KEY}"],
+    "env": {"SENDGRID_API_KEY": "xxx"}
+  },
+  "mailgun": {
+    "command": "uvx",
+    "args": ["mcp-server-mailgun", "--domain", "${MAILGUN_DOMAIN}", "--api-key", "${MAILGUN_API_KEY}"],
+    "env": {"MAILGUN_DOMAIN": "example.com", "MAILGUN_API_KEY": "xxx"}
+  },
+  "postmark": {
+    "command": "uvx",
+    "args": ["mcp-server-postmark", "--api-key", "${POSTMARK_API_KEY}"],
+    "env": {"POSTMARK_API_KEY": "xxx"}
+  },
+  "mailchimp": {
+    "command": "uvx",
+    "args": ["mcp-server-mailchimp", "--api-key", "${MAILCHIMP_API_KEY}"],
+    "env": {"MAILCHIMP_API_KEY": "xxx", "MAILCHIMP_SERVER_PREFIX": "us1"}
+  },
+  "ses": {
+    "command": "uvx",
+    "args": ["mcp-server-aws-ses", "--profile", "${AWS_PROFILE}"],
+    "env": {"AWS_PROFILE": "default", "AWS_REGION": "us-east-1"}
+  },
+  "sendinblue": {
+    "command": "uvx",
+    "args": ["mcp-server-sendinblue", "--api-key", "${SENDINBLUE_API_KEY}"],
+    "env": {"SENDINBLUE_API_KEY": "xxx"}
+  },
+  "sparkpost": {
+    "command": "uvx",
+    "args": ["mcp-server-sparkpost", "--api-key", "${SPARKPOST_API_KEY}"],
+    "env": {"SPARKPOST_API_KEY": "xxx"}
+  },
+  "resend": {
+    "command": "uvx",
+    "args": ["mcp-server-resend", "--api-key", "${RESEND_API_KEY}"],
+    "env": {"RESEND_API_KEY": "re_xxx"}
+  }
+}

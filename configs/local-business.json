@@ -1,0 +1,10 @@
+{
+  "yelpfusion": {"command": "uvx", "args": ["mcp-server-yelpfusion", "--api-key", "${YELP_API_KEY}"], "env": {"YELP_API_KEY": "xxx"}},
+  "google-places": {"command": "uvx", "args": ["mcp-server-google-places", "--api-key", "${GOOGLE_PLACES_API_KEY}"], "env": {"GOOGLE_PLACES_API_KEY": "xxx"}},
+  "foursquare-places": {"command": "uvx", "args": ["mcp-server-foursquare-places", "--api-key", "${FOURSQUARE_API_KEY}"], "env": {"FOURSQUARE_API_KEY": "xxx"}},
+  "tripadvisor-content": {"command": "uvx", "args": ["mcp-server-tripadvisor-content", "--api-key", "${TRIPADVISOR_API_KEY}"], "env": {"TRIPADVISOR_API_KEY": "xxx"}},
+  "zomato-restaurants": {"command": "uvx", "args": ["mcp-server-zomato-restaurants", "--api-key", "${ZOMATO_API_KEY}"], "env": {"ZOMATO_API_KEY": "xxx"}},
+  "swiggy-food": {"command": "uvx", "args": ["mcp-server-swiggy-food", "--api-key", "${SWIGGY_API_KEY}"], "env": {"SWIGGY_API_KEY": "xxx"}},
+  "doordash-food": {"command": "uvx", "args": ["mcp-server-doordash-food", "--developer-id", "${DOORDASH_DEVELOPER_ID}", "--key-id", "${DOORDASH_KEY_ID}", "--signing-secret", "${DOORDASH_SIGNING_SECRET}"], "env": {"DOORDASH_DEVELOPER_ID": "xxx", "DOORDASH_KEY_ID": "xxx", "DOORDASH_SIGNING_SECRET": "xxx"}},
+  "grubhub-food": {"command": "uvx", "args": ["mcp-server-grubhub-food", "--api-key", "${GRUBHUB_API_KEY}"], "env": {"GRUBHUB_API_KEY": "xxx"}}
+}

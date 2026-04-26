@@ -1,0 +1,12 @@
+{
+  "shopify-orders": {"command": "uvx", "args": ["mcp-server-shopify-orders", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-orders-risk": {"command": "uvx", "args": ["mcp-server-shopify-orders-risk", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-orders-fulfillments": {"command": "uvx", "args": ["mcp-server-shopify-orders-fulfillments", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-orders-refunds": {"command": "uvx", "args": ["mcp-server-shopify-orders-refunds", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-orders-cancellations": {"command": "uvx", "args": ["mcp-server-shopify-orders-cancellations", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-customers": {"command": "uvx", "args": ["mcp-server-shopify-customers", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-customer-orders": {"command": "uvx", "args": ["mcp-server-shopify-customer-orders", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-customer-addresses": {"command": "uvx", "args": ["mcp-server-shopify-customer-addresses", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-customer-metafields": {"command": "uvx", "args": ["mcp-server-shopify-customer-metafields", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-abandoned-checkouts": {"command": "uvx", "args": ["mcp-server-shopify-abandoned-checkouts", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}}
+}

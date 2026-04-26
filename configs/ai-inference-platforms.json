@@ -1,0 +1,12 @@
+{
+  "huggingface-inference": {"command": "uvx", "args": ["mcp-server-huggingface-inference", "--api-key", "${HF_API_KEY}"], "env": {"HF_API_KEY": "xxx"}},
+  "huggingface-datasets": {"command": "uvx", "args": ["mcp-server-huggingface-datasets", "--api-key", "${HF_API_KEY}"], "env": {"HF_API_KEY": "xxx"}},
+  "replicate-models": {"command": "uvx", "args": ["mcp-server-replicate-models", "--api-key", "${REPLICATE_API_KEY}"], "env": {"REPLICATE_API_KEY": "xxx"}},
+  "replicate-predictions": {"command": "uvx", "args": ["mcp-server-replicate-predictions", "--api-key", "${REPLICATE_API_KEY}"], "env": {"REPLICATE_API_KEY": "xxx"}},
+  "together-models": {"command": "uvx", "args": ["mcp-server-together-models", "--api-key", "${TOGETHER_API_KEY}"], "env": {"TOGETHER_API_KEY": "xxx"}},
+  "together-inference": {"command": "uvx", "args": ["mcp-server-together-inference", "--api-key", "${TOGETHER_API_KEY}"], "env": {"TOGETHER_API_KEY": "xxx"}},
+  "perplexity-api": {"command": "uvx", "args": ["mcp-server-perplexity-api", "--api-key", "${PERPLEXITY_API_KEY}"], "env": {"PERPLEXITY_API_KEY": "xxx"}},
+  "groq-api": {"command": "uvx", "args": ["mcp-server-groq-api", "--api-key", "${GROQ_API_KEY}"], "env": {"GROQ_API_KEY": "xxx"}},
+  "anyscale-api": {"command": "uvx", "args": ["mcp-server-anyscale-api", "--api-key", "${ANYSCALE_API_KEY}"], "env": {"ANYSCALE_API_KEY": "xxx"}},
+  "fireworks-api": {"command": "uvx", "args": ["mcp-server-fireworks-api", "--api-key", "${FIREWORKS_API_KEY}"], "env": {"FIREWORKS_API_KEY": "xxx"}}
+}

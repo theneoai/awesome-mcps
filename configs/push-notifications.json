@@ -1,0 +1,12 @@
+{
+  "plivo-messages": {"command": "uvx", "args": ["mcp-server-plivo-messages", "--auth-id", "${PLIVO_AUTH_ID}", "--auth-token", "${PLIVO_AUTH_TOKEN}"], "env": {"PLIVO_AUTH_ID": "MAxxx", "PLIVO_AUTH_TOKEN": "xxx"}},
+  "plivo-numbers": {"command": "uvx", "args": ["mcp-server-plivo-numbers", "--auth-id", "${PLIVO_AUTH_ID}", "--auth-token", "${PLIVO_AUTH_TOKEN}"], "env": {"PLIVO_AUTH_ID": "MAxxx", "PLIVO_AUTH_TOKEN": "xxx"}},
+  "fcm-messages": {"command": "uvx", "args": ["mcp-server-fcm-messages", "--credentials-path", "${FCM_CREDENTIALS_PATH}"], "env": {"FCM_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "fcm-topics": {"command": "uvx", "args": ["mcp-server-fcm-topics", "--credentials-path", "${FCM_CREDENTIALS_PATH}"], "env": {"FCM_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "onesignal-devices": {"command": "uvx", "args": ["mcp-server-onesignal-devices", "--api-key", "${ONESIGNAL_API_KEY}"], "env": {"ONESIGNAL_API_KEY": "xxx", "ONESIGNAL_APP_ID": "xxx"}},
+  "onesignal-notifications": {"command": "uvx", "args": ["mcp-server-onesignal-notifications", "--api-key", "${ONESIGNAL_API_KEY}"], "env": {"ONESIGNAL_API_KEY": "xxx", "ONESIGNAL_APP_ID": "xxx"}},
+  "pusher-channels": {"command": "uvx", "args": ["mcp-server-pusher-channels", "--app-id", "${PUSHER_APP_ID}", "--key", "${PUSHER_KEY}", "--secret", "${PUSHER_SECRET}"], "env": {"PUSHER_APP_ID": "xxx", "PUSHER_KEY": "xxx", "PUSHER_SECRET": "xxx"}},
+  "pubnub-messages": {"command": "uvx", "args": ["mcp-server-pubnub-messages", "--publish-key", "${PUBNUB_PUBLISH_KEY}", "--subscribe-key", "${PUBNUB_SUBSCRIBE_KEY}"], "env": {"PUBNUB_PUBLISH_KEY": "xxx", "PUBNUB_SUBSCRIBE_KEY": "xxx"}},
+  "ably-channels": {"command": "uvx", "args": ["mcp-server-ably-channels", "--api-key", "${ABLY_API_KEY}"], "env": {"ABLY_API_KEY": "xxx"}},
+  "ably-messages": {"command": "uvx", "args": ["mcp-server-ably-messages", "--api-key", "${ABLY_API_KEY}"], "env": {"ABLY_API_KEY": "xxx"}}
+}

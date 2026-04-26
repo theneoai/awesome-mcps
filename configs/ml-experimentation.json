@@ -1,0 +1,12 @@
+{
+  "mlflow-experiments": {"command": "uvx", "args": ["mcp-server-mlflow-experiments", "--tracking-uri", "${MLFLOW_TRACKING_URI}"], "env": {"MLFLOW_TRACKING_URI": "http://localhost:5000"}},
+  "mlflow-runs": {"command": "uvx", "args": ["mcp-server-mlflow-runs", "--tracking-uri", "${MLFLOW_TRACKING_URI}"], "env": {"MLFLOW_TRACKING_URI": "http://localhost:5000"}},
+  "mlflow-models": {"command": "uvx", "args": ["mcp-server-mlflow-models", "--tracking-uri", "${MLFLOW_TRACKING_URI}"], "env": {"MLFLOW_TRACKING_URI": "http://localhost:5000"}},
+  "mlflow-artifacts": {"command": "uvx", "args": ["mcp-server-mlflow-artifacts", "--tracking-uri", "${MLFLOW_TRACKING_URI}"], "env": {"MLFLOW_TRACKING_URI": "http://localhost:5000"}},
+  "wandb-projects": {"command": "uvx", "args": ["mcp-server-wandb-projects", "--api-key", "${WANDB_API_KEY}"], "env": {"WANDB_API_KEY": "xxx"}},
+  "wandb-runs": {"command": "uvx", "args": ["mcp-server-wandb-runs", "--api-key", "${WANDB_API_KEY}"], "env": {"WANDB_API_KEY": "xxx"}},
+  "wandb-sweeps": {"command": "uvx", "args": ["mcp-server-wandb-sweeps", "--api-key", "${WANDB_API_KEY}"], "env": {"WANDB_API_KEY": "xxx"}},
+  "wandb-artifacts": {"command": "uvx", "args": ["mcp-server-wandb-artifacts", "--api-key", "${WANDB_API_KEY}"], "env": {"WANDB_API_KEY": "xxx"}},
+  "tensorboard-runs": {"command": "uvx", "args": ["mcp-server-tensorboard-runs", "--logdir", "${TENSORBOARD_LOGDIR}"], "env": {"TENSORBOARD_LOGDIR": "/logs"}},
+  "comet-ml-experiments": {"command": "uvx", "args": ["mcp-server-comet-ml-experiments", "--api-key", "${COMET_ML_API_KEY}"], "env": {"COMET_ML_API_KEY": "xxx"}}
+}

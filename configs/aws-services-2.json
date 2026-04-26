@@ -1,0 +1,12 @@
+{
+  "aws-kinesis": {"command": "uvx", "args": ["mcp-server-aws-kinesis", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-msk": {"command": "uvx", "args": ["mcp-server-aws-msk", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-cognito": {"command": "uvx", "args": ["mcp-server-aws-cognito", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-appsync": {"command": "uvx", "args": ["mcp-server-aws-appsync", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-step-functions": {"command": "uvx", "args": ["mcp-server-aws-step-functions", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-eventbridge": {"command": "uvx", "args": ["mcp-server-aws-eventbridge", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-scheduler": {"command": "uvx", "args": ["mcp-server-aws-scheduler", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-lake-formation": {"command": "uvx", "args": ["mcp-server-aws-lake-formation", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-quicksight": {"command": "uvx", "args": ["mcp-server-aws-quicksight", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-lex": {"command": "uvx", "args": ["mcp-server-aws-lex", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}}
+}

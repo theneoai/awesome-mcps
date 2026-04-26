@@ -1,0 +1,12 @@
+{
+  "stripe-webhooks": {"command": "uvx", "args": ["mcp-server-stripe-webhooks", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "shopify-webhooks": {"command": "uvx", "args": ["mcp-server-shopify-webhooks", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-webhooks": {"command": "uvx", "args": ["mcp-server-woocommerce-webhooks", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "github-webhooks": {"command": "uvx", "args": ["mcp-server-github-webhooks", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "gitlab-webhooks": {"command": "uvx", "args": ["mcp-server-gitlab-webhooks", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "bitbucket-webhooks": {"command": "uvx", "args": ["mcp-server-bitbucket-webhooks", "--workspace", "${BB_WORKSPACE}", "--token", "${BB_TOKEN}"], "env": {"BB_WORKSPACE": "xxx", "BB_TOKEN": "xxx"}},
+  "slack-webhooks": {"command": "uvx", "args": ["mcp-server-slack-webhooks", "--bot-token", "${SLACK_BOT_TOKEN}"], "env": {"SLACK_BOT_TOKEN": "xoxb-xxx"}},
+  "discord-webhooks": {"command": "uvx", "args": ["mcp-server-discord-webhooks", "--bot-token", "${DISCORD_BOT_TOKEN}"], "env": {"DISCORD_BOT_TOKEN": "xxx"}},
+  "twilio-webhooks": {"command": "uvx", "args": ["mcp-server-twilio-webhooks", "--account-sid", "${TWILIO_ACCOUNT_SID}", "--auth-token", "${TWILIO_AUTH_TOKEN}"], "env": {"TWILIO_ACCOUNT_SID": "xxx", "TWILIO_AUTH_TOKEN": "xxx"}},
+  "sendgrid-webhooks": {"command": "uvx", "args": ["mcp-server-sendgrid-webhooks", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "xxx"}}
+}

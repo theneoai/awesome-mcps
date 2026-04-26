@@ -1,0 +1,12 @@
+{
+  "sift-payments": {"command": "uvx", "args": ["mcp-server-sift-payments", "--api-key", "${SIFT_API_KEY}"], "env": {"SIFT_API_KEY": "xxx"}},
+  "sift-orders": {"command": "uvx", "args": ["mcp-server-sift-orders", "--api-key", "${SIFT_API_KEY}"], "env": {"SIFT_API_KEY": "xxx"}},
+  "sift-account": {"command": "uvx", "args": ["mcp-server-sift-account", "--api-key", "${SIFT_API_KEY}"], "env": {"SIFT_API_KEY": "xxx"}},
+  "riskified-orders": {"command": "uvx", "args": ["mcp-server-riskified-orders", "--api-key", "${RISKIFIED_API_KEY}"], "env": {"RISKIFIED_API_KEY": "xxx", "RISKIFIED_PASSWORD": "xxx"}},
+  "riskified-refunds": {"command": "uvx", "args": ["mcp-server-riskified-refunds", "--api-key", "${RISKIFIED_API_KEY}"], "env": {"RISKIFIED_API_KEY": "xxx", "RISKIFIED_PASSWORD": "xxx"}},
+  "signifyd-orders": {"command": "uvx", "args": ["mcp-server-signifyd-orders", "--api-key", "${SIGNIFYD_API_KEY}"], "env": {"SIGNIFYD_API_KEY": "xxx"}},
+  "signifyd-cases": {"command": "uvx", "args": ["mcp-server-signifyd-cases", "--api-key", "${SIGNIFYD_API_KEY}"], "env": {"SIGNIFYD_API_KEY": "xxx"}},
+  "forter-orders": {"command": "uvx", "args": ["mcp-server-forter-orders", "--api-key", "${FORTER_API_KEY}"], "env": {"FORTER_API_KEY": "xxx"}},
+  "forter-decisions": {"command": "uvx", "args": ["mcp-server-forter-decisions", "--api-key", "${FORTER_API_KEY}"], "env": {"FORTER_API_KEY": "xxx"}},
+  "seon-payments": {"command": "uvx", "args": ["mcp-server-seon-payments", "--api-key", "${SEON_API_KEY}"], "env": {"SEON_API_KEY": "xxx"}}
+}

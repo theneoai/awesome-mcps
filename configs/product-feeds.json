@@ -1,0 +1,12 @@
+{
+  "shopify-product-feeds": {"command": "uvx", "args": ["mcp-server-shopify-product-feeds", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-google-feeds": {"command": "uvx", "args": ["mcp-server-shopify-google-feeds", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-facebook-feeds": {"command": "uvx", "args": ["mcp-server-shopify-facebook-feeds", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-instagram-feeds": {"command": "uvx", "args": ["mcp-server-shopify-instagram-feeds", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-feeds": {"command": "uvx", "args": ["mcp-server-woocommerce-feeds", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "bigcommerce-feeds": {"command": "uvx", "args": ["mcp-server-bigcommerce-feeds", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}},
+  "google-merchant-center": {"command": "uvx", "args": ["mcp-server-google-merchant-center", "--developer-token", "${GOOGLE_ADS_DEVELOPER_TOKEN}"], "env": {"GOOGLE_ADS_DEVELOPER_TOKEN": "xxx", "GOOGLE_ADS_CLIENT_ID": "xxx", "GOOGLE_ADS_CLIENT_SECRET": "xxx", "GOOGLE_ADS_REFRESH_TOKEN": "xxx"}},
+  "facebook-catalog": {"command": "uvx", "args": ["mcp-server-facebook-catalog", "--access-token", "${FB_ACCESS_TOKEN}"], "env": {"FB_ACCESS_TOKEN": "xxx"}},
+  "instagram-product-feeds": {"command": "uvx", "args": ["mcp-server-instagram-product-feeds", "--client-id", "${INSTAGRAM_CLIENT_ID}", "--client-secret", "${INSTAGRAM_CLIENT_SECRET}"], "env": {"INSTAGRAM_CLIENT_ID": "xxx", "INSTAGRAM_CLIENT_SECRET": "xxx"}},
+  "tiktok-catalog": {"command": "uvx", "args": ["mcp-server-tiktok-catalog", "--client-key", "${TIKTOK_CLIENT_KEY}", "--client-secret", "${TIKTOK_CLIENT_SECRET}"], "env": {"TIKTOK_CLIENT_KEY": "xxx", "TIKTOK_CLIENT_SECRET": "xxx"}}
+}

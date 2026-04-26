@@ -1,52 +1,12 @@
 {
-  "crowdstrike": {
-    "command": "uvx",
-    "args": [
-      "mcp-server-crowdstrike",
-      "--client-id", "${CROWDSTRIKE_CLIENT_ID}",
-      "--client-secret": "${CROWDSTRIKE_CLIENT_SECRET}"
-    ],
-    "env": {
-      "CROWDSTRIKE_CLIENT_ID": "your-client-id",
-      "CROWDSTRIKE_CLIENT_SECRET": "your-client-secret"
-    }
-  },
-  "okta": {
-    "command": "uvx",
-    "args": [
-      "mcp-server-okta",
-      "--domain", "${OKTA_DOMAIN}",
-      "--api-token": "${OKTA_API_TOKEN}"
-    ],
-    "env": {
-      "OKTA_DOMAIN": "your-org.okta.com",
-      "OKTA_API_TOKEN": "your-api-token"
-    }
-  },
-  "auth0": {
-    "command": "uvx",
-    "args": [
-      "mcp-server-auth0",
-      "--domain", "${AUTH0_DOMAIN}",
-      "--client-id": "${AUTH0_CLIENT_ID}",
-      "--client-secret": "${AUTH0_CLIENT_SECRET}"
-    ],
-    "env": {
-      "AUTH0_DOMAIN": "your-domain.auth0.com",
-      "AUTH0_CLIENT_ID": "your-client-id",
-      "AUTH0_CLIENT_SECRET": "your-client-secret"
-    }
-  },
-  "sentinelone": {
-    "command": "uvx",
-    "args": [
-      "mcp-server-sentinelone",
-      "--api-token", "${SENTINELONE_API_TOKEN}",
-      "--domain": "${SENTINELONE_DOMAIN}"
-    ],
-    "env": {
-      "SENTINELONE_API_TOKEN": "your-api-token",
-      "SENTINELONE_DOMAIN": "your-domain.sentinelone.net"
-    }
-  }
+  "crowdstrike-detects": {"command": "uvx", "args": ["mcp-server-crowdstrike-detects", "--client-id", "${CROWDSTRIKE_CLIENT_ID}", "--client-secret", "${CROWDSTRIKE_CLIENT_SECRET}"], "env": {"CROWDSTRIKE_CLIENT_ID": "xxx", "CROWDSTRIKE_CLIENT_SECRET": "xxx"}},
+  "crowdstrike-hosts": {"command": "uvx", "args": ["mcp-server-crowdstrike-hosts", "--client-id", "${CROWDSTRIKE_CLIENT_ID}", "--client-secret", "${CROWDSTRIKE_CLIENT_SECRET}"], "env": {"CROWDSTRIKE_CLIENT_ID": "xxx", "CROWDSTRIKE_CLIENT_SECRET": "xxx"}},
+  "crowdstrike-incidents": {"command": "uvx", "args": ["mcp-server-crowdstrike-incidents", "--client-id", "${CROWDSTRIKE_CLIENT_ID}", "--client-secret", "${CROWDSTRIKE_CLIENT_SECRET}"], "env": {"CROWDSTRIKE_CLIENT_ID": "xxx", "CROWDSTRIKE_CLIENT_SECRET": "xxx"}},
+  "palo-alto-firewalls": {"command": "uvx", "args": ["mcp-server-palo-alto-firewalls", "--api-key", "${PALO_ALTO_API_KEY}"], "env": {"PALO_ALTO_API_KEY": "xxx"}},
+  "palo-alto-threats": {"command": "uvx", "args": ["mcp-server-palo-alto-threats", "--api-key", "${PALO_ALTO_API_KEY}"], "env": {"PALO_ALTO_API_KEY": "xxx"}},
+  "fortinet-firewalls": {"command": "uvx", "args": ["mcp-server-fortinet-firewalls", "--api-key", "${FORTINET_API_KEY}"], "env": {"FORTINET_API_KEY": "xxx"}},
+  "fortinet-threats": {"command": "uvx", "args": ["mcp-server-fortinet-threats", "--api-key", "${FORTINET_API_KEY}"], "env": {"FORTINET_API_KEY": "xxx"}},
+  "checkpoint-threats": {"command": "uvx", "args": ["mcp-server-checkpoint-threats", "--api-key", "${CHECKPOINT_API_KEY}"], "env": {"CHECKPOINT_API_KEY": "xxx"}},
+  "checkpoint-firewalls": {"command": "uvx", "args": ["mcp-server-checkpoint-firewalls", "--api-key", "${CHECKPOINT_API_KEY}"], "env": {"CHECKPOINT_API_KEY": "xxx"}},
+  "sophos-endpoints": {"command": "uvx", "args": ["mcp-server-sophos-endpoints", "--api-key", "${SOPHOS_API_KEY}"], "env": {"SOPHOS_API_KEY": "xxx"}}
 }

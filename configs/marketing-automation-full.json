@@ -1,0 +1,12 @@
+{
+  "shopify-marketing": {"command": "uvx", "args": ["mcp-server-shopify-marketing", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-campaigns": {"command": "uvx", "args": ["mcp-server-shopify-campaigns", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-automations": {"command": "uvx", "args": ["mcp-server-shopify-automations", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "mailchimp-automation": {"command": "uvx", "args": ["mcp-server-mailchimp-automation", "--api-key", "${MAILCHIMP_API_KEY}"], "env": {"MAILCHIMP_API_KEY": "xxx"}},
+  "klaviyo-flows": {"command": "uvx", "args": ["mcp-server-klaviyo-flows", "--api-key", "${KLAVIYO_API_KEY}"], "env": {"KLAVIYO_API_KEY": "xxx"}},
+  "hubspot-automation": {"command": "uvx", "args": ["mcp-server-hubspot-automation", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "marketo-automation": {"command": "uvx", "args": ["mcp-server-marketo-automation", "--munchkin-id", "${MARKETO_MUNCHKIN_ID}", "--client-id", "${MARKETO_CLIENT_ID}", "--client-secret", "${MARKETO_CLIENT_SECRET}"], "env": {"MARKETO_MUNCHKIN_ID": "xxx", "MARKETO_CLIENT_ID": "xxx", "MARKETO_CLIENT_SECRET": "xxx"}},
+  "activecampaign-automation": {"command": "uvx", "args": ["mcp-server-activecampaign-automation", "--api-key", "${ACTIVECAMPAIGN_API_KEY}", "--url", "${ACTIVECAMPAIGN_URL}"], "env": {"ACTIVECAMPAIGN_API_KEY": "xxx", "ACTIVECAMPAIGN_URL": "xxx"}},
+  "drip-automation": {"command": "uvx", "args": ["mcp-server-drip-automation", "--api-key", "${DRIP_API_KEY}"], "env": {"DRIP_API_KEY": "xxx"}},
+  "sendgrid-automation": {"command": "uvx", "args": ["mcp-server-sendgrid-automation", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "xxx"}}
+}

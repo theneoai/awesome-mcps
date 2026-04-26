@@ -1,0 +1,22 @@
+{
+  "openai": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-openai",
+      "--api-key", "${OPENAI_API_KEY}"
+    ],
+    "env": {
+      "OPENAI_API_KEY": "sk-xxx"
+    }
+  },
+  "anthropic": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-anthropic",
+      "--api-key", "${ANTHROPIC_API_KEY}"
+    ],
+    "env": {
+      "ANTHROPIC_API_KEY": "sk-ant-xxx"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "azure-vms": {"command": "uvx", "args": ["mcp-server-azure-vms", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"], "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "azure-storage": {"command": "uvx", "args": ["mcp-server-azure-storage", "--connection-string", "${AZURE_STORAGE_CONNECTION_STRING}"], "env": {"AZURE_STORAGE_CONNECTION_STRING": "xxx"}},
+  "azure-containers": {"command": "uvx", "args": ["mcp-server-azure-containers", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"], "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "azure-functions-az": {"command": "uvx", "args": ["mcp-server-azure-functions-az", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"], "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "azure-ad-users": {"command": "uvx", "args": ["mcp-server-azure-ad-users", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}", "--tenant-id", "${AZURE_TENANT_ID}"], "env": {"AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx", "AZURE_TENANT_ID": "xxx"}},
+  "azure-sql": {"command": "uvx", "args": ["mcp-server-azure-sql", "--server", "${AZURE_SQL_SERVER}", "--database", "${AZURE_SQL_DATABASE}"], "env": {"AZURE_SQL_SERVER": "xxx.database.windows.net", "AZURE_SQL_DATABASE": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "azure-cosmosdb": {"command": "uvx", "args": ["mcp-server-azure-cosmosdb", "--endpoint", "${COSMOS_ENDPOINT}"], "env": {"COSMOS_ENDPOINT": "https://xxx.documents.azure.com", "COSMOS_KEY": "xxx"}},
+  "azure-redis": {"command": "uvx", "args": ["mcp-server-azure-redis", "--cache-name", "${AZURE_REDIS_NAME}"], "env": {"AZURE_REDIS_NAME": "xxx", "AZURE_REDIS_KEY": "xxx"}}
+}

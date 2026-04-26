@@ -1,0 +1,12 @@
+{
+  "dice-fm-events": {"command": "uvx", "args": ["mcp-server-dice-fm-events", "--api-key", "${DICE_API_KEY}"], "env": {"DICE_API_KEY": "xxx"}},
+  "bandsintown-events": {"command": "uvx", "args": ["mcp-server-bandsintown-events", "--api-key", "${BANDSINTOWN_API_KEY}"], "env": {"BANDSINTOWN_API_KEY": "xxx"}},
+  "songkick-calendar": {"command": "uvx", "args": ["mcp-server-songkick-calendar", "--api-key", "${SONGKICK_API_KEY}"], "env": {"SONGKICK_API_KEY": "xxx"}},
+  "lastfm-events": {"command": "uvx", "args": ["mcp-server-lastfm-events", "--api-key", "${LASTFM_API_KEY}"], "env": {"LASTFM_API_KEY": "xxx"}},
+  "setlistfm-events": {"command": "uvx", "args": ["mcp-server-setlistfm-events", "--api-key", "${SETLISTFM_API_KEY}"], "env": {"SETLISTFM_API_KEY": "xxx"}},
+  "meetup-events": {"command": "uvx", "args": ["mcp-server-meetup-events", "--api-key", "${MEETUP_API_KEY}"], "env": {"MEETUP_API_KEY": "xxx"}},
+  "eventbrite-organizers": {"command": "uvx", "args": ["mcp-server-eventbrite-organizers", "--api-key", "${EVENTBRITE_API_KEY}"], "env": {"EVENTBRITE_API_KEY": "xxx"}},
+  "calendarific-holidays": {"command": "uvx", "args": ["mcp-server-calendarific-holidays", "--api-key", "${CALENDARIFIC_API_KEY}"], "env": {"CALENDARIFIC_API_KEY": "xxx"}},
+  "nager-date-holidays": {"command": "uvx", "args": ["mcp-server-nager-date-holidays", "--api-key", "${NAGER_API_KEY}"], "env": {"NAGER_API_KEY": "xxx"}},
+  "abstractapi-holidays": {"command": "uvx", "args": ["mcp-server-abstractapi-holidays", "--api-key", "${ABSTRACT_API_KEY}"], "env": {"ABSTRACT_API_KEY": "xxx"}}
+}

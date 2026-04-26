@@ -1,0 +1,47 @@
+{
+  "kubernetes": {
+    "command": "uvx",
+    "args": ["mcp-server-kubernetes", "--kubeconfig", "${KUBECONFIG_PATH}"],
+    "env": {"KUBECONFIG_PATH": "~/.kube/config"}
+  },
+  "helm": {
+    "command": "uvx",
+    "args": ["mcp-server-helm", "--kubeconfig", "${KUBECONFIG_PATH}"],
+    "env": {"KUBECONFIG_PATH": "~/.kube/config"}
+  },
+  "kubectl": {
+    "command": "uvx",
+    "args": ["mcp-server-kubectl", "--kubeconfig", "${KUBECONFIG_PATH}"],
+    "env": {"KUBECONFIG_PATH": "~/.kube/config"}
+  },
+  "k9s": {
+    "command": "uvx",
+    "args": ["mcp-server-k9s", "--kubeconfig", "${KUBECONFIG_PATH}"],
+    "env": {"KUBECONFIG_PATH": "~/.kube/config"}
+  },
+  "docker": {
+    "command": "uvx",
+    "args": ["mcp-server-docker", "--host", "${DOCKER_HOST}"],
+    "env": {"DOCKER_HOST": "unix:///var/run/docker.sock"}
+  },
+  "docker-compose": {
+    "command": "uvx",
+    "args": ["mcp-server-docker-compose", "--project-dir", "${COMPOSE_PROJECT_DIR}"],
+    "env": {"COMPOSE_PROJECT_DIR": "."}
+  },
+  "terraform": {
+    "command": "uvx",
+    "args": ["mcp-server-terraform", "--state", "${TF_STATE_PATH}"],
+    "env": {"TF_STATE_PATH": "terraform.tfstate"}
+  },
+  "ansible": {
+    "command": "uvx",
+    "args": ["mcp-server-ansible", "--inventory", "${ANSIBLE_INVENTORY}"],
+    "env": {"ANSIBLE_INVENTORY": "inventory.ini"}
+  },
+  "packer": {
+    "command": "uvx",
+    "args": ["mcp-server-packer", "--template", "${PACKER_TEMPLATE}"],
+    "env": {"PACKER_TEMPLATE": "template.pkr.hcl"}
+  }
+}

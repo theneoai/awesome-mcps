@@ -1,0 +1,12 @@
+{
+  "harperdb-databases": {"command": "uvx", "args": ["mcp-server-harperdb-databases", "--url", "${HARPERDB_URL}", "--api-key", "${HARPERDB_API_KEY}"], "env": {"HARPERDB_URL": "http://localhost:8080", "HARPERDB_API_KEY": "xxx"}},
+  "upstash-kafka": {"command": "uvx", "args": ["mcp-server-upstash-kafka", "--api-key", "${UPSTASH_KAFKA_API_KEY}"], "env": {"UPSTASH_KAFKA_API_KEY": "xxx", "UPSTASH_KAFKA_API_SECRET": "xxx"}},
+  "redpanda-cloud": {"command": "uvx", "args": ["mcp-server-redpanda-cloud", "--api-key", "${REDPANDA_API_KEY}"], "env": {"REDPANDA_API_KEY": "xxx"}},
+  "confluent-cloud": {"command": "uvx", "args": ["mcp-server-confluent-cloud", "--api-key", "${CONFLUENT_API_KEY}", "--api-secret", "${CONFLUENT_API_SECRET}"], "env": {"CONFLUENT_API_KEY": "xxx", "CONFLUENT_API_SECRET": "xxx"}},
+  "amazon-msk": {"command": "uvx", "args": ["mcp-server-amazon-msk", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "cloudkarafka": {"command": "uvx", "args": ["mcp-server-cloudkarafka", "--api-key", "${CLOUDKARAFKA_API_KEY}"], "env": {"CLOUDKARAFKA_API_KEY": "xxx"}},
+  "ibm-event-streams": {"command": "uvx", "args": ["mcp-server-ibm-event-streams", "--api-key", "${IBM_EVENT_STREAMS_API_KEY}"], "env": {"IBM_EVENT_STREAMS_API_KEY": "xxx"}},
+  "redpanda-connectors": {"command": "uvx", "args": ["mcp-server-redpanda-connectors", "--api-key", "${REDPANDA_API_KEY}"], "env": {"REDPANDA_API_KEY": "xxx"}},
+  "aiven-kafka": {"command": "uvx", "args": ["mcp-server-aiven-kafka", "--api-key", "${AIVEN_API_KEY}"], "env": {"AIVEN_API_KEY": "xxx"}},
+  "materialize-databases": {"command": "uvx", "args": ["mcp-server-materialize-databases", "--url", "${MATERIALIZE_URL}", "--api-key", "${MATERIALIZE_API_KEY}"], "env": {"MATERIALIZE_URL": "https://xxx.materialize.cloud", "MATERIALIZE_API_KEY": "xxx"}}
+}

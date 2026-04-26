@@ -1,0 +1,12 @@
+{
+  "netsuite-erp": {"command": "uvx", "args": ["mcp-server-netsuite-erp", "--account-id", "${NETSUITE_ACCOUNT_ID}", "--consumer-key", "${NETSUITE_CONSUMER_KEY}", "--consumer-secret", "${NETSUITE_CONSUMER_SECRET}", "--token-key", "${NETSUITE_TOKEN_KEY}", "--token-secret", "${NETSUITE_TOKEN_SECRET}"], "env": {"NETSUITE_ACCOUNT_ID": "xxx", "NETSUITE_CONSUMER_KEY": "xxx", "NETSUITE_CONSUMER_SECRET": "xxx", "NETSUITE_TOKEN_KEY": "xxx", "NETSUITE_TOKEN_SECRET": "xxx"}},
+  "sap-erp": {"command": "uvx", "args": ["mcp-server-sap-erp", "--host", "${SAP_HOST}", "--client", "${SAP_CLIENT}", "--user", "${SAP_USER}", "--password", "${SAP_PASSWORD}"], "env": {"SAP_HOST": "https://xxx", "SAP_CLIENT": "100", "SAP_USER": "xxx", "SAP_PASSWORD": "xxx"}},
+  "oracle-erp": {"command": "uvx", "args": ["mcp-server-oracle-erp", "--host", "${ORACLE_HOST}", "--username", "${ORACLE_USERNAME}", "--password", "${ORACLE_PASSWORD}"], "env": {"ORACLE_HOST": "https://xxx", "ORACLE_USERNAME": "xxx", "ORACLE_PASSWORD": "xxx"}},
+  "microsoft-dynamics-365": {"command": "uvx", "args": ["mcp-server-ms-dynamics-365", "--url", "${DYNAMICS365_URL}", "--client-id", "${DYNAMICS_CLIENT_ID}", "--client-secret", "${DYNAMICS_CLIENT_SECRET}"], "env": {"DYNAMICS365_URL": "https://xxx.dynamics.com", "DYNAMICS_CLIENT_ID": "xxx", "DYNAMICS_CLIENT_SECRET": "xxx"}},
+  "infor": {"command": "uvx", "args": ["mcp-server-infor", "--api-key", "${INFOR_API_KEY}"], "env": {"INFOR_API_KEY": "xxx"}},
+  "sage": {"command": "uvx", "args": ["mcp-server-sage", "--api-key", "${SAGE_API_KEY}"], "env": {"SAGE_API_KEY": "xxx"}},
+  "xero-accounting": {"command": "uvx", "args": ["mcp-server-xero-accounting", "--client-id", "${XERO_CLIENT_ID}", "--client-secret", "${XERO_CLIENT_SECRET}"], "env": {"XERO_CLIENT_ID": "xxx", "XERO_CLIENT_SECRET": "xxx"}},
+  "quickbooks-online": {"command": "uvx", "args": ["mcp-server-quickbooks-online", "--client-id", "${QB_CLIENT_ID}", "--client-secret", "${QB_CLIENT_SECRET}"], "env": {"QB_CLIENT_ID": "xxx", "QB_CLIENT_SECRET": "xxx"}},
+  "freshbooks": {"command": "uvx", "args": ["mcp-server-freshbooks", "--api-key", "${FRESHBOOKS_API_KEY}"], "env": {"FRESHBOOKS_API_KEY": "xxx"}},
+  "wave-accounting": {"command": "uvx", "args": ["mcp-server-wave-accounting", "--api-key", "${WAVE_API_KEY}"], "env": {"WAVE_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "google-vision-annotate": {"command": "uvx", "args": ["mcp-server-google-vision-annotate", "--api-key", "${GOOGLE_VISION_API_KEY}"], "env": {"GOOGLE_VISION_API_KEY": "xxx"}},
+  "google-vision-text": {"command": "uvx", "args": ["mcp-server-google-vision-text", "--api-key", "${GOOGLE_VISION_API_KEY}"], "env": {"GOOGLE_VISION_API_KEY": "xxx"}},
+  "aws-textract": {"command": "uvx", "args": ["mcp-server-aws-textract", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-rekognition": {"command": "uvx", "args": ["mcp-server-aws-rekognition", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "azure-computer-vision": {"command": "uvx", "args": ["mcp-server-azure-computer-vision", "--api-key", "${AZURE_CV_API_KEY}"], "env": {"AZURE_CV_ENDPOINT": "https://xxx.cognitiveservices.azure.com/", "AZURE_CV_API_KEY": "xxx"}},
+  "clarifai-models": {"command": "uvx", "args": ["mcp-server-clarifai-models", "--api-key", "${CLARIFAI_API_KEY}"], "env": {"CLARIFAI_API_KEY": "xxx"}},
+  "clarifai-predictions": {"command": "uvx", "args": ["mcp-server-clarifai-predictions", "--api-key", "${CLARIFAI_API_KEY}"], "env": {"CLARIFAI_API_KEY": "xxx"}},
+  "cloudmersive-ocr": {"command": "uvx", "args": ["mcp-server-cloudmersive-ocr", "--api-key", "${CLOUDMERSIVE_API_KEY}"], "env": {"CLOUDMERSIVE_API_KEY": "xxx"}},
+  "ocr-space": {"command": "uvx", "args": ["mcp-server-ocr-space", "--api-key", "${OCRSPACE_API_KEY}"], "env": {"OCRSPACE_API_KEY": "xxx"}},
+  "tesseract-ocr": {"command": "uvx", "args": ["mcp-server-tesseract-ocr", "--data-path", "${TESSERACT_DATA_PATH}"], "env": {"TESSERACT_DATA_PATH": "/usr/share/tesseract-ocr/4.00/tessdata"}}
+}

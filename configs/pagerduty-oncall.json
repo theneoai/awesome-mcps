@@ -1,0 +1,12 @@
+{
+  "pagerduty-incidents": {"command": "uvx", "args": ["mcp-server-pagerduty-incidents", "--api-key", "${PD_API_KEY}"], "env": {"PD_API_KEY": "xxx"}},
+  "pagerduty-services": {"command": "uvx", "args": ["mcp-server-pagerduty-services", "--api-key", "${PD_API_KEY}"], "env": {"PD_API_KEY": "xxx"}},
+  "pagerduty-users": {"command": "uvx", "args": ["mcp-server-pagerduty-users", "--api-key", "${PD_API_KEY}"], "env": {"PD_API_KEY": "xxx"}},
+  "pagerduty-teams": {"command": "uvx", "args": ["mcp-server-pagerduty-teams", "--api-key", "${PD_API_KEY}"], "env": {"PD_API_KEY": "xxx"}},
+  "pagerduty-escalation-policies": {"command": "uvx", "args": ["mcp-server-pagerduty-escalation-policies", "--api-key", "${PD_API_KEY}"], "env": {"PD_API_KEY": "xxx"}},
+  "pagerduty-schedules": {"command": "uvx", "args": ["mcp-server-pagerduty-schedules", "--api-key", "${PD_API_KEY}"], "env": {"PD_API_KEY": "xxx"}},
+  "pagerduty-oncalls": {"command": "uvx", "args": ["mcp-server-pagerduty-oncalls", "--api-key", "${PD_API_KEY}"], "env": {"PD_API_KEY": "xxx"}},
+  "pagerduty-alerts": {"command": "uvx", "args": ["mcp-server-pagerduty-alerts", "--api-key", "${PD_API_KEY}"], "env": {"PD_API_KEY": "xxx"}},
+  "pagerduty-business-hours": {"command": "uvx", "args": ["mcp-server-pagerduty-business-hours", "--api-key", "${PD_API_KEY}"], "env": {"PD_API_KEY": "xxx"}},
+  "pagerduty-maintenance-windows": {"command": "uvx", "args": ["mcp-server-pagerduty-maintenance-windows", "--api-key", "${PD_API_KEY}"], "env": {"PD_API_KEY": "xxx"}}
+}

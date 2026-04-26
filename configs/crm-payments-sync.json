@@ -1,0 +1,12 @@
+{
+  "stripe-emails": {"command": "uvx", "args": ["mcp-server-stripe-emails", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-sms": {"command": "uvx", "args": ["mcp-server-stripe-sms", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-push": {"command": "uvx", "args": ["mcp-server-stripe-push", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "twilio-stripe-sync": {"command": "uvx", "args": ["mcp-server-twilio-stripe-sync", "--account-sid", "${TWILIO_ACCOUNT_SID}", "--auth-token", "${TWILIO_AUTH_TOKEN}"], "env": {"TWILIO_ACCOUNT_SID": "xxx", "TWILIO_AUTH_TOKEN": "xxx"}},
+  "sendgrid-stripe-sync": {"command": "uvx", "args": ["mcp-server-sendgrid-stripe-sync", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "xxx"}},
+  "mailchimp-stripe-sync": {"command": "uvx", "args": ["mcp-server-mailchimp-stripe-sync", "--api-key", "${MAILCHIMP_API_KEY}"], "env": {"MAILCHIMP_API_KEY": "xxx"}},
+  "hubspot-stripe-sync": {"command": "uvx", "args": ["mcp-server-hubspot-stripe-sync", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "salesforce-stripe-sync": {"command": "uvx", "args": ["mcp-server-salesforce-stripe-sync", "--client-id", "${SALESFORCE_CLIENT_ID}", "--client-secret", "${SALESFORCE_CLIENT_SECRET}"], "env": {"SALESFORCE_CLIENT_ID": "xxx", "SALESFORCE_CLIENT_SECRET": "xxx"}},
+  "klaviyo-stripe-sync": {"command": "uvx", "args": ["mcp-server-klaviyo-stripe-sync", "--api-key", "${KLAVIYO_API_KEY}"], "env": {"KLAVIYO_API_KEY": "xxx"}},
+  "intercom-stripe-sync": {"command": "uvx", "args": ["mcp-server-intercom-stripe-sync", "--api-key", "${INTERCOM_API_KEY}"], "env": {"INTERCOM_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "stripe-apple-pay": {"command": "uvx", "args": ["mcp-server-stripe-apple-pay", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-google-pay": {"command": "uvx", "args": ["mcp-server-stripe-google-pay", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-payment-request-button": {"command": "uvx", "args": ["mcp-server-stripe-payment-request-button", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "braintree-paypal": {"command": "uvx", "args": ["mcp-server-braintree-paypal", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "adyen-paypal": {"command": "uvx", "args": ["mcp-server-adyen-paypal", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "square-wallet": {"command": "uvx", "args": ["mcp-server-square-wallet", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "paypal-wallet": {"command": "uvx", "args": ["mcp-server-paypal-wallet", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "venmo": {"command": "uvx", "args": ["mcp-server-venmo", "--api-key", "${VENMO_API_KEY}"], "env": {"VENMO_API_KEY": "xxx"}},
+  "cash-app": {"command": "uvx", "args": ["mcp-server-cash-app", "--api-key", "${CASH_APP_API_KEY}"], "env": {"CASH_APP_API_KEY": "xxx"}},
+  "alipay": {"command": "uvx", "args": ["mcp-server-alipay", "--api-key", "${ALIPAY_API_KEY}"], "env": {"ALIPAY_API_KEY": "xxx"}}
+}

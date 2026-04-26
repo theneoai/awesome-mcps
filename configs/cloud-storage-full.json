@@ -1,0 +1,12 @@
+{
+  "google-drive-files": {"command": "uvx", "args": ["mcp-server-google-drive-files", "--credentials-path", "${GDRIVE_CREDENTIALS_PATH}"], "env": {"GDRIVE_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "google-drive-folders": {"command": "uvx", "args": ["mcp-server-google-drive-folders", "--credentials-path", "${GDRIVE_CREDENTIALS_PATH}"], "env": {"GDRIVE_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "dropbox-files": {"command": "uvx", "args": ["mcp-server-dropbox-files", "--access-token", "${DROPBOX_ACCESS_TOKEN}"], "env": {"DROPBOX_ACCESS_TOKEN": "xxx"}},
+  "dropbox-folders": {"command": "uvx", "args": ["mcp-server-dropbox-folders", "--access-token", "${DROPBOX_ACCESS_TOKEN}"], "env": {"DROPBOX_ACCESS_TOKEN": "xxx"}},
+  "onedrive-files": {"command": "uvx", "args": ["mcp-server-onedrive-files", "--client-id", "${ONEDRIVE_CLIENT_ID}", "--client-secret", "${ONEDRIVE_CLIENT_SECRET}"], "env": {"ONEDRIVE_CLIENT_ID": "xxx", "ONEDRIVE_CLIENT_SECRET": "xxx"}},
+  "onedrive-folders": {"command": "uvx", "args": ["mcp-server-onedrive-folders", "--client-id", "${ONEDRIVE_CLIENT_ID}", "--client-secret", "${ONEDRIVE_CLIENT_SECRET}"], "env": {"ONEDRIVE_CLIENT_ID": "xxx", "ONEDRIVE_CLIENT_SECRET": "xxx"}},
+  "box-files": {"command": "uvx", "args": ["mcp-server-box-files", "--client-id", "${BOX_CLIENT_ID}", "--client-secret", "${BOX_CLIENT_SECRET}"], "env": {"BOX_CLIENT_ID": "xxx", "BOX_CLIENT_SECRET": "xxx"}},
+  "box-folders": {"command": "uvx", "args": ["mcp-server-box-folders", "--client-id", "${BOX_CLIENT_ID}", "--client-secret", "${BOX_CLIENT_SECRET}"], "env": {"BOX_CLIENT_ID": "xxx", "BOX_CLIENT_SECRET": "xxx"}},
+  "gdrive-shares": {"command": "uvx", "args": ["mcp-server-gdrive-shares", "--credentials-path", "${GDRIVE_CREDENTIALS_PATH}"], "env": {"GDRIVE_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "dropbox-shares": {"command": "uvx", "args": ["mcp-server-dropbox-shares", "--access-token", "${DROPBOX_ACCESS_TOKEN}"], "env": {"DROPBOX_ACCESS_TOKEN": "xxx"}}
+}

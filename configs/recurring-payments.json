@@ -1,0 +1,12 @@
+{
+  "stripe-isr": {"command": "uvx", "args": ["mcp-server-stripe-isr", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-recurring": {"command": "uvx", "args": ["mcp-server-stripe-recurring", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-trial": {"command": "uvx", "args": ["mcp-server-stripe-trial", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-billing-portal-full": {"command": "uvx", "args": ["mcp-server-stripe-billing-portal-full", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "chargebee-subscriptions-full": {"command": "uvx", "args": ["mcp-server-chargebee-subscriptions-full", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}},
+  "chargebee-recurring": {"command": "uvx", "args": ["mcp-server-chargebee-recurring", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}},
+  "paddle-subscriptions-full": {"command": "uvx", "args": ["mcp-server-paddle-subscriptions-full", "--vendor-id", "${PADDLE_VENDOR_ID}", "--api-key", "${PADDLE_API_KEY}"], "env": {"PADDLE_VENDOR_ID": "xxx", "PADDLE_API_KEY": "xxx"}},
+  "lemonsqueezy-subscriptions-full": {"command": "uvx", "args": ["mcp-server-lemonsqueezy-subscriptions-full", "--api-key", "${LEMONSQUEEZY_API_KEY}"], "env": {"LEMONSQUEEZY_API_KEY": "xxx"}},
+  "gumroad-subscriptions-full": {"command": "uvx", "args": ["mcp-server-gumroad-subscriptions-full", "--api-key", "${GUMROAD_API_KEY}"], "env": {"GUMROAD_API_KEY": "xxx"}},
+  "moonclerk-subscriptions-full": {"command": "uvx", "args": ["mcp-server-moonclerk-subscriptions-full", "--api-key", "${MOONCLERK_API_KEY}"], "env": {"MOONCLERK_API_KEY": "xxx"}}
+}

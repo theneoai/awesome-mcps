@@ -1,0 +1,42 @@
+{
+  "yelp-fusion": {
+    "command": "uvx",
+    "args": ["mcp-server-yelp-fusion", "--api-key", "${YELP_API_KEY}"],
+    "env": {"YELP_API_KEY": "xxx"}
+  },
+  "google-places-api": {
+    "command": "uvx",
+    "args": ["mcp-server-google-places", "--api-key", "${GOOGLE_PLACES_API_KEY}"],
+    "env": {"GOOGLE_PLACES_API_KEY": "xxx"}
+  },
+  "foursquare": {
+    "command": "uvx",
+    "args": ["mcp-server-foursquare", "--api-key", "${FOURSQUARE_API_KEY}"],
+    "env": {"FOURSQUARE_API_KEY": "xxx"}
+  },
+  "zomato": {
+    "command": "uvx",
+    "args": ["mcp-server-zomato", "--api-key", "${ZOMATO_API_KEY}"],
+    "env": {"ZOMATO_API_KEY": "xxx"}
+  },
+  "swiggy": {
+    "command": "uvx",
+    "args": ["mcp-server-swiggy", "--api-key", "${SWIGGY_API_KEY}"],
+    "env": {"SWIGGY_API_KEY": "xxx"}
+  },
+  "doordash": {
+    "command": "uvx",
+    "args": ["mcp-server-doordash", "--developer-id", "${DOORDASH_DEVELOPER_ID}", "--key-id", "${DOORDASH_KEY_ID}", "--signing-secret", "${DOORDASH_SIGNING_SECRET}"],
+    "env": {"DOORDASH_DEVELOPER_ID": "xxx", "DOORDASH_KEY_ID": "xxx", "DOORDASH_SIGNING_SECRET": "xxx"}
+  },
+  "grubhub": {
+    "command": "uvx",
+    "args": ["mcp-server-grubhub", "--api-key", "${GRUBHUB_API_KEY}"],
+    "env": {"GRUBHUB_API_KEY": "xxx"}
+  },
+  "uber-eats": {
+    "command": "uvx",
+    "args": ["mcp-server-uber-eats", "--client-id", "${UBER_EATS_CLIENT_ID}", "--client-secret", "${UBER_EATS_CLIENT_SECRET}"],
+    "env": {"UBER_EATS_CLIENT_ID": "xxx", "UBER_EATS_CLIENT_SECRET": "xxx"}
+  }
+}

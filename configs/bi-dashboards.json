@@ -1,0 +1,10 @@
+{
+  "metabase": {"command": "uvx", "args": ["mcp-server-metabase", "--host", "${METABASE_HOST}", "--api-key", "${METABASE_API_KEY}"], "env": {"METABASE_HOST": "http://localhost:3000", "METABASE_API_KEY": "xxx"}},
+  "tableau": {"command": "uvx", "args": ["mcp-server-tableau", "--server", "${TABLEAU_SERVER}", "--site", "${TABLEAU_SITE}", "--token", "${TABLEAU_TOKEN}"], "env": {"TABLEAU_SERVER": "https://tableau.example.com", "TABLEAU_SITE": "xxx", "TABLEAU_TOKEN": "xxx"}},
+  "powerbi": {"command": "uvx", "args": ["mcp-server-powerbi", "--tenant-id", "${POWERBI_TENANT_ID}", "--client-id", "${POWERBI_CLIENT_ID}", "--client-secret", "${POWERBI_CLIENT_SECRET}"], "env": {"POWERBI_TENANT_ID": "xxx", "POWERBI_CLIENT_ID": "xxx", "POWERBI_CLIENT_SECRET": "xxx"}},
+  "looker": {"command": "uvx", "args": ["mcp-server-looker", "--host", "${LOOKER_HOST}", "--client-id", "${LOOKER_CLIENT_ID}", "--client-secret", "${LOOKER_CLIENT_SECRET}"], "env": {"LOOKER_HOST": "https://looker.example.com", "LOOKER_CLIENT_ID": "xxx", "LOOKER_CLIENT_SECRET": "xxx"}},
+  "grafana-analytics": {"command": "uvx", "args": ["mcp-server-grafana-analytics", "--host", "${GRAFANA_HOST}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_HOST": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "kibana": {"command": "uvx", "args": ["mcp-server-kibana", "--url", "${KIBANA_URL}"], "env": {"KIBANA_URL": "http://localhost:5601"}},
+  "redash": {"command": "uvx", "args": ["mcp-server-redash", "--host", "${REDASH_HOST}", "--api-key", "${REDASH_API_KEY}"], "env": {"REDASH_HOST": "http://localhost:5000", "REDASH_API_KEY": "xxx"}},
+  "superset": {"command": "uvx", "args": ["mcp-server-superset", "--host", "${SUPERSET_HOST}"], "env": {"SUPERSET_HOST": "http://localhost:8088"}}
+}

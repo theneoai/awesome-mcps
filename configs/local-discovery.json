@@ -1,0 +1,32 @@
+{
+  "opentable": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-opentable",
+      "--api-key", "${OPENTABLE_API_KEY}"
+    ],
+    "env": {
+      "OPENTABLE_API_KEY": "your-api-key"
+    }
+  },
+  "yelp": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-yelp",
+      "--api-key", "${YELP_API_KEY}"
+    ],
+    "env": {
+      "YELP_API_KEY": "your-api-key"
+    }
+  },
+  "google-places": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-google-places",
+      "--api-key", "${GOOGLE_PLACES_API_KEY}"
+    ],
+    "env": {
+      "GOOGLE_PLACES_API_KEY": "your-api-key"
+    }
+  }
+}

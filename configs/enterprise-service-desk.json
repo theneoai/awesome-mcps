@@ -1,0 +1,12 @@
+{
+  "ashby-candidates": {"command": "uvx", "args": ["mcp-server-ashby-candidates", "--api-key", "${ASHBY_API_KEY}"], "env": {"ASHBY_API_KEY": "xxx"}},
+  "workday-recruiting": {"command": "uvx", "args": ["mcp-server-workday-recruiting", "--api-key", "${WORKDAY_API_KEY}"], "env": {"WORKDAY_API_KEY": "xxx"}},
+  "workday-talent": {"command": "uvx", "args": ["mcp-server-workday-talent", "--api-key", "${WORKDAY_API_KEY}"], "env": {"WORKDAY_API_KEY": "xxx"}},
+  "servicenow-incidents": {"command": "uvx", "args": ["mcp-server-servicenow-incidents", "--url", "${SERVICENOW_URL}", "--username", "${SERVICENOW_USERNAME}", "--password", "${SERVICENOW_PASSWORD}"], "env": {"SERVICENOW_URL": "https://xxx.service-now.com", "SERVICENOW_USERNAME": "admin", "SERVICENOW_PASSWORD": "xxx"}},
+  "servicenow-tasks": {"command": "uvx", "args": ["mcp-server-servicenow-tasks", "--url", "${SERVICENOW_URL}", "--username", "${SERVICENOW_USERNAME}", "--password", "${SERVICENOW_PASSWORD}"], "env": {"SERVICENOW_URL": "https://xxx.service-now.com", "SERVICENOW_USERNAME": "admin", "SERVICENOW_PASSWORD": "xxx"}},
+  "servicenow-kb": {"command": "uvx", "args": ["mcp-server-servicenow-kb", "--url", "${SERVICENOW_URL}", "--username", "${SERVICENOW_USERNAME}", "--password", "${SERVICENOW_PASSWORD}"], "env": {"SERVICENOW_URL": "https://xxx.service-now.com", "SERVICENOW_USERNAME": "admin", "SERVICENOW_PASSWORD": "xxx"}},
+  "salesforce-service-tickets": {"command": "uvx", "args": ["mcp-server-salesforce-service-tickets", "--instance-url", "${SF_INSTANCE_URL}", "--client-id", "${SF_CLIENT_ID}", "--client-secret", "${SF_CLIENT_SECRET}"], "env": {"SF_INSTANCE_URL": "https://xxx.salesforce.com", "SF_CLIENT_ID": "xxx", "SF_CLIENT_SECRET": "xxx"}},
+  "dynamics-tickets": {"command": "uvx", "args": ["mcp-server-dynamics-tickets", "--url", "${DYNAMICS_URL}", "--api-key", "${DYNAMICS_API_KEY}"], "env": {"DYNAMICS_URL": "https://xxx.crm.dynamics.com", "DYNAMICS_API_KEY": "xxx"}},
+  "freshservice-tickets": {"command": "uvx", "args": ["mcp-server-freshservice-tickets", "--domain", "${FRESHSERVICE_DOMAIN}", "--api-key", "${FRESHSERVICE_API_KEY}"], "env": {"FRESHSERVICE_DOMAIN": "xxx.freshservice.com", "FRESHSERVICE_API_KEY": "xxx"}},
+  "freshservice-assets": {"command": "uvx", "args": ["mcp-server-freshservice-assets", "--domain", "${FRESHSERVICE_DOMAIN}", "--api-key", "${FRESHSERVICE_API_KEY}"], "env": {"FRESHSERVICE_DOMAIN": "xxx.freshservice.com", "FRESHSERVICE_API_KEY": "xxx"}}
+}

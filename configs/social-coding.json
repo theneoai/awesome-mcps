@@ -1,0 +1,12 @@
+{
+  "github-activity": {"command": "uvx", "args": ["mcp-server-github-activity", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-events": {"command": "uvx", "args": ["mcp-server-github-events", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-notifications": {"command": "uvx", "args": ["mcp-server-github-notifications", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-stars": {"command": "uvx", "args": ["mcp-server-github-stars", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-watching": {"command": "uvx", "args": ["mcp-server-github-watching", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "gitlab-events": {"command": "uvx", "args": ["mcp-server-gitlab-events", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-notes": {"command": "uvx", "args": ["mcp-server-gitlab-notes", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-awards": {"command": "uvx", "args": ["mcp-server-gitlab-awards", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "bitbucket-events": {"command": "uvx", "args": ["mcp-server-bitbucket-events", "--workspace", "${BB_WORKSPACE}", "--token", "${BB_TOKEN}"], "env": {"BB_WORKSPACE": "xxx", "BB_TOKEN": "xxx"}},
+  "bitbucket-notes": {"command": "uvx", "args": ["mcp-server-bitbucket-notes", "--workspace", "${BB_WORKSPACE}", "--token", "${BB_TOKEN}"], "env": {"BB_WORKSPACE": "xxx", "BB_TOKEN": "xxx"}}
+}

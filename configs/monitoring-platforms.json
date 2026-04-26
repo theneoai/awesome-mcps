@@ -1,0 +1,12 @@
+{
+  "datadog-metrics": {"command": "uvx", "args": ["mcp-server-datadog-metrics", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "datadog-logs": {"command": "uvx", "args": ["mcp-server-datadog-logs", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "datadog-events": {"command": "uvx", "args": ["mcp-server-datadog-events", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "datadog-monitors": {"command": "uvx", "args": ["mcp-server-datadog-monitors", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "newrelic-metrics": {"command": "uvx", "args": ["mcp-server-newrelic-metrics", "--api-key", "${NEWRELIC_API_KEY}"], "env": {"NEWRELIC_API_KEY": "xxx"}},
+  "newrelic-events": {"command": "uvx", "args": ["mcp-server-newrelic-events", "--api-key", "${NEWRELIC_API_KEY}"], "env": {"NEWRELIC_API_KEY": "xxx"}},
+  "newrelic-alerts": {"command": "uvx", "args": ["mcp-server-newrelic-alerts", "--api-key", "${NEWRELIC_API_KEY}"], "env": {"NEWRELIC_API_KEY": "xxx"}},
+  "grafana-metrics": {"command": "uvx", "args": ["mcp-server-grafana-metrics", "--host", "${GRAFANA_HOST}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_HOST": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "prometheus-metrics": {"command": "uvx", "args": ["mcp-server-prometheus-metrics", "--url", "${PROMETHEUS_URL}"], "env": {"PROMETHEUS_URL": "http://localhost:9090"}},
+  "influxdb-metrics": {"command": "uvx", "args": ["mcp-server-influxdb-metrics", "--url", "${INFLUXDB_URL}", "--token", "${INFLUXDB_TOKEN}"], "env": {"INFLUXDB_URL": "http://localhost:8086", "INFLUXDB_TOKEN": "xxx"}}
+}

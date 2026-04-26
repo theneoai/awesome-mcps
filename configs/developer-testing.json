@@ -1,0 +1,12 @@
+{
+  "stripe-test-clock": {"command": "uvx", "args": ["mcp-server-stripe-test-clock", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_test_xxx"}},
+  "stripe-imposter": {"command": "uvx", "args": ["mcp-server-stripe-imposter", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_test_xxx"}},
+  "stripe-webhook-dev": {"command": "uvx", "args": ["mcp-server-stripe-webhook-dev", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_test_xxx"}},
+  "paypal-sandbox-full": {"command": "uvx", "args": ["mcp-server-paypal-sandbox-full", "--client-id", "${PAYPAL_SANDBOX_CLIENT_ID}", "--client-secret", "${PAYPAL_SANDBOX_CLIENT_SECRET}"], "env": {"PAYPAL_SANDBOX_CLIENT_ID": "xxx", "PAYPAL_SANDBOX_CLIENT_SECRET": "xxx"}},
+  "adyen-test-payments": {"command": "uvx", "args": ["mcp-server-adyen-test-payments", "--api-key", "${ADYEN_TEST_API_KEY}", "--merchant-account", "${ADYEN_TEST_MERCHANT_ACCOUNT}"], "env": {"ADYEN_TEST_API_KEY": "xxx", "ADYEN_TEST_MERCHANT_ACCOUNT": "xxx"}},
+  "square-sandbox-full": {"command": "uvx", "args": ["mcp-server-square-sandbox-full", "--access-token", "${SQUARE_SANDBOX_ACCESS_TOKEN}"], "env": {"SQUARE_SANDBOX_ACCESS_TOKEN": "xxx"}},
+  "shopify-dev-preview": {"command": "uvx", "args": ["mcp-server-shopify-dev-preview", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-dev": {"command": "uvx", "args": ["mcp-server-woocommerce-dev", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "bigcommerce-dev": {"command": "uvx", "args": ["mcp-server-bigcommerce-dev", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}},
+  "magento-dev": {"command": "uvx", "args": ["mcp-server-magento-dev", "--url", "${MAGENTO_URL}"], "env": {"MAGENTO_URL": "https://xxx.com", "MAGENTO_USERNAME": "xxx", "MAGENTO_PASSWORD": "xxx"}}
+}

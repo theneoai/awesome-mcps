@@ -1,0 +1,12 @@
+{
+  "openai-completions": {"command": "uvx", "args": ["mcp-server-openai-completions", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-chat": {"command": "uvx", "args": ["mcp-server-openai-chat", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-embeddings": {"command": "uvx", "args": ["mcp-server-openai-embeddings", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "anthropic-messages": {"command": "uvx", "args": ["mcp-server-anthropic-messages", "--api-key", "${ANTHROPIC_API_KEY}"], "env": {"ANTHROPIC_API_KEY": "sk-ant-xxx"}},
+  "google-gemini-pro": {"command": "uvx", "args": ["mcp-server-google-gemini-pro", "--api-key", "${GOOGLE_GEMINI_API_KEY}"], "env": {"GOOGLE_GEMINI_API_KEY": "xxx"}},
+  "mistral-api": {"command": "uvx", "args": ["mcp-server-mistral-api", "--api-key", "${MISTRAL_API_KEY}"], "env": {"MISTRAL_API_KEY": "xxx"}},
+  "cohere-generate": {"command": "uvx", "args": ["mcp-server-cohere-generate", "--api-key", "${COHERE_API_KEY}"], "env": {"COHERE_API_KEY": "xxx"}},
+  "cohere-embed": {"command": "uvx", "args": ["mcp-server-cohere-embed", "--api-key", "${COHERE_API_KEY}"], "env": {"COHERE_API_KEY": "xxx"}},
+  "ai21-generate": {"command": "uvx", "args": ["mcp-server-ai21-generate", "--api-key", "${AI21_API_KEY}"], "env": {"AI21_API_KEY": "xxx"}},
+  "together-generate": {"command": "uvx", "args": ["mcp-server-together-generate", "--api-key", "${TOGETHER_API_KEY}"], "env": {"TOGETHER_API_KEY": "xxx"}}
+}

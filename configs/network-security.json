@@ -1,0 +1,10 @@
+{
+  "palo-alto-networks": {"command": "uvx", "args": ["mcp-server-palo-alto", "--host", "${PA_HOST}", "--api-key", "${PA_API_KEY}"], "env": {"PA_HOST": "https://xxx.paloaltonetworks.com", "PA_API_KEY": "xxx"}},
+  "fortinet": {"command": "uvx", "args": ["mcp-server-fortinet", "--host", "${FORTI_HOST}"], "env": {"FORTI_HOST": "https://xxx.fortinet.com", "FORTI_USER": "xxx", "FORTI_PASSWORD": "xxx"}},
+  "checkpoint": {"command": "uvx", "args": ["mcp-server-checkpoint", "--management-server", "${CHECKPOINT_MGMT}"], "env": {"CHECKPOINT_MGMT": "https://xxx.checkpoint.com", "CHECKPOINT_USER": "xxx", "CHECKPOINT_PASSWORD": "xxx"}},
+  "ciscol-asa": {"command": "uvx", "args": ["mcp-server-cisco-asa", "--host", "${ASA_HOST}"], "env": {"ASA_HOST": "https://xxx", "ASA_USERNAME": "xxx", "ASA_PASSWORD": "xxx"}},
+  "aws-waf": {"command": "uvx", "args": ["mcp-server-aws-waf", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-shield": {"command": "uvx", "args": ["mcp-server-aws-shield", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "imperva": {"command": "uvx", "args": ["mcp-server-imperva", "--api-key", "${IMPERVA_API_KEY}"], "env": {"IMPERVA_API_KEY": "xxx"}},
+  "akamai-siem": {"command": "uvx", "args": ["mcp-server-akamai-siem", "--client-secret", "${AKAMAI_CLIENT_SECRET}", "--client-id", "${AKAMAI_CLIENT_ID}", "--access-token", "${AKAMAI_ACCESS_TOKEN}"], "env": {"AKAMAI_CLIENT_SECRET": "xxx", "AKAMAI_CLIENT_ID": "xxx", "AKAMAI_ACCESS_TOKEN": "xxx"}}
+}

@@ -1,0 +1,22 @@
+{
+  "google-contacts": {
+    "command": "uvx",
+    "args": ["mcp-server-google-contacts", "--credentials-path", "${GCONTACTS_CREDENTIALS_PATH}"],
+    "env": {"GCONTACTS_CREDENTIALS_PATH": "/path/to/credentials.json"}
+  },
+  "office365-contacts": {
+    "command": "uvx",
+    "args": ["mcp-server-office365-contacts", "--client-id", "${O365_CLIENT_ID}", "--client-secret", "${O365_CLIENT_SECRET}"],
+    "env": {"O365_CLIENT_ID": "xxx", "O365_CLIENT_SECRET": "xxx"}
+  },
+  "apple-contacts": {
+    "command": "uvx",
+    "args": ["mcp-server-apple-contacts", "--api-key", "${APPLE_CONTACTS_API_KEY}"],
+    "env": {"APPLE_CONTACTS_API_KEY": "xxx"}
+  },
+  "carddav": {
+    "command": "uvx",
+    "args": ["mcp-server-carddav", "--url", "${CARDDAV_URL}", "--username", "${CARDDAV_USERNAME}", "--password", "${CARDDAV_PASSWORD}"],
+    "env": {"CARDDAV_URL": "https://carddav.example.com", "CARDDAV_USERNAME": "xxx", "CARDDAV_PASSWORD": "xxx"}
+  }
+}

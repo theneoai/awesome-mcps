@@ -1,0 +1,12 @@
+{
+  "sophos-threats": {"command": "uvx", "args": ["mcp-server-sophos-threats", "--api-key", "${SOPHOS_API_KEY}"], "env": {"SOPHOS_API_KEY": "xxx"}},
+  "sentinelone-hosts": {"command": "uvx", "args": ["mcp-server-sentinelone-hosts", "--api-key", "${SENTINELONE_API_KEY}"], "env": {"SENTINELONE_API_KEY": "xxx"}},
+  "sentinelone-threats": {"command": "uvx", "args": ["mcp-server-sentinelone-threats", "--api-key", "${SENTINELONE_API_KEY}"], "env": {"SENTINELONE_API_KEY": "xxx"}},
+  "carbonblack-hosts": {"command": "uvx", "args": ["mcp-server-carbonblack-hosts", "--api-key", "${CARBONBLACK_API_KEY}"], "env": {"CARBONBLACK_API_KEY": "xxx"}},
+  "carbonblack-threats": {"command": "uvx", "args": ["mcp-server-carbonblack-threats", "--api-key", "${CARBONBLACK_API_KEY}"], "env": {"CARBONBLACK_API_KEY": "xxx"}},
+  "tanium-hosts": {"command": "uvx", "args": ["mcp-server-tanium-hosts", "--api-key", "${TANIUM_API_KEY}"], "env": {"TANIUM_API_KEY": "xxx"}},
+  "tanium-threats": {"command": "uvx", "args": ["mcp-server-tanium-threats", "--api-key", "${TANIUM_API_KEY}"], "env": {"TANIUM_API_KEY": "xxx"}},
+  "rapid7-hosts": {"command": "uvx", "args": ["mcp-server-rapid7-hosts", "--api-key", "${RAPID7_API_KEY}"], "env": {"RAPID7_API_KEY": "xxx"}},
+  "rapid7-vulnerabilities": {"command": "uvx", "args": ["mcp-server-rapid7-vulnerabilities", "--api-key", "${RAPID7_API_KEY}"], "env": {"RAPID7_API_KEY": "xxx"}},
+  "qualys-hosts": {"command": "uvx", "args": ["mcp-server-qualys-hosts", "--api-key", "${QUALYS_API_KEY}"], "env": {"QUALYS_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "dbt-models": {"command": "uvx", "args": ["mcp-server-dbt-models", "--project-id", "${DBT_PROJECT_ID}", "--api-key", "${DBT_API_KEY}"], "env": {"DBT_PROJECT_ID": "xxx", "DBT_API_KEY": "xxx"}},
+  "dbt-runs": {"command": "uvx", "args": ["mcp-server-dbt-runs", "--project-id", "${DBT_PROJECT_ID}", "--api-key", "${DBT_API_KEY}"], "env": {"DBT_PROJECT_ID": "xxx", "DBT_API_KEY": "xxx"}},
+  "dbt-artifacts": {"command": "uvx", "args": ["mcp-server-dbt-artifacts", "--project-id", "${DBT_PROJECT_ID}", "--api-key", "${DBT_API_KEY}"], "env": {"DBT_PROJECT_ID": "xxx", "DBT_API_KEY": "xxx"}},
+  "metabase-databases": {"command": "uvx", "args": ["mcp-server-metabase-databases", "--url", "${METABASE_URL}", "--api-key", "${METABASE_API_KEY}"], "env": {"METABASE_URL": "http://localhost:3000", "METABASE_API_KEY": "xxx"}},
+  "metabase-questions": {"command": "uvx", "args": ["mcp-server-metabase-questions", "--url", "${METABASE_URL}", "--api-key", "${METABASE_API_KEY}"], "env": {"METABASE_URL": "http://localhost:3000", "METABASE_API_KEY": "xxx"}},
+  "metabase-collections": {"command": "uvx", "args": ["mcp-server-metabase-collections", "--url", "${METABASE_URL}", "--api-key", "${METABASE_API_KEY}"], "env": {"METABASE_URL": "http://localhost:3000", "METABASE_API_KEY": "xxx"}},
+  "superset-databases": {"command": "uvx", "args": ["mcp-server-superset-databases", "--url", "${SUPERSET_URL}", "--username", "${SUPERSET_USERNAME}", "--password", "${SUPERSET_PASSWORD}"], "env": {"SUPERSET_URL": "http://localhost:8088", "SUPERSET_USERNAME": "admin", "SUPERSET_PASSWORD": "admin"}},
+  "superset-datasets": {"command": "uvx", "args": ["mcp-server-superset-datasets", "--url", "${SUPERSET_URL}", "--username", "${SUPERSET_USERNAME}", "--password", "${SUPERSET_PASSWORD}"], "env": {"SUPERSET_URL": "http://localhost:8088", "SUPERSET_USERNAME": "admin", "SUPERSET_PASSWORD": "admin"}},
+  "superset-charts": {"command": "uvx", "args": ["mcp-server-superset-charts", "--url", "${SUPERSET_URL}", "--username", "${SUPERSET_USERNAME}", "--password", "${SUPERSET_PASSWORD}"], "env": {"SUPERSET_URL": "http://localhost:8088", "SUPERSET_USERNAME": "admin", "SUPERSET_PASSWORD": "admin"}},
+  "superset-dashboards": {"command": "uvx", "args": ["mcp-server-superset-dashboards", "--url", "${SUPERSET_URL}", "--username", "${SUPERSET_USERNAME}", "--password", "${SUPERSET_PASSWORD}"], "env": {"SUPERSET_URL": "http://localhost:8088", "SUPERSET_USERNAME": "admin", "SUPERSET_PASSWORD": "admin"}}
+}

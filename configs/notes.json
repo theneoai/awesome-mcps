@@ -1,0 +1,32 @@
+{
+  "evernote": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-evernote",
+      "--developer-token", "${EVERNOTE_DEV_TOKEN}"
+    ],
+    "env": {
+      "EVERNOTE_DEV_TOKEN": "your-developer-token"
+    }
+  },
+  "notion": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-notion",
+      "--api-key", "${NOTION_API_KEY}"
+    ],
+    "env": {
+      "NOTION_API_KEY": "secret_xxx"
+    }
+  },
+  "bear": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-bear",
+      "--api-key", "${BEAR_API_KEY}"
+    ],
+    "env": {
+      "BEAR_API_KEY": "your-api-key"
+    }
+  }
+}

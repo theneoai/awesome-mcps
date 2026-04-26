@@ -1,0 +1,12 @@
+{
+  "openai-files": {"command": "uvx", "args": ["mcp-server-openai-files", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-fine-tunes": {"command": "uvx", "args": ["mcp-server-openai-fine-tunes", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "anthropic-code": {"command": "uvx", "args": ["mcp-server-anthropic-code", "--api-key", "${ANTHROPIC_API_KEY}"], "env": {"ANTHROPIC_API_KEY": "sk-ant-xxx"}},
+  "google-palm": {"command": "uvx", "args": ["mcp-server-google-palm", "--api-key", "${GOOGLE_PALM_API_KEY}"], "env": {"GOOGLE_PALM_API_KEY": "xxx"}},
+  "ai21-studio": {"command": "uvx", "args": ["mcp-server-ai21-studio", "--api-key", "${AI21_API_KEY}"], "env": {"AI21_API_KEY": "xxx"}},
+  "cohere-command": {"command": "uvx", "args": ["mcp-server-cohere-command", "--api-key", "${COHERE_API_KEY}"], "env": {"COHERE_API_KEY": "xxx"}},
+  "anyscale-endpoints": {"command": "uvx", "args": ["mcp-server-anyscale-endpoints", "--api-key", "${ANYSCALE_API_KEY}"], "env": {"ANYSCALE_API_KEY": "xxx"}},
+  "openrouter-endpoints": {"command": "uvx", "args": ["mcp-server-openrouter-endpoints", "--api-key", "${OPENROUTER_API_KEY}"], "env": {"OPENROUTER_API_KEY": "xxx"}},
+  "perplexity-api": {"command": "uvx", "args": ["mcp-server-perplexity-api", "--api-key", "${PERPLEXITY_API_KEY}"], "env": {"PERPLEXITY_API_KEY": "xxx"}},
+  "groq-api": {"command": "uvx", "args": ["mcp-server-groq-api", "--api-key", "${GROQ_API_KEY}"], "env": {"GROQ_API_KEY": "xxx"}}
+}

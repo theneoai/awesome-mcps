@@ -1,0 +1,11 @@
+{
+  "stripe-billing": {"command": "uvx", "args": ["mcp-server-stripe-billing", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_test_xxx"}},
+  "stripe-invoicing": {"command": "uvx", "args": ["mcp-server-stripe-invoicing", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_test_xxx"}},
+  "stripe-radar": {"command": "uvx", "args": ["mcp-server-stripe-radar", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_test_xxx"}},
+  "stripe-connect": {"command": "uvx", "args": ["mcp-server-stripe-connect", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_test_xxx"}},
+  "paddle": {"command": "uvx", "args": ["mcp-server-paddle", "--vendor-id", "${PADDLE_VENDOR_ID}", "--api-key", "${PADDLE_API_KEY}"], "env": {"PADDLE_VENDOR_ID": "xxx", "PADDLE_API_KEY": "xxx"}},
+  "lemonsqueezy": {"command": "uvx", "args": ["mcp-server-lemonsqueezy", "--api-key", "${LEMONSQUEEZY_API_KEY}"], "env": {"LEMONSQUEEZY_API_KEY": "xxx"}},
+  "gumroad": {"command": "uvx", "args": ["mcp-server-gumroad", "--api-key", "${GUMROAD_API_KEY}"], "env": {"GUMROAD_API_KEY": "xxx"}},
+  "moonclerk": {"command": "uvx", "args": ["mcp-server-moonclerk", "--api-key", "${MOONCLERK_API_KEY}"], "env": {"MOONCLERK_API_KEY": "xxx"}},
+  "chargebee-subscription": {"command": "uvx", "args": ["mcp-server-chargebee-subscription", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}}
+}

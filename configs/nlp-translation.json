@@ -1,0 +1,12 @@
+{
+  "google-translate": {"command": "uvx", "args": ["mcp-server-google-translate", "--api-key", "${GOOGLE_TRANSLATE_API_KEY}"], "env": {"GOOGLE_TRANSLATE_API_KEY": "xxx"}},
+  "deepl": {"command": "uvx", "args": ["mcp-server-deepl", "--api-key", "${DEEPL_API_KEY}"], "env": {"DEEPL_API_KEY": "xxx"}},
+  "google-nlp": {"command": "uvx", "args": ["mcp-server-google-nlp", "--api-key", "${GOOGLE_NLP_API_KEY}"], "env": {"GOOGLE_NLP_API_KEY": "xxx"}},
+  "aws-comprehend": {"command": "uvx", "args": ["mcp-server-aws-comprehend", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-text-analytics": {"command": "uvx", "args": ["mcp-server-azure-text-analytics", "--key", "${AZURE_TEXT_ANALYTICS_KEY}", "--endpoint", "${AZURE_TEXT_ANALYTICS_ENDPOINT}"], "env": {"AZURE_TEXT_ANALYTICS_KEY": "xxx", "AZURE_TEXT_ANALYTICS_ENDPOINT": "xxx"}},
+  "ibm-watson-nlu": {"command": "uvx", "args": ["mcp-server-watson-nlu", "--api-key", "${WATSON_NLU_API_KEY}", "--url", "${WATSON_NLU_URL}"], "env": {"WATSON_NLU_API_KEY": "xxx", "WATSON_NLU_URL": "xxx"}},
+  "spacy": {"command": "uvx", "args": ["mcp-server-spacy"], "env": {}},
+  "nltk": {"command": "uvx", "args": ["mcp-server-nltk"], "env": {}},
+  "huggingface-nlp": {"command": "uvx", "args": ["mcp-server-huggingface-nlp", "--api-key", "${HF_API_KEY}"], "env": {"HF_API_KEY": "hf_xxx"}},
+  "openai-nlp": {"command": "uvx", "args": ["mcp-server-openai-nlp", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}}
+}

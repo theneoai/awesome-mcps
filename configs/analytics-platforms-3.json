@@ -1,0 +1,12 @@
+{
+  "heap-analytics": {"command": "uvx", "args": ["mcp-server-heap-analytics", "--api-key", "${HEAP_API_KEY}"], "env": {"HEAP_API_KEY": "xxx"}},
+  "heap-users": {"command": "uvx", "args": ["mcp-server-heap-users", "--api-key", "${HEAP_API_KEY}"], "env": {"HEAP_API_KEY": "xxx"}},
+  "heap-events": {"command": "uvx", "args": ["mcp-server-heap-events", "--api-key", "${HEAP_API_KEY}"], "env": {"HEAP_API_KEY": "xxx"}},
+  "segment-analytics": {"command": "uvx", "args": ["mcp-server-segment-analytics", "--write-key", "${SEGMENT_WRITE_KEY}"], "env": {"SEGMENT_WRITE_KEY": "xxx"}},
+  "segment-destinations": {"command": "uvx", "args": ["mcp-server-segment-destinations", "--write-key", "${SEGMENT_WRITE_KEY}"], "env": {"SEGMENT_WRITE_KEY": "xxx"}},
+  "segment-tracking-plans": {"command": "uvx", "args": ["mcp-server-segment-tracking-plans", "--api-key", "${SEGMENT_API_KEY}"], "env": {"SEGMENT_API_KEY": "xxx"}},
+  "posthog-analytics": {"command": "uvx", "args": ["mcp-server-posthog-analytics", "--api-key", "${POSTHOG_API_KEY}"], "env": {"POSTHOG_API_KEY": "phc_xxx"}},
+  "posthog-feature-flags": {"command": "uvx", "args": ["mcp-server-posthog-feature-flags", "--api-key", "${POSTHOG_API_KEY}"], "env": {"POSTHOG_API_KEY": "phc_xxx"}},
+  "posthog-cohorts": {"command": "uvx", "args": ["mcp-server-posthog-cohorts", "--api-key", "${POSTHOG_API_KEY}"], "env": {"POSTHOG_API_KEY": "phc_xxx"}},
+  "posthog-sessions": {"command": "uvx", "args": ["mcp-server-posthog-sessions", "--api-key", "${POSTHOG_API_KEY}"], "env": {"POSTHOG_API_KEY": "phc_xxx"}}
+}

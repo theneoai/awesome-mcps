@@ -1,0 +1,12 @@
+{
+  "huggingface-inference-endpoints": {"command": "uvx", "args": ["mcp-server-huggingface-inference-endpoints", "--api-key", "${HF_API_KEY}"], "env": {"HF_API_KEY": "hf_xxx"}},
+  "replicate-models": {"command": "uvx", "args": ["mcp-server-replicate-models", "--api-key", "${REPLICATE_API_KEY}"], "env": {"REPLICATE_API_KEY": "xxx"}},
+  "stability-ai-generate": {"command": "uvx", "args": ["mcp-server-stability-ai-generate", "--api-key", "${STABILITY_AI_API_KEY}"], "env": {"STABILITY_AI_API_KEY": "xxx"}},
+  "midjourney-generate": {"command": "uvx", "args": ["mcp-server-midjourney-generate", "--api-key", "${MIDJOURNEY_API_KEY}"], "env": {"MIDJOURNEY_API_KEY": "xxx"}},
+  "dall-e": {"command": "uvx", "args": ["mcp-server-dall-e", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "stable-diffusion": {"command": "uvx", "args": ["mcp-server-stable-diffusion", "--api-key", "${STABILITY_AI_API_KEY}"], "env": {"STABILITY_AI_API_KEY": "xxx"}},
+  "midjourney-api": {"command": "uvx", "args": ["mcp-server-midjourney-api", "--api-key", "${MIDJOURNEY_API_KEY}"], "env": {"MIDJOURNEY_API_KEY": "xxx"}},
+  "leonardo-ai": {"command": "uvx", "args": ["mcp-server-leonardo-ai", "--api-key", "${LEONARDO_API_KEY}"], "env": {"LEONARDO_API_KEY": "xxx"}},
+  "runway": {"command": "uvx", "args": ["mcp-server-runway", "--api-key", "${RUNWAY_API_KEY}"], "env": {"RUNWAY_API_KEY": "xxx"}},
+  "synthesis": {"command": "uvx", "args": ["mcp-server-synthesis", "--api-key", "${SYNTHESIS_API_KEY}"], "env": {"SYNTHESIS_API_KEY": "xxx"}}
+}

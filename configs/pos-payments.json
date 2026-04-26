@@ -1,0 +1,12 @@
+{
+  "shopify-point-of-sale": {"command": "uvx", "args": ["mcp-server-shopify-point-of-sale", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-pos设备": {"command": "uvx", "args": ["mcp-server-shopify-pos-devices", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "square-pos-full": {"command": "uvx", "args": ["mcp-server-square-pos-full", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "clover-pos-full": {"command": "uvx", "args": ["mcp-server-clover-pos-full", "--api-key", "${CLOVER_API_KEY}"], "env": {"CLOVER_API_KEY": "xxx"}},
+  "toast-pos-full": {"command": "uvx", "args": ["mcp-server-toast-pos-full", "--api-key", "${TOAST_API_KEY}"], "env": {"TOAST_API_KEY": "xxx"}},
+  "lightspeed-pos-full": {"command": "uvx", "args": ["mcp-server-lightspeed-pos-full", "--api-key", "${LIGHTSPEED_API_KEY}"], "env": {"LIGHTSPEED_API_KEY": "xxx"}},
+  "vend-pos-full": {"command": "uvx", "args": ["mcp-server-vend-pos-full", "--api-key", "${VEND_API_KEY}"], "env": {"VEND_API_KEY": "xxx"}},
+  "shopify-pos-payments": {"command": "uvx", "args": ["mcp-server-shopify-pos-payments", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "square-payments-full": {"command": "uvx", "args": ["mcp-server-square-payments-full", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "clover-payments": {"command": "uvx", "args": ["mcp-server-clover-payments", "--api-key", "${CLOVER_API_KEY}"], "env": {"CLOVER_API_KEY": "xxx"}}
+}

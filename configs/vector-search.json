@@ -1,0 +1,14 @@
+{
+  "typesense-collections": {"command": "uvx", "args": ["mcp-server-typesense-collections", "--api-key", "${TYPESENSE_API_KEY}"], "env": {"TYPESENSE_HOST": "http://localhost:8108", "TYPESENSE_API_KEY": "xyz"}},
+  "typesense-documents": {"command": "uvx", "args": ["mcp-server-typesense-documents", "--api-key", "${TYPESENSE_API_KEY}"], "env": {"TYPESENSE_HOST": "http://localhost:8108", "TYPESENSE_API_KEY": "xyz"}},
+  "typesense-search": {"command": "uvx", "args": ["mcp-server-typesense-search", "--api-key", "${TYPESENSE_API_KEY}"], "env": {"TYPESENSE_HOST": "http://localhost:8108", "TYPESENSE_API_KEY": "xyz"}},
+  "qdrant-collections": {"command": "uvx", "args": ["mcp-server-qdrant-collections", "--api-key", "${QDRANT_API_KEY}"], "env": {"QDRANT_URL": "http://localhost:6333", "QDRANT_API_KEY": "xxx"}},
+  "qdrant-points": {"command": "uvx", "args": ["mcp-server-qdrant-points", "--api-key", "${QDRANT_API_KEY}"], "env": {"QDRANT_URL": "http://localhost:6333", "QDRANT_API_KEY": "xxx"}},
+  "qdrant-search": {"command": "uvx", "args": ["mcp-server-qdrant-search", "--api-key", "${QDRANT_API_KEY}"], "env": {"QDRANT_URL": "http://localhost:6333", "QDRANT_API_KEY": "xxx"}},
+  "weaviate-classes": {"command": "uvx", "args": ["mcp-server-weaviate-classes", "--api-key", "${WEAVIATE_API_KEY}"], "env": {"WEAVIATE_URL": "http://localhost:8080", "WEAVIATE_API_KEY": "xxx"}},
+  "weaviate-objects": {"command": "uvx", "args": ["mcp-server-weaviate-objects", "--api-key", "${WEAVIATE_API_KEY}"], "env": {"WEAVIATE_URL": "http://localhost:8080", "WEAVIATE_API_KEY": "xxx"}},
+  "weaviate-search": {"command": "uvx", "args": ["mcp-server-weaviate-search", "--api-key", "${WEAVIATE_API_KEY}"], "env": {"WEAVIATE_URL": "http://localhost:8080", "WEAVIATE_API_KEY": "xxx"}},
+  "pinecone-indexes": {"command": "uvx", "args": ["mcp-server-pinecone-indexes", "--api-key", "${PINECONE_API_KEY}"], "env": {"PINECONE_API_KEY": "xxx"}},
+  "pinecone-vectors": {"command": "uvx", "args": ["mcp-server-pinecone-vectors", "--api-key", "${PINECONE_API_KEY}"], "env": {"PINECONE_API_KEY": "xxx"}},
+  "pinecone-search": {"command": "uvx", "args": ["mcp-server-pinecone-search", "--api-key", "${PINECONE_API_KEY}"], "env": {"PINECONE_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "coinbase-accounts": {"command": "uvx", "args": ["mcp-server-coinbase-accounts", "--api-key", "${COINBASE_API_KEY}"], "env": {"COINBASE_API_KEY": "xxx", "COINBASE_API_SECRET": "xxx"}},
+  "coinbase-prices": {"command": "uvx", "args": ["mcp-server-coinbase-prices", "--api-key", "${COINBASE_API_KEY}"], "env": {"COINBASE_API_KEY": "xxx", "COINBASE_API_SECRET": "xxx"}},
+  "coinbase-transactions": {"command": "uvx", "args": ["mcp-server-coinbase-transactions", "--api-key", "${COINBASE_API_KEY}"], "env": {"COINBASE_API_KEY": "xxx", "COINBASE_API_SECRET": "xxx"}},
+  "kraken-ticker": {"command": "uvx", "args": ["mcp-server-kraken-ticker", "--api-key", "${KRAKEN_API_KEY}"], "env": {"KRAKEN_API_KEY": "xxx", "KRAKEN_API_SECRET": "xxx"}},
+  "kraken-ohlc": {"command": "uvx", "args": ["mcp-server-kraken-ohlc", "--api-key", "${KRAKEN_API_KEY}"], "env": {"KRAKEN_API_KEY": "xxx", "KRAKEN_API_SECRET": "xxx"}},
+  "kraken-trades": {"command": "uvx", "args": ["mcp-server-kraken-trades", "--api-key", "${KRAKEN_API_KEY}"], "env": {"KRAKEN_API_KEY": "xxx", "KRAKEN_API_SECRET": "xxx"}},
+  "binance-ticker": {"command": "uvx", "args": ["mcp-server-binance-ticker", "--api-key", "${BINANCE_API_KEY}"], "env": {"BINANCE_API_KEY": "xxx", "BINANCE_API_SECRET": "xxx"}},
+  "binance-klines": {"command": "uvx", "args": ["mcp-server-binance-klines", "--api-key", "${BINANCE_API_KEY}"], "env": {"BINANCE_API_KEY": "xxx", "BINANCE_API_SECRET": "xxx"}},
+  "binance-orderbook": {"command": "uvx", "args": ["mcp-server-binance-orderbook", "--api-key", "${BINANCE_API_KEY}"], "env": {"BINANCE_API_KEY": "xxx", "BINANCE_API_SECRET": "xxx"}},
+  "binance-trades": {"command": "uvx", "args": ["mcp-server-binance-trades", "--api-key", "${BINANCE_API_KEY}"], "env": {"BINANCE_API_KEY": "xxx", "BINANCE_API_SECRET": "xxx"}}
+}

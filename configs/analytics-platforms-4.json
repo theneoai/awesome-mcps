@@ -1,0 +1,12 @@
+{
+  "moesif-api-analytics": {"command": "uvx", "args": ["mcp-server-moesif-api-analytics", "--api-key", "${MOESIF_API_KEY}"], "env": {"MOESIF_API_KEY": "xxx"}},
+  "snowplow-analytics": {"command": "uvx", "args": ["mcp-server-snowplow-analytics", "--api-key", "${SNOWPLOW_API_KEY}"], "env": {"SNOWPLOW_API_KEY": "xxx"}},
+  "adobe-analytics": {"command": "uvx", "args": ["mcp-server-adobe-analytics", "--api-key", "${ADOBE_ANALYTICS_API_KEY}"], "env": {"ADOBE_ANALYTICS_API_KEY": "xxx"}},
+  "omniture-analytics": {"command": "uvx", "args": ["mcp-server-omniture-analytics", "--api-key", "${OMNITURE_API_KEY}"], "env": {"OMNITURE_API_KEY": "xxx"}},
+  "Kissmetrics": {"command": "uvx", "args": ["mcp-server-kissmetrics", "--api-key", "${KISSMETRICS_API_KEY}"], "env": {"KISSMETRICS_API_KEY": "xxx"}},
+  "crazy-egg": {"command": "uvx", "args": ["mcp-server-crazy-egg", "--api-key", "${CRAZYEGG_API_KEY}"], "env": {"CRAZYEGG_API_KEY": "xxx"}},
+  "hotjar-analytics": {"command": "uvx", "args": ["mcp-server-hotjar-analytics", "--api-key", "${HOTJAR_API_KEY}"], "env": {"HOTJAR_API_KEY": "xxx"}},
+  "fullstory-analytics": {"command": "uvx", "args": ["mcp-server-fullstory-analytics", "--api-key", "${FULLSTORY_API_KEY}"], "env": {"FULLSTORY_API_KEY": "xxx"}},
+  "clarity-analytics": {"command": "uvx", "args": ["mcp-server-clarity-analytics", "--api-key", "${CLARITY_API_KEY}"], "env": {"CLARITY_API_KEY": "xxx"}},
+  "mouseflow-analytics": {"command": "uvx", "args": ["mcp-server-mouseflow-analytics", "--api-key", "${MOUSEFLOW_API_KEY}"], "env": {"MOUSEFLOW_API_KEY": "xxx"}}
+}

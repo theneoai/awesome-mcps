@@ -1,0 +1,12 @@
+{
+  "zoom-meetings": {"command": "uvx", "args": ["mcp-server-zoom-meetings", "--api-key", "${ZOOM_API_KEY}", "--api-secret", "${ZOOM_API_SECRET}"], "env": {"ZOOM_API_KEY": "xxx", "ZOOM_API_SECRET": "xxx"}},
+  "zoom-users": {"command": "uvx", "args": ["mcp-server-zoom-users", "--api-key", "${ZOOM_API_KEY}", "--api-secret", "${ZOOM_API_SECRET}"], "env": {"ZOOM_API_KEY": "xxx", "ZOOM_API_SECRET": "xxx"}},
+  "zoom-recordings": {"command": "uvx", "args": ["mcp-server-zoom-recordings", "--api-key", "${ZOOM_API_KEY}", "--api-secret", "${ZOOM_API_SECRET}"], "env": {"ZOOM_API_KEY": "xxx", "ZOOM_API_SECRET": "xxx"}},
+  "zoom-webinars": {"command": "uvx", "args": ["mcp-server-zoom-webinars", "--api-key", "${ZOOM_API_KEY}", "--api-secret", "${ZOOM_API_SECRET}"], "env": {"ZOOM_API_KEY": "xxx", "ZOOM_API_SECRET": "xxx"}},
+  "teams-meetings": {"command": "uvx", "args": ["mcp-server-teams-meetings", "--client-id", "${TEAMS_CLIENT_ID}", "--client-secret", "${TEAMS_CLIENT_SECRET}"], "env": {"TEAMS_CLIENT_ID": "xxx", "TEAMS_CLIENT_SECRET": "xxx"}},
+  "teams-chats": {"command": "uvx", "args": ["mcp-server-teams-chats", "--client-id", "${TEAMS_CLIENT_ID}", "--client-secret", "${TEAMS_CLIENT_SECRET}"], "env": {"TEAMS_CLIENT_ID": "xxx", "TEAMS_CLIENT_SECRET": "xxx"}},
+  "teams-channels": {"command": "uvx", "args": ["mcp-server-teams-channels", "--client-id", "${TEAMS_CLIENT_ID}", "--client-secret", "${TEAMS_CLIENT_SECRET}"], "env": {"TEAMS_CLIENT_ID": "xxx", "TEAMS_CLIENT_SECRET": "xxx"}},
+  "webex-meetings": {"command": "uvx", "args": ["mcp-server-webex-meetings", "--access-token", "${WEBEX_ACCESS_TOKEN}"], "env": {"WEBEX_ACCESS_TOKEN": "xxx"}},
+  "webex-teams": {"command": "uvx", "args": ["mcp-server-webex-teams", "--access-token", "${WEBEX_ACCESS_TOKEN}"], "env": {"WEBEX_ACCESS_TOKEN": "xxx"}},
+  "gotomeeting-meetings": {"command": "uvx", "args": ["mcp-server-gotomeeting-meetings", "--client-id", "${GOTOMEETING_CLIENT_ID}", "--client-secret", "${GOTOMEETING_CLIENT_SECRET}"], "env": {"GOTOMEETING_CLIENT_ID": "xxx", "GOTOMEETING_CLIENT_SECRET": "xxx"}}
+}

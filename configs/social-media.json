@@ -1,0 +1,12 @@
+{
+  "twitch-channels": {"command": "uvx", "args": ["mcp-server-twitch-channels", "--client-id", "${TWITCH_CLIENT_ID}", "--client-secret", "${TWITCH_CLIENT_SECRET}"], "env": {"TWITCH_CLIENT_ID": "xxx", "TWITCH_CLIENT_SECRET": "xxx"}},
+  "twitch-streams": {"command": "uvx", "args": ["mcp-server-twitch-streams", "--client-id", "${TWITCH_CLIENT_ID}", "--client-secret", "${TWITCH_CLIENT_SECRET}"], "env": {"TWITCH_CLIENT_ID": "xxx", "TWITCH_CLIENT_SECRET": "xxx"}},
+  "twitch-users": {"command": "uvx", "args": ["mcp-server-twitch-users", "--client-id", "${TWITCH_CLIENT_ID}", "--client-secret", "${TWITCH_CLIENT_SECRET}"], "env": {"TWITCH_CLIENT_ID": "xxx", "TWITCH_CLIENT_SECRET": "xxx"}},
+  "twitch-videos": {"command": "uvx", "args": ["mcp-server-twitch-videos", "--client-id", "${TWITCH_CLIENT_ID}", "--client-secret", "${TWITCH_CLIENT_SECRET}"], "env": {"TWITCH_CLIENT_ID": "xxx", "TWITCH_CLIENT_SECRET": "xxx"}},
+  "twitter-tweets": {"command": "uvx", "args": ["mcp-server-twitter-tweets", "--api-key", "${TWITTER_API_KEY}", "--api-secret", "${TWITTER_API_SECRET}"], "env": {"TWITTER_API_KEY": "xxx", "TWITTER_API_SECRET": "xxx", "TWITTER_ACCESS_TOKEN": "xxx", "TWITTER_ACCESS_SECRET": "xxx"}},
+  "twitter-users": {"command": "uvx", "args": ["mcp-server-twitter-users", "--api-key", "${TWITTER_API_KEY}", "--api-secret", "${TWITTER_API_SECRET}"], "env": {"TWITTER_API_KEY": "xxx", "TWITTER_API_SECRET": "xxx", "TWITTER_ACCESS_TOKEN": "xxx", "TWITTER_ACCESS_SECRET": "xxx"}},
+  "twitter-lists": {"command": "uvx", "args": ["mcp-server-twitter-lists", "--api-key", "${TWITTER_API_KEY}", "--api-secret", "${TWITTER_API_SECRET}"], "env": {"TWITTER_API_KEY": "xxx", "TWITTER_API_SECRET": "xxx", "TWITTER_ACCESS_TOKEN": "xxx", "TWITTER_ACCESS_SECRET": "xxx"}},
+  "twitter-trends": {"command": "uvx", "args": ["mcp-server-twitter-trends", "--api-key", "${TWITTER_API_KEY}", "--api-secret", "${TWITTER_API_SECRET}"], "env": {"TWITTER_API_KEY": "xxx", "TWITTER_API_SECRET": "xxx", "TWITTER_ACCESS_TOKEN": "xxx", "TWITTER_ACCESS_SECRET": "xxx"}},
+  "instagram-media": {"command": "uvx", "args": ["mcp-server-instagram-media", "--access-token", "${INSTAGRAM_ACCESS_TOKEN}"], "env": {"INSTAGRAM_ACCESS_TOKEN": "xxx"}},
+  "instagram-comments": {"command": "uvx", "args": ["mcp-server-instagram-comments", "--access-token", "${INSTAGRAM_ACCESS_TOKEN}"], "env": {"INSTAGRAM_ACCESS_TOKEN": "xxx"}}
+}

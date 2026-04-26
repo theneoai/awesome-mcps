@@ -1,0 +1,12 @@
+{
+  "spoonacular-recipes": {"command": "uvx", "args": ["mcp-server-spoonacular-recipes", "--api-key", "${SPOONACULAR_API_KEY}"], "env": {"SPOONACULAR_API_KEY": "xxx"}},
+  "spoonacular Meal-Planner": {"command": "uvx", "args": ["mcp-server-spoonacular-meal-planner", "--api-key", "${SPOONACULAR_API_KEY}"], "env": {"SPOONACULAR_API_KEY": "xxx"}},
+  "edamam-recipes": {"command": "uvx", "args": ["mcp-server-edamam-recipes", "--app-id", "${EDAMAM_APP_ID}", "--app-key", "${EDAMAM_APP_KEY}"], "env": {"EDAMAM_APP_ID": "xxx", "EDAMAM_APP_KEY": "xxx"}},
+  "edamam-food": {"command": "uvx", "args": ["mcp-server-edamam-food", "--app-id", "${EDAMAM_APP_ID}", "--app-key", "${EDAMAM_APP_KEY}"], "env": {"EDAMAM_APP_ID": "xxx", "EDAMAM_APP_KEY": "xxx"}},
+  "uber-eats-restaurants": {"command": "uvx", "args": ["mcp-server-uber-eats-restaurants", "--api-key", "${UBER_EATS_API_KEY}"], "env": {"UBER_EATS_API_KEY": "xxx"}},
+  "uber-eats-products": {"command": "uvx", "args": ["mcp-server-uber-eats-products", "--api-key", "${UBER_EATS_API_KEY}"], "env": {"UBER_EATS_API_KEY": "xxx"}},
+  "doordash-restaurants": {"command": "uvx", "args": ["mcp-server-doordash-restaurants", "--api-key", "${DOORDASH_API_KEY}"], "env": {"DOORDASH_API_KEY": "xxx"}},
+  "grubhub-restaurants": {"command": "uvx", "args": ["mcp-server-grubhub-restaurants", "--api-key", "${GRUBHUB_API_KEY}"], "env": {"GRUBHUB_API_KEY": "xxx"}},
+  "postmates-restaurants": {"command": "uvx", "args": ["mcp-server-postmates-restaurants", "--api-key", "${POSTMATES_API_KEY}"], "env": {"POSTMATES_API_KEY": "xxx"}},
+  "swiggy-restaurants": {"command": "uvx", "args": ["mcp-server-swiggy-restaurants", "--api-key", "${SWIGGY_API_KEY}"], "env": {"SWIGGY_API_KEY": "xxx"}}
+}

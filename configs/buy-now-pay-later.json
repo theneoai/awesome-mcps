@@ -1,0 +1,12 @@
+{
+  "shopify-shopify-pay": {"command": "uvx", "args": ["mcp-server-shopify-shopify-pay", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-afterpay": {"command": "uvx", "args": ["mcp-server-shopify-afterpay", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-klarna": {"command": "uvx", "args": ["mcp-server-shopify-klarna", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-affirm": {"command": "uvx", "args": ["mcp-server-shopify-affirm", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-sezzle": {"command": "uvx", "args": ["mcp-server-shopify-sezzle", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "stripe-afterpay": {"command": "uvx", "args": ["mcp-server-stripe-afterpay", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-klarna": {"command": "uvx", "args": ["mcp-server-stripe-klarna", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-affirm": {"command": "uvx", "args": ["mcp-server-stripe-affirm", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-sezzle": {"command": "uvx", "args": ["mcp-server-stripe-sezzle", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "adyen-klarna": {"command": "uvx", "args": ["mcp-server-adyen-klarna", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}}
+}

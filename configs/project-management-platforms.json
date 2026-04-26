@@ -1,0 +1,12 @@
+{
+  "linear-issues": {"command": "uvx", "args": ["mcp-server-linear-issues", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "lin_api_xxx"}},
+  "linear-cycles": {"command": "uvx", "args": ["mcp-server-linear-cycles", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "lin_api_xxx"}},
+  "notion-databases": {"command": "uvx", "args": ["mcp-server-notion-databases", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "notion-pages": {"command": "uvx", "args": ["mcp-server-notion-pages", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "asana-tasks": {"command": "uvx", "args": ["mcp-server-asana-tasks", "--access-token", "${ASANA_ACCESS_TOKEN}"], "env": {"ASANA_ACCESS_TOKEN": "xxx"}},
+  "asana-projects": {"command": "uvx", "args": ["mcp-server-asana-projects", "--access-token", "${ASANA_ACCESS_TOKEN}"], "env": {"ASANA_ACCESS_TOKEN": "xxx"}},
+  "trello-boards": {"command": "uvx", "args": ["mcp-server-trello-boards", "--api-key", "${TRELLO_API_KEY}", "--token", "${TRELLO_TOKEN}"], "env": {"TRELLO_API_KEY": "xxx", "TRELLO_TOKEN": "xxx"}},
+  "trello-cards": {"command": "uvx", "args": ["mcp-server-trello-cards", "--api-key", "${TRELLO_API_KEY}", "--token", "${TRELLO_TOKEN}"], "env": {"TRELLO_API_KEY": "xxx", "TRELLO_TOKEN": "xxx"}},
+  "monday-boards": {"command": "uvx", "args": ["mcp-server-monday-boards", "--api-key", "${MONDAY_API_KEY}"], "env": {"MONDAY_API_KEY": "xxx"}},
+  "monday-items": {"command": "uvx", "args": ["mcp-server-monday-items", "--api-key", "${MONDAY_API_KEY}"], "env": {"MONDAY_API_KEY": "xxx"}}
+}

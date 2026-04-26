@@ -1,0 +1,12 @@
+{
+  "npm-registry": {"command": "uvx", "args": ["mcp-server-npm-registry", "--api-key", "${NPM_API_KEY}"], "env": {"NPM_API_KEY": "xxx"}},
+  "pypi-registry": {"command": "uvx", "args": ["mcp-server-pypi-registry", "--api-key", "${PYPI_API_KEY}"], "env": {"PYPI_API_KEY": "xxx"}},
+  "maven-registry": {"command": "uvx", "args": ["mcp-server-maven-registry", "--url", "${MAVEN_URL}", "--username", "${MAVEN_USERNAME}", "--password", "${MAVEN_PASSWORD}"], "env": {"MAVEN_URL": "https://repo.maven.apache.org/maven2", "MAVEN_USERNAME": "xxx", "MAVEN_PASSWORD": "xxx"}},
+  "nuget-registry": {"command": "uvx", "args": ["mcp-server-nuget-registry", "--api-key", "${NUGET_API_KEY}"], "env": {"NUGET_API_KEY": "xxx"}},
+  "docker-hub": {"command": "uvx", "args": ["mcp-server-docker-hub", "--api-key", "${DOCKER_HUB_API_KEY}"], "env": {"DOCKER_HUB_API_KEY": "xxx"}},
+  "ghcr-io": {"command": "uvx", "args": ["mcp-server-ghcr-io", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "gcr-io": {"command": "uvx", "args": ["mcp-server-gcr-io", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "ecr-aws": {"command": "uvx", "args": ["mcp-server-ecr-aws", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "acr-azure": {"command": "uvx", "args": ["mcp-server-acr-azure", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}", "--tenant-id", "${AZURE_TENANT_ID}"], "env": {"AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx", "AZURE_TENANT_ID": "xxx"}},
+  "harbor-registry": {"command": "uvx", "args": ["mcp-server-harbor-registry", "--url", "${HARBOR_URL}", "--api-key", "${HARBOR_API_KEY}"], "env": {"HARBOR_URL": "https://harbor.example.com", "HARBOR_API_KEY": "xxx"}}
+}

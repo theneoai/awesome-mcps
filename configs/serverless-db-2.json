@@ -1,0 +1,12 @@
+{
+  "timescalecloud-databases": {"command": "uvx", "args": ["mcp-server-timescalecloud-databases", "--api-key", "${TIMESCALECLOUD_API_KEY}"], "env": {"TIMESCALECLOUD_API_KEY": "xxx"}},
+  "planetscale-databases": {"command": "uvx", "args": ["mcp-server-planetscale-databases", "--api-token", "${PLANETSCALE_API_TOKEN}"], "env": {"PLANETSCALE_API_TOKEN": "xxx"}},
+  "planetscale-branches": {"command": "uvx", "args": ["mcp-server-planetscale-branches", "--api-token", "${PLANETSCALE_API_TOKEN}"], "env": {"PLANETSCALE_API_TOKEN": "xxx"}},
+  "ternder-databases": {"command": "uvx", "args": ["mcp-server-ternder-databases", "--api-key", "${TERNDER_API_KEY}"], "env": {"TERNDER_API_KEY": "xxx"}},
+  "neon-projects": {"command": "uvx", "args": ["mcp-server-neon-projects", "--api-key", "${NEON_API_KEY}"], "env": {"NEON_API_KEY": "xxx"}},
+  "convex-databases": {"command": "uvx", "args": ["mcp-server-convex-databases", "--api-key", "${CONVEX_API_KEY}"], "env": {"CONVEX_API_KEY": "xxx"}},
+  "edgeDB-databases": {"command": "uvx", "args": ["mcp-server-edgedb-databases", "--dsn", "${EDGEDB_DSN}"], "env": {"EDGEDB_DSN": " edgedb://xxx"}},
+  "Fauna-databases": {"command": "uvx", "args": ["mcp-server-fauna-databases", "--api-key", "${FAUNA_API_KEY}"], "env": {"FAUNA_API_KEY": "xxx"}},
+  "upstash-databases": {"command": "uvx", "args": ["mcp-server-upstash-databases", "--api-key", "${UPSTASH_API_KEY}"], "env": {"UPSTASH_API_KEY": "xxx"}},
+  "upstash-redis": {"command": "uvx", "args": ["mcp-server-upstash-redis", "--api-key", "${UPSTASH_API_KEY}"], "env": {"UPSTASH_API_KEY": "xxx"}}
+}

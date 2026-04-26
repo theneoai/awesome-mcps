@@ -1,0 +1,12 @@
+{
+  "shopify-warehouses": {"command": "uvx", "args": ["mcp-server-shopify-warehouses", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-locations": {"command": "uvx", "args": ["mcp-server-shopify-locations", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-shipments": {"command": "uvx", "args": ["mcp-server-woocommerce-shipments", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "shipstation-shipments-full": {"command": "uvx", "args": ["mcp-server-shipstation-shipments-full", "--api-key", "${SHIPSTATION_API_KEY}"], "env": {"SHIPSTATION_API_KEY": "xxx"}},
+  "easypost-shipments-full": {"command": "uvx", "args": ["mcp-server-easypost-shipments-full", "--api-key", "${EASYPOST_API_KEY}"], "env": {"EASYPOST_API_KEY": "xxx"}},
+  "shippo-shipments-full": {"command": "uvx", "args": ["mcp-server-shippo-shipments-full", "--api-key", "${SHIPPO_API_KEY}"], "env": {"SHIPPO_API_KEY": "xxx"}},
+  "fedex-tracking-full": {"command": "uvx", "args": ["mcp-server-fedex-tracking-full", "--client-id", "${FEDEX_CLIENT_ID}", "--client-secret", "${FEDEX_CLIENT_SECRET}"], "env": {"FEDEX_CLIENT_ID": "xxx", "FEDEX_CLIENT_SECRET": "xxx"}},
+  "ups-tracking-full": {"command": "uvx", "args": ["mcp-server-ups-tracking-full", "--client-id", "${UPS_CLIENT_ID}", "--client-secret", "${UPS_CLIENT_SECRET}"], "env": {"UPS_CLIENT_ID": "xxx", "UPS_CLIENT_SECRET": "xxx"}},
+  "dhl-tracking-full": {"command": "uvx", "args": ["mcp-server-dhl-tracking-full", "--api-key", "${DHL_API_KEY}"], "env": {"DHL_API_KEY": "xxx"}},
+  "usps-tracking-full": {"command": "uvx", "args": ["mcp-server-usps-tracking-full", "--api-key", "${USPS_API_KEY}"], "env": {"USPS_API_KEY": "xxx"}}
+}

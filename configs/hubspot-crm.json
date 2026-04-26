@@ -1,0 +1,12 @@
+{
+  "hubspot-contacts": {"command": "uvx", "args": ["mcp-server-hubspot-contacts", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-companies": {"command": "uvx", "args": ["mcp-server-hubspot-companies", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-deals": {"command": "uvx", "args": ["mcp-server-hubspot-deals", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-tickets": {"command": "uvx", "args": ["mcp-server-hubspot-tickets", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-pipelines": {"command": "uvx", "args": ["mcp-server-hubspot-pipelines", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-email": {"command": "uvx", "args": ["mcp-server-hubspot-email", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-campaigns": {"command": "uvx", "args": ["mcp-server-hubspot-campaigns", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-lists": {"command": "uvx", "args": ["mcp-server-hubspot-lists", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-forms": {"command": "uvx", "args": ["mcp-server-hubspot-forms", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-files": {"command": "uvx", "args": ["mcp-server-hubspot-files", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}}
+}

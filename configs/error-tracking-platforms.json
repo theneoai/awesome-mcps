@@ -1,0 +1,10 @@
+{
+  "sentry-issues": {"command": "uvx", "args": ["mcp-server-sentry-issues", "--auth-token", "${SENTRY_AUTH_TOKEN}", "--organization", "${SENTRY_ORG}"], "env": {"SENTRY_AUTH_TOKEN": "xxx", "SENTRY_ORG": "org"}},
+  "sentry-performance": {"command": "uvx", "args": ["mcp-server-sentry-performance", "--auth-token", "${SENTRY_AUTH_TOKEN}", "--organization", "${SENTRY_ORG}"], "env": {"SENTRY_AUTH_TOKEN": "xxx", "SENTRY_ORG": "org"}},
+  "sentry-releases": {"command": "uvx", "args": ["mcp-server-sentry-releases", "--auth-token", "${SENTRY_AUTH_TOKEN}", "--organization", "${SENTRY_ORG}"], "env": {"SENTRY_AUTH_TOKEN": "xxx", "SENTRY_ORG": "org"}},
+  "bugsnag-errors": {"command": "uvx", "args": ["mcp-server-bugsnag-errors", "--api-key", "${BUGSNAG_API_KEY}"], "env": {"BUGSNAG_API_KEY": "xxx"}},
+  "rollbar-errors": {"command": "uvx", "args": ["mcp-server-rollbar-errors", "--access-token", "${ROLLBAR_ACCESS_TOKEN}"], "env": {"ROLLBAR_ACCESS_TOKEN": "xxx"}},
+  "airbrake-errors": {"command": "uvx", "args": ["mcp-server-airbrake-errors", "--project-id", "${AIRBRAKE_PROJECT_ID}", "--api-key", "${AIRBRAKE_API_KEY}"], "env": {"AIRBRAKE_PROJECT_ID": "xxx", "AIRBRAKE_API_KEY": "xxx"}},
+  "raygun-errors": {"command": "uvx", "args": ["mcp-server-raygun-errors", "--api-key", "${RAYGUN_API_KEY}"], "env": {"RAYGUN_API_KEY": "xxx"}},
+  "logrocket-errors": {"command": "uvx", "args": ["mcp-server-logrocket-errors", "--app-id", "${LOGROCKET_APP_ID}"], "env": {"LOGROCKET_APP_ID": "xxx"}}
+}

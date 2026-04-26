@@ -1,0 +1,12 @@
+{
+  "youtube-videos": {"command": "uvx", "args": ["mcp-server-youtube-videos", "--api-key", "${YOUTUBE_API_KEY}"], "env": {"YOUTUBE_API_KEY": "xxx"}},
+  "youtube-channels": {"command": "uvx", "args": ["mcp-server-youtube-channels", "--api-key", "${YOUTUBE_API_KEY}"], "env": {"YOUTUBE_API_KEY": "xxx"}},
+  "youtube-playlists": {"command": "uvx", "args": ["mcp-server-youtube-playlists", "--api-key", "${YOUTUBE_API_KEY}"], "env": {"YOUTUBE_API_KEY": "xxx"}},
+  "youtube-comments": {"command": "uvx", "args": ["mcp-server-youtube-comments", "--api-key", "${YOUTUBE_API_KEY}"], "env": {"YOUTUBE_API_KEY": "xxx"}},
+  "youtube-live-chat": {"command": "uvx", "args": ["mcp-server-youtube-live-chat", "--api-key", "${YOUTUBE_API_KEY}"], "env": {"YOUTUBE_API_KEY": "xxx"}},
+  "vimeo-videos": {"command": "uvx", "args": ["mcp-server-vimeo-videos", "--access-token", "${VIMEO_ACCESS_TOKEN}"], "env": {"VIMEO_ACCESS_TOKEN": "xxx"}},
+  "vimeo-users": {"command": "uvx", "args": ["mcp-server-vimeo-users", "--access-token", "${VIMEO_ACCESS_TOKEN}"], "env": {"VIMEO_ACCESS_TOKEN": "xxx"}},
+  "vimeo-albums": {"command": "uvx", "args": ["mcp-server-vimeo-albums", "--access-token", "${VIMEO_ACCESS_TOKEN}"], "env": {"VIMEO_ACCESS_TOKEN": "xxx"}},
+  "spotify-tracks": {"command": "uvx", "args": ["mcp-server-spotify-tracks", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"], "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}},
+  "spotify-playlists": {"command": "uvx", "args": ["mcp-server-spotify-playlists", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"], "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}}
+}

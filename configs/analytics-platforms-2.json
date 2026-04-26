@@ -1,0 +1,12 @@
+{
+  "google-analytics-data": {"command": "uvx", "args": ["mcp-server-google-analytics-data", "--api-key", "${GA_API_KEY}"], "env": {"GA_API_KEY": "xxx"}},
+  "google-analytics-property": {"command": "uvx", "args": ["mcp-server-google-analytics-property", "--api-key", "${GA_API_KEY}"], "env": {"GA_API_KEY": "xxx"}},
+  "google-analytics-reports": {"command": "uvx", "args": ["mcp-server-google-analytics-reports", "--api-key", "${GA_API_KEY}"], "env": {"GA_API_KEY": "xxx"}},
+  "ga4-analytics-data": {"command": "uvx", "args": ["mcp-server-ga4-analytics-data", "--api-key", "${GA4_API_KEY}"], "env": {"GA4_API_KEY": "xxx"}},
+  "ga4-reports": {"command": "uvx", "args": ["mcp-server-ga4-reports", "--api-key", "${GA4_API_KEY}"], "env": {"GA4_API_KEY": "xxx"}},
+  "mixpanel-analytics": {"command": "uvx", "args": ["mcp-server-mixpanel-analytics", "--api-key", "${MIXPANEL_API_KEY}"], "env": {"MIXPANEL_API_KEY": "xxx"}},
+  "mixpanel-funnel": {"command": "uvx", "args": ["mcp-server-mixpanel-funnel", "--api-key", "${MIXPANEL_API_KEY}"], "env": {"MIXPANEL_API_KEY": "xxx"}},
+  "mixpanel-insight": {"command": "uvx", "args": ["mcp-server-mixpanel-insight", "--api-key", "${MIXPANEL_API_KEY}"], "env": {"MIXPANEL_API_KEY": "xxx"}},
+  "amplitude-analytics": {"command": "uvx", "args": ["mcp-server-amplitude-analytics", "--api-key", "${AMPLITUDE_API_KEY}"], "env": {"AMPLITUDE_API_KEY": "xxx"}},
+  "amplitude-cohorts": {"command": "uvx", "args": ["mcp-server-amplitude-cohorts", "--api-key", "${AMPLITUDE_API_KEY}"], "env": {"AMPLITUDE_API_KEY": "xxx"}}
+}

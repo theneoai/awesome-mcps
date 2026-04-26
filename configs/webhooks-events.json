@@ -1,0 +1,12 @@
+{
+  "sentry-webhooks": {"command": "uvx", "args": ["mcp-server-sentry-webhooks", "--auth-token", "${SENTRY_AUTH_TOKEN}", "--organization", "${SENTRY_ORG}"], "env": {"SENTRY_AUTH_TOKEN": "xxx", "SENTRY_ORG": "org"}},
+  "datadog-webhooks": {"command": "uvx", "args": ["mcp-server-datadog-webhooks", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "pagerduty-webhooks": {"command": "uvx", "args": ["mcp-server-pagerduty-webhooks", "--api-key", "${PAGERDUTY_API_KEY}"], "env": {"PAGERDUTY_API_KEY": "xxx"}},
+  "newrelic-webhooks": {"command": "uvx", "args": ["mcp-server-newrelic-webhooks", "--api-key", "${NEWRELIC_API_KEY}"], "env": {"NEWRELIC_API_KEY": "xxx"}},
+  "stripe-events": {"command": "uvx", "args": ["mcp-server-stripe-events", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "braintree-webhooks": {"command": "uvx", "args": ["mcp-server-braintree-webhooks", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "paypal-webhooks": {"command": "uvx", "args": ["mcp-server-paypal-webhooks", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "square-webhooks": {"command": "uvx", "args": ["mcp-server-square-webhooks", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "adyen-webhooks": {"command": "uvx", "args": ["mcp-server-adyen-webhooks", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "razorpay-webhooks": {"command": "uvx", "args": ["mcp-server-razorpay-webhooks", "--key-id", "${RAZORPAY_KEY_ID}", "--key-secret", "${RAZORPAY_KEY_SECRET}"], "env": {"RAZORPAY_KEY_ID": "xxx", "RAZORPAY_KEY_SECRET": "xxx"}}
+}

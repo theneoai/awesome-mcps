@@ -1,0 +1,12 @@
+{
+  "coinmarketcap-ticker": {"command": "uvx", "args": ["mcp-server-coinmarketcap-ticker", "--api-key", "${COINMARKETCAP_API_KEY}"], "env": {"COINMARKETCAP_API_KEY": "xxx"}},
+  "coinmarketcap-quotes": {"command": "uvx", "args": ["mcp-server-coinmarketcap-quotes", "--api-key", "${COINMARKETCAP_API_KEY}"], "env": {"COINMARKETCAP_API_KEY": "xxx"}},
+  "coingecko-ticker": {"command": "uvx", "args": ["mcp-server-coingecko-ticker", "--api-key", "${COINGECKO_API_KEY}"], "env": {"COINGECKO_API_KEY": "xxx"}},
+  "coingecko-market": {"command": "uvx", "args": ["mcp-server-coingecko-market", "--api-key", "${COINGECKO_API_KEY}"], "env": {"COINGECKO_API_KEY": "xxx"}},
+  "coingecko-coins": {"command": "uvx", "args": ["mcp-server-coingecko-coins", "--api-key", "${COINGECKO_API_KEY}"], "env": {"COINGECKO_API_KEY": "xxx"}},
+  "cryptopanic-posts": {"command": "uvx", "args": ["mcp-server-cryptopanic-posts", "--api-key", "${CRYPTOPANIC_API_KEY}"], "env": {"CRYPTOPANIC_API_KEY": "xxx"}},
+  "ethethereum-price": {"command": "uvx", "args": ["mcp-server-ethereum-price", "--api-key", "${ETH_API_KEY}"], "env": {"ETH_API_KEY": "xxx"}},
+  "ethereum-block": {"command": "uvx", "args": ["mcp-server-ethereum-block", "--api-key", "${ETH_API_KEY}"], "env": {"ETH_API_KEY": "xxx"}},
+  "ethereum-transactions": {"command": "uvx", "args": ["mcp-server-ethereum-transactions", "--api-key", "${ETH_API_KEY}"], "env": {"ETH_API_KEY": "xxx"}},
+  "ethereum-gas": {"command": "uvx", "args": ["mcp-server-ethereum-gas", "--api-key", "${ETH_API_KEY}"], "env": {"ETH_API_KEY": "xxx"}}
+}

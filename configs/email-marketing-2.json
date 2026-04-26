@@ -1,0 +1,12 @@
+{
+  "sendgrid-templates": {"command": "uvx", "args": ["mcp-server-sendgrid-templates", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "SG.xxx"}},
+  "sendgrid-campaigns": {"command": "uvx", "args": ["mcp-server-sendgrid-campaigns", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "SG.xxx"}},
+  "sendgrid-lists": {"command": "uvx", "args": ["mcp-server-sendgrid-lists", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "SG.xxx"}},
+  "sendgrid-contacts": {"command": "uvx", "args": ["mcp-server-sendgrid-contacts", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "SG.xxx"}},
+  "convertkit-subscribers": {"command": "uvx", "args": ["mcp-server-convertkit-subscribers", "--api-key", "${CONVERTKIT_API_KEY}"], "env": {"CONVERTKIT_API_KEY": "xxx"}},
+  "convertkit-courses": {"command": "uvx", "args": ["mcp-server-convertkit-courses", "--api-key", "${CONVERTKIT_API_KEY}"], "env": {"CONVERTKIT_API_KEY": "xxx"}},
+  "convertkit-forms": {"command": "uvx", "args": ["mcp-server-convertkit-forms", "--api-key", "${CONVERTKIT_API_KEY}"], "env": {"CONVERTKIT_API_KEY": "xxx"}},
+  "activecampaign-contacts": {"command": "uvx", "args": ["mcp-server-activecampaign-contacts", "--api-key", "${ACTIVECAMPAIGN_API_KEY}"], "env": {"ACTIVECAMPAIGN_API_KEY": "xxx", "ACTIVECAMPAIGN_URL": "xxx"}},
+  "activecampaign-deals": {"command": "uvx", "args": ["mcp-server-activecampaign-deals", "--api-key", "${ACTIVECAMPAIGN_API_KEY}"], "env": {"ACTIVECAMPAIGN_API_KEY": "xxx", "ACTIVECAMPAIGN_URL": "xxx"}},
+  "activecampaign-campaigns": {"command": "uvx", "args": ["mcp-server-activecampaign-campaigns", "--api-key", "${ACTIVECAMPAIGN_API_KEY}"], "env": {"ACTIVECAMPAIGN_API_KEY": "xxx", "ACTIVECAMPAIGN_URL": "xxx"}}
+}

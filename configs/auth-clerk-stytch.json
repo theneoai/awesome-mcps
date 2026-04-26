@@ -1,0 +1,12 @@
+{
+  "clerk-users": {"command": "uvx", "args": ["mcp-server-clerk-users", "--api-key", "${CLERK_API_KEY}"], "env": {"CLERK_API_KEY": "sk_xxx"}},
+  "clerk-organizations": {"command": "uvx", "args": ["mcp-server-clerk-organizations", "--api-key", "${CLERK_API_KEY}"], "env": {"CLERK_API_KEY": "sk_xxx"}},
+  "clerk-sessions": {"command": "uvx", "args": ["mcp-server-clerk-sessions", "--api-key", "${CLERK_API_KEY}"], "env": {"CLERK_API_KEY": "sk_xxx"}},
+  "clerk-applications": {"command": "uvx", "args": ["mcp-server-clerk-applications", "--api-key", "${CLERK_API_KEY}"], "env": {"CLERK_API_KEY": "sk_xxx"}},
+  "stytch-users": {"command": "uvx", "args": ["mcp-server-stytch-users", "--project-id", "${STYTCH_PROJECT_ID}", "--secret", "${STYTCH_SECRET}"], "env": {"STYTCH_PROJECT_ID": "xxx", "STYTCH_SECRET": "xxx"}},
+  "stytch-sessions": {"command": "uvx", "args": ["mcp-server-stytch-sessions", "--project-id", "${STYTCH_PROJECT_ID}", "--secret", "${STYTCH_SECRET}"], "env": {"STYTCH_PROJECT_ID": "xxx", "STYTCH_SECRET": "xxx"}},
+  "stytch-magic-links": {"command": "uvx", "args": ["mcp-server-stytch-magic-links", "--project-id", "${STYTCH_PROJECT_ID}", "--secret", "${STYTCH_SECRET}"], "env": {"STYTCH_PROJECT_ID": "xxx", "STYTCH_SECRET": "xxx"}},
+  "fusionauth-tenants": {"command": "uvx", "args": ["mcp-server-fusionauth-tenants", "--url", "${FUSIONAUTH_URL}", "--api-key", "${FUSIONAUTH_API_KEY}"], "env": {"FUSIONAUTH_URL": "http://localhost:9011", "FUSIONAUTH_API_KEY": "xxx"}},
+  "fusionauth-users": {"command": "uvx", "args": ["mcp-server-fusionauth-users", "--url", "${FUSIONAUTH_URL}", "--api-key", "${FUSIONAUTH_API_KEY}"], "env": {"FUSIONAUTH_URL": "http://localhost:9011", "FUSIONAUTH_API_KEY": "xxx"}},
+  "fusionauth-applications": {"command": "uvx", "args": ["mcp-server-fusionauth-applications", "--url", "${FUSIONAUTH_URL}", "--api-key", "${FUSIONAUTH_API_KEY}"], "env": {"FUSIONAUTH_URL": "http://localhost:9011", "FUSIONAUTH_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "shopify-articles": {"command": "uvx", "args": ["mcp-server-shopify-articles", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-blogs": {"command": "uvx", "args": ["mcp-server-shopify-blogs", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-pages": {"command": "uvx", "args": ["mcp-server-shopify-pages", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-themes": {"command": "uvx", "args": ["mcp-server-shopify-themes", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-navigation": {"command": "uvx", "args": ["mcp-server-shopify-navigation", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-menus": {"command": "uvx", "args": ["mcp-server-shopify-menus", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-articles": {"command": "uvx", "args": ["mcp-server-woocommerce-articles", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "bigcommerce-pages": {"command": "uvx", "args": ["mcp-server-bigcommerce-pages", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}},
+  "magento-cms": {"command": "uvx", "args": ["mcp-server-magento-cms", "--url", "${MAGENTO_URL}"], "env": {"MAGENTO_URL": "https://xxx.com", "MAGENTO_USERNAME": "xxx", "MAGENTO_PASSWORD": "xxx"}},
+  "wordpress-posts": {"command": "uvx", "args": ["mcp-server-wordpress-posts", "--url", "${WORDPRESS_URL}"], "env": {"WORDPRESS_URL": "https://xxx.com", "WORDPRESS_USERNAME": "xxx", "WORDPRESS_APP_PASSWORD": "xxx"}}
+}

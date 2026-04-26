@@ -1,0 +1,12 @@
+{
+  "zomato-restaurants": {"command": "uvx", "args": ["mcp-server-zomato-restaurants", "--api-key", "${ZOMATO_API_KEY}"], "env": {"ZOMATO_API_KEY": "xxx"}},
+  "yelp-restaurants": {"command": "uvx", "args": ["mcp-server-yelp-restaurants", "--api-key", "${YELP_API_KEY}"], "env": {"YELP_API_KEY": "xxx"}},
+  "yelp-reviews": {"command": "uvx", "args": ["mcp-server-yelp-reviews", "--api-key", "${YELP_API_KEY}"], "env": {"YELP_API_KEY": "xxx"}},
+  "tripadvisor-hotels": {"command": "uvx", "args": ["mcp-server-tripadvisor-hotels", "--api-key", "${TRIPADVISOR_API_KEY}"], "env": {"TRIPADVISOR_API_KEY": "xxx"}},
+  "tripadvisor-restaurants": {"command": "uvx", "args": ["mcp-server-tripadvisor-restaurants", "--api-key", "${TRIPADVISOR_API_KEY}"], "env": {"TRIPADVISOR_API_KEY": "xxx"}},
+  "tripadvisor-attractions": {"command": "uvx", "args": ["mcp-server-tripadvisor-attractions", "--api-key", "${TRIPADVISOR_API_KEY}"], "env": {"TRIPADVISOR_API_KEY": "xxx"}},
+  "booking-com-hotels": {"command": "uvx", "args": ["mcp-server-booking-hotels", "--api-key", "${BOOKING_API_KEY}"], "env": {"BOOKING_API_KEY": "xxx"}},
+  "airbnb-listings": {"command": "uvx", "args": ["mcp-server-airbnb-listings", "--api-key", "${AIRBNB_API_KEY}"], "env": {"AIRBNB_API_KEY": "xxx"}},
+  "airbnb-reviews": {"command": "uvx", "args": ["mcp-server-airbnb-reviews", "--api-key", "${AIRBNB_API_KEY}"], "env": {"AIRBNB_API_KEY": "xxx"}},
+  "expedia-hotels": {"command": "uvx", "args": ["mcp-server-expedia-hotels", "--api-key", "${EXPEDIA_API_KEY}"], "env": {"EXPEDIA_API_KEY": "xxx"}}
+}

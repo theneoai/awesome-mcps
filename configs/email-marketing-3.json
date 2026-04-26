@@ -1,0 +1,12 @@
+{
+  "getresponse-campaigns": {"command": "uvx", "args": ["mcp-server-getresponse-campaigns", "--api-key", "${GETRESPONSE_API_KEY}"], "env": {"GETRESPONSE_API_KEY": "xxx"}},
+  "getresponse-contacts": {"command": "uvx", "args": ["mcp-server-getresponse-contacts", "--api-key", "${GETRESPONSE_API_KEY}"], "env": {"GETRESPONSE_API_KEY": "xxx"}},
+  "aweber-subscribers": {"command": "uvx", "args": ["mcp-server-aweber-subscribers", "--api-key", "${AWEBER_API_KEY}"], "env": {"AWEBER_API_KEY": "xxx"}},
+  "aweber-campaigns": {"command": "uvx", "args": ["mcp-server-aweber-campaigns", "--api-key", "${AWEBER_API_KEY}"], "env": {"AWEBER_API_KEY": "xxx"}},
+  "constant-contact-lists": {"command": "uvx", "args": ["mcp-server-constant-contact-lists", "--api-key", "${CONSTANTCONTACT_API_KEY}"], "env": {"CONSTANTCONTACT_API_KEY": "xxx"}},
+  "constant-contact-campaigns": {"command": "uvx", "args": ["mcp-server-constant-contact-campaigns", "--api-key", "${CONSTANTCONTACT_API_KEY}"], "env": {"CONSTANTCONTACT_API_KEY": "xxx"}},
+  "drip-contacts": {"command": "uvx", "args": ["mcp-server-drip-contacts", "--api-key", "${DRIP_API_KEY}"], "env": {"DRIP_API_KEY": "xxx"}},
+  "drip-campaigns": {"command": "uvx", "args": ["mcp-server-drip-campaigns", "--api-key", "${DRIP_API_KEY}"], "env": {"DRIP_API_KEY": "xxx"}},
+  "drip-events": {"command": "uvx", "args": ["mcp-server-drip-events", "--api-key", "${DRIP_API_KEY}"], "env": {"DRIP_API_KEY": "xxx"}},
+  "sendinblue-contacts": {"command": "uvx", "args": ["mcp-server-sendinblue-contacts", "--api-key", "${SENDINBLUE_API_KEY}"], "env": {"SENDINBLUE_API_KEY": "xxx"}}
+}

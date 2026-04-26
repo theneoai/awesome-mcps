@@ -1,0 +1,12 @@
+{
+  "paddle-products": {"command": "uvx", "args": ["mcp-server-paddle-products", "--vendor-id", "${PADDLE_VENDOR_ID}", "--api-key", "${PADDLE_API_KEY}"], "env": {"PADDLE_VENDOR_ID": "xxx", "PADDLE_API_KEY": "xxx"}},
+  "paddle-subscriptions": {"command": "uvx", "args": ["mcp-server-paddle-subscriptions", "--vendor-id", "${PADDLE_VENDOR_ID}", "--api-key", "${PADDLE_API_KEY}"], "env": {"PADDLE_VENDOR_ID": "xxx", "PADDLE_API_KEY": "xxx"}},
+  "paddle-payments": {"command": "uvx", "args": ["mcp-server-paddle-payments", "--vendor-id", "${PADDLE_VENDOR_ID}", "--api-key", "${PADDLE_API_KEY}"], "env": {"PADDLE_VENDOR_ID": "xxx", "PADDLE_API_KEY": "xxx"}},
+  "paddle-customers": {"command": "uvx", "args": ["mcp-server-paddle-customers", "--vendor-id", "${PADDLE_VENDOR_ID}", "--api-key", "${PADDLE_API_KEY}"], "env": {"PADDLE_VENDOR_ID": "xxx", "PADDLE_API_KEY": "xxx"}},
+  "chargebee-subscriptions": {"command": "uvx", "args": ["mcp-server-chargebee-subscriptions", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}},
+  "chargebee-customers": {"command": "uvx", "args": ["mcp-server-chargebee-customers", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}},
+  "chargebee-invoices": {"command": "uvx", "args": ["mcp-server-chargebee-invoices", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}},
+  "chargebee-plans": {"command": "uvx", "args": ["mcp-server-chargebee-plans", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}},
+  "lemonsqueezy-products": {"command": "uvx", "args": ["mcp-server-lemonsqueezy-products", "--api-key", "${LEMONSQUEEZY_API_KEY}"], "env": {"LEMONSQUEEZY_API_KEY": "xxx", "LEMONSQUEEZY_STORE_ID": "xxx"}},
+  "lemonsqueezy-orders": {"command": "uvx", "args": ["mcp-server-lemonsqueezy-orders", "--api-key", "${LEMONSQUEEZY_API_KEY}"], "env": {"LEMONSQUEEZY_API_KEY": "xxx", "LEMONSQUEEZY_STORE_ID": "xxx"}}
+}

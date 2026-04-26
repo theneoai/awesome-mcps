@@ -1,0 +1,12 @@
+{
+  "gcp-compute-engine": {"command": "uvx", "args": ["mcp-server-gcp-compute-engine", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-kubernetes-engine": {"command": "uvx", "args": ["mcp-server-gcp-kubernetes-engine", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-app-engine": {"command": "uvx", "args": ["mcp-server-gcp-app-engine", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-cloud-run": {"command": "uvx", "args": ["mcp-server-gcp-cloud-run", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-cloud-functions": {"command": "uvx", "args": ["mcp-server-gcp-cloud-functions", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-composer": {"command": "uvx", "args": ["mcp-server-gcp-composer", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-dataflow": {"command": "uvx", "args": ["mcp-server-gcp-dataflow", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-batch": {"command": "uvx", "args": ["mcp-server-gcp-batch", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-preemptible-vms": {"command": "uvx", "args": ["mcp-server-gcp-preemptible-vms", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "gcp-scheduler": {"command": "uvx", "args": ["mcp-server-gcp-scheduler", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}}
+}

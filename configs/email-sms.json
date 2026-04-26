@@ -1,0 +1,12 @@
+{
+  "sendgrid-mail": {"command": "uvx", "args": ["mcp-server-sendgrid-mail", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "SG.xxx"}},
+  "sendgrid-templates": {"command": "uvx", "args": ["mcp-server-sendgrid-templates", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "SG.xxx"}},
+  "sendgrid-contacts": {"command": "uvx", "args": ["mcp-server-sendgrid-contacts", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "SG.xxx"}},
+  "sendgrid-segments": {"command": "uvx", "args": ["mcp-server-sendgrid-segments", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "SG.xxx"}},
+  "mailgun-messages": {"command": "uvx", "args": ["mcp-server-mailgun-messages", "--api-key", "${MAILGUN_API_KEY}", "--domain", "${MAILGUN_DOMAIN}"], "env": {"MAILGUN_API_KEY": "xxx", "MAILGUN_DOMAIN": "xxx.com"}},
+  "mailgun-webhooks": {"command": "uvx", "args": ["mcp-server-mailgun-webhooks", "--api-key", "${MAILGUN_API_KEY}", "--domain", "${MAILGUN_DOMAIN}"], "env": {"MAILGUN_API_KEY": "xxx", "MAILGUN_DOMAIN": "xxx.com"}},
+  "twilio-messages": {"command": "uvx", "args": ["mcp-server-twilio-messages", "--account-sid", "${TWILIO_ACCOUNT_SID}", "--auth-token", "${TWILIO_AUTH_TOKEN}"], "env": {"TWILIO_ACCOUNT_SID": "ACxxx", "TWILIO_AUTH_TOKEN": "xxx"}},
+  "twilio-calls": {"command": "uvx", "args": ["mcp-server-twilio-calls", "--account-sid", "${TWILIO_ACCOUNT_SID}", "--auth-token", "${TWILIO_AUTH_TOKEN}"], "env": {"TWILIO_ACCOUNT_SID": "ACxxx", "TWILIO_AUTH_TOKEN": "xxx"}},
+  "twilio-numbers": {"command": "uvx", "args": ["mcp-server-twilio-numbers", "--account-sid", "${TWILIO_ACCOUNT_SID}", "--auth-token", "${TWILIO_AUTH_TOKEN}"], "env": {"TWILIO_ACCOUNT_SID": "ACxxx", "TWILIO_AUTH_TOKEN": "xxx"}},
+  "vonage-messages": {"command": "uvx", "args": ["mcp-server-vonage-messages", "--api-key", "${VONAGE_API_KEY}", "--api-secret", "${VONAGE_API_SECRET}"], "env": {"VONAGE_API_KEY": "xxx", "VONAGE_API_SECRET": "xxx"}}
+}

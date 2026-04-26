@@ -1,0 +1,12 @@
+{
+  "square-payments": {"command": "uvx", "args": ["mcp-server-square-payments", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx", "SQUARE_LOCATION_ID": "xxx"}},
+  "square-orders": {"command": "uvx", "args": ["mcp-server-square-orders", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx", "SQUARE_LOCATION_ID": "xxx"}},
+  "square-items": {"command": "uvx", "args": ["mcp-server-square-items", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx", "SQUARE_LOCATION_ID": "xxx"}},
+  "square-customers": {"command": "uvx", "args": ["mcp-server-square-customers", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx", "SQUARE_LOCATION_ID": "xxx"}},
+  "razorpay-payments": {"command": "uvx", "args": ["mcp-server-razorpay-payments", "--api-key", "${RAZORPAY_API_KEY}"], "env": {"RAZORPAY_API_KEY": "xxx", "RAZORPAY_API_SECRET": "xxx"}},
+  "razorpay-orders": {"command": "uvx", "args": ["mcp-server-razorpay-orders", "--api-key", "${RAZORPAY_API_KEY}"], "env": {"RAZORPAY_API_KEY": "xxx", "RAZORPAY_API_SECRET": "xxx"}},
+  "razorpay-subscriptions": {"command": "uvx", "args": ["mcp-server-razorpay-subscriptions", "--api-key", "${RAZORPAY_API_KEY}"], "env": {"RAZORPAY_API_KEY": "xxx", "RAZORPAY_API_SECRET": "xxx"}},
+  "razorpay-invoices": {"command": "uvx", "args": ["mcp-server-razorpay-invoices", "--api-key", "${RAZORPAY_API_KEY}"], "env": {"RAZORPAY_API_KEY": "xxx", "RAZORPAY_API_SECRET": "xxx"}},
+  "checkout-com-payments": {"command": "uvx", "args": ["mcp-server-checkout-com-payments", "--api-key", "${CHECKOUT_API_KEY}"], "env": {"CHECKOUT_API_KEY": "xxx", "CHECKOUT_SECRET_KEY": "xxx"}},
+  "checkout-com-sessions": {"command": "uvx", "args": ["mcp-server-checkout-com-sessions", "--api-key", "${CHECKOUT_API_KEY}"], "env": {"CHECKOUT_API_KEY": "xxx", "CHECKOUT_SECRET_KEY": "xxx"}}
+}

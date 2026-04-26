@@ -1,0 +1,12 @@
+{
+  "sentry-projects": {"command": "uvx", "args": ["mcp-server-sentry-projects", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "sentry-issues": {"command": "uvx", "args": ["mcp-server-sentry-issues", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "sentry-events": {"command": "uvx", "args": ["mcp-server-sentry-events", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "sentry-releases": {"command": "uvx", "args": ["mcp-server-sentry-releases", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "sentry-deploys": {"command": "uvx", "args": ["mcp-server-sentry-deploys", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "sentry-members": {"command": "uvx", "args": ["mcp-server-sentry-members", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "sentry-teams": {"command": "uvx", "args": ["mcp-server-sentry-teams", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "sentry-organization": {"command": "uvx", "args": ["mcp-server-sentry-organization", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "sentry-users": {"command": "uvx", "args": ["mcp-server-sentry-users", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}},
+  "sentry-performance": {"command": "uvx", "args": ["mcp-server-sentry-performance", "--auth-token", "${SENTRY_AUTH_TOKEN}"], "env": {"SENTRY_AUTH_TOKEN": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "polygon-block": {"command": "uvx", "args": ["mcp-server-polygon-block", "--api-key", "${POLYGON_API_KEY}"], "env": {"POLYGON_API_KEY": "xxx"}},
+  "polygon-transactions": {"command": "uvx", "args": ["mcp-server-polygon-transactions", "--api-key", "${POLYGON_API_KEY}"], "env": {"POLYGON_API_KEY": "xxx"}},
+  "polygon-ticker": {"command": "uvx", "args": ["mcp-server-polygon-ticker", "--api-key", "${POLYGON_API_KEY}"], "env": {"POLYGON_API_KEY": "xxx"}},
+  "solana-blocks": {"command": "uvx", "args": ["mcp-server-solana-blocks", "--rpc-url", "${SOLANA_RPC_URL}"], "env": {"SOLANA_RPC_URL": "https://api.mainnet-beta.solana.com"}},
+  "solana-transactions": {"command": "uvx", "args": ["mcp-server-solana-transactions", "--rpc-url", "${SOLANA_RPC_URL}"], "env": {"SOLANA_RPC_URL": "https://api.mainnet-beta.solana.com"}},
+  "solana-tokens": {"command": "uvx", "args": ["mcp-server-solana-tokens", "--rpc-url", "${SOLANA_RPC_URL}"], "env": {"SOLANA_RPC_URL": "https://api.mainnet-beta.solana.com"}},
+  "near-blocks": {"command": "uvx", "args": ["mcp-server-near-blocks", "--rpc-url", "${NEAR_RPC_URL}"], "env": {"NEAR_RPC_URL": "https://rpc.near.org"}},
+  "near-transactions": {"command": "uvx", "args": ["mcp-server-near-transactions", "--rpc-url", "${NEAR_RPC_URL}"], "env": {"NEAR_RPC_URL": "https://rpc.near.org"}},
+  "cosmos-blocks": {"command": "uvx", "args": ["mcp-server-cosmos-blocks", "--rpc-url", "${COSMOS_RPC_URL}"], "env": {"COSMOS_RPC_URL": "https://rpc.cosmos.network"}},
+  "cosmos-transactions": {"command": "uvx", "args": ["mcp-server-cosmos-transactions", "--rpc-url", "${COSMOS_RPC_URL}"], "env": {"COSMOS_RPC_URL": "https://rpc.cosmos.network"}}
+}

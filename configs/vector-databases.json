@@ -1,0 +1,11 @@
+{
+  "elasticsearch-client": {"command": "uvx", "args": ["mcp-server-elasticsearch-client", "--url", "${ELASTICSEARCH_URL}"], "env": {"ELASTICSEARCH_URL": "http://localhost:9200", "ELASTICSEARCH_USERNAME": "elastic", "ELASTICSEARCH_PASSWORD": "xxx"}},
+  "opensearch-client": {"command": "uvx", "args": ["mcp-server-opensearch-client", "--url", "${OPENSEARCH_URL}"], "env": {"OPENSEARCH_URL": "http://localhost:9200", "OPENSEARCH_USERNAME": "admin", "OPENSEARCH_PASSWORD": "xxx"}},
+  "solr-client": {"command": "uvx", "args": ["mcp-server-solr-client", "--url", "${SOLR_URL}"], "env": {"SOLR_URL": "http://localhost:8983"}},
+  "meilisearch-client": {"command": "uvx", "args": ["mcp-server-meilisearch-client", "--host", "${MEILI_HOST}", "--api-key", "${MEILI_API_KEY}"], "env": {"MEILI_HOST": "http://localhost:7700", "MEILI_API_KEY": "masterKey"}},
+  "typesense-client": {"command": "uvx", "args": ["mcp-server-typesense-client", "--host", "${TYPESENSE_HOST}", "--api-key", "${TYPESENSE_API_KEY}"], "env": {"TYPESENSE_HOST": "http://localhost:8108", "TYPESENSE_API_KEY": "xyz"}},
+  "qdrant-client": {"command": "uvx", "args": ["mcp-server-qdrant-client", "--url", "${QDRANT_URL}", "--api-key", "${QDRANT_API_KEY}"], "env": {"QDRANT_URL": "http://localhost:6333", "QDRANT_API_KEY": "xxx"}},
+  "weaviate-client": {"command": "uvx", "args": ["mcp-server-weaviate-client", "--url", "${WEAVIATE_URL}", "--api-key", "${WEAVIATE_API_KEY}"], "env": {"WEAVIATE_URL": "http://localhost:8080", "WEAVIATE_API_KEY": "xxx"}},
+  "pinecone-client": {"command": "uvx", "args": ["mcp-server-pinecone-client", "--api-key", "${PINECONE_API_KEY}", "--environment", "${PINECONE_ENV}"], "env": {"PINECONE_API_KEY": "xxx", "PINECONE_ENV": "us-east-1"}},
+  "milvus-client": {"command": "uvx", "args": ["mcp-server-milvus-client", "--host", "${MILVUS_HOST}", "--port", "${MILVUS_PORT}"], "env": {"MILVUS_HOST": "localhost", "MILVUS_PORT": "19530"}}
+}

@@ -1,0 +1,12 @@
+{
+  "selenium-grid": {"command": "uvx", "args": ["mcp-server-selenium-grid", "--url", "${SELENIUM_GRID_URL}"], "env": {"SELENIUM_GRID_URL": "http://localhost:4444"}},
+  "playwright-cloud": {"command": "uvx", "args": ["mcp-server-playwright-cloud", "--api-key", "${PLAYWRIGHT_API_KEY}"], "env": {"PLAYWRIGHT_API_KEY": "xxx"}},
+  "browserstack": {"command": "uvx", "args": ["mcp-server-browserstack", "--username", "${BROWSERSTACK_USERNAME}", "--access-key", "${BROWSERSTACK_ACCESS_KEY}"], "env": {"BROWSERSTACK_USERNAME": "xxx", "BROWSERSTACK_ACCESS_KEY": "xxx"}},
+  "saucelabs": {"command": "uvx", "args": ["mcp-server-saucelabs", "--username", "${SAUCE_USERNAME}", "--access-key", "${SAUCE_ACCESS_KEY}"], "env": {"SAUCE_USERNAME": "xxx", "SAUCE_ACCESS_KEY": "xxx"}},
+  "testingbot": {"command": "uvx", "args": ["mcp-server-testingbot", "--api-key", "${TESTINGBOT_API_KEY}", "--api-secret", "${TESTINGBOT_API_SECRET}"], "env": {"TESTINGBOT_API_KEY": "xxx", "TESTINGBOT_API_SECRET": "xxx"}},
+  "cypress-cloud": {"command": "uvx", "args": ["mcp-server-cypress-cloud", "--api-key", "${CYPRESS_API_KEY}"], "env": {"CYPRESS_API_KEY": "xxx"}},
+  "puppeteer": {"command": "uvx", "args": ["mcp-server-puppeteer"], "env": {}},
+  "puppeteer-sharp": {"command": "uvx", "args": ["mcp-server-puppeteer-sharp"], "env": {}},
+  "appium": {"command": "uvx", "args": ["mcp-server-appium", "--host", "${APPIUM_HOST}"], "env": {"APPIUM_HOST": "localhost:4723"}},
+  "detox": {"command": "uvx", "args": ["mcp-server-detox"], "env": {}}
+}

@@ -1,0 +1,12 @@
+{
+  "aws-lambda-layers-versions": {"command": "uvx", "args": ["mcp-server-aws-lambda-layers-versions", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-lambda-event-source-mappings": {"command": "uvx", "args": ["mcp-server-aws-lambda-event-source-mappings", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-lambda-versions": {"command": "uvx", "args": ["mcp-server-aws-lambda-versions", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-lambda-aliases": {"command": "uvx", "args": ["mcp-server-aws-lambda-aliases", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-lambda-provisioned-concurrency": {"command": "uvx", "args": ["mcp-server-aws-lambda-provisioned-concurrency", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-lambda-concurrency": {"command": "uvx", "args": ["mcp-server-aws-lambda-concurrency", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-lambda-invocations": {"command": "uvx", "args": ["mcp-server-aws-lambda-invocations", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-lambda-rmq": {"command": "uvx", "args": ["mcp-server-aws-lambda-rmq", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-lambda-sqs": {"command": "uvx", "args": ["mcp-server-aws-lambda-sqs", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "aws-lambda-sns": {"command": "uvx", "args": ["mcp-server-aws-lambda-sns", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}}
+}

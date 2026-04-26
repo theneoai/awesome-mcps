@@ -1,0 +1,12 @@
+{
+  "firebase-auth": {"command": "uvx", "args": ["mcp-server-firebase-auth", "--api-key", "${FIREBASE_API_KEY}"], "env": {"FIREBASE_API_KEY": "xxx"}},
+  "firebase-firestore": {"command": "uvx", "args": ["mcp-server-firebase-firestore", "--api-key", "${FIREBASE_API_KEY}"], "env": {"FIREBASE_API_KEY": "xxx"}},
+  "firebase-realtime-database": {"command": "uvx", "args": ["mcp-server-firebase-realtime-database", "--api-key", "${FIREBASE_API_KEY}"], "env": {"FIREBASE_API_KEY": "xxx"}},
+  "firebase-storage": {"command": "uvx", "args": ["mcp-server-firebase-storage", "--api-key", "${FIREBASE_API_KEY}"], "env": {"FIREBASE_API_KEY": "xxx"}},
+  "firebase-cloud-messaging": {"command": "uvx", "args": ["mcp-server-firebase-cloud-messaging", "--api-key", "${FIREBASE_API_KEY}"], "env": {"FIREBASE_API_KEY": "xxx"}},
+  "supabase-auth": {"command": "uvx", "args": ["mcp-server-supabase-auth", "--url", "${SUPABASE_URL}", "--anon-key", "${SUPABASE_ANON_KEY}"], "env": {"SUPABASE_URL": "https://xxx.supabase.co", "SUPABASE_ANON_KEY": "xxx"}},
+  "supabase-database": {"command": "uvx", "args": ["mcp-server-supabase-database", "--url", "${SUPABASE_URL}", "--anon-key", "${SUPABASE_ANON_KEY}"], "env": {"SUPABASE_URL": "https://xxx.supabase.co", "SUPABASE_ANON_KEY": "xxx"}},
+  "supabase-storage": {"command": "uvx", "args": ["mcp-server-supabase-storage", "--url", "${SUPABASE_URL}", "--anon-key", "${SUPABASE_ANON_KEY}"], "env": {"SUPABASE_URL": "https://xxx.supabase.co", "SUPABASE_ANON_KEY": "xxx"}},
+  "supabase-realtime": {"command": "uvx", "args": ["mcp-server-supabase-realtime", "--url", "${SUPABASE_URL}", "--anon-key", "${SUPABASE_ANON_KEY}"], "env": {"SUPABASE_URL": "https://xxx.supabase.co", "SUPABASE_ANON_KEY": "xxx"}},
+  "planetscale-database": {"command": "uvx", "args": ["mcp-server-planetscale-database", "--api-token", "${PLANETSCALE_API_TOKEN}"], "env": {"PLANETSCALE_API_TOKEN": "xxx"}}
+}

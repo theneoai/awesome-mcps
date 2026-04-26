@@ -1,0 +1,11 @@
+{
+  "docker-registry": {"command": "uvx", "args": ["mcp-server-docker-registry", "--url", "${DOCKER_REGISTRY_URL}"], "env": {"DOCKER_REGISTRY_URL": "https://registry.example.com", "DOCKER_REGISTRY_USERNAME": "xxx", "DOCKER_REGISTRY_PASSWORD": "xxx"}},
+  "ghcr": {"command": "uvx", "args": ["mcp-server-ghcr", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "gcr": {"command": "uvx", "args": ["mcp-server-gcr", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "ecr": {"command": "uvx", "args": ["mcp-server-ecr", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "acr": {"command": "uvx", "args": ["mcp-server-acr", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"], "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "quay": {"command": "uvx", "args": ["mcp-server-quay", "--url", "${QUAY_URL}", "--api-key", "${QUAY_API_KEY}"], "env": {"QUAY_URL": "https://quay.io", "QUAY_API_KEY": "xxx"}},
+  "harbor": {"command": "uvx", "args": ["mcp-server-harbor", "--url", "${HARBOR_URL}"], "env": {"HARBOR_URL": "https://harbor.example.com", "HARBOR_USERNAME": "xxx", "HARBOR_PASSWORD": "xxx"}},
+  "artifactory": {"command": "uvx", "args": ["mcp-server-artifactory", "--url", "${ARTIFACTORY_URL}"], "env": {"ARTIFACTORY_URL": "https://xxx.jfrog.io", "ARTIFACTORY_USERNAME": "xxx", "ARTIFACTORY_API_KEY": "xxx"}},
+  "nexus": {"command": "uvx", "args": ["mcp-server-nexus", "--url", "${NEXUS_URL}"], "env": {"NEXUS_URL": "http://localhost:8081", "NEXUS_USERNAME": "admin", "NEXUS_PASSWORD": "xxx"}}
+}

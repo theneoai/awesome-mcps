@@ -1,0 +1,37 @@
+{
+  "cloudflare-dns": {
+    "command": "uvx",
+    "args": ["mcp-server-cloudflare-dns", "--api-token", "${CF_API_TOKEN}"],
+    "env": {"CF_API_TOKEN": "xxx"}
+  },
+  "route53": {
+    "command": "uvx",
+    "args": ["mcp-server-route53", "--profile", "${AWS_PROFILE}"],
+    "env": {"AWS_PROFILE": "default", "AWS_REGION": "us-east-1"}
+  },
+  "azure-dns": {
+    "command": "uvx",
+    "args": ["mcp-server-azure-dns", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"],
+    "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}
+  },
+  "gcp-dns": {
+    "command": "uvx",
+    "args": ["mcp-server-gcp-dns", "--credentials-path", "${GCP_CREDENTIALS_PATH}"],
+    "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json", "GCP_PROJECT": "project"}
+  },
+  "dnsimple": {
+    "command": "uvx",
+    "args": ["mcp-server-dnsimple", "--api-token", "${DNSIMPLE_API_TOKEN}"],
+    "env": {"DNSIMPLE_API_TOKEN": "xxx"}
+  },
+  "godaddy": {
+    "command": "uvx",
+    "args": ["mcp-server-godaddy", "--api-key", "${GODADDY_API_KEY}", "--api-secret", "${GODADDY_API_SECRET}"],
+    "env": {"GODADDY_API_KEY": "xxx", "GODADDY_API_SECRET": "xxx"}
+  },
+  "namecheap": {
+    "command": "uvx",
+    "args": ["mcp-server-namecheap", "--api-user", "${NAMECHEAP_API_USER}", "--api-key", "${NAMECHEAP_API_KEY}"],
+    "env": {"NAMECHEAP_API_USER": "xxx", "NAMECHEAP_API_KEY": "xxx"}
+  }
+}

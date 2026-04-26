@@ -1,0 +1,37 @@
+{
+  "sentry": {
+    "command": "uvx",
+    "args": ["mcp-server-sentry", "--auth-token", "${SENTRY_AUTH_TOKEN}", "--organization", "${SENTRY_ORG}"],
+    "env": {"SENTRY_AUTH_TOKEN": "xxx", "SENTRY_ORG": "org"}
+  },
+  "bugsnag": {
+    "command": "uvx",
+    "args": ["mcp-server-bugsnag", "--api-key", "${BUGSNAG_API_KEY}"],
+    "env": {"BUGSNAG_API_KEY": "xxx"}
+  },
+  "rollbar": {
+    "command": "uvx",
+    "args": ["mcp-server-rollbar", "--access-token", "${ROLLBAR_ACCESS_TOKEN}"],
+    "env": {"ROLLBAR_ACCESS_TOKEN": "xxx"}
+  },
+  "raygun": {
+    "command": "uvx",
+    "args": ["mcp-server-raygun", "--api-key", "${RAYGUN_API_KEY}"],
+    "env": {"RAYGUN_API_KEY": "xxx"}
+  },
+  "airbrake": {
+    "command": "uvx",
+    "args": ["mcp-server-airbrake", "--project-id", "${AIRBRAKE_PROJECT_ID}", "--api-key", "${AIRBRAKE_API_KEY}"],
+    "env": {"AIRBRAKE_PROJECT_ID": "xxx", "AIRBRAKE_API_KEY": "xxx"}
+  },
+  "logrocket": {
+    "command": "uvx",
+    "args": ["mcp-server-logrocket", "--app-id", "${LOGROCKET_APP_ID}"],
+    "env": {"LOGROCKET_APP_ID": "xxx"}
+  },
+  "fullstory": {
+    "command": "uvx",
+    "args": ["mcp-server-fullstory", "--api-key", "${FULLSTORY_API_KEY}"],
+    "env": {"FULLSTORY_API_KEY": "xxx"}
+  }
+}
