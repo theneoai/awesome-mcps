@@ -1,0 +1,32 @@
+{
+  "usa-gov": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-usa-gov",
+      "--api-key", "${USA_GOV_API_KEY}"
+    ],
+    "env": {
+      "USA_GOV_API_KEY": "your-api-key"
+    }
+  },
+  "uk-gov": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-uk-gov",
+      "--api-key", "${UK_GOV_API_KEY}"
+    ],
+    "env": {
+      "UK_GOV_API_KEY": "your-api-key"
+    }
+  },
+  "data-gov": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-data-gov",
+      "--api-key", "${DATA_GOV_API_KEY}"
+    ],
+    "env": {
+      "DATA_GOV_API_KEY": "your-api-key"
+    }
+  }
+}

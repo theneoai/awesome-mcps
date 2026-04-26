@@ -1,0 +1,32 @@
+{
+  "1password": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-1password",
+      "--service-account-token", "${OP_SERVICE_ACCOUNT_TOKEN}"
+    ],
+    "env": {
+      "OP_SERVICE_ACCOUNT_TOKEN": "your-service-account-token"
+    }
+  },
+  "bitwarden": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-bitwarden",
+      "--api-key", "${BITWARDEN_API_KEY}"
+    ],
+    "env": {
+      "BITWARDEN_API_KEY": "your-api-key"
+    }
+  },
+  "lastpass": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-lastpass",
+      "--api-key", "${LASTPASS_API_KEY}"
+    ],
+    "env": {
+      "LASTPASS_API_KEY": "your-api-key"
+    }
+  }
+}

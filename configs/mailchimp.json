@@ -1,0 +1,12 @@
+{
+  "mailchimp": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-mailchimp"
+    ],
+    "env": {
+      "MAILCHIMP_API_KEY": "your-api-key",
+      "MAILCHIMP_SERVER_PREFIX": "us1"
+    }
+  }
+}

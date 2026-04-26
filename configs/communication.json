@@ -1,0 +1,36 @@
+{
+  "slack": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-slack",
+      "--bot-token", "${SLACK_BOT_TOKEN}"
+    ],
+    "env": {
+      "SLACK_BOT_TOKEN": "xoxb-xxx"
+    }
+  },
+  "discord": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-discord",
+      "--bot-token", "${DISCORD_BOT_TOKEN}"
+    ],
+    "env": {
+      "DISCORD_BOT_TOKEN": "your-bot-token"
+    }
+  },
+  "teams": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-teams",
+      "--client-id", "${TEAMS_CLIENT_ID}",
+      "--client-secret": "${TEAMS_CLIENT_SECRET}",
+      "--tenant-id": "${TEAMS_TENANT_ID}"
+    ],
+    "env": {
+      "TEAMS_CLIENT_ID": "your-client-id",
+      "TEAMS_CLIENT_SECRET": "your-client-secret",
+      "TEAMS_TENANT_ID": "your-tenant-id"
+    }
+  }
+}

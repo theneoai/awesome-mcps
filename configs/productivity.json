@@ -1,0 +1,68 @@
+{
+  "linear": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-linear",
+      "--api-key", "${LINEAR_API_KEY}"
+    ],
+    "env": {
+      "LINEAR_API_KEY": "lin_api_xxx"
+    }
+  },
+  "notion": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-notion",
+      "--api-key", "${NOTION_API_KEY}"
+    ],
+    "env": {
+      "NOTION_API_KEY": "secret_xxx"
+    }
+  },
+  "asana": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-asana",
+      "--access-token", "${ASANA_ACCESS_TOKEN}"
+    ],
+    "env": {
+      "ASANA_ACCESS_TOKEN": "your-access-token"
+    }
+  },
+  "trello": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-trello",
+      "--api-key", "${TRELLO_API_KEY}",
+      "--token", "${TRELLO_TOKEN}"
+    ],
+    "env": {
+      "TRELLO_API_KEY": "your-api-key",
+      "TRELLO_TOKEN": "your-token"
+    }
+  },
+  "monday": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-monday",
+      "--api-key", "${MONDAY_API_KEY}"
+    ],
+    "env": {
+      "MONDAY_API_KEY": "your-api-key"
+    }
+  },
+  "jira": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-jira",
+      "--host", "${JIRA_HOST}",
+      "--email", "${JIRA_EMAIL}",
+      "--api-token": "${JIRA_API_TOKEN}"
+    ],
+    "env": {
+      "JIRA_HOST": "https://your-domain.atlassian.net",
+      "JIRA_EMAIL": "your-email@example.com",
+      "JIRA_API_TOKEN": "your-api-token"
+    }
+  }
+}
