@@ -1,0 +1,54 @@
+{
+  "google-ads": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-google-ads",
+      "--developer-token", "${GOOGLE_ADS_DEVELOPER_TOKEN}",
+      "--client-id", "${GOOGLE_ADS_CLIENT_ID}",
+      "--client-secret": "${GOOGLE_ADS_CLIENT_SECRET}",
+      "--refresh-token": "${GOOGLE_ADS_REFRESH_TOKEN}"
+    ],
+    "env": {
+      "GOOGLE_ADS_DEVELOPER_TOKEN": "your-developer-token",
+      "GOOGLE_ADS_CLIENT_ID": "your-client-id",
+      "GOOGLE_ADS_CLIENT_SECRET": "your-client-secret",
+      "GOOGLE_ADS_REFRESH_TOKEN": "your-refresh-token"
+    }
+  },
+  "facebook-ads": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-facebook-ads",
+      "--access-token", "${FB_ACCESS_TOKEN}"
+    ],
+    "env": {
+      "FB_ACCESS_TOKEN": "your-access-token"
+    }
+  },
+  "linkedin-ads": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-linkedin-ads",
+      "--access-token", "${LINKEDIN_ADS_ACCESS_TOKEN}"
+    ],
+    "env": {
+      "LINKEDIN_ADS_ACCESS_TOKEN": "your-access-token"
+    }
+  },
+  "twitter-ads": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-twitter-ads",
+      "--api-key", "${TWITTER_API_KEY}",
+      "--api-secret": "${TWITTER_API_SECRET}",
+      "--access-token": "${TWITTER_ACCESS_TOKEN}",
+      "--access-token-secret": "${TWITTER_ACCESS_TOKEN_SECRET}"
+    ],
+    "env": {
+      "TWITTER_API_KEY": "your-api-key",
+      "TWITTER_API_SECRET": "your-api-secret",
+      "TWITTER_ACCESS_TOKEN": "your-access-token",
+      "TWITTER_ACCESS_TOKEN_SECRET": "your-access-token-secret"
+    }
+  }
+}

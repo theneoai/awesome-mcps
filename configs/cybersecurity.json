@@ -1,0 +1,52 @@
+{
+  "crowdstrike": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-crowdstrike",
+      "--client-id", "${CROWDSTRIKE_CLIENT_ID}",
+      "--client-secret": "${CROWDSTRIKE_CLIENT_SECRET}"
+    ],
+    "env": {
+      "CROWDSTRIKE_CLIENT_ID": "your-client-id",
+      "CROWDSTRIKE_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "okta": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-okta",
+      "--domain", "${OKTA_DOMAIN}",
+      "--api-token": "${OKTA_API_TOKEN}"
+    ],
+    "env": {
+      "OKTA_DOMAIN": "your-org.okta.com",
+      "OKTA_API_TOKEN": "your-api-token"
+    }
+  },
+  "auth0": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-auth0",
+      "--domain", "${AUTH0_DOMAIN}",
+      "--client-id": "${AUTH0_CLIENT_ID}",
+      "--client-secret": "${AUTH0_CLIENT_SECRET}"
+    ],
+    "env": {
+      "AUTH0_DOMAIN": "your-domain.auth0.com",
+      "AUTH0_CLIENT_ID": "your-client-id",
+      "AUTH0_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "sentinelone": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-sentinelone",
+      "--api-token", "${SENTINELONE_API_TOKEN}",
+      "--domain": "${SENTINELONE_DOMAIN}"
+    ],
+    "env": {
+      "SENTINELONE_API_TOKEN": "your-api-token",
+      "SENTINELONE_DOMAIN": "your-domain.sentinelone.net"
+    }
+  }
+}

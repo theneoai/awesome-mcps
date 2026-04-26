@@ -1,0 +1,22 @@
+{
+  "zillow": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-zillow",
+      "--api-key", "${ZILLOW_API_KEY}"
+    ],
+    "env": {
+      "ZILLOW_API_KEY": "your-api-key"
+    }
+  },
+  "redfin": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-redfin",
+      "--api-key", "${REDFIN_API_KEY}"
+    ],
+    "env": {
+      "REDFIN_API_KEY": "your-api-key"
+    }
+  }
+}

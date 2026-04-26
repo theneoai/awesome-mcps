@@ -1,0 +1,62 @@
+{
+  "hubspot": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-hubspot",
+      "--api-key", "${HUBSPOT_API_KEY}"
+    ],
+    "env": {
+      "HUBSPOT_API_KEY": "your-api-key"
+    }
+  },
+  "salesforce": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-salesforce",
+      "--client-id", "${SALESFORCE_CLIENT_ID}",
+      "--client-secret": "${SALESFORCE_CLIENT_SECRET}",
+      "--instance-url": "${SALESFORCE_INSTANCE_URL}"
+    ],
+    "env": {
+      "SALESFORCE_CLIENT_ID": "your-client-id",
+      "SALESFORCE_CLIENT_SECRET": "your-client-secret",
+      "SALESFORCE_INSTANCE_URL": "https://your-instance.salesforce.com"
+    }
+  },
+  "pipedrive": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-pipedrive",
+      "--api-token", "${PIPEDRIVE_API_TOKEN}"
+    ],
+    "env": {
+      "PIPEDRIVE_API_TOKEN": "your-api-token"
+    }
+  },
+  "zoho": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-zoho",
+      "--client-id", "${ZOHO_CLIENT_ID}",
+      "--client-secret": "${ZOHO_CLIENT_SECRET}",
+      "--datacenter", "${ZOHO_DATACENTER}"
+    ],
+    "env": {
+      "ZOHO_CLIENT_ID": "your-client-id",
+      "ZOHO_CLIENT_SECRET": "your-client-secret",
+      "ZOHO_DATACENTER": "com"
+    }
+  },
+  "freshsales": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-freshsales",
+      "--api-key", "${FRESHSALES_API_KEY}",
+      "--domain": "${FRESHSALES_DOMAIN}"
+    ],
+    "env": {
+      "FRESHSALES_API_KEY": "your-api-key",
+      "FRESHSALES_DOMAIN": "your-domain.freshsales.com"
+    }
+  }
+}

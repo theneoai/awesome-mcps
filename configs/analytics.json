@@ -1,0 +1,67 @@
+{
+  "google-analytics": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-google-analytics",
+      "--credentials-path", "${GA_CREDENTIALS_PATH}"
+    ],
+    "env": {
+      "GA_CREDENTIALS_PATH": "/path/to/credentials.json",
+      "GA_PROPERTY_ID": "your-property-id"
+    }
+  },
+  "mixpanel": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-mixpanel",
+      "--api-secret", "${MIXPANEL_API_SECRET}"
+    ],
+    "env": {
+      "MIXPANEL_API_SECRET": "your-api-secret"
+    }
+  },
+  "amplitude": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-amplitude",
+      "--api-key", "${AMPLITUDE_API_KEY}"
+    ],
+    "env": {
+      "AMPLITUDE_API_KEY": "your-api-key"
+    }
+  },
+  "segment": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-segment",
+      "--write-key", "${SEGMENT_WRITE_KEY}"
+    ],
+    "env": {
+      "SEGMENT_WRITE_KEY": "your-write-key"
+    }
+  },
+  "posthog": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-posthog",
+      "--api-key", "${POSTHOG_API_KEY}",
+      "--host", "${POSTHOG_HOST}"
+    ],
+    "env": {
+      "POSTHOG_API_KEY": "phc_xxx",
+      "POSTHOG_HOST": "https://app.posthog.com"
+    }
+  },
+  "heap": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-heap",
+      "--app-id", "${HEAP_APP_ID}",
+      "--api-key": "${HEAP_API_KEY}"
+    ],
+    "env": {
+      "HEAP_APP_ID": "your-app-id",
+      "HEAP_API_KEY": "your-api-key"
+    }
+  }
+}

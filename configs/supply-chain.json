@@ -1,0 +1,34 @@
+{
+  "ups-tracking": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-ups-tracking",
+      "--api-key", "${UPS_TRACKING_API_KEY}"
+    ],
+    "env": {
+      "UPS_TRACKING_API_KEY": "your-api-key"
+    }
+  },
+  "fedex-tracking": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-fedex-tracking",
+      "--client-id", "${FEDEX_TRACKING_CLIENT_ID}",
+      "--client-secret": "${FEDEX_TRACKING_CLIENT_SECRET}"
+    ],
+    "env": {
+      "FEDEX_TRACKING_CLIENT_ID": "your-client-id",
+      "FEDEX_TRACKING_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "dhl-tracking": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-dhl-tracking",
+      "--api-key", "${DHL_TRACKING_API_KEY}"
+    ],
+    "env": {
+      "DHL_TRACKING_API_KEY": "your-api-key"
+    }
+  }
+}

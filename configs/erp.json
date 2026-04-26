@@ -1,0 +1,62 @@
+{
+  "sap": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-sap",
+      "--host", "${SAP_HOST}",
+      "--client", "${SAP_CLIENT}",
+      "--user", "${SAP_USER}",
+      "--password": "${SAP_PASSWORD}"
+    ],
+    "env": {
+      "SAP_HOST": "https://your-sap-host.com",
+      "SAP_CLIENT": "100",
+      "SAP_USER": "your-user",
+      "SAP_PASSWORD": "your-password"
+    }
+  },
+  "quickbooks": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-quickbooks",
+      "--client-id", "${QB_CLIENT_ID}",
+      "--client-secret": "${QB_CLIENT_SECRET}",
+      "--realm-id": "${QB_REALM_ID}"
+    ],
+    "env": {
+      "QB_CLIENT_ID": "your-client-id",
+      "QB_CLIENT_SECRET": "your-client-secret",
+      "QB_REALM_ID": "your-realm-id"
+    }
+  },
+  "xero": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-xero",
+      "--client-id", "${XERO_CLIENT_ID}",
+      "--client-secret": "${XERO_CLIENT_SECRET}"
+    ],
+    "env": {
+      "XERO_CLIENT_ID": "your-client-id",
+      "XERO_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "netsuite": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-netsuite",
+      "--account-id", "${NETSUITE_ACCOUNT_ID}",
+      "--consumer-key": "${NETSUITE_CONSUMER_KEY}",
+      "--consumer-secret": "${NETSUITE_CONSUMER_SECRET}",
+      "--token-key": "${NETSUITE_TOKEN_KEY}",
+      "--token-secret": "${NETSUITE_TOKEN_SECRET}"
+    ],
+    "env": {
+      "NETSUITE_ACCOUNT_ID": "your-account-id",
+      "NETSUITE_CONSUMER_KEY": "your-consumer-key",
+      "NETSUITE_CONSUMER_SECRET": "your-consumer-secret",
+      "NETSUITE_TOKEN_KEY": "your-token-key",
+      "NETSUITE_TOKEN_SECRET": "your-token-secret"
+    }
+  }
+}
