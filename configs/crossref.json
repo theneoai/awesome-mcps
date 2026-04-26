@@ -1,0 +1,9 @@
+{
+  "crossref": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-crossref"
+    ],
+    "env": {}
+  }
+}

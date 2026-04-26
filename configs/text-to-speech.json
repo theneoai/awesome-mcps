@@ -1,0 +1,12 @@
+{
+  "openai-audio-speech": {"command": "uvx", "args": ["mcp-server-openai-audio-speech", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-audio-transcriptions": {"command": "uvx", "args": ["mcp-server-openai-audio-transcriptions", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-audio-translations": {"command": "uvx", "args": ["mcp-server-openai-audio-translations", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "eleven-labs-tts": {"command": "uvx", "args": ["mcp-server-eleven-labs-tts", "--api-key", "${ELEVEN_LABS_API_KEY}"], "env": {"ELEVEN_LABS_API_KEY": "xxx"}},
+  "eleven-labs-voices": {"command": "uvx", "args": ["mcp-server-eleven-labs-voices", "--api-key", "${ELEVEN_LABS_API_KEY}"], "env": {"ELEVEN_LABS_API_KEY": "xxx"}},
+  "murf-tts": {"command": "uvx", "args": ["mcp-server-murf-tts", "--api-key", "${MURF_API_KEY}"], "env": {"MURF_API_KEY": "xxx"}},
+  "play-ht-tts": {"command": "uvx", "args": ["mcp-server-play-ht-tts", "--api-key", "${PLAY_HT_API_KEY}"], "env": {"PLAY_HT_API_KEY": "xxx"}},
+  "coqui-tts": {"command": "uvx", "args": ["mcp-server-coqui-tts", "--api-key", "${COQUI_API_KEY}"], "env": {"COQUI_API_KEY": "xxx"}},
+  "azure-speech": {"command": "uvx", "args": ["mcp-server-azure-speech", "--key", "${AZURE_SPEECH_KEY}", "--region", "${AZURE_SPEECH_REGION}"], "env": {"AZURE_SPEECH_KEY": "xxx", "AZURE_SPEECH_REGION": "eastus"}},
+  "aws-polly": {"command": "uvx", "args": ["mcp-server-aws-polly", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}}
+}

@@ -1,0 +1,12 @@
+{
+  "nhl-games": {"command": "uvx", "args": ["mcp-server-nhl-games", "--api-key", "${NHL_API_KEY}"], "env": {"NHL_API_KEY": "xxx"}},
+  "nhl-players": {"command": "uvx", "args": ["mcp-server-nhl-players", "--api-key", "${NHL_API_KEY}"], "env": {"NHL_API_KEY": "xxx"}},
+  "nhl-teams": {"command": "uvx", "args": ["mcp-server-nhl-teams", "--api-key", "${NHL_API_KEY}"], "env": {"NHL_API_KEY": "xxx"}},
+  "premier-league-matches": {"command": "uvx", "args": ["mcp-server-premier-league-matches", "--api-key", "${PL_API_KEY}"], "env": {"PL_API_KEY": "xxx"}},
+  "premier-league-teams": {"command": "uvx", "args": ["mcp-server-premier-league-teams", "--api-key", "${PL_API_KEY}"], "env": {"PL_API_KEY": "xxx"}},
+  "premier-league-players": {"command": "uvx", "args": ["mcp-server-premier-league-players", "--api-key", "${PL_API_KEY}"], "env": {"PL_API_KEY": "xxx"}},
+  "uefa-champions-league": {"command": "uvx", "args": ["mcp-server-uefa-champions-league", "--api-key", "${UEFA_API_KEY}"], "env": {"UEFA_API_KEY": "xxx"}},
+  "fifa-world-cup": {"command": "uvx", "args": ["mcp-server-fifa-world-cup", "--api-key", "${FIFA_API_KEY}"], "env": {"FIFA_API_KEY": "xxx"}},
+  "tennis-atp": {"command": "uvx", "args": ["mcp-server-tennis-atp", "--api-key", "${TENNIS_API_KEY}"], "env": {"TENNIS_API_KEY": "xxx"}},
+  "tennis-wta": {"command": "uvx", "args": ["mcp-server-tennis-wta", "--api-key", "${TENNIS_API_KEY}"], "env": {"TENNIS_API_KEY": "xxx"}}
+}

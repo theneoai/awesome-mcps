@@ -1,0 +1,12 @@
+{
+  "notion-databases": {"command": "uvx", "args": ["mcp-server-notion-databases", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "notion-pages": {"command": "uvx", "args": ["mcp-server-notion-pages", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "notion-blocks": {"command": "uvx", "args": ["mcp-server-notion-blocks", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "notion-users": {"command": "uvx", "args": ["mcp-server-notion-users", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "confluence-pages": {"command": "uvx", "args": ["mcp-server-confluence-pages", "--url", "${CONFLUENCE_URL}", "--email", "${CONFLUENCE_EMAIL}", "--api-token", "${CONFLUENCE_API_TOKEN}"], "env": {"CONFLUENCE_URL": "https://xxx.atlassian.net", "CONFLUENCE_EMAIL": "xxx@xxx.com", "CONFLUENCE_API_TOKEN": "xxx"}},
+  "confluence-spaces": {"command": "uvx", "args": ["mcp-server-confluence-spaces", "--url", "${CONFLUENCE_URL}", "--email", "${CONFLUENCE_EMAIL}", "--api-token", "${CONFLUENCE_API_TOKEN}"], "env": {"CONFLUENCE_URL": "https://xxx.atlassian.net", "CONFLUENCE_EMAIL": "xxx@xxx.com", "CONFLUENCE_API_TOKEN": "xxx"}},
+  "confluence-blogposts": {"command": "uvx", "args": ["mcp-server-confluence-blogposts", "--url", "${CONFLUENCE_URL}", "--email", "${CONFLUENCE_EMAIL}", "--api-token", "${CONFLUENCE_API_TOKEN}"], "env": {"CONFLUENCE_URL": "https://xxx.atlassian.net", "CONFLUENCE_EMAIL": "xxx@xxx.com", "CONFLUENCE_API_TOKEN": "xxx"}},
+  "confluence-comments": {"command": "uvx", "args": ["mcp-server-confluence-comments", "--url", "${CONFLUENCE_URL}", "--email", "${CONFLUENCE_EMAIL}", "--api-token", "${CONFLUENCE_API_TOKEN}"], "env": {"CONFLUENCE_URL": "https://xxx.atlassian.net", "CONFLUENCE_EMAIL": "xxx@xxx.com", "CONFLUENCE_API_TOKEN": "xxx"}},
+  "confluence-attachments": {"command": "uvx", "args": ["mcp-server-confluence-attachments", "--url", "${CONFLUENCE_URL}", "--email", "${CONFLUENCE_EMAIL}", "--api-token", "${CONFLUENCE_API_TOKEN}"], "env": {"CONFLUENCE_URL": "https://xxx.atlassian.net", "CONFLUENCE_EMAIL": "xxx@xxx.com", "CONFLUENCE_API_TOKEN": "xxx"}},
+  "guru-cards": {"command": "uvx", "args": ["mcp-server-guru-cards", "--api-key", "${GURU_API_KEY}"], "env": {"GURU_API_KEY": "xxx"}}
+}

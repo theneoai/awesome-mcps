@@ -1,0 +1,12 @@
+{
+  "flyio-apps": {"command": "uvx", "args": ["mcp-server-flyio-apps", "--access-token", "${FLYIO_ACCESS_TOKEN}"], "env": {"FLYIO_ACCESS_TOKEN": "xxx"}},
+  "surg-io-deployments": {"command": "uvx", "args": ["mcp-server-surg-io-deployments", "--api-key", "${SURGE_API_KEY}"], "env": {"SURGE_API_KEY": "xxx"}},
+  "neon-databases": {"command": "uvx", "args": ["mcp-server-neon-databases", "--api-key", "${NEON_API_KEY}"], "env": {"NEON_API_KEY": "xxx"}},
+  "neon-branches": {"command": "uvx", "args": ["mcp-server-neon-branches", "--api-key", "${NEON_API_KEY}"], "env": {"NEON_API_KEY": "xxx"}},
+  "turso-databases": {"command": "uvx", "args": ["mcp-server-turso-databases", "--api-key", "${TURSO_API_KEY}"], "env": {"TURSO_API_KEY": "xxx"}},
+  "turso-queries": {"command": "uvx", "args": ["mcp-server-turso-queries", "--api-key", "${TURSO_API_KEY}"], "env": {"TURSO_API_KEY": "xxx"}},
+  "cockroachdb-databases": {"command": "uvx", "args": ["mcp-server-cockroachdb-databases", "--api-key", "${COCKROACHDB_API_KEY}"], "env": {"COCKROACHDB_API_KEY": "xxx"}},
+  "yugabytedb-databases": {"command": "uvx", "args": ["mcp-server-yugabytedb-databases", "--api-key", "${YUGABYTEDB_API_KEY}"], "env": {"YUGABYTEDB_API_KEY": "xxx"}},
+  "singlestore-databases": {"command": "uvx", "args": ["mcp-server-singlestore-databases", "--api-key", "${SINGLESTORE_API_KEY}"], "env": {"SINGLESTORE_API_KEY": "xxx"}},
+  "questdb-databases": {"command": "uvx", "args": ["mcp-server-questdb-databases", "--url", "${QUESTDB_URL}"], "env": {"QUESTDB_URL": "http://localhost:9000"}}
+}

@@ -1,0 +1,11 @@
+{
+  "mendeley": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-mendeley"
+    ],
+    "env": {
+      "MENDELEY_TOKEN": "your-token"
+    }
+  }
+}

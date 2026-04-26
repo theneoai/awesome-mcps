@@ -1,0 +1,12 @@
+{
+  "openai-assistants-v2": {"command": "uvx", "args": ["mcp-server-openai-assistants-v2", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-threads": {"command": "uvx", "args": ["mcp-server-openai-threads", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-messages": {"command": "uvx", "args": ["mcp-server-openai-messages", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-runs": {"command": "uvx", "args": ["mcp-server-openai-runs", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-run-steps": {"command": "uvx", "args": ["mcp-server-openai-run-steps", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "anthropic-claude-messages": {"command": "uvx", "args": ["mcp-server-anthropic-claude-messages", "--api-key", "${ANTHROPIC_API_KEY}"], "env": {"ANTHROPIC_API_KEY": "sk-ant-xxx"}},
+  "google-gemini-chats": {"command": "uvx", "args": ["mcp-server-google-gemini-chats", "--api-key", "${GOOGLE_GEMINI_API_KEY}"], "env": {"GOOGLE_GEMINI_API_KEY": "xxx"}},
+  "cohere-chats": {"command": "uvx", "args": ["mcp-server-cohere-chats", "--api-key", "${COHERE_API_KEY}"], "env": {"COHERE_API_KEY": "xxx"}},
+  "ai21-chats": {"command": "uvx", "args": ["mcp-server-ai21-chats", "--api-key", "${AI21_API_KEY}"], "env": {"AI21_API_KEY": "xxx"}},
+  "mistral-chats": {"command": "uvx", "args": ["mcp-server-mistral-chats", "--api-key", "${MISTRAL_API_KEY}"], "env": {"MISTRAL_API_KEY": "xxx"}}
+}

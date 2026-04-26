@@ -1,0 +1,11 @@
+{
+  "coinmarketcap": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-coinmarketcap"
+    ],
+    "env": {
+      "COINMARKETCAP_API_KEY": "your-api-key"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "azure-files": {"command": "uvx", "args": ["mcp-server-azure-files", "--connection-string", "${AZURE_STORAGE_CONNECTION_STRING}"], "env": {"AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=xxx"}},
+  "gcs-buckets": {"command": "uvx", "args": ["mcp-server-gcs-buckets", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "gcs-objects": {"command": "uvx", "args": ["mcp-server-gcs-objects", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "backblaze-b2-buckets": {"command": "uvx", "args": ["mcp-server-backblaze-b2-buckets", "--key-id", "${BACKBLAZE_KEY_ID}", "--application-key", "${BACKBLAZE_APPLICATION_KEY}"], "env": {"BACKBLAZE_KEY_ID": "xxx", "BACKBLAZE_APPLICATION_KEY": "xxx"}},
+  "backblaze-b2-objects": {"command": "uvx", "args": ["mcp-server-backblaze-b2-objects", "--key-id", "${BACKBLAZE_KEY_ID}", "--application-key", "${BACKBLAZE_APPLICATION_KEY}"], "env": {"BACKBLAZE_KEY_ID": "xxx", "BACKBLAZE_APPLICATION_KEY": "xxx"}},
+  "cloudflare-r2-buckets": {"command": "uvx", "args": ["mcp-server-cloudflare-r2-buckets", "--api-key", "${CF_API_KEY}", "--account-id", "${CF_ACCOUNT_ID}"], "env": {"CF_API_KEY": "xxx", "CF_ACCOUNT_ID": "xxx"}},
+  "cloudflare-r2-objects": {"command": "uvx", "args": ["mcp-server-cloudflare-r2-objects", "--api-key", "${CF_API_KEY}", "--account-id", "${CF_ACCOUNT_ID}"], "env": {"CF_API_KEY": "xxx", "CF_ACCOUNT_ID": "xxx"}},
+  "wasabi-buckets": {"command": "uvx", "args": ["mcp-server-wasabi-buckets", "--access-key", "${WASABI_ACCESS_KEY}", "--secret-key", "${WASABI_SECRET_KEY}"], "env": {"WASABI_ACCESS_KEY": "xxx", "WASABI_SECRET_KEY": "xxx"}},
+  "wasabi-objects": {"command": "uvx", "args": ["mcp-server-wasabi-objects", "--access-key", "${WASABI_ACCESS_KEY}", "--secret-key", "${WASABI_SECRET_KEY}"], "env": {"WASABI_ACCESS_KEY": "xxx", "WASABI_SECRET_KEY": "xxx"}},
+  "digitalocean-spaces": {"command": "uvx", "args": ["mcp-server-digitalocean-spaces", "--token", "${DO_TOKEN}"], "env": {"DO_TOKEN": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "stripe-balance-transactions": {"command": "uvx", "args": ["mcp-server-stripe-balance-transactions", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-balance-history": {"command": "uvx", "args": ["mcp-server-stripe-balance-history", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-available-balance": {"command": "uvx", "args": ["mcp-server-stripe-available-balance", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-pending-balance": {"command": "uvx", "args": ["mcp-server-stripe-pending-balance", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "wise-balance": {"command": "uvx", "args": ["mcp-server-wise-balance", "--api-key", "${WISE_API_KEY}"], "env": {"WISE_API_KEY": "xxx"}},
+  "wise-transactions": {"command": "uvx", "args": ["mcp-server-wise-transactions", "--api-key", "${WISE_API_KEY}"], "env": {"WISE_API_KEY": "xxx"}},
+  "revolut-balance": {"command": "uvx", "args": ["mcp-server-revolut-balance", "--api-token", "${REVOLUT_API_TOKEN}"], "env": {"REVOLUT_API_TOKEN": "xxx"}},
+  "revolut-transactions": {"command": "uvx", "args": ["mcp-server-revolut-transactions", "--api-token", "${REVOLUT_API_TOKEN}"], "env": {"REVOLUT_API_TOKEN": "xxx"}},
+  "mercury-balance": {"command": "uvx", "args": ["mcp-server-mercury-balance", "--api-key", "${MERCURY_API_KEY}"], "env": {"MERCURY_API_KEY": "xxx"}},
+  "mercury-transactions": {"command": "uvx", "args": ["mcp-server-mercury-transactions", "--api-key", "${MERCURY_API_KEY}"], "env": {"MERCURY_API_KEY": "xxx"}}
+}

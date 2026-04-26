@@ -1,0 +1,11 @@
+{
+  "openweathermap": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-openweathermap"
+    ],
+    "env": {
+      "OPENWEATHERMAP_API_KEY": "your-api-key"
+    }
+  }
+}

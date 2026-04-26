@@ -1,0 +1,12 @@
+{
+  "openai-images": {"command": "uvx", "args": ["mcp-server-openai-images", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-image-edits": {"command": "uvx", "args": ["mcp-server-openai-image-edits", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-image-variations": {"command": "uvx", "args": ["mcp-server-openai-image-variations", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "stability-ai-images": {"command": "uvx", "args": ["mcp-server-stability-ai-images", "--api-key", "${STABILITY_AI_API_KEY}"], "env": {"STABILITY_AI_API_KEY": "xxx"}},
+  "midjourney-images": {"command": "uvx", "args": ["mcp-server-midjourney-images", "--api-key", "${MIDJOURNEY_API_KEY}"], "env": {"MIDJOURNEY_API_KEY": "xxx"}},
+  "dall-e-3": {"command": "uvx", "args": ["mcp-server-dall-e-3", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "stable-diffusion-xl": {"command": "uvx", "args": ["mcp-server-stable-diffusion-xl", "--api-key", "${STABILITY_AI_API_KEY}"], "env": {"STABILITY_AI_API_KEY": "xxx"}},
+  "leonardo-ai-images": {"command": "uvx", "args": ["mcp-server-leonardo-ai-images", "--api-key", "${LEONARDO_API_KEY}"], "env": {"LEONARDO_API_KEY": "xxx"}},
+  "runway-images": {"command": "uvx", "args": ["mcp-server-runway-images", "--api-key", "${RUNWAY_API_KEY}"], "env": {"RUNWAY_API_KEY": "xxx"}},
+  "adobe-firefly": {"command": "uvx", "args": ["mcp-server-adobe-firefly", "--api-key", "${ADOBE_FIREFLY_API_KEY}"], "env": {"ADOBE_FIREFLY_API_KEY": "xxx"}}
+}

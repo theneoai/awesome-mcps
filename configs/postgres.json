@@ -1,11 +1,22 @@
 {
-  "postgres": {
-    "command": "npx",
+  "postgresql": {
+    "command": "uvx",
     "args": [
-      "-y",
-      "@modelcontextprotocol/server-postgres",
-      "postgresql://YOUR_USER:YOUR_PASSWORD@YOUR_HOST:5432/YOUR_DATABASE"
+      "mcp-server-postgresql",
+      "--connection-string", "${POSTGRES_CONNECTION_STRING}"
     ],
-    "env": {}
+    "env": {
+      "POSTGRES_CONNECTION_STRING": "postgresql://user:pass@localhost:5432/db"
+    }
+  },
+  "postgres-ray": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-postgres-ray",
+      "--dsn", "${POSTGRES_DSN}"
+    ],
+    "env": {
+      "POSTGRES_DSN": "postgresql://user:pass@localhost:5432/db"
+    }
   }
 }

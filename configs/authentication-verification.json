@@ -1,0 +1,12 @@
+{
+  "twilio-verify": {"command": "uvx", "args": ["mcp-server-twilio-verify", "--account-sid", "${TWILIO_ACCOUNT_SID}", "--auth-token", "${TWILIO_AUTH_TOKEN}"], "env": {"TWILIO_ACCOUNT_SID": "xxx", "TWILIO_AUTH_TOKEN": "xxx"}},
+  "nexmo-verify": {"command": "uvx", "args": ["mcp-server-nexmo-verify", "--api-key", "${NEXMO_API_KEY}", "--api-secret", "${NEXMO_API_SECRET}"], "env": {"NEXMO_API_KEY": "xxx", "NEXMO_API_SECRET": "xxx"}},
+  "auth0-verification": {"command": "uvx", "args": ["mcp-server-auth0-verification", "--domain", "${AUTH0_DOMAIN}", "--client-id", "${AUTH0_CLIENT_ID}", "--client-secret", "${AUTH0_CLIENT_SECRET}"], "env": {"AUTH0_DOMAIN": "xxx.auth0.com", "AUTH0_CLIENT_ID": "xxx", "AUTH0_CLIENT_SECRET": "xxx"}},
+  "okta-verification": {"command": "uvx", "args": ["mcp-server-okta-verification", "--domain", "${OKTA_DOMAIN}", "--api-token", "${OKTA_API_TOKEN}"], "env": {"OKTA_DOMAIN": "xxx.okta.com", "OKTA_API_TOKEN": "xxx"}},
+  "firebase-verification": {"command": "uvx", "args": ["mcp-server-firebase-verification", "--credentials-path", "${FIREBASE_CREDENTIALS_PATH}"], "env": {"FIREBASE_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "supabase-verification": {"command": "uvx", "args": ["mcp-server-supabase-verification", "--url", "${SUPABASE_URL}", "--anon-key", "${SUPABASE_ANON_KEY}"], "env": {"SUPABASE_URL": "https://xxx.supabase.co", "SUPABASE_ANON_KEY": "xxx"}},
+  "clerk-verification": {"command": "uvx", "args": ["mcp-server-clerk-verification", "--api-key", "${CLERK_API_KEY}"], "env": {"CLERK_API_KEY": "xxx"}},
+  "stytch-verification": {"command": "uvx", "args": ["mcp-server-stytch-verification", "--project-id", "${STYTCH_PROJECT_ID}", "--secret", "${STYTCH_SECRET}"], "env": {"STYTCH_PROJECT_ID": "xxx", "STYTCH_SECRET": "xxx"}},
+  "magic-link": {"command": "uvx", "args": ["mcp-server-magic-link", "--api-key", "${MAGIC_LINK_API_KEY}"], "env": {"MAGIC_LINK_API_KEY": "xxx"}},
+  "passwordless": {"command": "uvx", "args": ["mcp-server-passwordless", "--api-key", "${PASSWORDLESS_API_KEY}"], "env": {"PASSWORDLESS_API_KEY": "xxx"}}
+}

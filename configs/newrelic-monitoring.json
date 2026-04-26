@@ -1,0 +1,12 @@
+{
+  "newrelic-entities": {"command": "uvx", "args": ["mcp-server-newrelic-entities", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-alerts": {"command": "uvx", "args": ["mcp-server-newrelic-alerts", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-workloads": {"command": "uvx", "args": ["mcp-server-newrelic-workloads", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-dashboards": {"command": "uvx", "args": ["mcp-server-newrelic-dashboards", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-logs": {"command": "uvx", "args": ["mcp-server-newrelic-logs", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-events": {"command": "uvx", "args": ["mcp-server-newrelic-events", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-metrics": {"command": "uvx", "args": ["mcp-server-newrelic-metrics", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-traces": {"command": "uvx", "args": ["mcp-server-newrelic-traces", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-apm": {"command": "uvx", "args": ["mcp-server-newrelic-apm", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-infrastructure": {"command": "uvx", "args": ["mcp-server-newrelic-infrastructure", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}}
+}

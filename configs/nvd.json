@@ -1,0 +1,9 @@
+{
+  "nvd": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-nvd"
+    ],
+    "env": {}
+  }
+}

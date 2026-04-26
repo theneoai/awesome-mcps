@@ -1,0 +1,12 @@
+{
+  "mongodb": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mongodb-js/mongodb-mcp-server"
+    ],
+    "env": {
+      "MONGODB_URI": "mongodb://localhost:27017"
+    }
+  }
+}

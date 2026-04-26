@@ -1,0 +1,12 @@
+{
+  "hubspot-contacts": {"command": "uvx", "args": ["mcp-server-hubspot-contacts", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-companies": {"command": "uvx", "args": ["mcp-server-hubspot-companies", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-deals": {"command": "uvx", "args": ["mcp-server-hubspot-deals", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "hubspot-tickets": {"command": "uvx", "args": ["mcp-server-hubspot-tickets", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "salesforce-contacts": {"command": "uvx", "args": ["mcp-server-salesforce-contacts", "--client-id", "${SALESFORCE_CLIENT_ID}", "--client-secret", "${SALESFORCE_CLIENT_SECRET}", "--instance-url", "${SALESFORCE_INSTANCE_URL}"], "env": {"SALESFORCE_CLIENT_ID": "xxx", "SALESFORCE_CLIENT_SECRET": "xxx", "SALESFORCE_INSTANCE_URL": "https://xxx.salesforce.com"}},
+  "salesforce-accounts": {"command": "uvx", "args": ["mcp-server-salesforce-accounts", "--client-id", "${SALESFORCE_CLIENT_ID}", "--client-secret", "${SALESFORCE_CLIENT_SECRET}", "--instance-url", "${SALESFORCE_INSTANCE_URL}"], "env": {"SALESFORCE_CLIENT_ID": "xxx", "SALESFORCE_CLIENT_SECRET": "xxx", "SALESFORCE_INSTANCE_URL": "https://xxx.salesforce.com"}},
+  "salesforce-leads": {"command": "uvx", "args": ["mcp-server-salesforce-leads", "--client-id", "${SALESFORCE_CLIENT_ID}", "--client-secret", "${SALESFORCE_CLIENT_SECRET}", "--instance-url", "${SALESFORCE_INSTANCE_URL}"], "env": {"SALESFORCE_CLIENT_ID": "xxx", "SALESFORCE_CLIENT_SECRET": "xxx", "SALESFORCE_INSTANCE_URL": "https://xxx.salesforce.com"}},
+  "salesforce-opportunities": {"command": "uvx", "args": ["mcp-server-salesforce-opportunities", "--client-id", "${SALESFORCE_CLIENT_ID}", "--client-secret", "${SALESFORCE_CLIENT_SECRET}", "--instance-url", "${SALESFORCE_INSTANCE_URL}"], "env": {"SALESFORCE_CLIENT_ID": "xxx", "SALESFORCE_CLIENT_SECRET": "xxx", "SALESFORCE_INSTANCE_URL": "https://xxx.salesforce.com"}},
+  "pipedrive-persons": {"command": "uvx", "args": ["mcp-server-pipedrive-persons", "--api-token", "${PIPEDRIVE_API_TOKEN}"], "env": {"PIPEDRIVE_API_TOKEN": "xxx"}},
+  "pipedrive-organizations": {"command": "uvx", "args": ["mcp-server-pipedrive-organizations", "--api-token", "${PIPEDRIVE_API_TOKEN}"], "env": {"PIPEDRIVE_API_TOKEN": "xxx"}}
+}

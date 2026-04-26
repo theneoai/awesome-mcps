@@ -1,0 +1,60 @@
+{
+  "pagerduty": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-pagerduty",
+      "--api-key", "${PAGERDUTY_API_KEY}"
+    ],
+    "env": {
+      "PAGERDUTY_API_KEY": "your-api-key"
+    }
+  },
+  "datadog": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-datadog",
+      "--api-key", "${DD_API_KEY}",
+      "--app-key": "${DD_APP_KEY}"
+    ],
+    "env": {
+      "DD_API_KEY": "your-api-key",
+      "DD_APP_KEY": "your-app-key"
+    }
+  },
+  "newrelic": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-newrelic",
+      "--api-key", "${NEWRELIC_API_KEY}",
+      "--account-id": "${NEWRELIC_ACCOUNT_ID}"
+    ],
+    "env": {
+      "NEWRELIC_API_KEY": "your-api-key",
+      "NEWRELIC_ACCOUNT_ID": "your-account-id"
+    }
+  },
+  "grafana": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-grafana",
+      "--host", "${GRAFANA_HOST}",
+      "--token", "${GRAFANA_TOKEN}"
+    ],
+    "env": {
+      "GRAFANA_HOST": "https://your-grafana.com",
+      "GRAFANA_TOKEN": "your-api-token"
+    }
+  },
+  "sentry": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-sentry",
+      "--auth-token", "${SENTRY_AUTH_TOKEN}",
+      "--organization": "${SENTRY_ORG}"
+    ],
+    "env": {
+      "SENTRY_AUTH_TOKEN": "your-auth-token",
+      "SENTRY_ORG": "your-org"
+    }
+  }
+}

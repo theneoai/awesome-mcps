@@ -1,0 +1,12 @@
+{
+  "kling-video": {"command": "uvx", "args": ["mcp-server-kling-video", "--api-key", "${KLING_API_KEY}"], "env": {"KLING_API_KEY": "xxx"}},
+  "pika-video": {"command": "uvx", "args": ["mcp-server-pika-video", "--api-key", "${PIKA_API_KEY}"], "env": {"PIKA_API_KEY": "xxx"}},
+  "heygen-video": {"command": "uvx", "args": ["mcp-server-heygen-video", "--api-key", "${HEYGEN_API_KEY}"], "env": {"HEYGEN_API_KEY": "xxx"}},
+  "synthesia-video": {"command": "uvx", "args": ["mcp-server-synthesia-video", "--api-key", "${SYNTHESIA_API_KEY}"], "env": {"SYNTHESIA_API_KEY": "xxx"}},
+  "d-id-video": {"command": "uvx", "args": ["mcp-server-d-id-video", "--api-key", "${DID_API_KEY}"], "env": {"DID_API_KEY": "xxx"}},
+  "elevenlabs-voice-ids": {"command": "uvx", "args": ["mcp-server-elevenlabs-voice-ids", "--api-key", "${ELEVENLABS_API_KEY}"], "env": {"ELEVENLABS_API_KEY": "xxx"}},
+  "elevenlabs-projects": {"command": "uvx", "args": ["mcp-server-elevenlabs-projects", "--api-key", "${ELEVENLABS_API_KEY}"], "env": {"ELEVENLABS_API_KEY": "xxx"}},
+  "playht-voices": {"command": "uvx", "args": ["mcp-server-playht-voices", "--api-key", "${PLAYHT_API_KEY}"], "env": {"PLAYHT_API_KEY": "xxx"}},
+  "playht-projects": {"command": "uvx", "args": ["mcp-server-playht-projects", "--api-key", "${PLAYHT_API_KEY}"], "env": {"PLAYHT_API_KEY": "xxx"}},
+  "tiktok-ads": {"command": "uvx", "args": ["mcp-server-tiktok-ads", "--api-key", "${TIKTOK_ADS_API_KEY}"], "env": {"TIKTOK_ADS_API_KEY": "xxx"}}
+}

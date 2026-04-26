@@ -1,0 +1,11 @@
+{
+  "pubrio": {
+    "command": "uvx",
+    "args": [
+      "pubrio-mcp-server"
+    ],
+    "env": {
+      "PUBRIO_API_KEY": "your-api-key"
+    }
+  }
+}

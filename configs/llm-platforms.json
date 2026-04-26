@@ -1,0 +1,12 @@
+{
+  "openai-assistants": {"command": "uvx", "args": ["mcp-server-openai-assistants", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-threads": {"command": "uvx", "args": ["mcp-server-openai-threads", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-messages": {"command": "uvx", "args": ["mcp-server-openai-messages", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-runs": {"command": "uvx", "args": ["mcp-server-openai-runs", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-vector-stores": {"command": "uvx", "args": ["mcp-server-openai-vector-stores", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "langchain-agents": {"command": "uvx", "args": ["mcp-server-langchain-agents", "--api-key", "${LANCHAIN_API_KEY}"], "env": {"LANCHAIN_API_KEY": "xxx"}},
+  "langchain-tools": {"command": "uvx", "args": ["mcp-server-langchain-tools", "--api-key", "${LANCHAIN_API_KEY}"], "env": {"LANCHAIN_API_KEY": "xxx"}},
+  "llamaindex-indices": {"command": "uvx", "args": ["mcp-server-llamaindex-indices", "--api-key", "${LLAMAINDEX_API_KEY}"], "env": {"LLAMAINDEX_API_KEY": "xxx"}},
+  "llamaindex-query-engines": {"command": "uvx", "args": ["mcp-server-llamaindex-query-engines", "--api-key", "${LLAMAINDEX_API_KEY}"], "env": {"LLAMAINDEX_API_KEY": "xxx"}},
+  "huggingface-models": {"command": "uvx", "args": ["mcp-server-huggingface-models", "--api-key", "${HF_API_KEY}"], "env": {"HF_API_KEY": "xxx"}}
+}

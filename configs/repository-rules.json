@@ -1,0 +1,12 @@
+{
+  "github-repo-rules": {"command": "uvx", "args": ["mcp-server-github-repo-rules", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-rulesets": {"command": "uvx", "args": ["mcp-server-github-rulesets", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-tag-protection": {"command": "uvx", "args": ["mcp-server-github-tag-protection", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "gitlab-protected-tags": {"command": "uvx", "args": ["mcp-server-gitlab-protected-tags", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-push-rules": {"command": "uvx", "args": ["mcp-server-gitlab-push-rules", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "bitbucket-repo-rules": {"command": "uvx", "args": ["mcp-server-bitbucket-repo-rules", "--workspace", "${BB_WORKSPACE}", "--token", "${BB_TOKEN}"], "env": {"BB_WORKSPACE": "xxx", "BB_TOKEN": "xxx"}},
+  "circleci-workflow-orbs": {"command": "uvx", "args": ["mcp-server-circleci-workflow-orbs", "--token", "${CIRCLECI_TOKEN}"], "env": {"CIRCLECI_TOKEN": "xxx"}},
+  "jenkins-permissions": {"command": "uvx", "args": ["mcp-server-jenkins-permissions", "--url", "${JENKINS_URL}", "--username", "${JENKINS_USERNAME}", "--token", "${JENKINS_TOKEN}"], "env": {"JENKINS_URL": "https://jenkins.example.com", "JENKINS_USERNAME": "xxx", "JENKINS_TOKEN": "xxx"}},
+  "teamcity-permissions": {"command": "uvx", "args": ["mcp-server-teamcity-permissions", "--url", "${TEAMCITY_URL}", "--token", "${TEAMCITY_TOKEN}"], "env": {"TEAMCITY_URL": "https://teamcity.example.com", "TEAMCITY_TOKEN": "xxx"}},
+  "buildkite-permissions": {"command": "uvx", "args": ["mcp-server-buildkite-permissions", "--token", "${BUILDKITE_TOKEN}", "--org", "${BUILDKITE_ORG}"], "env": {"BUILDKITE_TOKEN": "xxx", "BUILDKITE_ORG": "xxx"}}
+}

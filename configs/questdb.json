@@ -1,0 +1,14 @@
+{
+  "questdb": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-questdb"
+    ],
+    "env": {
+      "QUESTDB_HOST": "localhost",
+      "QUESTDB_PORT": "8812",
+      "QUESTDB_USER": "admin",
+      "QUESTDB_PASSWORD": "quest"
+    }
+  }
+}

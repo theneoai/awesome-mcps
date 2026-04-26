@@ -1,0 +1,12 @@
+{
+  "notion-databases": {"command": "uvx", "args": ["mcp-server-notion-databases", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "notion-pages": {"command": "uvx", "args": ["mcp-server-notion-pages", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "notion-blocks": {"command": "uvx", "args": ["mcp-server-notion-blocks", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "notion-comments": {"command": "uvx", "args": ["mcp-server-notion-comments", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "notion-users": {"command": "uvx", "args": ["mcp-server-notion-users", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}},
+  "evernote-notes": {"command": "uvx", "args": ["mcp-server-evernote-notes", "--api-key", "${EVERNOTE_API_KEY}"], "env": {"EVERNOTE_API_KEY": "xxx"}},
+  "evernote-notebooks": {"command": "uvx", "args": ["mcp-server-evernote-notebooks", "--api-key", "${EVERNOTE_API_KEY}"], "env": {"EVERNOTE_API_KEY": "xxx"}},
+  "evernote-tags": {"command": "uvx", "args": ["mcp-server-evernote-tags", "--api-key", "${EVERNOTE_API_KEY}"], "env": {"EVERNOTE_API_KEY": "xxx"}},
+  "onenote-notebooks": {"command": "uvx", "args": ["mcp-server-onenote-notebooks", "--api-key", "${ONENOTE_API_KEY}"], "env": {"ONENOTE_API_KEY": "xxx"}},
+  "onenote-pages": {"command": "uvx", "args": ["mcp-server-onenote-pages", "--api-key", "${ONENOTE_API_KEY}"], "env": {"ONENOTE_API_KEY": "xxx"}}
+}

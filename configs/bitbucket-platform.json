@@ -1,0 +1,12 @@
+{
+  "bitbucket-repos": {"command": "uvx", "args": ["mcp-server-bitbucket-repos", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "bitbucket-issues": {"command": "uvx", "args": ["mcp-server-bitbucket-issues", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "bitbucket-pull-requests": {"command": "uvx", "args": ["mcp-server-bitbucket-pull-requests", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "bitbucket-pipelines": {"command": "uvx", "args": ["mcp-server-bitbucket-pipelines", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "bitbucket-commits": {"command": "uvx", "args": ["mcp-server-bitbucket-commits", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "bitbucket-branches": {"command": "uvx", "args": ["mcp-server-bitbucket-branches", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "bitbucket-workspaces": {"command": "uvx", "args": ["mcp-server-bitbucket-workspaces", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "bitbucket-teams": {"command": "uvx", "args": ["mcp-server-bitbucket-teams", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "bitbucket-snippets": {"command": "uvx", "args": ["mcp-server-bitbucket-snippets", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}},
+  "bitbucket-deployments": {"command": "uvx", "args": ["mcp-server-bitbucket-deployments", "--username", "${BB_USERNAME}", "--app-password", "${BB_APP_PASSWORD}"], "env": {"BB_USERNAME": "xxx", "BB_APP_PASSWORD": "xxx"}}
+}

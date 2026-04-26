@@ -1,0 +1,38 @@
+{
+  "home-assistant": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-home-assistant",
+      "--host", "${HA_HOST}",
+      "--token", "${HA_TOKEN}"
+    ],
+    "env": {
+      "HA_HOST": "http://home-assistant:8123",
+      "HA_TOKEN": "your-long-lived-access-token"
+    }
+  },
+  "smartthings": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-smartthings",
+      "--api-key", "${SMARTTHINGS_API_KEY}"
+    ],
+    "env": {
+      "SMARTTHINGS_API_KEY": "your-api-key"
+    }
+  },
+  "hubitat": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-hubitat",
+      "--host", "${HUBITAT_HOST}",
+      "--app-id", "${HUBITAT_APP_ID}",
+      "--access-token": "${HUBITAT_ACCESS_TOKEN}"
+    ],
+    "env": {
+      "HUBITAT_HOST": "http://hubitat:8081",
+      "HUBITAT_APP_ID": "app-id",
+      "HUBITAT_ACCESS_TOKEN": "your-access-token"
+    }
+  }
+}

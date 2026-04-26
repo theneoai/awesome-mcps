@@ -1,0 +1,12 @@
+{
+  "victorops-alerts": {"command": "uvx", "args": ["mcp-server-victorops-alerts", "--api-key", "${VICTOROPS_API_KEY}"], "env": {"VICTOROPS_API_KEY": "xxx"}},
+  "victorops-teams": {"command": "uvx", "args": ["mcp-server-victorops-teams", "--api-key", "${VICTOROPS_API_KEY}"], "env": {"VICTOROPS_API_KEY": "xxx"}},
+  "scalyr-logs": {"command": "uvx", "args": ["mcp-server-scalyr-logs", "--api-key", "${SCALYR_API_KEY}"], "env": {"SCALYR_API_KEY": "xxx"}},
+  "scalyr-events": {"command": "uvx", "args": ["mcp-server-scalyr-events", "--api-key", "${SCALYR_API_KEY}"], "env": {"SCALYR_API_KEY": "xxx"}},
+  "loggly-logs": {"command": "uvx", "args": ["mcp-server-loggly-logs", "--api-key", "${LOGGLY_API_KEY}"], "env": {"LOGGLY_API_KEY": "xxx"}},
+  "loggly-sources": {"command": "uvx", "args": ["mcp-server-loggly-sources", "--api-key", "${LOGGLY_API_KEY}"], "env": {"LOGGLY_API_KEY": "xxx"}},
+  "papertrail-logs": {"command": "uvx", "args": ["mcp-server-papertrail-logs", "--api-key", "${PAPERTRAIL_API_KEY}"], "env": {"PAPERTRAIL_API_KEY": "xxx"}},
+  "papertrail-groups": {"command": "uvx", "args": ["mcp-server-papertrail-groups", "--api-key", "${PAPERTRAIL_API_KEY}"], "env": {"PAPERTRAIL_API_KEY": "xxx"}},
+  "logsene-logs": {"command": "uvx", "args": ["mcp-server-logsene-logs", "--api-key", "${LOGSENE_API_KEY}"], "env": {"LOGSENE_API_KEY": "xxx"}},
+  "logdna-logs": {"command": "uvx", "args": ["mcp-server-logdna-logs", "--api-key", "${LOGDNA_API_KEY}"], "env": {"LOGDNA_API_KEY": "xxx"}}
+}

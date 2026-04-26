@@ -1,0 +1,12 @@
+{
+  "stripe-treasury": {"command": "uvx", "args": ["mcp-server-stripe-treasury", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-treasury-accounts": {"command": "uvx", "args": ["mcp-server-stripe-treasury-accounts", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-treasury-transactions": {"command": "uvx", "args": ["mcp-server-stripe-treasury-transactions", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-treasury-inbound-transfers": {"command": "uvx", "args": ["mcp-server-stripe-treasury-inbound-transfers", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-treasury-outbound-payments": {"command": "uvx", "args": ["mcp-server-stripe-treasury-outbound-payments", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-treasury-outbound-transfers": {"command": "uvx", "args": ["mcp-server-stripe-treasury-outbound-transfers", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-treasury-credit-reversals": {"command": "uvx", "args": ["mcp-server-stripe-treasury-credit-reversals", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-treasury-debit-reversals": {"command": "uvx", "args": ["mcp-server-stripe-treasury-debit-reversals", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-treasury-financial-accounts": {"command": "uvx", "args": ["mcp-server-stripe-treasury-financial-accounts", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-treasury-features": {"command": "uvx", "args": ["mcp-server-stripe-treasury-features", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}}
+}

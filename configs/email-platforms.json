@@ -1,0 +1,12 @@
+{
+  "sendgrid-email": {"command": "uvx", "args": ["mcp-server-sendgrid-email", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "xxx"}},
+  "mailgun-email": {"command": "uvx", "args": ["mcp-server-mailgun-email", "--domain", "${MAILGUN_DOMAIN}", "--api-key", "${MAILGUN_API_KEY}"], "env": {"MAILGUN_DOMAIN": "xxx", "MAILGUN_API_KEY": "xxx"}},
+  "postmark-email": {"command": "uvx", "args": ["mcp-server-postmark-email", "--api-key", "${POSTMARK_API_KEY}"], "env": {"POSTMARK_API_KEY": "xxx"}},
+  "mailchimp-transactional": {"command": "uvx", "args": ["mcp-server-mailchimp-transactional", "--api-key", "${MAILCHIMP_API_KEY}"], "env": {"MAILCHIMP_API_KEY": "xxx"}},
+  "aws-ses-email": {"command": "uvx", "args": ["mcp-server-aws-ses-email", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "sparkpost-email": {"command": "uvx", "args": ["mcp-server-sparkpost-email", "--api-key", "${SPARKPOST_API_KEY}"], "env": {"SPARKPOST_API_KEY": "xxx"}},
+  "mandrill": {"command": "uvx", "args": ["mcp-server-mandrill", "--api-key", "${MANDRILL_API_KEY}"], "env": {"MANDRILL_API_KEY": "xxx"}},
+  "sendinblue-email": {"command": "uvx", "args": ["mcp-server-sendinblue-email", "--api-key", "${SENDINBLUE_API_KEY}"], "env": {"SENDINBLUE_API_KEY": "xxx"}},
+  "resend-email": {"command": "uvx", "args": ["mcp-server-resend-email", "--api-key", "${RESEND_API_KEY}"], "env": {"RESEND_API_KEY": "re_xxx"}},
+  "mailtrap": {"command": "uvx", "args": ["mcp-server-mailtrap", "--api-key", "${MAILTRAP_API_KEY}"], "env": {"MAILTRAP_API_KEY": "xxx"}}
+}

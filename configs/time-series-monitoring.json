@@ -1,0 +1,10 @@
+{
+  "prometheus": {"command": "uvx", "args": ["mcp-server-prometheus", "--url", "${PROMETHEUS_URL}"], "env": {"PROMETHEUS_URL": "http://localhost:9090"}},
+  "thanos": {"command": "uvx", "args": ["mcp-server-thanos", "--url", "${THANOS_URL}"], "env": {"THANOS_URL": "http://localhost:10902"}},
+  "victoriametrics": {"command": "uvx", "args": ["mcp-server-victoriametrics", "--url", "${VM_URL}"], "env": {"VM_URL": "http://localhost:8428"}},
+  "influxdb": {"command": "uvx", "args": ["mcp-server-influxdb", "--url", "${INFLUXDB_URL}", "--token", "${INFLUXDB_TOKEN}"], "env": {"INFLUXDB_URL": "http://localhost:8086", "INFLUXDB_TOKEN": "xxx"}},
+  "timescaleDB": {"command": "uvx", "args": ["mcp-server-timescaledb", "--connection-string", "${TIMESCALE_CONNECTION_STRING}"], "env": {"TIMESCALE_CONNECTION_STRING": "postgresql://xxx:xxx@localhost:5432/tsdb"}},
+  "gnocchi": {"command": "uvx", "args": ["mcp-server-gnocchi", "--url", "${GNOCCHI_URL}"], "env": {"GNOCCHI_URL": "http://localhost:8041"}},
+  "netdata": {"command": "uvx", "args": ["mcp-server-netdata", "--url", "${NETDATA_URL}"], "env": {"NETDATA_URL": "http://localhost:19999"}},
+  "zabbix": {"command": "uvx", "args": ["mcp-server-zabbix", "--url", "${ZABBIX_URL}"], "env": {"ZABBIX_URL": "http://localhost:8080", "ZABBIX_USERNAME": "Admin", "ZABBIX_PASSWORD": "xxx"}}
+}

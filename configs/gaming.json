@@ -1,0 +1,32 @@
+{
+  "steam": {
+    "command": "uvx",
+    "args": ["mcp-server-steam", "--api-key", "${STEAM_API_KEY}"],
+    "env": {"STEAM_API_KEY": "xxx"}
+  },
+  "twitch-gql": {
+    "command": "uvx",
+    "args": ["mcp-server-twitch-gql", "--client-id", "${TWITCH_CLIENT_ID}", "--client-secret", "${TWITCH_CLIENT_SECRET}"],
+    "env": {"TWITCH_CLIENT_ID": "xxx", "TWITCH_CLIENT_SECRET": "xxx"}
+  },
+  "discord-bot": {
+    "command": "uvx",
+    "args": ["mcp-server-discord-bot", "--bot-token", "${DISCORD_BOT_TOKEN}"],
+    "env": {"DISCORD_BOT_TOKEN": "xxx"}
+  },
+  "xbox-live": {
+    "command": "uvx",
+    "args": ["mcp-server-xbox-live", "--xsts-token", "${XBOX_XSTS_TOKEN}"],
+    "env": {"XBOX_XSTS_TOKEN": "xxx"}
+  },
+  "playstation": {
+    "command": "uvx",
+    "args": ["mcp-server-playstation", "--authorization-code", "${PS_AUTHORIZATION_CODE}"],
+    "env": {"PS_AUTHORIZATION_CODE": "xxx"}
+  },
+  "nintendo": {
+    "command": "uvx",
+    "args": ["mcp-server-nintendo", "--api-key", "${NINTENDO_API_KEY}"],
+    "env": {"NINTENDO_API_KEY": "xxx"}
+  }
+}

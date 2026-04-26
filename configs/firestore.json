@@ -1,0 +1,13 @@
+{
+  "firestore": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-firestore"
+    ],
+    "env": {
+      "GOOGLE_APPLICATION_CREDENTIALS": "/path/to/service-account.json",
+      "FIRESTORE_PROJECT_ID": "your-project-id"
+    }
+  }
+}

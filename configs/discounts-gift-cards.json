@@ -1,0 +1,12 @@
+{
+  "shopify-discounts": {"command": "uvx", "args": ["mcp-server-shopify-discounts", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-price-rules": {"command": "uvx", "args": ["mcp-server-shopify-price-rules", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-gift-cards": {"command": "uvx", "args": ["mcp-server-shopify-gift-cards", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "stripe-coupons": {"command": "uvx", "args": ["mcp-server-stripe-coupons", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-promotion-codes": {"command": "uvx", "args": ["mcp-server-stripe-promotion-codes", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "adyen-giveaways": {"command": "uvx", "args": ["mcp-server-adyen-giveaways", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "paypal-gift-cards": {"command": "uvx", "args": ["mcp-server-paypal-gift-cards", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "square-gift-cards": {"command": "uvx", "args": ["mcp-server-square-gift-cards", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "clover-gift-cards": {"command": "uvx", "args": ["mcp-server-clover-gift-cards", "--api-key", "${CLOVER_API_KEY}"], "env": {"CLOVER_API_KEY": "xxx"}},
+  "toast-gift-cards": {"command": "uvx", "args": ["mcp-server-toast-gift-cards", "--api-key", "${TOAST_API_KEY}"], "env": {"TOAST_API_KEY": "xxx"}}
+}

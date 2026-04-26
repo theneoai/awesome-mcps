@@ -1,0 +1,32 @@
+{
+  "spoonacular": {
+    "command": "uvx",
+    "args": ["mcp-server-spoonacular", "--api-key", "${SPOONACULAR_API_KEY}"],
+    "env": {"SPOONACULAR_API_KEY": "xxx"}
+  },
+  "edamam": {
+    "command": "uvx",
+    "args": ["mcp-server-edamam", "--app-id", "${EDAMAM_APP_ID}", "--app-key", "${EDAMAM_APP_KEY}"],
+    "env": {"EDAMAM_APP_ID": "xxx", "EDAMAM_APP_KEY": "xxx"}
+  },
+  "yummly": {
+    "command": "uvx",
+    "args": ["mcp-server-yummly", "--api-key", "${YUMMLY_API_KEY}"],
+    "env": {"YUMMLY_API_KEY": "xxx"}
+  },
+  "food2fork": {
+    "command": "uvx",
+    "args": ["mcp-server-food2fork", "--api-key", "${FOOD2FORK_API_KEY}"],
+    "env": {"FOOD2FORK_API_KEY": "xxx"}
+  },
+  "big-oven": {
+    "command": "uvx",
+    "args": ["mcp-server-big-oven", "--api-key", "${BIG_OVEN_API_KEY}"],
+    "env": {"BIG_OVEN_API_KEY": "xxx"}
+  },
+  "recipepuppy": {
+    "command": "uvx",
+    "args": ["mcp-server-recipepuppy"],
+    "env": {}
+  }
+}

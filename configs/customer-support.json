@@ -1,0 +1,12 @@
+{
+  "intercom-contacts": {"command": "uvx", "args": ["mcp-server-intercom-contacts", "--api-key", "${INTERCOM_API_KEY}"], "env": {"INTERCOM_API_KEY": "xxx"}},
+  "intercom-conversations": {"command": "uvx", "args": ["mcp-server-intercom-conversations", "--api-key", "${INTERCOM_API_KEY}"], "env": {"INTERCOM_API_KEY": "xxx"}},
+  "intercom-messages": {"command": "uvx", "args": ["mcp-server-intercom-messages", "--api-key", "${INTERCOM_API_KEY}"], "env": {"INTERCOM_API_KEY": "xxx"}},
+  "intercom-articles": {"command": "uvx", "args": ["mcp-server-intercom-articles", "--api-key", "${INTERCOM_API_KEY}"], "env": {"INTERCOM_API_KEY": "xxx"}},
+  "intercom-teams": {"command": "uvx", "args": ["mcp-server-intercom-teams", "--api-key", "${INTERCOM_API_KEY}"], "env": {"INTERCOM_API_KEY": "xxx"}},
+  "intercom-admins": {"command": "uvx", "args": ["mcp-server-intercom-admins", "--api-key", "${INTERCOM_API_KEY}"], "env": {"INTERCOM_API_KEY": "xxx"}},
+  "intercom-tags": {"command": "uvx", "args": ["mcp-server-intercom-tags", "--api-key", "${INTERCOM_API_KEY}"], "env": {"INTERCOM_API_KEY": "xxx"}},
+  "intercom-segments": {"command": "uvx", "args": ["mcp-server-intercom-segments", "--api-key", "${INTERCOM_API_KEY}"], "env": {"INTERCOM_API_KEY": "xxx"}},
+  "intercom-webhooks": {"command": "uvx", "args": ["mcp-server-intercom-webhooks", "--api-key", "${INTERCOM_API_KEY}"], "env": {"INTERCOM_API_KEY": "xxx"}},
+  "zendesk-tickets": {"command": "uvx", "args": ["mcp-server-zendesk-tickets", "--subdomain", "${ZENDESK_SUBDOMAIN}", "--email", "${ZENDESK_EMAIL}", "--api-token", "${ZENDESK_API_TOKEN}"], "env": {"ZENDESK_SUBDOMAIN": "xxx", "ZENDESK_EMAIL": "xxx@xxx.com", "ZENDESK_API_TOKEN": "xxx"}}
+}

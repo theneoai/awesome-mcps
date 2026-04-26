@@ -1,0 +1,11 @@
+{
+  "duckdb": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-duckdb"
+    ],
+    "env": {
+      "DUCKDB_PATH": "/path/to/database.duckdb"
+    }
+  }
+}

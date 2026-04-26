@@ -1,0 +1,11 @@
+{
+  "polygon": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-polygon"
+    ],
+    "env": {
+      "POLYGON_API_KEY": "your-api-key"
+    }
+  }
+}

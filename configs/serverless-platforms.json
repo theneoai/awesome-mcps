@@ -1,0 +1,12 @@
+{
+  "vercel-kv": {"command": "uvx", "args": ["mcp-server-vercel-kv", "--api-token", "${VERCEL_API_TOKEN}"], "env": {"VERCEL_API_TOKEN": "xxx"}},
+  "netlify-files": {"command": "uvx", "args": ["mcp-server-netlify-files", "--access-token", "${NETLIFY_ACCESS_TOKEN}"], "env": {"NETLIFY_ACCESS_TOKEN": "xxx"}},
+  "cloudflare-workers": {"command": "uvx", "args": ["mcp-server-cloudflare-workers", "--api-key", "${CF_API_KEY}", "--email", "${CF_EMAIL}"], "env": {"CF_API_KEY": "xxx", "CF_EMAIL": "xxx@xxx.com"}},
+  "cloudflare-pages": {"command": "uvx", "args": ["mcp-server-cloudflare-pages", "--api-key", "${CF_API_KEY}", "--email", "${CF_EMAIL}"], "env": {"CF_API_KEY": "xxx", "CF_EMAIL": "xxx@xxx.com"}},
+  "firebase-storage": {"command": "uvx", "args": ["mcp-server-firebase-storage", "--api-key", "${FIREBASE_API_KEY}"], "env": {"FIREBASE_API_KEY": "xxx"}},
+  "supabase-storage": {"command": "uvx", "args": ["mcp-server-supabase-storage", "--url", "${SUPABASE_URL}", "--anon-key", "${SUPABASE_ANON_KEY}"], "env": {"SUPABASE_URL": "https://xxx.supabase.co", "SUPABASE_ANON_KEY": "xxx"}},
+  "render-deployments": {"command": "uvx", "args": ["mcp-server-render-deployments", "--api-key", "${RENDER_API_KEY}"], "env": {"RENDER_API_KEY": "xxx"}},
+  "heroku-apps": {"command": "uvx", "args": ["mcp-server-heroku-apps", "--api-key", "${HEROKU_API_KEY}"], "env": {"HEROKU_API_KEY": "xxx"}},
+  "heroku-dynos": {"command": "uvx", "args": ["mcp-server-heroku-dynos", "--api-key", "${HEROKU_API_KEY}"], "env": {"HEROKU_API_KEY": "xxx"}},
+  "railway-deployments": {"command": "uvx", "args": ["mcp-server-railway-deployments", "--api-key", "${RAILWAY_API_KEY}"], "env": {"RAILWAY_API_KEY": "xxx"}}
+}

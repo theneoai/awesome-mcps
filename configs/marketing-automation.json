@@ -1,0 +1,12 @@
+{
+  "iterable-campaigns": {"command": "uvx", "args": ["mcp-server-iterable-campaigns", "--api-key", "${ITERABLE_API_KEY}"], "env": {"ITERABLE_API_KEY": "xxx"}},
+  "iterable-users": {"command": "uvx", "args": ["mcp-server-iterable-users", "--api-key", "${ITERABLE_API_KEY}"], "env": {"ITERABLE_API_KEY": "xxx"}},
+  "iterable-events": {"command": "uvx", "args": ["mcp-server-iterable-events", "--api-key", "${ITERABLE_API_KEY}"], "env": {"ITERABLE_API_KEY": "xxx"}},
+  "braze-campaigns": {"command": "uvx", "args": ["mcp-server-braze-campaigns", "--api-key", "${BRAZE_API_KEY}"], "env": {"BRAZE_API_KEY": "xxx", "BRAZE_ENDPOINT": "https://xxx.iad1.braze.com"}},
+  "braze-users": {"command": "uvx", "args": ["mcp-server-braze-users", "--api-key", "${BRAZE_API_KEY}"], "env": {"BRAZE_API_KEY": "xxx", "BRAZE_ENDPOINT": "https://xxx.iad1.braze.com"}},
+  "braze-events": {"command": "uvx", "args": ["mcp-server-braze-events", "--api-key", "${BRAZE_API_KEY}"], "env": {"BRAZE_API_KEY": "xxx", "BRAZE_ENDPOINT": "https://xxx.iad1.braze.com"}},
+  "customer-io-campaigns": {"command": "uvx", "args": ["mcp-server-customer-io-campaigns", "--api-key", "${CUSTOMERIO_API_KEY}"], "env": {"CUSTOMERIO_API_KEY": "xxx"}},
+  "customer-io-people": {"command": "uvx", "args": ["mcp-server-customer-io-people", "--api-key", "${CUSTOMERIO_API_KEY}"], "env": {"CUSTOMERIO_API_KEY": "xxx"}},
+  "customer-io-events": {"command": "uvx", "args": ["mcp-server-customer-io-events", "--api-key", "${CUSTOMERIO_API_KEY}"], "env": {"CUSTOMERIO_API_KEY": "xxx"}},
+  "lean-kit-boards": {"command": "uvx", "args": ["mcp-server-lean-kit-boards", "--api-key", "${LEANKIT_API_KEY}"], "env": {"LEANKIT_API_KEY": "xxx"}}
+}

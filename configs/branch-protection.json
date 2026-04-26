@@ -1,0 +1,12 @@
+{
+  "github-code-owners": {"command": "uvx", "args": ["mcp-server-github-code-owners", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-branch-protection": {"command": "uvx", "args": ["mcp-server-github-branch-protection", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-required-checks": {"command": "uvx", "args": ["mcp-server-github-required-checks", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "gitlab-branch-protection": {"command": "uvx", "args": ["mcp-server-gitlab-branch-protection", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-protected-branches": {"command": "uvx", "args": ["mcp-server-gitlab-protected-branches", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "bitbucket-branch-permissions": {"command": "uvx", "args": ["mcp-server-bitbucket-branch-permissions", "--workspace", "${BB_WORKSPACE}", "--token", "${BB_TOKEN}"], "env": {"BB_WORKSPACE": "xxx", "BB_TOKEN": "xxx"}},
+  "circleci-approval": {"command": "uvx", "args": ["mcp-server-circleci-approval", "--token", "${CIRCLECI_TOKEN}"], "env": {"CIRCLECI_TOKEN": "xxx"}},
+  "jenkins-approval": {"command": "uvx", "args": ["mcp-server-jenkins-approval", "--url", "${JENKINS_URL}", "--username", "${JENKINS_USERNAME}", "--token", "${JENKINS_TOKEN}"], "env": {"JENKINS_URL": "https://jenkins.example.com", "JENKINS_USERNAME": "xxx", "JENKINS_TOKEN": "xxx"}},
+  "buildkite-approval": {"command": "uvx", "args": ["mcp-server-buildkite-approval", "--token", "${BUILDKITE_TOKEN}", "--org", "${BUILDKITE_ORG}"], "env": {"BUILDKITE_TOKEN": "xxx", "BUILDKITE_ORG": "xxx"}},
+  "teamcity-approval": {"command": "uvx", "args": ["mcp-server-teamcity-approval", "--url", "${TEAMCITY_URL}", "--token", "${TEAMCITY_TOKEN}"], "env": {"TEAMCITY_URL": "https://teamcity.example.com", "TEAMCITY_TOKEN": "xxx"}}
+}

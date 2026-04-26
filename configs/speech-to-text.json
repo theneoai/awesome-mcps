@@ -1,0 +1,12 @@
+{
+  "assemblyai-transcribe": {"command": "uvx", "args": ["mcp-server-assemblyai-transcribe", "--api-key", "${ASSEMBLYAI_API_KEY}"], "env": {"ASSEMBLYAI_API_KEY": "xxx"}},
+  "assemblyai-speaker": {"command": "uvx", "args": ["mcp-server-assemblyai-speaker", "--api-key", "${ASSEMBLYAI_API_KEY}"], "env": {"ASSEMBLYAI_API_KEY": "xxx"}},
+  "deepgram-transcribe": {"command": "uvx", "args": ["mcp-server-deepgram-transcribe", "--api-key", "${DEEPGRAM_API_KEY}"], "env": {"DEEPGRAM_API_KEY": "xxx"}},
+  "rev-ai-transcribe": {"command": "uvx", "args": ["mcp-server-rev-ai-transcribe", "--api-key", "${REV_AI_API_KEY}"], "env": {"REV_AI_API_KEY": "xxx"}},
+  "speechmatics-transcribe": {"command": "uvx", "args": ["mcp-server-speechmatics-transcribe", "--api-key", "${SPEECHMATICS_API_KEY}"], "env": {"SPEECHMATICS_API_KEY": "xxx"}},
+  "voicegain-transcribe": {"command": "uvx", "args": ["mcp-server-voicegain-transcribe", "--api-key", "${VOICEGAIN_API_KEY}"], "env": {"VOICEGAIN_API_KEY": "xxx"}},
+  "nvidia-riva-transcribe": {"command": "uvx", "args": ["mcp-server-nvidia-riva-transcribe", "--host", "${RIVA_HOST}"], "env": {"RIVA_HOST": "localhost:50051"}},
+  "google-speech-to-text": {"command": "uvx", "args": ["mcp-server-google-speech-to-text", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "aws-transcribe": {"command": "uvx", "args": ["mcp-server-aws-transcribe", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-speech-to-text": {"command": "uvx", "args": ["mcp-server-azure-speech-to-text", "--key", "${AZURE_SPEECH_KEY}", "--region", "${AZURE_SPEECH_REGION}"], "env": {"AZURE_SPEECH_KEY": "xxx", "AZURE_SPEECH_REGION": "eastus"}}
+}

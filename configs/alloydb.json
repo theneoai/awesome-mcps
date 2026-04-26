@@ -1,0 +1,15 @@
+{
+  "alloydb": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-alloydb"
+    ],
+    "env": {
+      "ALLOYDB_HOST": "localhost",
+      "ALLOYDB_PORT": "5432",
+      "ALLOYDB_USER": "postgres",
+      "ALLOYDB_PASSWORD": "",
+      "ALLOYDB_DATABASE": "default"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "spotify-web": {
+    "command": "uvx",
+    "args": ["mcp-server-spotify-web", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"],
+    "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}
+  },
+  "apple-music": {
+    "command": "uvx",
+    "args": ["mcp-server-apple-music", "--key-id", "${APPLE_MUSIC_KEY_ID}", "--team-id", "${APPLE_MUSIC_TEAM_ID}", "--music-kit-token", "${APPLE_MUSIC_KIT_TOKEN}"],
+    "env": {"APPLE_MUSIC_KEY_ID": "xxx", "APPLE_MUSIC_TEAM_ID": "xxx", "APPLE_MUSIC_KIT_TOKEN": "xxx"}
+  },
+  "soundcloud": {
+    "command": "uvx",
+    "args": ["mcp-server-soundcloud", "--client-id", "${SOUNDCLOUD_CLIENT_ID}", "--client-secret", "${SOUNDCLOUD_CLIENT_SECRET}"],
+    "env": {"SOUNDCLOUD_CLIENT_ID": "xxx", "SOUNDCLOUD_CLIENT_SECRET": "xxx"}
+  },
+  "bandcamp": {
+    "command": "uvx",
+    "args": ["mcp-server-bandcamp", "--api-key", "${BANDCAMP_API_KEY}"],
+    "env": {"BANDCAMP_API_KEY": "xxx"}
+  },
+  "deezer": {
+    "command": "uvx",
+    "args": ["mcp-server-deezer", "--api-key", "${DEEZER_API_KEY}"],
+    "env": {"DEEZER_API_KEY": "xxx"}
+  },
+  "tidal": {
+    "command": "uvx",
+    "args": ["mcp-server-tidal", "--api-token", "${TIDAL_API_TOKEN}"],
+    "env": {"TIDAL_API_TOKEN": "xxx"}
+  }
+}

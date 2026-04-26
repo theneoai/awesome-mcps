@@ -1,0 +1,12 @@
+{
+  "accuweather-forecasts": {"command": "uvx", "args": ["mcp-server-accuweather-forecasts", "--api-key", "${ACCUWEATHER_API_KEY}"], "env": {"ACCUWEATHER_API_KEY": "xxx"}},
+  "accuweather-observations": {"command": "uvx", "args": ["mcp-server-accuweather-observations", "--api-key", "${ACCUWEATHER_API_KEY}"], "env": {"ACCUWEATHER_API_KEY": "xxx"}},
+  "weatherbit-current": {"command": "uvx", "args": ["mcp-server-weatherbit-current", "--api-key", "${WEATHERBIT_API_KEY}"], "env": {"WEATHERBIT_API_KEY": "xxx"}},
+  "weatherbit-forecast": {"command": "uvx", "args": ["mcp-server-weatherbit-forecast", "--api-key", "${WEATHERBIT_API_KEY}"], "env": {"WEATHERBIT_API_KEY": "xxx"}},
+  "worldweatheronline": {"command": "uvx", "args": ["mcp-server-worldweatheronline", "--api-key", "${WWO_API_KEY}"], "env": {"WWO_API_KEY": "xxx"}},
+  "visualcrossing": {"command": "uvx", "args": ["mcp-server-visualcrossing", "--api-key", "${VISUALCROSSING_API_KEY}"], "env": {"VISUALCROSSING_API_KEY": "xxx"}},
+  "tomorrow-io": {"command": "uvx", "args": ["mcp-server-tomorrow-io", "--api-key", "${TOMORROW_IO_API_KEY}"], "env": {"TOMORROW_IO_API_KEY": "xxx"}},
+  "climacell": {"command": "uvx", "args": ["mcp-server-climacell", "--api-key", "${CLIMACELL_API_KEY}"], "env": {"CLIMACELL_API_KEY": "xxx"}},
+  "newsapi-headlines": {"command": "uvx", "args": ["mcp-server-newsapi-headlines", "--api-key", "${NEWSAPI_API_KEY}"], "env": {"NEWSAPI_API_KEY": "xxx"}},
+  "newsapi-everything": {"command": "uvx", "args": ["mcp-server-newsapi-everything", "--api-key", "${NEWSAPI_API_KEY}"], "env": {"NEWSAPI_API_KEY": "xxx"}}
+}

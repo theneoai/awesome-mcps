@@ -1,0 +1,9 @@
+{
+  "firstdata": {
+    "command": "uvx",
+    "args": [
+      "FirstData"
+    ],
+    "env": {}
+  }
+}

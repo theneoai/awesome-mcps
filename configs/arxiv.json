@@ -1,0 +1,10 @@
+{
+  "arxiv": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "paper-search-mcp-nodejs"
+    ],
+    "env": {}
+  }
+}

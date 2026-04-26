@@ -1,0 +1,15 @@
+{
+  "couchdb": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-couchdb"
+    ],
+    "env": {
+      "COUCHDB_HOST": "localhost",
+      "COUCHDB_PORT": "5984",
+      "COUCHDB_USER": "admin",
+      "COUCHDB_PASSWORD": "password",
+      "COUCHDB_DATABASE": "default"
+    }
+  }
+}

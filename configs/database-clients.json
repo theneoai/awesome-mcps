@@ -1,0 +1,11 @@
+{
+  "postgresql-client": {"command": "uvx", "args": ["mcp-server-postgresql-client", "--connection-string", "${POSTGRES_CONNECTION_STRING}"], "env": {"POSTGRES_CONNECTION_STRING": "postgresql://xxx:xxx@localhost:5432/db"}},
+  "mysql-client": {"command": "uvx", "args": ["mcp-server-mysql-client", "--host", "${MYSQL_HOST}", "--port", "${MYSQL_PORT}", "--user", "${MYSQL_USER}", "--password", "${MYSQL_PASSWORD}"], "env": {"MYSQL_HOST": "localhost", "MYSQL_PORT": "3306", "MYSQL_USER": "root", "MYSQL_PASSWORD": "xxx"}},
+  "mariadb-client": {"command": "uvx", "args": ["mcp-server-mariadb-client", "--host", "${MARIADB_HOST}", "--port", "${MARIADB_PORT}", "--user", "${MARIADB_USER}", "--password", "${MARIADB_PASSWORD}"], "env": {"MARIADB_HOST": "localhost", "MARIADB_PORT": "3306", "MARIADB_USER": "root", "MARIADB_PASSWORD": "xxx"}},
+  "mongodb-client": {"command": "uvx", "args": ["mcp-server-mongodb-client", "--connection-string", "${MONGODB_CONNECTION_STRING}"], "env": {"MONGODB_CONNECTION_STRING": "mongodb://xxx:xxx@localhost:27017"}},
+  "redis-client": {"command": "uvx", "args": ["mcp-server-redis-client", "--url", "${REDIS_URL}"], "env": {"REDIS_URL": "redis://localhost:6379"}},
+  "memcached-client": {"command": "uvx", "args": ["mcp-server-memcached-client", "--host", "${MEMCACHED_HOST}", "--port", "${MEMCACHED_PORT}"], "env": {"MEMCACHED_HOST": "localhost", "MEMCACHED_PORT": "11211"}},
+  "sqlite-client": {"command": "uvx", "args": ["mcp-server-sqlite-client", "--path", "${SQLITE_PATH}"], "env": {"SQLITE_PATH": "./database.db"}},
+  "mssql-client": {"command": "uvx", "args": ["mcp-server-mssql-client", "--host", "${MSSQL_HOST}", "--port", "${MSSQL_PORT}", "--database", "${MSSQL_DATABASE}"], "env": {"MSSQL_HOST": "localhost", "MSSQL_PORT": "1433", "MSSQL_DATABASE": "master", "MSSQL_USERNAME": "sa", "MSSQL_PASSWORD": "xxx"}},
+  "oracle-client": {"command": "uvx", "args": ["mcp-server-oracle-client", "--host", "${ORACLE_HOST}", "--port", "${ORACLE_PORT}", "--service", "${ORACLE_SERVICE}"], "env": {"ORACLE_HOST": "localhost", "ORACLE_PORT": "1521", "ORACLE_SERVICE": "ORCL", "ORACLE_USERNAME": "xxx", "ORACLE_PASSWORD": "xxx"}}
+}

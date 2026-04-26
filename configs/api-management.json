@@ -1,0 +1,11 @@
+{
+  "kong": {"command": "uvx", "args": ["mcp-server-kong", "--admin-url", "${KONG_ADMIN_URL}"], "env": {"KONG_ADMIN_URL": "http://localhost:8001"}},
+  "aws-api-gateway": {"command": "uvx", "args": ["mcp-server-aws-api-gateway", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-api-management": {"command": "uvx", "args": ["mcp-server-azure-apim", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--resource-group", "${AZURE_RG}", "--service-name", "${AZURE_APIM_NAME}"], "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_RG": "xxx", "AZURE_APIM_NAME": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "google-endpoints": {"command": "uvx", "args": ["mcp-server-google-endpoints", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "tyk": {"command": "uvx", "args": ["mcp-server-tyk", "--gateway-url", "${TYK_GW_URL}"], "env": {"TYK_GW_URL": "http://localhost:8080"}},
+  "apigee": {"command": "uvx", "args": ["mcp-server-apigee", "--host", "${APIGEE_HOST}", "--api-key", "${APIGEE_API_KEY}"], "env": {"APIGEE_HOST": "xxx.apigee.net", "APIGEE_API_KEY": "xxx"}},
+  "stoplight": {"command": "uvx", "args": ["mcp-server-stoplight", "--api-key", "${STOPLIGHT_API_KEY}"], "env": {"STOPLIGHT_API_KEY": "xxx"}},
+  "postman": {"command": "uvx", "args": ["mcp-server-postman", "--api-key", "${POSTMAN_API_KEY}"], "env": {"POSTMAN_API_KEY": "xxx"}},
+  "insomnia": {"command": "uvx", "args": ["mcp-server-insomnia", "--host", "${INSOMNIA_HOST}"], "env": {"INSOMNIA_HOST": "http://localhost:8000"}}
+}

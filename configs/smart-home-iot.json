@@ -1,0 +1,12 @@
+{
+  "home-assistant-states": {"command": "uvx", "args": ["mcp-server-home-assistant-states", "--url", "${HA_URL}", "--token", "${HA_TOKEN}"], "env": {"HA_URL": "http://localhost:8123", "HA_TOKEN": "xxx"}},
+  "home-assistant-services": {"command": "uvx", "args": ["mcp-server-home-assistant-services", "--url", "${HA_URL}", "--token", "${HA_TOKEN}"], "env": {"HA_URL": "http://localhost:8123", "HA_TOKEN": "xxx"}},
+  "home-assistant-events": {"command": "uvx", "args": ["mcp-server-home-assistant-events", "--url", "${HA_URL}", "--token", "${HA_TOKEN}"], "env": {"HA_URL": "http://localhost:8123", "HA_TOKEN": "xxx"}},
+  "home-assistant-logbook": {"command": "uvx", "args": ["mcp-server-home-assistant-logbook", "--url", "${HA_URL}", "--token", "${HA_TOKEN}"], "env": {"HA_URL": "http://localhost:8123", "HA_TOKEN": "xxx"}},
+  "home-assistant-history": {"command": "uvx", "args": ["mcp-server-home-assistant-history", "--url", "${HA_URL}", "--token", "${HA_TOKEN}"], "env": {"HA_URL": "http://localhost:8123", "HA_TOKEN": "xxx"}},
+  "apple-homekit": {"command": "uvx", "args": ["mcp-server-apple-homekit", "--api-key", "${HOMEKIT_API_KEY}"], "env": {"HOMEKIT_API_KEY": "xxx"}},
+  "google-nest": {"command": "uvx", "args": ["mcp-server-google-nest", "--api-key", "${NEST_API_KEY}"], "env": {"NEST_API_KEY": "xxx"}},
+  "smartthings-devices": {"command": "uvx", "args": ["mcp-server-smartthings-devices", "--api-key", "${SMARTTHINGS_API_KEY}"], "env": {"SMARTTHINGS_API_KEY": "xxx"}},
+  "smartthings-locations": {"command": "uvx", "args": ["mcp-server-smartthings-locations", "--api-key", "${SMARTTHINGS_API_KEY}"], "env": {"SMARTTHINGS_API_KEY": "xxx"}},
+  "mqtt-broker": {"command": "uvx", "args": ["mcp-server-mqtt-broker", "--url", "${MQTT_URL}", "--username", "${MQTT_USERNAME}", "--password", "${MQTT_PASSWORD}"], "env": {"MQTT_URL": "mqtt://localhost:1883", "MQTT_USERNAME": "xxx", "MQTT_PASSWORD": "xxx"}}
+}

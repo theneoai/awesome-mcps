@@ -1,0 +1,32 @@
+{
+  "cloudflare": {
+    "command": "uvx",
+    "args": ["mcp-server-cloudflare", "--api-token", "${CF_API_TOKEN}", "--account-id", "${CF_ACCOUNT_ID}"],
+    "env": {"CF_API_TOKEN": "xxx", "CF_ACCOUNT_ID": "xxx"}
+  },
+  "fastly": {
+    "command": "uvx",
+    "args": ["mcp-server-fastly", "--api-key", "${FASTLY_API_KEY}"],
+    "env": {"FASTLY_API_KEY": "xxx"}
+  },
+  "akamai": {
+    "command": "uvx",
+    "args": ["mcp-server-akamai", "--client-secret", "${AKAMAI_CLIENT_SECRET}", "--client-id", "${AKAMAI_CLIENT_ID}", "--access-token", "${AKAMAI_ACCESS_TOKEN}"],
+    "env": {"AKAMAI_CLIENT_SECRET": "xxx", "AKAMAI_CLIENT_ID": "xxx", "AKAMAI_ACCESS_TOKEN": "xxx"}
+  },
+  "aws-cloudfront": {
+    "command": "uvx",
+    "args": ["mcp-server-aws-cloudfront", "--profile", "${AWS_PROFILE}"],
+    "env": {"AWS_PROFILE": "default", "AWS_REGION": "us-east-1"}
+  },
+  "azure-cdn": {
+    "command": "uvx",
+    "args": ["mcp-server-azure-cdn", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"],
+    "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}
+  },
+  "google-cloud-cdn": {
+    "command": "uvx",
+    "args": ["mcp-server-gcp-cdn", "--credentials-path", "${GCP_CREDENTIALS_PATH}"],
+    "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json", "GCP_PROJECT": "project"}
+  }
+}

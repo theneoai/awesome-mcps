@@ -1,0 +1,12 @@
+{
+  "stripe-subscriptions": {"command": "uvx", "args": ["mcp-server-stripe-subscriptions", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-invoices": {"command": "uvx", "args": ["mcp-server-stripe-invoices", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "chargebee-subscriptions": {"command": "uvx", "args": ["mcp-server-chargebee-subscriptions", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}},
+  "chargebee-invoices": {"command": "uvx", "args": ["mcp-server-chargebee-invoices", "--api-key", "${CHARGEBEE_API_KEY}", "--site", "${CHARGEBEE_SITE}"], "env": {"CHARGEBEE_API_KEY": "xxx", "CHARGEBEE_SITE": "xxx"}},
+  "paddle-subscriptions": {"command": "uvx", "args": ["mcp-server-paddle-subscriptions", "--vendor-id", "${PADDLE_VENDOR_ID}", "--api-key", "${PADDLE_API_KEY}"], "env": {"PADDLE_VENDOR_ID": "xxx", "PADDLE_API_KEY": "xxx"}},
+  "lemonsqueezy-subscriptions": {"command": "uvx", "args": ["mcp-server-lemonsqueezy-subscriptions", "--api-key", "${LEMONSQUEEZY_API_KEY}"], "env": {"LEMONSQUEEZY_API_KEY": "xxx"}},
+  "gumroad-subscriptions": {"command": "uvx", "args": ["mcp-server-gumroad-subscriptions", "--api-key", "${GUMROAD_API_KEY}"], "env": {"GUMROAD_API_KEY": "xxx"}},
+  "moonclerk-subscriptions": {"command": "uvx", "args": ["mcp-server-moonclerk-subscriptions", "--api-key", "${MOONCLERK_API_KEY}"], "env": {"MOONCLERK_API_KEY": "xxx"}},
+  "shopify-subscriptions": {"command": "uvx", "args": ["mcp-server-shopify-subscriptions", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "recurring-billing-razorpay": {"command": "uvx", "args": ["mcp-server-recurring-razorpay", "--key-id", "${RAZORPAY_KEY_ID}", "--key-secret", "${RAZORPAY_KEY_SECRET}"], "env": {"RAZORPAY_KEY_ID": "xxx", "RAZORPAY_KEY_SECRET": "xxx"}}
+}

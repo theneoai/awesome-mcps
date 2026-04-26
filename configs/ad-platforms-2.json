@@ -1,0 +1,12 @@
+{
+  "pinterest-ads-ads": {"command": "uvx", "args": ["mcp-server-pinterest-ads-ads", "--api-key", "${PINTEREST_API_KEY}"], "env": {"PINTEREST_API_KEY": "xxx"}},
+  "pinterest-ads-groups": {"command": "uvx", "args": ["mcp-server-pinterest-ads-groups", "--api-key", "${PINTEREST_API_KEY}"], "env": {"PINTEREST_API_KEY": "xxx"}},
+  "reddit-ads-campaigns": {"command": "uvx", "args": ["mcp-server-reddit-ads-campaigns", "--client-id", "${REDDIT_CLIENT_ID}", "--client-secret", "${REDDIT_CLIENT_SECRET}"], "env": {"REDDIT_CLIENT_ID": "xxx", "REDDIT_CLIENT_SECRET": "xxx"}},
+  "reddit-ads-ads": {"command": "uvx", "args": ["mcp-server-reddit-ads-ads", "--client-id", "${REDDIT_CLIENT_ID}", "--client-secret", "${REDDIT_CLIENT_SECRET}"], "env": {"REDDIT_CLIENT_ID": "xxx", "REDDIT_CLIENT_SECRET": "xxx"}},
+  "reddit-ads-reporting": {"command": "uvx", "args": ["mcp-server-reddit-ads-reporting", "--client-id", "${REDDIT_CLIENT_ID}", "--client-secret", "${REDDIT_CLIENT_SECRET}"], "env": {"REDDIT_CLIENT_ID": "xxx", "REDDIT_CLIENT_SECRET": "xxx"}},
+  "amazon-ads-campaigns": {"command": "uvx", "args": ["mcp-server-amazon-ads-campaigns", "--api-key", "${AMAZON_ADS_API_KEY}"], "env": {"AMAZON_ADS_API_KEY": "xxx"}},
+  "amazon-ads-ad-groups": {"command": "uvx", "args": ["mcp-server-amazon-ads-ad-groups", "--api-key", "${AMAZON_ADS_API_KEY}"], "env": {"AMAZON_ADS_API_KEY": "xxx"}},
+  "amazon-ads-keywords": {"command": "uvx", "args": ["mcp-server-amazon-ads-keywords", "--api-key", "${AMAZON_ADS_API_KEY}"], "env": {"AMAZON_ADS_API_KEY": "xxx"}},
+  "amazon-ads-reporting": {"command": "uvx", "args": ["mcp-server-amazon-ads-reporting", "--api-key", "${AMAZON_ADS_API_KEY}"], "env": {"AMAZON_ADS_API_KEY": "xxx"}},
+  "bing-ads-campaigns": {"command": "uvx", "args": ["mcp-server-bing-ads-campaigns", "--api-key", "${BING_ADS_API_KEY}"], "env": {"BING_ADS_API_KEY": "xxx"}}
+}

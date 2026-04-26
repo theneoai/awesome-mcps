@@ -1,0 +1,12 @@
+{
+  "rabbitmq-queues": {"command": "uvx", "args": ["mcp-server-rabbitmq-queues", "--host", "${RABBITMQ_HOST}", "--port", "${RABBITMQ_PORT}", "--username", "${RABBITMQ_USERNAME}", "--password", "${RABBITMQ_PASSWORD}"], "env": {"RABBITMQ_HOST": "localhost", "RABBITMQ_PORT": "5672", "RABBITMQ_USERNAME": "guest", "RABBITMQ_PASSWORD": "guest"}},
+  "rabbitmq-exchanges": {"command": "uvx", "args": ["mcp-server-rabbitmq-exchanges", "--host", "${RABBITMQ_HOST}", "--port", "${RABBITMQ_PORT}", "--username", "${RABBITMQ_USERNAME}", "--password", "${RABBITMQ_PASSWORD}"], "env": {"RABBITMQ_HOST": "localhost", "RABBITMQ_PORT": "5672", "RABBITMQ_USERNAME": "guest", "RABBITMQ_PASSWORD": "guest"}},
+  "rabbitmq-bindings": {"command": "uvx", "args": ["mcp-server-rabbitmq-bindings", "--host", "${RABBITMQ_HOST}", "--port", "${RABBITMQ_PORT}", "--username", "${RABBITMQ_USERNAME}", "--password", "${RABBITMQ_PASSWORD}"], "env": {"RABBITMQ_HOST": "localhost", "RABBITMQ_PORT": "5672", "RABBITMQ_USERNAME": "guest", "RABBITMQ_PASSWORD": "guest"}},
+  "rabbitmq-messages": {"command": "uvx", "args": ["mcp-server-rabbitmq-messages", "--host", "${RABBITMQ_HOST}", "--port", "${RABBITMQ_PORT}", "--username", "${RABBITMQ_USERNAME}", "--password", "${RABBITMQ_PASSWORD}"], "env": {"RABBITMQ_HOST": "localhost", "RABBITMQ_PORT": "5672", "RABBITMQ_USERNAME": "guest", "RABBITMQ_PASSWORD": "guest"}},
+  "kafka-topics": {"command": "uvx", "args": ["mcp-server-kafka-topics", "--brokers", "${KAFKA_BROKERS}"], "env": {"KAFKA_BROKERS": "localhost:9092"}},
+  "kafka-producers": {"command": "uvx", "args": ["mcp-server-kafka-producers", "--brokers", "${KAFKA_BROKERS}"], "env": {"KAFKA_BROKERS": "localhost:9092"}},
+  "kafka-consumers": {"command": "uvx", "args": ["mcp-server-kafka-consumers", "--brokers", "${KAFKA_BROKERS}"], "env": {"KAFKA_BROKERS": "localhost:9092"}},
+  "kafka-messages": {"command": "uvx", "args": ["mcp-server-kafka-messages", "--brokers", "${KAFKA_BROKERS}"], "env": {"KAFKA_BROKERS": "localhost:9092"}},
+  "nats-subjects": {"command": "uvx", "args": ["mcp-server-nats-subjects", "--url", "${NATS_URL}"], "env": {"NATS_URL": "nats://localhost:4222"}},
+  "nats-messages": {"command": "uvx", "args": ["mcp-server-nats-messages", "--url", "${NATS_URL}"], "env": {"NATS_URL": "nats://localhost:4222"}}
+}

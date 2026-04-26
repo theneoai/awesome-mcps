@@ -1,0 +1,12 @@
+{
+  "github-repos": {"command": "uvx", "args": ["mcp-server-github-repos", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-actions-mcp": {"command": "uvx", "args": ["mcp-server-github-actions-mcp", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-issues": {"command": "uvx", "args": ["mcp-server-github-issues", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-prs": {"command": "uvx", "args": ["mcp-server-github-prs", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-gists": {"command": "uvx", "args": ["mcp-server-github-gists", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-packages": {"command": "uvx", "args": ["mcp-server-github-packages", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "gitlab-projects": {"command": "uvx", "args": ["mcp-server-gitlab-projects", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-mr": {"command": "uvx", "args": ["mcp-server-gitlab-mr", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-pipelines": {"command": "uvx", "args": ["mcp-server-gitlab-pipelines", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "bitbucket-repos": {"command": "uvx", "args": ["mcp-server-bitbucket-repos", "--workspace", "${BB_WORKSPACE}", "--token", "${BB_TOKEN}"], "env": {"BB_WORKSPACE": "xxx", "BB_TOKEN": "xxx"}}
+}

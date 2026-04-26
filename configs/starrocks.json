@@ -1,0 +1,15 @@
+{
+  "starrocks": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-starrocks"
+    ],
+    "env": {
+      "STARROCKS_HOST": "localhost",
+      "STARROCKS_HTTP_PORT": "8030",
+      "STARROCKS_QUERY_PORT": "9030",
+      "STARROCKS_USER": "root",
+      "STARROCKS_PASSWORD": ""
+    }
+  }
+}

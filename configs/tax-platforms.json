@@ -1,0 +1,12 @@
+{
+  "stripe-tax": {"command": "uvx", "args": ["mcp-server-stripe-tax", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-reporting": {"command": "uvx", "args": ["mcp-server-stripe-reporting", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-billing-portal": {"command": "uvx", "args": ["mcp-server-stripe-billing-portal", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "adyen-tax": {"command": "uvx", "args": ["mcp-server-adyen-tax", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "quickbooks-taxes": {"command": "uvx", "args": ["mcp-server-quickbooks-taxes", "--client-id", "${QB_CLIENT_ID}", "--client-secret", "${QB_CLIENT_SECRET}"], "env": {"QB_CLIENT_ID": "xxx", "QB_CLIENT_SECRET": "xxx"}},
+  "xero-taxes": {"command": "uvx", "args": ["mcp-server-xero-taxes", "--client-id", "${XERO_CLIENT_ID}", "--client-secret", "${XERO_CLIENT_SECRET}"], "env": {"XERO_CLIENT_ID": "xxx", "XERO_CLIENT_SECRET": "xxx"}},
+  "netsuite-tax": {"command": "uvx", "args": ["mcp-server-netsuite-tax", "--account-id", "${NETSUITE_ACCOUNT_ID}", "--consumer-key", "${NETSUITE_CONSUMER_KEY}", "--consumer-secret", "${NETSUITE_CONSUMER_SECRET}", "--token-key", "${NETSUITE_TOKEN_KEY}", "--token-secret", "${NETSUITE_TOKEN_SECRET}"], "env": {"NETSUITE_ACCOUNT_ID": "xxx", "NETSUITE_CONSUMER_KEY": "xxx", "NETSUITE_CONSUMER_SECRET": "xxx", "NETSUITE_TOKEN_KEY": "xxx", "NETSUITE_TOKEN_SECRET": "xxx"}},
+  "avalara": {"command": "uvx", "args": ["mcp-server-avalara", "--api-key", "${AVALARA_API_KEY}"], "env": {"AVALARA_API_KEY": "xxx"}},
+  "taxjar": {"command": "uvx", "args": ["mcp-server-taxjar", "--api-key", "${TAXJAR_API_KEY}"], "env": {"TAXJAR_API_KEY": "xxx"}},
+  "vertex": {"command": "uvx", "args": ["mcp-server-vertex", "--api-key", "${VERTEX_API_KEY}"], "env": {"VERTEX_API_KEY": "xxx"}}
+}

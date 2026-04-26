@@ -1,0 +1,11 @@
+{
+  "google-calendar-events": {"command": "uvx", "args": ["mcp-server-google-calendar-events", "--credentials-path", "${GCALENDAR_CREDENTIALS_PATH}"], "env": {"GCALENDAR_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "google-calendar-acl": {"command": "uvx", "args": ["mcp-server-google-calendar-acl", "--credentials-path", "${GCALENDAR_CREDENTIALS_PATH}"], "env": {"GCALENDAR_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "office365-calendar-events": {"command": "uvx", "args": ["mcp-server-office365-calendar-events", "--client-id", "${O365_CLIENT_ID}", "--client-secret", "${O365_CLIENT_SECRET}"], "env": {"O365_CLIENT_ID": "xxx", "O365_CLIENT_SECRET": "xxx"}},
+  "apple-calendar-events": {"command": "uvx", "args": ["mcp-server-apple-calendar-events", "--api-key", "${APPLE_CALENDAR_API_KEY}"], "env": {"APPLE_CALENDAR_API_KEY": "xxx"}},
+  "caldav-events": {"command": "uvx", "args": ["mcp-server-caldav-events", "--url", "${CALDAV_URL}", "--username", "${CALDAV_USERNAME}", "--password", "${CALDAV_PASSWORD}"], "env": {"CALDAV_URL": "https://caldav.example.com", "CALDAV_USERNAME": "xxx", "CALDAV_PASSWORD": "xxx"}},
+  "google-contacts-groups": {"command": "uvx", "args": ["mcp-server-google-contacts-groups", "--credentials-path", "${GCONTACTS_CREDENTIALS_PATH}"], "env": {"GCONTACTS_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "office365-contacts-groups": {"command": "uvx", "args": ["mcp-server-office365-contacts-groups", "--client-id", "${O365_CLIENT_ID}", "--client-secret", "${O365_CLIENT_SECRET}"], "env": {"O365_CLIENT_ID": "xxx", "O365_CLIENT_SECRET": "xxx"}},
+  "apple-contacts-groups": {"command": "uvx", "args": ["mcp-server-apple-contacts-groups", "--api-key", "${APPLE_CONTACTS_API_KEY}"], "env": {"APPLE_CONTACTS_API_KEY": "xxx"}},
+  "carddav-contacts": {"command": "uvx", "args": ["mcp-server-carddav-contacts", "--url", "${CARDDAV_URL}", "--username", "${CARDDAV_USERNAME}", "--password", "${CARDDAV_PASSWORD}"], "env": {"CARDDAV_URL": "https://carddav.example.com", "CARDDAV_USERNAME": "xxx", "CARDDAV_PASSWORD": "xxx"}}
+}

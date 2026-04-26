@@ -1,0 +1,12 @@
+{
+  "pg": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@subnetmarco/pgmcp"
+    ],
+    "env": {
+      "DATABASE_URL": "postgresql://localhost:5432/dbname"
+    }
+  }
+}

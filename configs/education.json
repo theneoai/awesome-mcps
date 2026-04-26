@@ -1,0 +1,38 @@
+{
+  "canvas-lms": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-canvas-lms",
+      "--host", "${CANVAS_HOST}",
+      "--token", "${CANVAS_TOKEN}"
+    ],
+    "env": {
+      "CANVAS_HOST": "https://your-institution.instructure.com",
+      "CANVAS_TOKEN": "your-access-token"
+    }
+  },
+  "blackboard": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-blackboard",
+      "--host", "${BLACKBOARD_HOST}",
+      "--token", "${BLACKBOARD_TOKEN}"
+    ],
+    "env": {
+      "BLACKBOARD_HOST": "https://your-school.blackboard.com",
+      "BLACKBOARD_TOKEN": "your-access-token"
+    }
+  },
+  "moodle": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-moodle",
+      "--host", "${MOODLE_HOST}",
+      "--token", "${MOODLE_TOKEN}"
+    ],
+    "env": {
+      "MOODLE_HOST": "https://your-moodle-site.com",
+      "MOODLE_TOKEN": "your-web-service-token"
+    }
+  }
+}

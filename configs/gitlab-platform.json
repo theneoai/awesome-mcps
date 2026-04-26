@@ -1,0 +1,12 @@
+{
+  "gitlab-projects": {"command": "uvx", "args": ["mcp-server-gitlab-projects", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-issues": {"command": "uvx", "args": ["mcp-server-gitlab-issues", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-merge-requests": {"command": "uvx", "args": ["mcp-server-gitlab-merge-requests", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-pipelines": {"command": "uvx", "args": ["mcp-server-gitlab-pipelines", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-jobs": {"command": "uvx", "args": ["mcp-server-gitlab-jobs", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-commits": {"command": "uvx", "args": ["mcp-server-gitlab-commits", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-branches": {"command": "uvx", "args": ["mcp-server-gitlab-branches", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-releases": {"command": "uvx", "args": ["mcp-server-gitlab-releases", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-groups": {"command": "uvx", "args": ["mcp-server-gitlab-groups", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-snippets": {"command": "uvx", "args": ["mcp-server-gitlab-snippets", "--gitlab-token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}}
+}

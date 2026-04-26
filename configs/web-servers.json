@@ -1,0 +1,42 @@
+{
+  "nginx": {
+    "command": "uvx",
+    "args": ["mcp-server-nginx", "--host", "${NGINX_HOST}", "--port", "${NGINX_PORT}"],
+    "env": {"NGINX_HOST": "localhost", "NGINX_PORT": "8080"}
+  },
+  "apache": {
+    "command": "uvx",
+    "args": ["mcp-server-apache", "--host", "${APACHE_HOST}"],
+    "env": {"APACHE_HOST": "localhost"}
+  },
+  "traefik": {
+    "command": "uvx",
+    "args": ["mcp-server-traefik", "--url", "${TRAEFIK_URL}"],
+    "env": {"TRAEFIK_URL": "http://localhost:8080"}
+  },
+  "caddy": {
+    "command": "uvx",
+    "args": ["mcp-server-caddy", "--config", "${CADDY_CONFIG}"],
+    "env": {"CADDY_CONFIG": "/etc/caddy/Caddyfile"}
+  },
+  "haproxy": {
+    "command": "uvx",
+    "args": ["mcp-server-haproxy", "--socket", "${HAPROXY_SOCKET}"],
+    "env": {"HAPROXY_SOCKET": "/var/run/haproxy/admin.sock"}
+  },
+  "aws-elb": {
+    "command": "uvx",
+    "args": ["mcp-server-aws-elb", "--profile", "${AWS_PROFILE}"],
+    "env": {"AWS_PROFILE": "default", "AWS_REGION": "us-east-1"}
+  },
+  "azure-load-balancer": {
+    "command": "uvx",
+    "args": ["mcp-server-azure-lb", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"],
+    "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}
+  },
+  "gcp-load-balancer": {
+    "command": "uvx",
+    "args": ["mcp-server-gcp-lb", "--credentials-path", "${GCP_CREDENTIALS_PATH}"],
+    "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json", "GCP_PROJECT": "project"}
+  }
+}

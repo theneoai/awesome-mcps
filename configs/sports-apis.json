@@ -1,0 +1,12 @@
+{
+  "nba-games": {"command": "uvx", "args": ["mcp-server-nba-games", "--api-key", "${NBA_API_KEY}"], "env": {"NBA_API_KEY": "xxx"}},
+  "nba-players": {"command": "uvx", "args": ["mcp-server-nba-players", "--api-key", "${NBA_API_KEY}"], "env": {"NBA_API_KEY": "xxx"}},
+  "nba-teams": {"command": "uvx", "args": ["mcp-server-nba-teams", "--api-key", "${NBA_API_KEY}"], "env": {"NBA_API_KEY": "xxx"}},
+  "nba-standings": {"command": "uvx", "args": ["mcp-server-nba-standings", "--api-key", "${NBA_API_KEY}"], "env": {"NBA_API_KEY": "xxx"}},
+  "nfl-games": {"command": "uvx", "args": ["mcp-server-nfl-games", "--api-key", "${NFL_API_KEY}"], "env": {"NFL_API_KEY": "xxx"}},
+  "nfl-players": {"command": "uvx", "args": ["mcp-server-nfl-players", "--api-key", "${NFL_API_KEY}"], "env": {"NFL_API_KEY": "xxx"}},
+  "nfl-teams": {"command": "uvx", "args": ["mcp-server-nfl-teams", "--api-key", "${NFL_API_KEY}"], "env": {"NFL_API_KEY": "xxx"}},
+  "mlb-games": {"command": "uvx", "args": ["mcp-server-mlb-games", "--api-key", "${MLB_API_KEY}"], "env": {"MLB_API_KEY": "xxx"}},
+  "mlb-players": {"command": "uvx", "args": ["mcp-server-mlb-players", "--api-key", "${MLB_API_KEY}"], "env": {"MLB_API_KEY": "xxx"}},
+  "mlb-teams": {"command": "uvx", "args": ["mcp-server-mlb-teams", "--api-key", "${MLB_API_KEY}"], "env": {"MLB_API_KEY": "xxx"}}
+}

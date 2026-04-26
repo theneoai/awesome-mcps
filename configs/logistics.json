@@ -1,0 +1,36 @@
+{
+  "fedex": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-fedex",
+      "--client-id", "${FEDEX_CLIENT_ID}",
+      "--client-secret", "${FEDEX_CLIENT_SECRET}"
+    ],
+    "env": {
+      "FEDEX_CLIENT_ID": "your-client-id",
+      "FEDEX_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "ups": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-ups",
+      "--client-id", "${UPS_CLIENT_ID}",
+      "--client-secret", "${UPS_CLIENT_SECRET}"
+    ],
+    "env": {
+      "UPS_CLIENT_ID": "your-client-id",
+      "UPS_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "dhl": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-dhl",
+      "--api-key", "${DHL_API_KEY}"
+    ],
+    "env": {
+      "DHL_API_KEY": "your-api-key"
+    }
+  }
+}

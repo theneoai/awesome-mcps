@@ -1,0 +1,11 @@
+{
+  "youtube-data-api": {"command": "uvx", "args": ["mcp-server-youtube-data-api", "--api-key", "${YOUTUBE_API_KEY}"], "env": {"YOUTUBE_API_KEY": "xxx"}},
+  "youtube-analytics": {"command": "uvx", "args": ["mcp-server-youtube-analytics", "--api-key", "${YOUTUBE_API_KEY}"], "env": {"YOUTUBE_API_KEY": "xxx"}},
+  "youtube-live": {"command": "uvx", "args": ["mcp-server-youtube-live", "--api-key", "${YOUTUBE_API_KEY}"], "env": {"YOUTUBE_API_KEY": "xxx"}},
+  "vimeo-api": {"command": "uvx", "args": ["mcp-server-vimeo-api", "--access-token", "${VIMEO_ACCESS_TOKEN}"], "env": {"VIMEO_ACCESS_TOKEN": "xxx"}},
+  "dailymotion-api": {"command": "uvx", "args": ["mcp-server-dailymotion-api", "--api-key", "${DAILYMOTION_API_KEY}"], "env": {"DAILYMOTION_API_KEY": "xxx"}},
+  "twitch-api": {"command": "uvx", "args": ["mcp-server-twitch-api", "--client-id", "${TWITCH_CLIENT_ID}", "--client-secret", "${TWITCH_CLIENT_SECRET}"], "env": {"TWITCH_CLIENT_ID": "xxx", "TWITCH_CLIENT_SECRET": "xxx"}},
+  "mixer-api": {"command": "uvx", "args": ["mcp-server-mixer-api", "--api-key", "${MIXER_API_KEY}"], "env": {"MIXER_API_KEY": "xxx"}},
+  "bilibili": {"command": "uvx", "args": ["mcp-server-bilibili", "--api-key", "${BILIBILI_API_KEY}"], "env": {"BILIBILI_API_KEY": "xxx"}},
+  "tiktok-api": {"command": "uvx", "args": ["mcp-server-tiktok-api", "--client-key", "${TIKTOK_CLIENT_KEY}", "--client-secret", "${TIKTOK_CLIENT_SECRET}"], "env": {"TIKTOK_CLIENT_KEY": "xxx", "TIKTOK_CLIENT_SECRET": "xxx"}}
+}

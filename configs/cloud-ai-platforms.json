@@ -1,0 +1,12 @@
+{
+  "azure-openai": {"command": "uvx", "args": ["mcp-server-azure-openai", "--api-key", "${AZURE_OPENAI_API_KEY}"], "env": {"AZURE_OPENAI_ENDPOINT": "https://xxx.openai.azure.com", "AZURE_OPENAI_API_KEY": "xxx"}},
+  "azure-cognitive-services": {"command": "uvx", "args": ["mcp-server-azure-cognitive-services", "--api-key", "${AZURE_COGNITIVE_API_KEY}"], "env": {"AZURE_COGNITIVE_ENDPOINT": "https://xxx.cognitiveservices.azure.com", "AZURE_COGNITIVE_API_KEY": "xxx"}},
+  "azure-ai-language": {"command": "uvx", "args": ["mcp-server-azure-ai-language", "--api-key", "${AZURE_AI_LANGUAGE_API_KEY}"], "env": {"AZURE_AI_LANGUAGE_ENDPOINT": "https://xxx.cognitiveservices.azure.com", "AZURE_AI_LANGUAGE_API_KEY": "xxx"}},
+  "azure-ai-vision": {"command": "uvx", "args": ["mcp-server-azure-ai-vision", "--api-key", "${AZURE_AI_VISION_API_KEY}"], "env": {"AZURE_AI_VISION_ENDPOINT": "https://xxx.cognitiveservices.azure.com", "AZURE_AI_VISION_API_KEY": "xxx"}},
+  "azure-ai-speech": {"command": "uvx", "args": ["mcp-server-azure-ai-speech", "--api-key", "${AZURE_AI_SPEECH_API_KEY}"], "env": {"AZURE_AI_SPEECH_ENDPOINT": "https://xxx.cognitiveservices.azure.com", "AZURE_AI_SPEECH_API_KEY": "xxx"}},
+  "google-ai-studio": {"command": "uvx", "args": ["mcp-server-google-ai-studio", "--api-key", "${GOOGLE_AI_API_KEY}"], "env": {"GOOGLE_AI_API_KEY": "xxx"}},
+  "google-vertex-ai": {"command": "uvx", "args": ["mcp-server-google-vertex-ai", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "google-discovery-engine": {"command": "uvx", "args": ["mcp-server-google-discovery-engine", "--credentials", "${GCP_CREDENTIALS}"], "env": {"GCP_CREDENTIALS": "{\"type\": \"service_account\", ...}"}},
+  "google-nlp": {"command": "uvx", "args": ["mcp-server-google-nlp", "--api-key", "${GOOGLE_NLP_API_KEY}"], "env": {"GOOGLE_NLP_API_KEY": "xxx"}},
+  "google-speech-to-text": {"command": "uvx", "args": ["mcp-server-google-speech-to-text", "--api-key", "${GOOGLE_SPEECH_API_KEY}"], "env": {"GOOGLE_SPEECH_API_KEY": "xxx"}}
+}

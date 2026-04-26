@@ -1,0 +1,16 @@
+{
+  "oceanbase": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@oceanbase/mcp-oceanbase"
+    ],
+    "env": {
+      "OB_HOST": "localhost",
+      "OB_PORT": "2881",
+      "OB_USER": "root",
+      "OB_PASSWORD": "",
+      "OB_TENANT": "sys"
+    }
+  }
+}

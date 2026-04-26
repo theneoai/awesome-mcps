@@ -1,0 +1,11 @@
+{
+  "fred": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-fred"
+    ],
+    "env": {
+      "FRED_API_KEY": "your-api-key"
+    }
+  }
+}

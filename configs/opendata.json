@@ -1,0 +1,9 @@
+{
+  "opendata": {
+    "command": "uvx",
+    "args": [
+      "OpenDataMCP"
+    ],
+    "env": {}
+  }
+}

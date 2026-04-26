@@ -1,0 +1,37 @@
+{
+  "spotify-bands": {
+    "command": "uvx",
+    "args": ["mcp-server-spotify-bands", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"],
+    "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}
+  },
+  "songkick": {
+    "command": "uvx",
+    "args": ["mcp-server-songkick", "--api-key", "${SONGKICK_API_KEY}"],
+    "env": {"SONGKICK_API_KEY": "xxx"}
+  },
+  "seatgeek": {
+    "command": "uvx",
+    "args": ["mcp-server-seatgeek", "--client-id", "${SEATGEEK_CLIENT_ID}", "--client-secret", "${SEATGEEK_CLIENT_SECRET}"],
+    "env": {"SEATGEEK_CLIENT_ID": "xxx", "SEATGEEK_CLIENT_SECRET": "xxx"}
+  },
+  "ticketmaster": {
+    "command": "uvx",
+    "args": ["mcp-server-ticketmaster", "--api-key", "${TICKETMASTER_API_KEY}"],
+    "env": {"TICKETMASTER_API_KEY": "xxx"}
+  },
+  "stubhub": {
+    "command": "uvx",
+    "args": ["mcp-server-stubhub", "--api-key", "${STUBHUB_API_KEY}"],
+    "env": {"STUBHUB_API_KEY": "xxx"}
+  },
+  "eventbrite": {
+    "command": "uvx",
+    "args": ["mcp-server-eventbrite", "--api-key", "${EVENTBRITE_API_KEY}"],
+    "env": {"EVENTBRITE_API_KEY": "xxx"}
+  },
+  "meetup": {
+    "command": "uvx",
+    "args": ["mcp-server-meetup", "--api-key", "${MEETUP_API_KEY}"],
+    "env": {"MEETUP_API_KEY": "xxx"}
+  }
+}

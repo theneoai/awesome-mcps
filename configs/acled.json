@@ -1,0 +1,11 @@
+{
+  "acled": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-acled"
+    ],
+    "env": {
+      "ACLED_API_KEY": "your-api-key"
+    }
+  }
+}

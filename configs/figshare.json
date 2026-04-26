@@ -1,0 +1,11 @@
+{
+  "figshare": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-figshare"
+    ],
+    "env": {
+      "FIGSHARE_TOKEN": "your-token"
+    }
+  }
+}

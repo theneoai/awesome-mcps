@@ -1,0 +1,12 @@
+{
+  "github-actions-runs": {"command": "uvx", "args": ["mcp-server-github-actions-runs", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-actions-artifacts": {"command": "uvx", "args": ["mcp-server-github-actions-artifacts", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "github-actions-workflows": {"command": "uvx", "args": ["mcp-server-github-actions-workflows", "--token", "${GH_TOKEN}"], "env": {"GH_TOKEN": "ghp_xxx"}},
+  "circleci-builds": {"command": "uvx", "args": ["mcp-server-circleci-builds", "--token", "${CIRCLECI_TOKEN}"], "env": {"CIRCLECI_TOKEN": "xxx"}},
+  "circleci-pipelines": {"command": "uvx", "args": ["mcp-server-circleci-pipelines", "--token", "${CIRCLECI_TOKEN}"], "env": {"CIRCLECI_TOKEN": "xxx"}},
+  "gitlab-ci-pipelines": {"command": "uvx", "args": ["mcp-server-gitlab-ci-pipelines", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "gitlab-ci-jobs": {"command": "uvx", "args": ["mcp-server-gitlab-ci-jobs", "--token", "${GITLAB_TOKEN}"], "env": {"GITLAB_TOKEN": "glpat-xxx"}},
+  "jenkins-builds": {"command": "uvx", "args": ["mcp-server-jenkins-builds", "--url", "${JENKINS_URL}", "--username", "${JENKINS_USERNAME}", "--token", "${JENKINS_TOKEN}"], "env": {"JENKINS_URL": "https://jenkins.example.com", "JENKINS_USERNAME": "xxx", "JENKINS_TOKEN": "xxx"}},
+  "buildkite-builds": {"command": "uvx", "args": ["mcp-server-buildkite-builds", "--token", "${BUILDKITE_TOKEN}", "--org", "${BUILDKITE_ORG}"], "env": {"BUILDKITE_TOKEN": "xxx", "BUILDKITE_ORG": "xxx"}},
+  "teamcity-builds": {"command": "uvx", "args": ["mcp-server-teamcity-builds", "--url", "${TEAMCITY_URL}", "--token", "${TEAMCITY_TOKEN}"], "env": {"TEAMCITY_URL": "https://teamcity.example.com", "TEAMCITY_TOKEN": "xxx"}}
+}

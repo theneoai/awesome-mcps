@@ -1,0 +1,12 @@
+{
+  "polkadot-blocks": {"command": "uvx", "args": ["mcp-server-polkadot-blocks", "--rpc-url", "${POLKADOT_RPC_URL}"], "env": {"POLKADOT_RPC_URL": "https://rpc.polkadot.io"}},
+  "polkadot-transactions": {"command": "uvx", "args": ["mcp-server-polkadot-transactions", "--rpc-url", "${POLKADOT_RPC_URL}"], "env": {"POLKADOT_RPC_URL": "https://rpc.polkadot.io"}},
+  "cardano-blocks": {"command": "uvx", "args": ["mcp-server-cardano-blocks", "--api-key", "${CARDANO_API_KEY}"], "env": {"CARDANO_API_KEY": "xxx"}},
+  "cardano-transactions": {"command": "uvx", "args": ["mcp-server-cardano-transactions", "--api-key", "${CARDANO_API_KEY}"], "env": {"CARDANO_API_KEY": "xxx"}},
+  "avalanche-blocks": {"command": "uvx", "args": ["mcp-server-avalanche-blocks", "--rpc-url", "${AVALANCHE_RPC_URL}"], "env": {"AVALANCHE_RPC_URL": "https://api.avax.network"}},
+  "avalanche-transactions": {"command": "uvx", "args": ["mcp-server-avalanche-transactions", "--rpc-url", "${AVALANCHE_RPC_URL}"], "env": {"AVALANCHE_RPC_URL": "https://api.avax.network"}},
+  "algorand-blocks": {"command": "uvx", "args": ["mcp-server-algorand-blocks", "--api-key", "${ALGORAND_API_KEY}"], "env": {"ALGORAND_API_KEY": "xxx"}},
+  "algorand-transactions": {"command": "uvx", "args": ["mcp-server-algorand-transactions", "--api-key", "${ALGORAND_API_KEY}"], "env": {"ALGORAND_API_KEY": "xxx"}},
+  "fantom-blocks": {"command": "uvx", "args": ["mcp-server-fantom-blocks", "--rpc-url", "${FANTOM_RPC_URL}"], "env": {"FANTOM_RPC_URL": "https://rpc.ftm.tools"}},
+  "fantom-transactions": {"command": "uvx", "args": ["mcp-server-fantom-transactions", "--rpc-url", "${FANTOM_RPC_URL}"], "env": {"FANTOM_RPC_URL": "https://rpc.ftm.tools"}}
+}

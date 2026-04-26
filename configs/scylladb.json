@@ -1,0 +1,15 @@
+{
+  "scylladb": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-scylladb"
+    ],
+    "env": {
+      "SCYLLA_HOST": "localhost",
+      "SCYLLA_PORT": "9042",
+      "SCYLLA_USER": "cassandra",
+      "SCYLLA_PASSWORD": "cassandra"
+    }
+  }
+}

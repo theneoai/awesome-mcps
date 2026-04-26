@@ -1,0 +1,12 @@
+{
+  "numerai": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-numerai"
+    ],
+    "env": {
+      "NUMERAI_PUBLIC_KEY": "your-public-key",
+      "NUMERAI_SECRET_KEY": "your-secret-key"
+    }
+  }
+}

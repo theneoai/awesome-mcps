@@ -1,0 +1,28 @@
+{
+  "hl7-fhir": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-hl7-fhir",
+      "--server-url", "${FHIR_SERVER_URL}",
+      "--auth-type", "${FHIR_AUTH_TYPE}"
+    ],
+    "env": {
+      "FHIR_SERVER_URL": "https://fhir.example.com/r4",
+      "FHIR_AUTH_TYPE": "smart-on-fhir"
+    }
+  },
+  "epic": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-epic",
+      "--client-id", "${EPIC_CLIENT_ID}",
+      "--client-secret", "${EPIC_CLIENT_SECRET}",
+      "--server-url", "${EPIC_SERVER_URL}"
+    ],
+    "env": {
+      "EPIC_CLIENT_ID": "your-client-id",
+      "EPIC_CLIENT_SECRET": "your-client-secret",
+      "EPIC_SERVER_URL": "https://fhir.epic.com/interconnect-fhir-oauth"
+    }
+  }
+}

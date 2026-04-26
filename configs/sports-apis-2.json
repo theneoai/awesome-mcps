@@ -1,0 +1,12 @@
+{
+  "espn-api-college-basketball": {"command": "uvx", "args": ["mcp-server-espn-api-college-basketball", "--api-key", "${ESPN_API_KEY}"], "env": {"ESPN_API_KEY": "xxx"}},
+  "espn-api-mlb": {"command": "uvx", "args": ["mcp-server-espn-api-mlb", "--api-key", "${ESPN_API_KEY}"], "env": {"ESPN_API_KEY": "xxx"}},
+  "espn-api-nhl": {"command": "uvx", "args": ["mcp-server-espn-api-nhl", "--api-key", "${ESPN_API_KEY}"], "env": {"ESPN_API_KEY": "xxx"}},
+  "espn-api-soccer": {"command": "uvx", "args": ["mcp-server-espn-api-soccer", "--api-key", "${ESPN_API_KEY}"], "env": {"ESPN_API_KEY": "xxx"}},
+  "sportsradar-nba": {"command": "uvx", "args": ["mcp-server-sportsradar-nba", "--api-key", "${SPORTSRADAR_API_KEY}"], "env": {"SPORTSRADAR_API_KEY": "xxx"}},
+  "sportsradar-nfl": {"command": "uvx", "args": ["mcp-server-sportsradar-nfl", "--api-key", "${SPORTSRADAR_API_KEY}"], "env": {"SPORTSRADAR_API_KEY": "xxx"}},
+  "sportsradar-mlb": {"command": "uvx", "args": ["mcp-server-sportsradar-mlb", "--api-key", "${SPORTSRADAR_API_KEY}"], "env": {"SPORTSRADAR_API_KEY": "xxx"}},
+  "sportsradar-nhl": {"command": "uvx", "args": ["mcp-server-sportsradar-nhl", "--api-key", "${SPORTSRADAR_API_KEY}"], "env": {"SPORTSRADAR_API_KEY": "xxx"}},
+  "sportradar-soccer": {"command": "uvx", "args": ["mcp-server-sportradar-soccer", "--api-key", "${SPORTSRADAR_API_KEY}"], "env": {"SPORTSRADAR_API_KEY": "xxx"}},
+  "stats-global-football": {"command": "uvx", "args": ["mcp-server-stats-global-football", "--api-key", "${STATS_API_KEY}"], "env": {"STATS_API_KEY": "xxx"}}
+}

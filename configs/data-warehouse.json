@@ -1,0 +1,10 @@
+{
+  "snowflake": {"command": "uvx", "args": ["mcp-server-snowflake", "--account", "${SNOWFLAKE_ACCOUNT}", "--username", "${SNOWFLAKE_USERNAME}", "--password", "${SNOWFLAKE_PASSWORD}"], "env": {"SNOWFLAKE_ACCOUNT": "xxx", "SNOWFLAKE_USERNAME": "xxx", "SNOWFLAKE_PASSWORD": "xxx"}},
+  "bigquery": {"command": "uvx", "args": ["mcp-server-bigquery", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "redshift": {"command": "uvx", "args": ["mcp-server-redshift", "--host", "${REDSHIFT_HOST}", "--port", "${REDSHIFT_PORT}", "--database", "${REDSHIFT_DATABASE}", "--username", "${REDSHIFT_USERNAME}", "--password", "${REDSHIFT_PASSWORD}"], "env": {"REDSHIFT_HOST": "xxx", "REDSHIFT_PORT": "5439", "REDSHIFT_DATABASE": "dev", "REDSHIFT_USERNAME": "xxx", "REDSHIFT_PASSWORD": "xxx"}},
+  "databricks": {"command": "uvx", "args": ["mcp-server-databricks", "--host", "${DATABRICKS_HOST}", "--token", "${DATABRICKS_TOKEN}"], "env": {"DATABRICKS_HOST": "https://xxx.cloud.databricks.com", "DATABRICKS_TOKEN": "xxx"}},
+  "clickhouse": {"command": "uvx", "args": ["mcp-server-clickhouse", "--host", "${CLICKHOUSE_HOST}", "--port", "${CLICKHOUSE_PORT}"], "env": {"CLICKHOUSE_HOST": "localhost", "CLICKHOUSE_PORT": "8123", "CLICKHOUSE_USERNAME": "default", "CLICKHOUSE_PASSWORD": ""}},
+  "trino": {"command": "uvx", "args": ["mcp-server-trino", "--host", "${TRINO_HOST}", "--port", "${TRINO_PORT}"], "env": {"TRINO_HOST": "localhost", "TRINO_PORT": "8080"}},
+  "presto": {"command": "uvx", "args": ["mcp-server-presto", "--host", "${PRESTO_HOST}", "--port", "${PRESTO_PORT}"], "env": {"PRESTO_HOST": "localhost", "PRESTO_PORT": "8080"}},
+  "apache-spark": {"command": "uvx", "args": ["mcp-server-apache-spark", "--host", "${SPARK_HOST}", "--port", "${SPARK_PORT}"], "env": {"SPARK_HOST": "localhost", "SPARK_PORT": "7077"}}
+}

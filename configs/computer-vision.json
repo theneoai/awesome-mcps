@@ -1,0 +1,12 @@
+{
+  "google-vision": {"command": "uvx", "args": ["mcp-server-google-vision", "--api-key", "${GOOGLE_VISION_API_KEY}"], "env": {"GOOGLE_VISION_API_KEY": "xxx"}},
+  "aws-textract": {"command": "uvx", "args": ["mcp-server-aws-textract", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-computer-vision": {"command": "uvx", "args": ["mcp-server-azure-cv", "--key", "${AZURE_CV_KEY}", "--endpoint", "${AZURE_CV_ENDPOINT}"], "env": {"AZURE_CV_KEY": "xxx", "AZURE_CV_ENDPOINT": "xxx"}},
+  "abbyy": {"command": "uvx", "args": ["mcp-server-abbyy", "--api-key", "${ABBYY_API_KEY}"], "env": {"ABBYY_API_KEY": "xxx"}},
+  "transkribus": {"command": "uvx", "args": ["mcp-server-transkribus", "--api-key", "${TRANSKRIBUS_API_KEY}"], "env": {"TRANSKRIBUS_API_KEY": "xxx"}},
+  "mathpix": {"command": "uvx", "args": ["mcp-server-mathpix", "--app-id", "${MATHPIX_APP_ID}", "--app-key", "${MATHPIX_APP_KEY}"], "env": {"MATHPIX_APP_ID": "xxx", "MATHPIX_APP_KEY": "xxx"}},
+  "clarifai": {"command": "uvx", "args": ["mcp-server-clarifai", "--api-key", "${CLARIFAI_API_KEY}"], "env": {"CLARIFAI_API_KEY": "xxx"}},
+  "imagga": {"command": "uvx", "args": ["mcp-server-imagga", "--api-key", "${IMAGGA_API_KEY}"], "env": {"IMAGGA_API_KEY": "xxx"}},
+  "cloudmersive": {"command": "uvx", "args": ["mcp-server-cloudmersive", "--api-key", "${CLOUDMERSIVE_API_KEY}"], "env": {"CLOUDMERSIVE_API_KEY": "xxx"}},
+  "ocr-space": {"command": "uvx", "args": ["mcp-server-ocr-space", "--api-key", "${OCR_SPACE_API_KEY}"], "env": {"OCR_SPACE_API_KEY": "xxx"}}
+}

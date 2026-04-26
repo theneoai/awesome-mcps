@@ -1,0 +1,12 @@
+{
+  "digitalocean-droplets": {"command": "uvx", "args": ["mcp-server-digitalocean-droplets", "--token", "${DO_TOKEN}"], "env": {"DO_TOKEN": "xxx"}},
+  "digitalocean-kubernetes": {"command": "uvx", "args": ["mcp-server-digitalocean-kubernetes", "--token", "${DO_TOKEN}"], "env": {"DO_TOKEN": "xxx"}},
+  "digitalocean-apps": {"command": "uvx", "args": ["mcp-server-digitalocean-apps", "--token", "${DO_TOKEN}"], "env": {"DO_TOKEN": "xxx"}},
+  "digitalocean-functions": {"command": "uvx", "args": ["mcp-server-digitalocean-functions", "--token", "${DO_TOKEN}"], "env": {"DO_TOKEN": "xxx"}},
+  "digitalocean-volumes": {"command": "uvx", "args": ["mcp-server-digitalocean-volumes", "--token", "${DO_TOKEN}"], "env": {"DO_TOKEN": "xxx"}},
+  "vultr-instances": {"command": "uvx", "args": ["mcp-server-vultr-instances", "--api-key", "${VULTR_API_KEY}"], "env": {"VULTR_API_KEY": "xxx"}},
+  "vultr-kubernetes": {"command": "uvx", "args": ["mcp-server-vultr-kubernetes", "--api-key", "${VULTR_API_KEY}"], "env": {"VULTR_API_KEY": "xxx"}},
+  "linode-instances": {"command": "uvx", "args": ["mcp-server-linode-instances", "--api-key", "${LINODE_API_KEY}"], "env": {"LINODE_API_KEY": "xxx"}},
+  "linode-kubernetes": {"command": "uvx", "args": ["mcp-server-linode-kubernetes", "--api-key", "${LINODE_API_KEY}"], "env": {"LINODE_API_KEY": "xxx"}},
+  "scaleway-instances": {"command": "uvx", "args": ["mcp-server-scaleway-instances", "--api-key", "${SCALEWAY_API_KEY}"], "env": {"SCALEWAY_API_KEY": "xxx"}}
+}

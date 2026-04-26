@@ -1,0 +1,12 @@
+{
+  "steam-games": {"command": "uvx", "args": ["mcp-server-steam-games", "--api-key", "${STEAM_API_KEY}"], "env": {"STEAM_API_KEY": "xxx"}},
+  "steam-users": {"command": "uvx", "args": ["mcp-server-steam-users", "--api-key", "${STEAM_API_KEY}"], "env": {"STEAM_API_KEY": "xxx"}},
+  "steam-friends": {"command": "uvx", "args": ["mcp-server-steam-friends", "--api-key", "${STEAM_API_KEY}"], "env": {"STEAM_API_KEY": "xxx"}},
+  "steam-achievements": {"command": "uvx", "args": ["mcp-server-steam-achievements", "--api-key", "${STEAM_API_KEY}"], "env": {"STEAM_API_KEY": "xxx"}},
+  "steam-leaderboards": {"command": "uvx", "args": ["mcp-server-steam-leaderboards", "--api-key", "${STEAM_API_KEY}"], "env": {"STEAM_API_KEY": "xxx"}},
+  "playstation-network": {"command": "uvx", "args": ["mcp-server-playstation-network", "--api-key", "${PSN_API_KEY}"], "env": {"PSN_API_KEY": "xxx"}},
+  "xbox-live": {"command": "uvx", "args": ["mcp-server-xbox-live", "--api-key", "${XBOX_API_KEY}"], "env": {"XBOX_API_KEY": "xxx"}},
+  "twitch-games": {"command": "uvx", "args": ["mcp-server-twitch-games", "--client-id", "${TWITCH_CLIENT_ID}", "--client-secret", "${TWITCH_CLIENT_SECRET}"], "env": {"TWITCH_CLIENT_ID": "xxx", "TWITCH_CLIENT_SECRET": "xxx"}},
+  "twitch-streams": {"command": "uvx", "args": ["mcp-server-twitch-streams", "--client-id", "${TWITCH_CLIENT_ID}", "--client-secret", "${TWITCH_CLIENT_SECRET}"], "env": {"TWITCH_CLIENT_ID": "xxx", "TWITCH_CLIENT_SECRET": "xxx"}},
+  "riot-games-league": {"command": "uvx", "args": ["mcp-server-riot-games-league", "--api-key", "${RIOT_API_KEY}"], "env": {"RIOT_API_KEY": "xxx"}}
+}

@@ -1,0 +1,9 @@
+{
+  "dryad": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-dryad"
+    ],
+    "env": {}
+  }
+}

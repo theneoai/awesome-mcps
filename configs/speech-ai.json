@@ -1,0 +1,12 @@
+{
+  "assemblyai-transcribe": {"command": "uvx", "args": ["mcp-server-assemblyai-transcribe", "--api-key", "${ASSEMBLYAI_API_KEY}"], "env": {"ASSEMBLYAI_API_KEY": "xxx"}},
+  "assemblyai-summarize": {"command": "uvx", "args": ["mcp-server-assemblyai-summarize", "--api-key", "${ASSEMBLYAI_API_KEY}"], "env": {"ASSEMBLYAI_API_KEY": "xxx"}},
+  "assemblyai-entities": {"command": "uvx", "args": ["mcp-server-assemblyai-entities", "--api-key", "${ASSEMBLYAI_API_KEY}"], "env": {"ASSEMBLYAI_API_KEY": "xxx"}},
+  "deepgram-transcribe": {"command": "uvx", "args": ["mcp-server-deepgram-transcribe", "--api-key", "${DEEPGRAM_API_KEY}"], "env": {"DEEPGRAM_API_KEY": "xxx"}},
+  "deepgram-tts": {"command": "uvx", "args": ["mcp-server-deepgram-tts", "--api-key", "${DEEPGRAM_API_KEY}"], "env": {"DEEPGRAM_API_KEY": "xxx"}},
+  "rev-ai-transcribe": {"command": "uvx", "args": ["mcp-server-rev-ai-transcribe", "--api-key", "${REVAI_API_KEY}"], "env": {"REVAI_API_KEY": "xxx"}},
+  "elevenlabs-tts": {"command": "uvx", "args": ["mcp-server-elevenlabs-tts", "--api-key", "${ELEVENLABS_API_KEY}"], "env": {"ELEVENLABS_API_KEY": "xxx"}},
+  "elevenlabs-voices": {"command": "uvx", "args": ["mcp-server-elevenlabs-voices", "--api-key", "${ELEVENLABS_API_KEY}"], "env": {"ELEVENLABS_API_KEY": "xxx"}},
+  "murf-tts": {"command": "uvx", "args": ["mcp-server-murf-tts", "--api-key", "${MURF_API_KEY}"], "env": {"MURF_API_KEY": "xxx"}},
+  "voiceflow-tts": {"command": "uvx", "args": ["mcp-server-voiceflow-tts", "--api-key", "${VOICEFLOW_API_KEY}"], "env": {"VOICEFLOW_API_KEY": "xxx"}}
+}

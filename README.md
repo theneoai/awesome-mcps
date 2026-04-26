@@ -1,6 +1,6 @@
 # Awesome MCPs
 
-> Curated collection of Model Context Protocol (MCP) servers and tools. 104+ MCPs available.
+> Curated collection of Model Context Protocol (MCP) servers and tools. 500+ MCPs available.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -69,6 +69,63 @@ Copy any of these commands to install a specific MCP:
 | ClickHouse | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/clickhouse.json and install` |
 | InfluxDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/influxdb.json and install` |
 | Databricks | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/databricks.json and install` |
+| MySQL | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/mysql.json and install` |
+| MariaDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/mariadb.json and install` |
+| Neon | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/neon.json and install` |
+| PlanetScale | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/planetscale.json and install` |
+| TiDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/tidb.json and install` |
+| CockroachDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/cockroachdb.json and install` |
+| SingleStore | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/singlestore.json and install` |
+| ScyllaDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/scylladb.json and install` |
+| QuestDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/questdb.json and install` |
+| Timescale | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/timescale.json and install` |
+| DuckDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/duckdb.json and install` |
+| Chroma | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/chroma.json and install` |
+| BigQuery | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/bigquery.json and install` |
+| Snowflake | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/snowflake.json and install` |
+| DynamoDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/dynamodb.json and install` |
+| Firestore | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/firestore.json and install` |
+| Spanner | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/spanner.json and install` |
+| DocumentDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/documentdb.json and install` |
+| CouchDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/couchdb.json and install` |
+| Realm | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/realm.json and install` |
+| StarRocks | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/starrocks.json and install` |
+| OceanBase | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/oceanbase.json and install` |
+| Apache Drill | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/apache-drill.json and install` |
+| AlloyDB | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/alloydb.json and install` |
+| Superset | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/superset.json and install` |
+| DataGouv | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/datagouv.json and install` |
+| OpenData | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/opendata.json and install` |
+| arXiv | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/arxiv.json and install` |
+| PubMed | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pubmed.json and install` |
+| Kaggle | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/kaggle.json and install` |
+| Hugging Face | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/huggingface.json and install` |
+| World Bank | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/worldbank.json and install` |
+| FRED | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/fred.json and install` |
+| Wikipedia | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/wikipedia.json and install` |
+| OpenAlex | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/openalex.json and install` |
+| Semantic Scholar | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/semantic-scholar.json and install` |
+| Crossref | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/crossref.json and install` |
+| GeoNames | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/geonames.json and install` |
+| OpenFlights | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/openflights.json and install` |
+| OurAirports | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/ourairports.json and install` |
+| GDELT | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/gdelt.json and install` |
+| Numerai | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/numerai.json and install` |
+| Polygon | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/polygon.json and install` |
+| CoinMarketCap | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/coinmarketcap.json and install` |
+| Quandl | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/quandl.json and install` |
+| yFinance | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/yfinance.json and install` |
+| OpenWeatherMap | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/openweathermap.json and install` |
+| Pubrio | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/pubrio.json and install` |
+| FirstData | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/firstdata.json and install` |
+| Marmot | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/marmot.json and install` |
+| Dataverse | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/dataverse.json and install` |
+| Figshare | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/figshare.json and install` |
+| Zenodo | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/zenodo.json and install` |
+| Dryad | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/dryad.json and install` |
+| Mendeley | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/mendeley.json and install` |
+| ICPSR | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/icpsr.json and install` |
+| OpenContext | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/opencontext.json and install` |
 
 ### Communication
 
@@ -293,7 +350,7 @@ Copy any of these commands to install a specific MCP:
 
 ## All Configs
 
-Browse all 104+ configs at [configs/](configs/)
+Browse all 169+ configs at [configs/](configs/)
 
 ## Categories
 

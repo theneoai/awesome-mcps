@@ -1,0 +1,12 @@
+{
+  "shopify-warehouses-full": {"command": "uvx", "args": ["mcp-server-shopify-warehouses-full", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-fulfillment-services": {"command": "uvx", "args": ["mcp-server-shopify-fulfillment-services", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-fulfillment-orders": {"command": "uvx", "args": ["mcp-server-shopify-fulfillment-orders", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-bulk-operations": {"command": "uvx", "args": ["mcp-server-shopify-bulk-operations", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-fulfillment-services": {"command": "uvx", "args": ["mcp-server-woocommerce-fulfillment-services", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "bigcommerce-fulfillment": {"command": "uvx", "args": ["mcp-server-bigcommerce-fulfillment", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}},
+  "magento-fulfillment": {"command": "uvx", "args": ["mcp-server-magento-fulfillment", "--url", "${MAGENTO_URL}"], "env": {"MAGENTO_URL": "https://xxx.com", "MAGENTO_USERNAME": "xxx", "MAGENTO_PASSWORD": "xxx"}},
+  "shipstation-fulfillment": {"command": "uvx", "args": ["mcp-server-shipstation-fulfillment", "--api-key", "${SHIPSTATION_API_KEY}"], "env": {"SHIPSTATION_API_KEY": "xxx"}},
+  "deliverr": {"command": "uvx", "args": ["mcp-server-deliverr", "--api-key", "${DELIVERR_API_KEY}"], "env": {"DELIVERR_API_KEY": "xxx"}},
+  "amazon-mcf": {"command": "uvx", "args": ["mcp-server-amazon-mcf", "--access-key", "${AMAZON_ACCESS_KEY}", "--secret-key", "${AMAZON_SECRET_KEY}"], "env": {"AMAZON_ACCESS_KEY": "xxx", "AMAZON_SECRET_KEY": "xxx"}}
+}

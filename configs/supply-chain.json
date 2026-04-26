@@ -1,0 +1,10 @@
+{
+  "manhattan": {"command": "uvx", "args": ["mcp-server-manhattan", "--host", "${MANHATTAN_HOST}"], "env": {"MANHATTAN_HOST": "https://xxx.manh.com", "MANHATTAN_USERNAME": "xxx", "MANHATTAN_PASSWORD": "xxx"}},
+  "blueYonder": {"command": "uvx", "args": ["mcp-server-blueyonder", "--host", "${BLUEYONDER_HOST}"], "env": {"BLUEYONDER_HOST": "https://xxx.blueyonder.com", "BLUEYONDER_USERNAME": "xxx", "BLUEYONDER_PASSWORD": "xxx"}},
+  "kinaxis": {"command": "uvx", "args": ["mcp-server-kinaxis", "--api-key", "${KINAXIS_API_KEY}"], "env": {"KINAXIS_API_KEY": "xxx"}},
+  "清水": {"command": "uvx", "args": ["mcp-server-sap-scm", "--host", "${SAP_HOST}", "--client", "${SAP_CLIENT}", "--user", "${SAP_USER}", "--password", "${SAP_PASSWORD}"], "env": {"SAP_HOST": "https://xxx", "SAP_CLIENT": "100", "SAP_USER": "xxx", "SAP_PASSWORD": "xxx"}},
+  "oracle-scm": {"command": "uvx", "args": ["mcp-server-oracle-scm", "--host", "${ORACLE_SCM_HOST}"], "env": {"ORACLE_SCM_HOST": "https://xxx", "ORACLE_SCM_USERNAME": "xxx", "ORACLE_SCM_PASSWORD": "xxx"}},
+  "fishbowl": {"command": "uvx", "args": ["mcp-server-fishbowl", "--host", "${FISHBOWL_HOST}"], "env": {"FISHBOWL_HOST": "http://localhost:8090", "FISHBOWL_USERNAME": "xxx", "FISHBOWL_PASSWORD": "xxx"}},
+  "tradegecko": {"command": "uvx", "args": ["mcp-server-tradegecko", "--api-key", "${TRADEGECKO_API_KEY}"], "env": {"TRADEGECKO_API_KEY": "xxx"}},
+  "cin7": {"command": "uvx", "args": ["mcp-server-cin7", "--api-key", "${CIN7_API_KEY}"], "env": {"CIN7_API_KEY": "xxx"}}
+}

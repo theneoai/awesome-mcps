@@ -1,0 +1,32 @@
+{
+  "twilio-sms": {
+    "command": "uvx",
+    "args": ["mcp-server-twilio-sms", "--account-sid", "${TWILIO_ACCOUNT_SID}", "--auth-token", "${TWILIO_AUTH_TOKEN}"],
+    "env": {"TWILIO_ACCOUNT_SID": "xxx", "TWILIO_AUTH_TOKEN": "xxx"}
+  },
+  "nexmo": {
+    "command": "uvx",
+    "args": ["mcp-server-nexmo", "--api-key", "${NEXMO_API_KEY}", "--api-secret", "${NEXMO_API_SECRET}"],
+    "env": {"NEXMO_API_KEY": "xxx", "NEXMO_API_SECRET": "xxx"}
+  },
+  "messagebird": {
+    "command": "uvx",
+    "args": ["mcp-server-messagebird", "--api-key", "${MESSAGEBIRD_API_KEY}"],
+    "env": {"MESSAGEBIRD_API_KEY": "xxx"}
+  },
+  "bandwidth": {
+    "command": "uvx",
+    "args": ["mcp-server-bandwidth", "--username", "${BANDWIDTH_USERNAME}", "--password", "${BANDWIDTH_PASSWORD}", "--account-id", "${BANDWIDTH_ACCOUNT_ID}"],
+    "env": {"BANDWIDTH_USERNAME": "xxx", "BANDWIDTH_PASSWORD": "xxx", "BANDWIDTH_ACCOUNT_ID": "xxx"}
+  },
+  "telnyx": {
+    "command": "uvx",
+    "args": ["mcp-server-telnyx", "--api-key", "${TELNYX_API_KEY}"],
+    "env": {"TELNYX_API_KEY": "xxx"}
+  },
+  "clockwork": {
+    "command": "uvx",
+    "args": ["mcp-server-clockwork", "--api-key", "${CLOCKWORK_API_KEY}"],
+    "env": {"CLOCKWORK_API_KEY": "xxx"}
+  }
+}

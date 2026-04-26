@@ -1,0 +1,12 @@
+{
+  "hubspot-crm": {"command": "uvx", "args": ["mcp-server-hubspot-crm", "--api-key", "${HUBSPOT_API_KEY}"], "env": {"HUBSPOT_API_KEY": "xxx"}},
+  "salesforce-crm": {"command": "uvx", "args": ["mcp-server-salesforce-crm", "--client-id", "${SALESFORCE_CLIENT_ID}", "--client-secret", "${SALESFORCE_CLIENT_SECRET}", "--instance-url", "${SALESFORCE_INSTANCE_URL}"], "env": {"SALESFORCE_CLIENT_ID": "xxx", "SALESFORCE_CLIENT_SECRET": "xxx", "SALESFORCE_INSTANCE_URL": "https://xxx.salesforce.com"}},
+  "dynamics-crm": {"command": "uvx", "args": ["mcp-server-dynamics-crm", "--url", "${DYNAMICS_URL}", "--client-id", "${DYNAMICS_CLIENT_ID}", "--client-secret", "${DYNAMICS_CLIENT_SECRET}"], "env": {"DYNAMICS_URL": "https://xxx.crm.dynamics.com", "DYNAMICS_CLIENT_ID": "xxx", "DYNAMICS_CLIENT_SECRET": "xxx"}},
+  "pipedrive-crm": {"command": "uvx", "args": ["mcp-server-pipedrive-crm", "--api-token", "${PIPEDRIVE_API_TOKEN}"], "env": {"PIPEDRIVE_API_TOKEN": "xxx"}},
+  "zoho-crm": {"command": "uvx", "args": ["mcp-server-zoho-crm", "--client-id", "${ZOHO_CLIENT_ID}", "--client-secret", "${ZOHO_CLIENT_SECRET}", "--datacenter", "${ZOHO_DATACENTER}"], "env": {"ZOHO_CLIENT_ID": "xxx", "ZOHO_CLIENT_SECRET": "xxx", "ZOHO_DATACENTER": "com"}},
+  "freshsales-crm": {"command": "uvx", "args": ["mcp-server-freshsales-crm", "--api-key", "${FRESHSALES_API_KEY}", "--domain", "${FRESHSALES_DOMAIN}"], "env": {"FRESHSALES_API_KEY": "xxx", "FRESHSALES_DOMAIN": "xxx.freshsales.com"}},
+  "sugar-crm": {"command": "uvx", "args": ["mcp-server-sugar-crm", "--url", "${SUGAR_URL}"], "env": {"SUGAR_URL": "https://xxx.sugarondemand.com", "SUGAR_USERNAME": "xxx", "SUGAR_PASSWORD": "xxx"}},
+  "suitecrm": {"command": "uvx", "args": ["mcp-server-suitecrm", "--url", "${SUITECRM_URL}"], "env": {"SUITECRM_URL": "http://localhost", "SUITECRM_USERNAME": "xxx", "SUITECRM_PASSWORD": "xxx"}},
+  "Vtiger": {"command": "uvx", "args": ["mcp-server-vtiger", "--url", "${VTIGER_URL}"], "env": {"VTIGER_URL": "https://xxx.odx.com", "VTIGER_USERNAME": "xxx", "VTIGER_ACCESS_KEY": "xxx"}},
+  "capsule-crm": {"command": "uvx", "args": ["mcp-server-capsule-crm", "--api-key", "${CAPSULE_API_KEY}"], "env": {"CAPSULE_API_KEY": "xxx"}}
+}

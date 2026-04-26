@@ -1,0 +1,11 @@
+{
+  "firebase-realtime-db": {"command": "uvx", "args": ["mcp-server-firebase-rtdb", "--credentials-path", "${FIREBASE_CREDENTIALS_PATH}"], "env": {"FIREBASE_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "aws-appsync": {"command": "uvx", "args": ["mcp-server-aws-appsync", "--api-id", "${APPSYNC_API_ID}"], "env": {"APPSYNC_API_ID": "xxx", "AWS_PROFILE": "default"}},
+  "azure-signalr": {"command": "uvx", "args": ["mcp-server-azure-signalr", "--connection-string", "${SIGNALR_CONNECTION_STRING}"], "env": {"SIGNALR_CONNECTION_STRING": "xxx"}},
+  "pusher-channels": {"command": "uvx", "args": ["mcp-server-pusher-channels", "--app-id", "${PUSHER_APP_ID}", "--key", "${PUSHER_KEY}", "--secret", "${PUSHER_SECRET}", "--cluster", "${PUSHER_CLUSTER}"], "env": {"PUSHER_APP_ID": "xxx", "PUSHER_KEY": "xxx", "PUSHER_SECRET": "xxx", "PUSHER_CLUSTER": "us2"}},
+  "ably-realtime": {"command": "uvx", "args": ["mcp-server-ably", "--api-key", "${ABLY_API_KEY}"], "env": {"ABLY_API_KEY": "xxx"}},
+  "socketcluster-realtime": {"command": "uvx", "args": ["mcp-server-socketcluster", "--host", "${SC_HOST}"], "env": {"SC_HOST": "localhost:8000"}},
+  "deepstream": {"command": "uvx", "args": ["mcp-server-deepstream", "--url", "${DEEPSTREAM_URL}"], "env": {"DEEPSTREAM_URL": "localhost:6020"}},
+  "horizon": {"command": "uvx", "args": ["mcp-server-horizon", "--url", "${HORIZON_URL}"], "env": {"HORIZON_URL": "http://localhost:8000"}},
+  "appwrite-realtime": {"command": "uvx", "args": ["mcp-server-appwrite-realtime", "--endpoint", "${APPWRITE_ENDPOINT}"], "env": {"APPWRITE_ENDPOINT": "http://localhost/v1", "APPWRITE_PROJECT_ID": "xxx", "APPWRITE_API_KEY": "xxx"}}
+}

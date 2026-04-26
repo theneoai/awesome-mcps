@@ -1,0 +1,9 @@
+{
+  "openalex": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-openalex"
+    ],
+    "env": {}
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "worldbank": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-worldbank"
+    ],
+    "env": {}
+  }
+}

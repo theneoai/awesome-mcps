@@ -1,0 +1,52 @@
+{
+  "jenkins": {
+    "command": "uvx",
+    "args": ["mcp-server-jenkins", "--url", "${JENKINS_URL}", "--username", "${JENKINS_USERNAME}", "--token", "${JENKINS_TOKEN}"],
+    "env": {"JENKINS_URL": "https://jenkins.example.com", "JENKINS_USERNAME": "user", "JENKINS_TOKEN": "token"}
+  },
+  "github-actions": {
+    "command": "uvx",
+    "args": ["mcp-server-github-actions", "--token", "${GH_TOKEN}"],
+    "env": {"GH_TOKEN": "ghp_xxx"}
+  },
+  "gitlab-ci": {
+    "command": "uvx",
+    "args": ["mcp-server-gitlab-ci", "--token", "${GITLAB_TOKEN}", "--url", "${GITLAB_URL}"],
+    "env": {"GITLAB_TOKEN": "glpat-xxx", "GITLAB_URL": "https://gitlab.com"}
+  },
+  "bitbucket-pipelines": {
+    "command": "uvx",
+    "args": ["mcp-server-bitbucket-pipelines", "--workspace", "${BB_WORKSPACE}", "--token", "${BB_TOKEN}"],
+    "env": {"BB_WORKSPACE": "workspace", "BB_TOKEN": "xxx"}
+  },
+  "teamcity": {
+    "command": "uvx",
+    "args": ["mcp-server-teamcity", "--url", "${TEAMCITY_URL}", "--token", "${TEAMCITY_TOKEN}"],
+    "env": {"TEAMCITY_URL": "https://teamcity.example.com", "TEAMCITY_TOKEN": "token"}
+  },
+  "bamboo": {
+    "command": "uvx",
+    "args": ["mcp-server-bamboo", "--url", "${BAMBOO_URL}", "--token", "${BAMBOO_TOKEN}"],
+    "env": {"BAMBOO_URL": "https://bamboo.example.com", "BAMBOO_TOKEN": "token"}
+  },
+  "buildkite": {
+    "command": "uvx",
+    "args": ["mcp-server-buildkite", "--token", "${BUILDKITE_TOKEN}", "--org", "${BUILDKITE_ORG}"],
+    "env": {"BUILDKITE_TOKEN": "xxx", "BUILDKITE_ORG": "org"}
+  },
+  "semaphore": {
+    "command": "uvx",
+    "args": ["mcp-server-semaphore", "--token", "${SEMAPHORE_TOKEN}"],
+    "env": {"SEMAPHORE_TOKEN": "xxx"}
+  },
+  "droneci": {
+    "command": "uvx",
+    "args": ["mcp-server-droneci", "--token", "${DRONE_TOKEN}", "--url", "${DRONE_URL}"],
+    "env": {"DRONE_TOKEN": "xxx", "DRONE_URL": "https://drone.example.com"}
+  },
+  "argocd": {
+    "command": "uvx",
+    "args": ["mcp-server-argocd", "--url", "${ARGOCD_URL}", "--token", "${ARGOCD_TOKEN}"],
+    "env": {"ARGOCD_URL": "https://argocd.example.com", "ARGOCD_TOKEN": "xxx"}
+  }
+}

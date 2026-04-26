@@ -1,0 +1,12 @@
+{
+  "akamai-firewall": {"command": "uvx", "args": ["mcp-server-akamai-firewall", "--api-key", "${AKAMAI_API_KEY}"], "env": {"AKAMAI_API_KEY": "xxx"}},
+  "akamai-waf": {"command": "uvx", "args": ["mcp-server-akamai-waf", "--api-key", "${AKAMAI_API_KEY}"], "env": {"AKAMAI_API_KEY": "xxx"}},
+  "imperva-firewall": {"command": "uvx", "args": ["mcp-server-imperva-firewall", "--api-key", "${IMPERVA_API_KEY}"], "env": {"IMPERVA_API_KEY": "xxx"}},
+  "imperva-waf": {"command": "uvx", "args": ["mcp-server-imperva-waf", "--api-key", "${IMPERVA_API_KEY}"], "env": {"IMPERVA_API_KEY": "xxx"}},
+  "Sucuri-firewall": {"command": "uvx", "args": ["mcp-server-sucuri-firewall", "--api-key", "${SUCURI_API_KEY}"], "env": {"SUCURI_API_KEY": "xxx"}},
+  "incapsula-firewall": {"command": "uvx", "args": ["mcp-server-incapsula-firewall", "--api-key", "${INCAPSULA_API_KEY}"], "env": {"INCAPSULA_API_KEY": "xxx"}},
+  "aws-guardduty": {"command": "uvx", "args": ["mcp-server-aws-guardduty", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-inspector": {"command": "uvx", "args": ["mcp-server-aws-inspector", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-config": {"command": "uvx", "args": ["mcp-server-aws-config", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-security-hub": {"command": "uvx", "args": ["mcp-server-aws-security-hub", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}}
+}

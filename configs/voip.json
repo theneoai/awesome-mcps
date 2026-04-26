@@ -1,0 +1,38 @@
+{
+  "twilio": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-twilio",
+      "--account-sid", "${TWILIO_ACCOUNT_SID}",
+      "--auth-token", "${TWILIO_AUTH_TOKEN}"
+    ],
+    "env": {
+      "TWILIO_ACCOUNT_SID": "your-account-sid",
+      "TWILIO_AUTH_TOKEN": "your-auth-token"
+    }
+  },
+  "vonage": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-vonage",
+      "--api-key", "${VONAGE_API_KEY}",
+      "--api-secret": "${VONAGE_API_SECRET}"
+    ],
+    "env": {
+      "VONAGE_API_KEY": "your-api-key",
+      "VONAGE_API_SECRET": "your-api-secret"
+    }
+  },
+  "plivo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-plivo",
+      "--auth-id", "${PLIVO_AUTH_ID}",
+      "--auth-token": "${PLIVO_AUTH_TOKEN}"
+    ],
+    "env": {
+      "PLIVO_AUTH_ID": "your-auth-id",
+      "PLIVO_AUTH_TOKEN": "your-auth-token"
+    }
+  }
+}

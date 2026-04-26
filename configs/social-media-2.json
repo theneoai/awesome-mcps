@@ -1,0 +1,12 @@
+{
+  "facebook-pages": {"command": "uvx", "args": ["mcp-server-facebook-pages", "--access-token", "${FACEBOOK_ACCESS_TOKEN}"], "env": {"FACEBOOK_ACCESS_TOKEN": "xxx"}},
+  "facebook-posts": {"command": "uvx", "args": ["mcp-server-facebook-posts", "--access-token", "${FACEBOOK_ACCESS_TOKEN}"], "env": {"FACEBOOK_ACCESS_TOKEN": "xxx"}},
+  "facebook-insights": {"command": "uvx", "args": ["mcp-server-facebook-insights", "--access-token", "${FACEBOOK_ACCESS_TOKEN}"], "env": {"FACEBOOK_ACCESS_TOKEN": "xxx"}},
+  "facebook-ads": {"command": "uvx", "args": ["mcp-server-facebook-ads", "--access-token", "${FACEBOOK_ACCESS_TOKEN}"], "env": {"FACEBOOK_ACCESS_TOKEN": "xxx"}},
+  "reddit-subreddits": {"command": "uvx", "args": ["mcp-server-reddit-subreddits", "--client-id", "${REDDIT_CLIENT_ID}", "--client-secret", "${REDDIT_CLIENT_SECRET}"], "env": {"REDDIT_CLIENT_ID": "xxx", "REDDIT_CLIENT_SECRET": "xxx"}},
+  "reddit-posts": {"command": "uvx", "args": ["mcp-server-reddit-posts", "--client-id", "${REDDIT_CLIENT_ID}", "--client-secret", "${REDDIT_CLIENT_SECRET}"], "env": {"REDDIT_CLIENT_ID": "xxx", "REDDIT_CLIENT_SECRET": "xxx"}},
+  "reddit-comments": {"command": "uvx", "args": ["mcp-server-reddit-comments", "--client-id", "${REDDIT_CLIENT_ID}", "--client-secret", "${REDDIT_CLIENT_SECRET}"], "env": {"REDDIT_CLIENT_ID": "xxx", "REDDIT_CLIENT_SECRET": "xxx"}},
+  "reddit-users": {"command": "uvx", "args": ["mcp-server-reddit-users", "--client-id", "${REDDIT_CLIENT_ID}", "--client-secret", "${REDDIT_CLIENT_SECRET}"], "env": {"REDDIT_CLIENT_ID": "xxx", "REDDIT_CLIENT_SECRET": "xxx"}},
+  "linkedin-pages": {"command": "uvx", "args": ["mcp-server-linkedin-pages", "--access-token", "${LINKEDIN_ACCESS_TOKEN}"], "env": {"LINKEDIN_ACCESS_TOKEN": "xxx"}},
+  "linkedin-posts": {"command": "uvx", "args": ["mcp-server-linkedin-posts", "--access-token", "${LINKEDIN_ACCESS_TOKEN}"], "env": {"LINKEDIN_ACCESS_TOKEN": "xxx"}}
+}

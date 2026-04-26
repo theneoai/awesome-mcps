@@ -1,0 +1,12 @@
+{
+  "wrike-projects": {"command": "uvx", "args": ["mcp-server-wrike-projects", "--api-key", "${WRIKE_API_KEY}"], "env": {"WRIKE_API_KEY": "xxx"}},
+  "wrike-tasks": {"command": "uvx", "args": ["mcp-server-wrike-tasks", "--api-key", "${WRIKE_API_KEY}"], "env": {"WRIKE_API_KEY": "xxx"}},
+  "wrike-folders": {"command": "uvx", "args": ["mcp-server-wrike-folders", "--api-key", "${WRIKE_API_KEY}"], "env": {"WRIKE_API_KEY": "xxx"}},
+  "wrike-users": {"command": "uvx", "args": ["mcp-server-wrike-users", "--api-key", "${WRIKE_API_KEY}"], "env": {"WRIKE_API_KEY": "xxx"}},
+  "smartsheet-sheets": {"command": "uvx", "args": ["mcp-server-smartsheet-sheets", "--api-key", "${SMARTSHEET_API_KEY}"], "env": {"SMARTSHEET_API_KEY": "xxx"}},
+  "smartsheet-reports": {"command": "uvx", "args": ["mcp-server-smartsheet-reports", "--api-key", "${SMARTSHEET_API_KEY}"], "env": {"SMARTSHEET_API_KEY": "xxx"}},
+  "smartsheet-workspaces": {"command": "uvx", "args": ["mcp-server-smartsheet-workspaces", "--api-key", "${SMARTSHEET_API_KEY}"], "env": {"SMARTSHEET_API_KEY": "xxx"}},
+  "basecamp-projects": {"command": "uvx", "args": ["mcp-server-basecamp-projects", "--api-key", "${BASECAMP_API_KEY}"], "env": {"BASECAMP_API_KEY": "xxx"}},
+  "basecamp-todos": {"command": "uvx", "args": ["mcp-server-basecamp-todos", "--api-key", "${BASECAMP_API_KEY}"], "env": {"BASECAMP_API_KEY": "xxx"}},
+  "basecamp-documents": {"command": "uvx", "args": ["mcp-server-basecamp-documents", "--api-key", "${BASECAMP_API_KEY}"], "env": {"BASECAMP_API_KEY": "xxx"}}
+}

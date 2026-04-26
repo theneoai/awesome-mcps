@@ -1,0 +1,12 @@
+{
+  "gusto-payroll": {"command": "uvx", "args": ["mcp-server-gusto-payroll", "--api-key", "${GUSTO_API_KEY}"], "env": {"GUSTO_API_KEY": "xxx"}},
+  "gusto-time-tracking": {"command": "uvx", "args": ["mcp-server-gusto-time-tracking", "--api-key", "${GUSTO_API_KEY}"], "env": {"GUSTO_API_KEY": "xxx"}},
+  "gusto-benefits": {"command": "uvx", "args": ["mcp-server-gusto-benefits", "--api-key", "${GUSTO_API_KEY}"], "env": {"GUSTO_API_KEY": "xxx"}},
+  "greenhouse-jobs": {"command": "uvx", "args": ["mcp-server-greenhouse-jobs", "--api-key", "${GREENHOUSE_API_KEY}"], "env": {"GREENHOUSE_API_KEY": "xxx"}},
+  "greenhouse-candidates": {"command": "uvx", "args": ["mcp-server-greenhouse-candidates", "--api-key", "${GREENHOUSE_API_KEY}"], "env": {"GREENHOUSE_API_KEY": "xxx"}},
+  "greenhouse-offers": {"command": "uvx", "args": ["mcp-server-greenhouse-offers", "--api-key", "${GREENHOUSE_API_KEY}"], "env": {"GREENHOUSE_API_KEY": "xxx"}},
+  "lever-jobs": {"command": "uvx", "args": ["mcp-server-lever-jobs", "--api-key", "${LEVER_API_KEY}"], "env": {"LEVER_API_KEY": "xxx"}},
+  "lever-candidates": {"command": "uvx", "args": ["mcp-server-lever-candidates", "--api-key", "${LEVER_API_KEY}"], "env": {"LEVER_API_KEY": "xxx"}},
+  "lever-offers": {"command": "uvx", "args": ["mcp-server-lever-offers", "--api-key", "${LEVER_API_KEY}"], "env": {"LEVER_API_KEY": "xxx"}},
+  "ashby-jobs": {"command": "uvx", "args": ["mcp-server-ashby-jobs", "--api-key", "${ASHBY_API_KEY}"], "env": {"ASHBY_API_KEY": "xxx"}}
+}

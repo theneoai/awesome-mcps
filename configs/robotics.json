@@ -1,0 +1,9 @@
+{
+  "ros": {"command": "uvx", "args": ["mcp-server-ros", "--ros-master-uri", "${ROS_MASTER_URI}"], "env": {"ROS_MASTER_URI": "http://localhost:11311"}},
+  "ros2": {"command": "uvx", "args": ["mcp-server-ros2", "--domain-id", "${ROS2_DOMAIN_ID}"], "env": {"ROS2_DOMAIN_ID": "0"}},
+  "robot-web-tools": {"command": "uvx", "args": ["mcp-server-robot-web-tools", "--host", "${RWT_HOST}"], "env": {"RWT_HOST": "http://localhost:8080"}},
+  "moveit": {"command": "uvx", "args": ["mcp-server-moveit", "--host", "${MOVEIT_HOST}"], "env": {"MOVEIT_HOST": "http://localhost:8080"}},
+  "gazebo": {"command": "uvx", "args": ["mcp-server-gazebo", "--host", "${GAZEBO_HOST}"], "env": {"GAZEBO_HOST": "localhost"}},
+  "webots": {"command": "uvx", "args": ["mcp-server-webots", "--host", "${WEBOTS_HOST}"], "env": {"WEBOTS_HOST": "localhost"}},
+  "stage": {"command": "uvx", "args": ["mcp-server-stage", "--world", "${STAGE_WORLD}"], "env": {"STAGE_WORLD": "simple.world"}}
+}

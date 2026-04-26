@@ -1,0 +1,16 @@
+{
+  "singlestore": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-singlestore"
+    ],
+    "env": {
+      "SINGLESTORE_HOST": "localhost",
+      "SINGLESTORE_PORT": "3306",
+      "SINGLESTORE_USER": "root",
+      "SINGLESTORE_PASSWORD": "",
+      "SINGLESTORE_DATABASE": ""
+    }
+  }
+}

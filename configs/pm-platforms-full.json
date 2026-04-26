@@ -1,0 +1,12 @@
+{
+  "linear-teams": {"command": "uvx", "args": ["mcp-server-linear-teams", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "lin_api_xxx"}},
+  "linear-members": {"command": "uvx", "args": ["mcp-server-linear-members", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "lin_api_xxx"}},
+  "linear-projects": {"command": "uvx", "args": ["mcp-server-linear-projects", "--api-key", "${LINEAR_API_KEY}"], "env": {"LINEAR_API_KEY": "lin_api_xxx"}},
+  "jira-projects": {"command": "uvx", "args": ["mcp-server-jira-projects", "--host", "${JIRA_HOST}", "--email", "${JIRA_EMAIL}", "--api-token", "${JIRA_API_TOKEN}"], "env": {"JIRA_HOST": "https://xxx.atlassian.net", "JIRA_EMAIL": "xxx", "JIRA_API_TOKEN": "xxx"}},
+  "jira-boards": {"command": "uvx", "args": ["mcp-server-jira-boards", "--host", "${JIRA_HOST}", "--email", "${JIRA_EMAIL}", "--api-token", "${JIRA_API_TOKEN}"], "env": {"JIRA_HOST": "https://xxx.atlassian.net", "JIRA_EMAIL": "xxx", "JIRA_API_TOKEN": "xxx"}},
+  "asana-teams": {"command": "uvx", "args": ["mcp-server-asana-teams", "--access-token", "${ASANA_ACCESS_TOKEN}"], "env": {"ASANA_ACCESS_TOKEN": "xxx"}},
+  "asana-portfolios": {"command": "uvx", "args": ["mcp-server-asana-portfolios", "--access-token", "${ASANA_ACCESS_TOKEN}"], "env": {"ASANA_ACCESS_TOKEN": "xxx"}},
+  "clickup-teams": {"command": "uvx", "args": ["mcp-server-clickup-teams", "--api-key", "${CLICKUP_API_KEY}"], "env": {"CLICKUP_API_KEY": "xxx"}},
+  "monday-teams": {"command": "uvx", "args": ["mcp-server-monday-teams", "--api-key", "${MONDAY_API_KEY}"], "env": {"MONDAY_API_KEY": "xxx"}},
+  "notion-teams": {"command": "uvx", "args": ["mcp-server-notion-teams", "--api-key", "${NOTION_API_KEY}"], "env": {"NOTION_API_KEY": "secret_xxx"}}
+}

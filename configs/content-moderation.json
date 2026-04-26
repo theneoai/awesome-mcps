@@ -1,0 +1,12 @@
+{
+  "openai-text-moderation": {"command": "uvx", "args": ["mcp-server-openai-text-moderation", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-image-moderation": {"command": "uvx", "args": ["mcp-server-openai-image-moderation", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "aws-moderation": {"command": "uvx", "args": ["mcp-server-aws-moderation", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-content-moderation": {"command": "uvx", "args": ["mcp-server-azure-content-moderation", "--key", "${AZURE_CONTENT_MODERATION_KEY}", "--region", "${AZURE_CONTENT_MODERATION_REGION}"], "env": {"AZURE_CONTENT_MODERATION_KEY": "xxx", "AZURE_CONTENT_MODERATION_REGION": "eastus"}},
+  "google-content-safety": {"command": "uvx", "args": ["mcp-server-google-content-safety", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "Hive-moderation": {"command": "uvx", "args": ["mcp-server-hive-moderation", "--api-key", "${HIVE_API_KEY}"], "env": {"HIVE_API_KEY": "xxx"}},
+  "clarifai-moderation": {"command": "uvx", "args": ["mcp-server-clarifai-moderation", "--api-key", "${CLARIFAI_API_KEY}"], "env": {"CLARIFAI_API_KEY": "xxx"}},
+  "sightengine": {"command": "uvx", "args": ["mcp-server-sightengine", "--api-key", "${SIGHTENGINE_API_KEY}"], "env": {"SIGHTENGINE_API_KEY": "xxx"}},
+  "webpurify": {"command": "uvx", "args": ["mcp-server-webpurify", "--api-key", "${WEBPURIFY_API_KEY}"], "env": {"WEBPURIFY_API_KEY": "xxx"}},
+  "moderatedash": {"command": "uvx", "args": ["mcp-server-moderatedash", "--api-key", "${MODERATEDASH_API_KEY}"], "env": {"MODERATEDASH_API_KEY": "xxx"}}
+}

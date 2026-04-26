@@ -1,0 +1,12 @@
+{
+  "datadog-slos": {"command": "uvx", "args": ["mcp-server-datadog-slos", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "datadog-synthetics": {"command": "uvx", "args": ["mcp-server-datadog-synthetics", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "datadog-rum": {"command": "uvx", "args": ["mcp-server-datadog-rum", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "datadog-ci-visibility": {"command": "uvx", "args": ["mcp-server-datadog-ci-visibility", "--api-key", "${DD_API_KEY}"], "env": {"DD_API_KEY": "xxx"}},
+  "newrelic-slos": {"command": "uvx", "args": ["mcp-server-newrelic-slos", "--api-key", "${NEWRELIC_API_KEY}"], "env": {"NEWRELIC_API_KEY": "xxx"}},
+  "newrelic-dashboards": {"command": "uvx", "args": ["mcp-server-newrelic-dashboards", "--api-key", "${NEWRELIC_API_KEY}"], "env": {"NEWRELIC_API_KEY": "xxx"}},
+  "grafana-slos": {"command": "uvx", "args": ["mcp-server-grafana-slos", "--host", "${GRAFANA_HOST}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_HOST": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "grafana-dashboards": {"command": "uvx", "args": ["mcp-server-grafana-dashboards", "--host", "${GRAFANA_HOST}", "--token", "${GRAFANA_TOKEN}"], "env": {"GRAFANA_HOST": "http://localhost:3000", "GRAFANA_TOKEN": "xxx"}},
+  "thanos-slos": {"command": "uvx", "args": ["mcp-server-thanos-slos", "--url", "${THANOS_URL}"], "env": {"THANOS_URL": "http://localhost:10902"}},
+  "prometheus-alerts": {"command": "uvx", "args": ["mcp-server-prometheus-alerts", "--url", "${PROMETHEUS_URL}"], "env": {"PROMETHEUS_URL": "http://localhost:9090"}}
+}

@@ -1,0 +1,12 @@
+{
+  "spotify-artists": {"command": "uvx", "args": ["mcp-server-spotify-artists", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"], "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}},
+  "spotify-albums": {"command": "uvx", "args": ["mcp-server-spotify-albums", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"], "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}},
+  "spotify-search": {"command": "uvx", "args": ["mcp-server-spotify-search", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"], "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}},
+  "soundcloud-tracks": {"command": "uvx", "args": ["mcp-server-soundcloud-tracks", "--client-id", "${SOUNDCLOUD_CLIENT_ID}"], "env": {"SOUNDCLOUD_CLIENT_ID": "xxx"}},
+  "soundcloud-playlists": {"command": "uvx", "args": ["mcp-server-soundcloud-playlists", "--client-id", "${SOUNDCLOUD_CLIENT_ID}"], "env": {"SOUNDCLOUD_CLIENT_ID": "xxx"}},
+  "soundcloud-users": {"command": "uvx", "args": ["mcp-server-soundcloud-users", "--client-id", "${SOUNDCLOUD_CLIENT_ID}"], "env": {"SOUNDCLOUD_CLIENT_ID": "xxx"}},
+  "apple-music-tracks": {"command": "uvx", "args": ["mcp-server-apple-music-tracks", "--api-key", "${APPLE_MUSIC_API_KEY}"], "env": {"APPLE_MUSIC_API_KEY": "xxx", "APPLE_MUSIC_TEAM_ID": "xxx"}},
+  "apple-music-playlists": {"command": "uvx", "args": ["mcp-server-apple-music-playlists", "--api-key", "${APPLE_MUSIC_API_KEY}"], "env": {"APPLE_MUSIC_API_KEY": "xxx", "APPLE_MUSIC_TEAM_ID": "xxx"}},
+  "tiktok-videos": {"command": "uvx", "args": ["mcp-server-tiktok-videos", "--api-key", "${TIKTOK_API_KEY}"], "env": {"TIKTOK_API_KEY": "xxx"}},
+  "tiktok-users": {"command": "uvx", "args": ["mcp-server-tiktok-users", "--api-key", "${TIKTOK_API_KEY}"], "env": {"TIKTOK_API_KEY": "xxx"}}
+}

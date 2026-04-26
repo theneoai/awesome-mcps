@@ -1,0 +1,9 @@
+{
+  "langsmith": {"command": "uvx", "args": ["mcp-server-langsmith", "--api-key", "${LANGSMITH_API_KEY}"], "env": {"LANGSMITH_API_KEY": "xxx"}},
+  "promptlayer": {"command": "uvx", "args": ["mcp-server-promptlayer", "--api-key", "${PROMPTLAYER_API_KEY}"], "env": {"PROMPTLAYER_API_KEY": "xxx"}},
+  "langfuse": {"command": "uvx", "args": ["mcp-server-langfuse", "--public-key", "${LANGFUSE_PUBLIC_KEY}", "--secret-key", "${LANGFUSE_SECRET_KEY}"], "env": {"LANGFUSE_PUBLIC_KEY": "xxx", "LANGFUSE_SECRET_KEY": "xxx"}},
+  "agentops": {"command": "uvx", "args": ["mcp-server-agentops", "--api-key", "${AGENTOPS_API_KEY}"], "env": {"AGENTOPS_API_KEY": "xxx"}},
+  "braintrust": {"command": "uvx", "args": ["mcp-server-braintrust", "--api-key", "${BRAINTRUST_API_KEY}"], "env": {"BRAINTRUST_API_KEY": "xxx"}},
+  "evals": {"command": "uvx", "args": ["mcp-server-evals", "--api-key", "${EVALS_API_KEY}"], "env": {"EVALS_API_KEY": "xxx"}},
+  "deephub": {"command": "uvx", "args": ["mcp-server-deephub", "--api-key", "${DEEPHUB_API_KEY}"], "env": {"DEEPHUB_API_KEY": "xxx"}}
+}

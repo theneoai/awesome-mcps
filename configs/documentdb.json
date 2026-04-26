@@ -1,0 +1,16 @@
+{
+  "documentdb": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-documentdb"
+    ],
+    "env": {
+      "DOCUMENTDB_HOST": "localhost",
+      "DOCUMENTDB_PORT": "27017",
+      "DOCUMENTDB_USER": "root",
+      "DOCUMENTDB_PASSWORD": "",
+      "DOCUMENTDB_DATABASE": "docdb"
+    }
+  }
+}

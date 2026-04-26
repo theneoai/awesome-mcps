@@ -1,0 +1,12 @@
+{
+  "prometheus-metrics": {"command": "uvx", "args": ["mcp-server-prometheus-metrics", "--url", "${PROMETHEUS_URL}"], "env": {"PROMETHEUS_URL": "http://localhost:9090"}},
+  "prometheus-alerts": {"command": "uvx", "args": ["mcp-server-prometheus-alerts", "--url", "${PROMETHEUS_URL}"], "env": {"PROMETHEUS_URL": "http://localhost:9090"}},
+  "prometheus-rules": {"command": "uvx", "args": ["mcp-server-prometheus-rules", "--url", "${PROMETHEUS_URL}"], "env": {"PROMETHEUS_URL": "http://localhost:9090"}},
+  "prometheus-targets": {"command": "uvx", "args": ["mcp-server-prometheus-targets", "--url", "${PROMETHEUS_URL}"], "env": {"PROMETHEUS_URL": "http://localhost:9090"}},
+  "influxdb-metrics": {"command": "uvx", "args": ["mcp-server-influxdb-metrics", "--url", "${INFLUXDB_URL}", "--token", "${INFLUXDB_TOKEN}"], "env": {"INFLUXDB_URL": "http://localhost:8086", "INFLUXDB_TOKEN": "xxx"}},
+  "influxdb-query": {"command": "uvx", "args": ["mcp-server-influxdb-query", "--url", "${INFLUXDB_URL}", "--token", "${INFLUXDB_TOKEN}"], "env": {"INFLUXDB_URL": "http://localhost:8086", "INFLUXDB_TOKEN": "xxx"}},
+  "influxdb-buckets": {"command": "uvx", "args": ["mcp-server-influxdb-buckets", "--url", "${INFLUXDB_URL}", "--token", "${INFLUXDB_TOKEN}"], "env": {"INFLUXDB_URL": "http://localhost:8086", "INFLUXDB_TOKEN": "xxx"}},
+  "timescale-db": {"command": "uvx", "args": ["mcp-server-timescale-db", "--host", "${TIMESCALE_HOST}", "--port", "${TIMESCALE_PORT}", "--database", "${TIMESCALE_DATABASE}", "--username", "${TIMESCALE_USERNAME}", "--password", "${TIMESCALE_PASSWORD}"], "env": {"TIMESCALE_HOST": "localhost", "TIMESCALE_PORT": "5432", "TIMESCALE_DATABASE": "tsdb", "TIMESCALE_USERNAME": "postgres", "TIMESCALE_PASSWORD": "xxx"}},
+  "netdata-metrics": {"command": "uvx", "args": ["mcp-server-netdata-metrics", "--url", "${NETDATA_URL}"], "env": {"NETDATA_URL": "http://localhost:19999"}},
+  "zabbix-items": {"command": "uvx", "args": ["mcp-server-zabbix-items", "--url", "${ZABBIX_URL}", "--username", "${ZABBIX_USERNAME}", "--password", "${ZABBIX_PASSWORD}"], "env": {"ZABBIX_URL": "http://localhost:8080", "ZABBIX_USERNAME": "Admin", "ZABBIX_PASSWORD": "xxx"}}
+}

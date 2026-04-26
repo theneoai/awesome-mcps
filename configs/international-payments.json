@@ -1,0 +1,12 @@
+{
+  "stripe-country-specs": {"command": "uvx", "args": ["mcp-server-stripe-country-specs", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-currencies": {"command": "uvx", "args": ["mcp-server-stripe-currencies", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-locales": {"command": "uvx", "args": ["mcp-server-stripe-locales", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-limits": {"command": "uvx", "args": ["mcp-server-stripe-limits", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-regions": {"command": "uvx", "args": ["mcp-server-stripe-regions", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "paypal-international": {"command": "uvx", "args": ["mcp-server-paypal-international", "--client-id", "${PAYPAL_CLIENT_ID}", "--client-secret", "${PAYPAL_CLIENT_SECRET}"], "env": {"PAYPAL_CLIENT_ID": "xxx", "PAYPAL_CLIENT_SECRET": "xxx"}},
+  "adyen-international": {"command": "uvx", "args": ["mcp-server-adyen-international", "--api-key", "${ADYEN_API_KEY}", "--merchant-account", "${ADYEN_MERCHANT_ACCOUNT}"], "env": {"ADYEN_API_KEY": "xxx", "ADYEN_MERCHANT_ACCOUNT": "xxx"}},
+  "square-international": {"command": "uvx", "args": ["mcp-server-square-international", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "braintree-international": {"command": "uvx", "args": ["mcp-server-braintree-international", "--environment", "${BT_ENVIRONMENT}", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_ENVIRONMENT": "sandbox", "BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "worldpay": {"command": "uvx", "args": ["mcp-server-worldpay", "--api-key", "${WORLDPAY_API_KEY}"], "env": {"WORLDPAY_API_KEY": "xxx"}}
+}

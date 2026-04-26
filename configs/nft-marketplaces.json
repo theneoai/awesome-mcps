@@ -1,0 +1,10 @@
+{
+  "open-sea": {"command": "uvx", "args": ["mcp-server-opensea", "--api-key", "${OPENSEA_API_KEY}"], "env": {"OPENSEA_API_KEY": "xxx"}},
+  "rarible-nft": {"command": "uvx", "args": ["mcp-server-rarible-nft", "--api-key", "${RARIBLE_API_KEY}"], "env": {"RARIBLE_API_KEY": "xxx"}},
+  "foundation": {"command": "uvx", "args": ["mcp-server-foundation", "--api-key", "${FOUNDATION_API_KEY}"], "env": {"FOUNDATION_API_KEY": "xxx"}},
+  "superrare": {"command": "uvx", "args": ["mcp-server-superrare", "--api-key", "${SUPERRARE_API_KEY}"], "env": {"SUPERRARE_API_KEY": "xxx"}},
+  "nifty-gateway": {"command": "uvx", "args": ["mcp-server-nifty-gateway", "--api-key", "${NIFTY_API_KEY}"], "env": {"NIFTY_API_KEY": "xxx"}},
+  "binance-nft": {"command": "uvx", "args": ["mcp-server-binance-nft", "--api-key", "${BINANCE_NFT_API_KEY}"], "env": {"BINANCE_NFT_API_KEY": "xxx"}},
+  "huobi-nft": {"command": "uvx", "args": ["mcp-server-huobi-nft", "--api-key", "${HUOBI_NFT_API_KEY}"], "env": {"HUOBI_NFT_API_KEY": "xxx"}},
+  "bakeryswap": {"command": "uvx", "args": ["mcp-server-bakeryswap", "--api-key", "${BAKERY_API_KEY}"], "env": {"BAKERY_API_KEY": "xxx"}}
+}

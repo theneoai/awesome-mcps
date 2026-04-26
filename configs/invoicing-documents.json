@@ -1,0 +1,12 @@
+{
+  "stripe-files-documents": {"command": "uvx", "args": ["mcp-server-stripe-files-documents", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-invoice-pdf": {"command": "uvx", "args": ["mcp-server-stripe-invoice-pdf", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-receipts": {"command": "uvx", "args": ["mcp-server-stripe-receipts", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "quickbooks-invoices": {"command": "uvx", "args": ["mcp-server-quickbooks-invoices", "--client-id", "${QB_CLIENT_ID}", "--client-secret", "${QB_CLIENT_SECRET}"], "env": {"QB_CLIENT_ID": "xxx", "QB_CLIENT_SECRET": "xxx"}},
+  "quickbooks-receipts": {"command": "uvx", "args": ["mcp-server-quickbooks-receipts", "--client-id", "${QB_CLIENT_ID}", "--client-secret", "${QB_CLIENT_SECRET}"], "env": {"QB_CLIENT_ID": "xxx", "QB_CLIENT_SECRET": "xxx"}},
+  "xero-invoices": {"command": "uvx", "args": ["mcp-server-xero-invoices", "--client-id", "${XERO_CLIENT_ID}", "--client-secret", "${XERO_CLIENT_SECRET}"], "env": {"XERO_CLIENT_ID": "xxx", "XERO_CLIENT_SECRET": "xxx"}},
+  "xero-receipts": {"command": "uvx", "args": ["mcp-server-xero-receipts", "--client-id", "${XERO_CLIENT_ID}", "--client-secret", "${XERO_CLIENT_SECRET}"], "env": {"XERO_CLIENT_ID": "xxx", "XERO_CLIENT_SECRET": "xxx"}},
+  "netsuite-documents": {"command": "uvx", "args": ["mcp-server-netsuite-documents", "--account-id", "${NETSUITE_ACCOUNT_ID}", "--consumer-key", "${NETSUITE_CONSUMER_KEY}", "--consumer-secret", "${NETSUITE_CONSUMER_SECRET}", "--token-key", "${NETSUITE_TOKEN_KEY}", "--token-secret", "${NETSUITE_TOKEN_SECRET}"], "env": {"NETSUITE_ACCOUNT_ID": "xxx", "NETSUITE_CONSUMER_KEY": "xxx", "NETSUITE_CONSUMER_SECRET": "xxx", "NETSUITE_TOKEN_KEY": "xxx", "NETSUITE_TOKEN_SECRET": "xxx"}},
+  "freshbooks-invoices": {"command": "uvx", "args": ["mcp-server-freshbooks-invoices", "--api-key", "${FRESHBOOKS_API_KEY}"], "env": {"FRESHBOOKS_API_KEY": "xxx"}},
+  "wave-invoices": {"command": "uvx", "args": ["mcp-server-wave-invoices", "--api-key", "${WAVE_API_KEY}"], "env": {"WAVE_API_KEY": "xxx"}}
+}

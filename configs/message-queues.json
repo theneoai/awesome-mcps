@@ -1,0 +1,42 @@
+{
+  "rabbitmq": {
+    "command": "uvx",
+    "args": ["mcp-server-rabbitmq", "--url", "${RABBITMQ_URL}"],
+    "env": {"RABBITMQ_URL": "amqp://guest:guest@localhost:5672"}
+  },
+  "apache-kafka": {
+    "command": "uvx",
+    "args": ["mcp-server-kafka", "--brokers", "${KAFKA_BROKERS}", "--username", "${KAFKA_USERNAME}", "--password", "${KAFKA_PASSWORD}"],
+    "env": {"KAFKA_BROKERS": "localhost:9092", "KAFKA_USERNAME": "", "KAFKA_PASSWORD": ""}
+  },
+  "redis-queue": {
+    "command": "uvx",
+    "args": ["mcp-server-redis-queue", "--url", "${REDIS_URL}"],
+    "env": {"REDIS_URL": "redis://localhost:6379"}
+  },
+  "aws-sqs": {
+    "command": "uvx",
+    "args": ["mcp-server-aws-sqs", "--profile", "${AWS_PROFILE}"],
+    "env": {"AWS_PROFILE": "default", "AWS_REGION": "us-east-1"}
+  },
+  "aws-sns": {
+    "command": "uvx",
+    "args": ["mcp-server-aws-sns", "--profile", "${AWS_PROFILE}"],
+    "env": {"AWS_PROFILE": "default", "AWS_REGION": "us-east-1"}
+  },
+  "google-pubsub": {
+    "command": "uvx",
+    "args": ["mcp-server-gcp-pubsub", "--credentials-path", "${GCP_CREDENTIALS_PATH}"],
+    "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json", "GCP_PROJECT": "project"}
+  },
+  "azure-servicebus": {
+    "command": "uvx",
+    "args": ["mcp-server-azure-servicebus", "--connection-string", "${SERVICE_BUS_CONNECTION_STRING}"],
+    "env": {"SERVICE_BUS_CONNECTION_STRING": "xxx"}
+  },
+  "nats": {
+    "command": "uvx",
+    "args": ["mcp-server-nats", "--url", "${NATS_URL}"],
+    "env": {"NATS_URL": "nats://localhost:4222"}
+  }
+}

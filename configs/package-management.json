@@ -1,0 +1,12 @@
+{
+  "quay-registry": {"command": "uvx", "args": ["mcp-server-quay-registry", "--api-key", "${QUAY_API_KEY}"], "env": {"QUAY_API_KEY": "xxx"}},
+  "artifactory-registry": {"command": "uvx", "args": ["mcp-server-artifactory-registry", "--url", "${ARTIFACTORY_URL}", "--api-key", "${ARTIFACTORY_API_KEY}"], "env": {"ARTIFACTORY_URL": "https://xxx.jfrog.io", "ARTIFACTORY_API_KEY": "xxx"}},
+  "nexus-registry": {"command": "uvx", "args": ["mcp-server-nexus-registry", "--url", "${NEXUS_URL}", "--username", "${NEXUS_USERNAME}", "--password", "${NEXUS_PASSWORD}"], "env": {"NEXUS_URL": "http://localhost:8081", "NEXUS_USERNAME": "admin", "NEXUS_PASSWORD": "xxx"}},
+  "github-packages": {"command": "uvx", "args": ["mcp-server-github-packages", "--github-token", "${GITHUB_TOKEN}"], "env": {"GITHUB_TOKEN": "ghp_xxx"}},
+  "npmjs-packages": {"command": "uvx", "args": ["mcp-server-npmjs-packages", "--api-key", "${NPMJS_API_KEY}"], "env": {"NPMJS_API_KEY": "xxx"}},
+  "pypi-packages": {"command": "uvx", "args": ["mcp-server-pypi-packages", "--api-key", "${PYPI_API_KEY}"], "env": {"PYPI_API_KEY": "xxx"}},
+  "rubygems-packages": {"command": "uvx", "args": ["mcp-server-rubygems-packages", "--api-key", "${RUBYGEMS_API_KEY}"], "env": {"RUBYGEMS_API_KEY": "xxx"}},
+  "crates-io-packages": {"command": "uvx", "args": ["mcp-server-crates-io-packages", "--api-key", "${CRATESIO_API_KEY}"], "env": {"CRATESIO_API_KEY": "xxx"}},
+  "packagist-packages": {"command": "uvx", "args": ["mcp-server-packagist-packages", "--api-key", "${PACKAGIST_API_KEY}"], "env": {"PACKAGIST_API_KEY": "xxx"}},
+  "hexpm-packages": {"command": "uvx", "args": ["mcp-server-hexpm-packages", "--api-key", "${HEXPM_API_KEY}"], "env": {"HEXPM_API_KEY": "xxx"}}
+}

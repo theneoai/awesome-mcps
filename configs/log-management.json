@@ -1,0 +1,10 @@
+{
+  "elk-stack": {"command": "uvx", "args": ["mcp-server-elk", "--url", "${ELK_URL}"], "env": {"ELK_URL": "http://localhost:9200", "ELK_USERNAME": "elastic", "ELK_PASSWORD": "xxx"}},
+  "splunk": {"command": "uvx", "args": ["mcp-server-splunk", "--host", "${SPLUNK_HOST}", "--port", "${SPLUNK_PORT}"], "env": {"SPLUNK_HOST": "localhost", "SPLUNK_PORT": "8089", "SPLUNK_USERNAME": "admin", "SPLUNK_PASSWORD": "xxx"}},
+  "sumologic": {"command": "uvx", "args": ["mcp-server-sumologic", "--access-id", "${SUMO_ACCESS_ID}", "--access-key", "${SUMO_ACCESS_KEY}"], "env": {"SUMO_ACCESS_ID": "xxx", "SUMO_ACCESS_KEY": "xxx"}},
+  "loggly": {"command": "uvx", "args": ["mcp-server-loggly", "--subdomain", "${LOGGLY_SUBDOMAIN}", "--api-key", "${LOGGLY_API_KEY}"], "env": {"LOGGLY_SUBDOMAIN": "xxx", "LOGGLY_API_KEY": "xxx"}},
+  "papertrail": {"command": "uvx", "args": ["mcp-server-papertrail", "--logplex-token", "${PAPERTRAIL_TOKEN}"], "env": {"PAPERTRAIL_TOKEN": "xxx"}},
+  "cloudwatch-logs": {"command": "uvx", "args": ["mcp-server-aws-cloudwatch-logs", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-monitor-logs": {"command": "uvx", "args": ["mcp-server-azure-monitor-logs", "--workspace-id", "${AZURE_LOG_WORKSPACE_ID}"], "env": {"AZURE_LOG_WORKSPACE_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "gcp-logging": {"command": "uvx", "args": ["mcp-server-gcp-logging", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}}
+}

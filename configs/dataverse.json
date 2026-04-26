@@ -1,0 +1,12 @@
+{
+  "dataverse": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-dataverse"
+    ],
+    "env": {
+      "DATAVERSE_HOST": "dataverse.example.edu",
+      "DATAVERSE_TOKEN": "your-token"
+    }
+  }
+}

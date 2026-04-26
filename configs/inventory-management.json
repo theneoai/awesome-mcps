@@ -1,0 +1,12 @@
+{
+  "stripe-terminal-locations": {"command": "uvx", "args": ["mcp-server-stripe-terminal-locations", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-terminal-readers": {"command": "uvx", "args": ["mcp-server-stripe-terminal-readers", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-terminal-payments": {"command": "uvx", "args": ["mcp-server-stripe-terminal-payments", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "clover-inventory": {"command": "uvx", "args": ["mcp-server-clover-inventory", "--api-key", "${CLOVER_API_KEY}"], "env": {"CLOVER_API_KEY": "xxx"}},
+  "square-inventory": {"command": "uvx", "args": ["mcp-server-square-inventory", "--access-token", "${SQUARE_ACCESS_TOKEN}"], "env": {"SQUARE_ACCESS_TOKEN": "xxx"}},
+  "shopify-inventory-levels": {"command": "uvx", "args": ["mcp-server-shopify-inventory-levels", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-inventory": {"command": "uvx", "args": ["mcp-server-woocommerce-inventory", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "bigcommerce-inventory": {"command": "uvx", "args": ["mcp-server-bigcommerce-inventory", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}},
+  "magento-inventory": {"command": "uvx", "args": ["mcp-server-magento-inventory", "--url", "${MAGENTO_URL}"], "env": {"MAGENTO_URL": "https://xxx.com", "MAGENTO_USERNAME": "xxx", "MAGENTO_PASSWORD": "xxx"}},
+  "lightspeed-inventory": {"command": "uvx", "args": ["mcp-server-lightspeed-inventory", "--api-key", "${LIGHTSPEED_API_KEY}"], "env": {"LIGHTSPEED_API_KEY": "xxx"}}
+}

@@ -1,0 +1,32 @@
+{
+  "apple-podcasts": {
+    "command": "uvx",
+    "args": ["mcp-server-apple-podcasts", "--api-key", "${APPLE_PODCASTS_API_KEY}"],
+    "env": {"APPLE_PODCASTS_API_KEY": "xxx"}
+  },
+  "spotify-podcasts": {
+    "command": "uvx",
+    "args": ["mcp-server-spotify-podcasts", "--client-id", "${SPOTIFY_CLIENT_ID}", "--client-secret", "${SPOTIFY_CLIENT_SECRET}"],
+    "env": {"SPOTIFY_CLIENT_ID": "xxx", "SPOTIFY_CLIENT_SECRET": "xxx"}
+  },
+  "pocketcasts": {
+    "command": "uvx",
+    "args": ["mcp-server-pocketcasts", "--api-key", "${POCKETCASTS_API_KEY}"],
+    "env": {"POCKETCASTS_API_KEY": "xxx"}
+  },
+  "overcast": {
+    "command": "uvx",
+    "args": ["mcp-server-overcast", "--api-key", "${OVERCAST_API_KEY}"],
+    "env": {"OVERCAST_API_KEY": "xxx"}
+  },
+  "castro": {
+    "command": "uvx",
+    "args": ["mcp-server-castle", "--api-key", "${CASTRO_API_KEY}"],
+    "env": {"CASTRO_API_KEY": "xxx"}
+  },
+  "antenna": {
+    "command": "uvx",
+    "args": ["mcp-server-antenna", "--api-key", "${ANTENNA_API_KEY}"],
+    "env": {"ANTENNA_API_KEY": "xxx"}
+  }
+}

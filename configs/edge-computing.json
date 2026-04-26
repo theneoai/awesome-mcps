@@ -1,0 +1,12 @@
+{
+  "fastly-compute": {"command": "uvx", "args": ["mcp-server-fastly-compute", "--api-key", "${FASTLY_API_KEY}"], "env": {"FASTLY_API_KEY": "xxx"}},
+  "cloudflare-workers-edge": {"command": "uvx", "args": ["mcp-server-cf-workers-edge", "--api-token", "${CF_API_TOKEN}"], "env": {"CF_API_TOKEN": "xxx"}},
+  "aws-cloudfront-lambda": {"command": "uvx", "args": ["mcp-server-aws-cloudfront-lambda", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "azure-edge": {"command": "uvx", "args": ["mcp-server-azure-edge", "--subscription-id", "${AZURE_SUBSCRIPTION_ID}", "--client-id", "${AZURE_CLIENT_ID}", "--client-secret", "${AZURE_CLIENT_SECRET}"], "env": {"AZURE_SUBSCRIPTION_ID": "xxx", "AZURE_CLIENT_ID": "xxx", "AZURE_CLIENT_SECRET": "xxx"}},
+  "google-cloud-run": {"command": "uvx", "args": ["mcp-server-gcp-cloud-run", "--credentials-path", "${GCP_CREDENTIALS_PATH}"], "env": {"GCP_CREDENTIALS_PATH": "/path/to/credentials.json"}},
+  "akamai-edgeworkers": {"command": "uvx", "args": ["mcp-server-akamai-edgeworkers", "--client-secret", "${AKAMAI_CLIENT_SECRET}", "--client-id", "${AKAMAI_CLIENT_ID}", "--access-token", "${AKAMAI_ACCESS_TOKEN}"], "env": {"AKAMAI_CLIENT_SECRET": "xxx", "AKAMAI_CLIENT_ID": "xxx", "AKAMAI_ACCESS_TOKEN": "xxx"}},
+  "limelight": {"command": "uvx", "args": ["mcp-server-limelight", "--api-key", "${LIMELIGHT_API_KEY}"], "env": {"LIMELIGHT_API_KEY": "xxx"}},
+  "bunnycdn": {"command": "uvx", "args": ["mcp-server-bunnycdn", "--api-key", "${BUNNY_API_KEY}"], "env": {"BUNNY_API_KEY": "xxx"}},
+  "keycdn": {"command": "uvx", "args": ["mcp-server-keycdn", "--api-key", "${KEYCDN_API_KEY}"], "env": {"KEYCDN_API_KEY": "xxx"}},
+  "cachefly": {"command": "uvx", "args": ["mcp-server-cachefly", "--api-key", "${CACHEFLY_API_KEY}"], "env": {"CACHEFLY_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "chroma": {
+    "command": "uvx",
+    "args": [
+      "chroma-mcp"
+    ],
+    "env": {
+      "CHROMA_HOST": "localhost",
+      "CHROMA_PORT": "8000"
+    }
+  }
+}

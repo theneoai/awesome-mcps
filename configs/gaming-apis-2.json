@@ -1,0 +1,12 @@
+{
+  "riot-games-val": {"command": "uvx", "args": ["mcp-server-riot-games-val", "--api-key", "${RIOT_API_KEY}"], "env": {"RIOT_API_KEY": "xxx"}},
+  "riot-games-wild-rift": {"command": "uvx", "args": ["mcp-server-riot-games-wild-rift", "--api-key", "${RIOT_API_KEY}"], "env": {"RIOT_API_KEY": "xxx"}},
+  "epic-games": {"command": "uvx", "args": ["mcp-server-epic-games", "--api-key", "${EPIC_API_KEY}"], "env": {"EPIC_API_KEY": "xxx"}},
+  "nintendo-switch": {"command": "uvx", "args": ["mcp-server-nintendo-switch", "--api-key", "${NINTENDO_API_KEY}"], "env": {"NINTENDO_API_KEY": "xxx"}},
+  "ea-sports-fc": {"command": "uvx", "args": ["mcp-server-ea-sports-fc", "--api-key", "${EA_API_KEY}"], "env": {"EA_API_KEY": "xxx"}},
+  "blizzard-games": {"command": "uvx", "args": ["mcp-server-blizzard-games", "--api-key", "${BLIZZARD_API_KEY}"], "env": {"BLIZZARD_API_KEY": "xxx"}},
+  "ubisoft-games": {"command": "uvx", "args": ["mcp-server-ubisoft-games", "--api-key", "${UBISOFT_API_KEY}"], "env": {"UBISOFT_API_KEY": "xxx"}},
+  "igdb-games": {"command": "uvx", "args": ["mcp-server-igdb-games", "--api-key", "${IGDB_API_KEY}"], "env": {"IGDB_API_KEY": "xxx"}},
+  "rawg-games": {"command": "uvx", "args": ["mcp-server-rawg-games", "--api-key", "${RAWG_API_KEY}"], "env": {"RAWG_API_KEY": "xxx"}},
+  "giantbomb-games": {"command": "uvx", "args": ["mcp-server-giantbomb-games", "--api-key", "${GIANTBOMB_API_KEY}"], "env": {"GIANTBOMB_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "datadog-monitors": {"command": "uvx", "args": ["mcp-server-datadog-monitors", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-dashboards": {"command": "uvx", "args": ["mcp-server-datadog-dashboards", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-logs": {"command": "uvx", "args": ["mcp-server-datadog-logs", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-hosts": {"command": "uvx", "args": ["mcp-server-datadog-hosts", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "datadog-metrics": {"command": "uvx", "args": ["mcp-server-datadog-metrics", "--api-key", "${DD_API_KEY}", "--app-key", "${DD_APP_KEY}"], "env": {"DD_API_KEY": "xxx", "DD_APP_KEY": "xxx"}},
+  "newrelic-apm": {"command": "uvx", "args": ["mcp-server-newrelic-apm", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-infrastructure": {"command": "uvx", "args": ["mcp-server-newrelic-infrastructure", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-logs": {"command": "uvx", "args": ["mcp-server-newrelic-logs", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-alerts": {"command": "uvx", "args": ["mcp-server-newrelic-alerts", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}},
+  "newrelic-dashboards": {"command": "uvx", "args": ["mcp-server-newrelic-dashboards", "--api-key", "${NR_API_KEY}"], "env": {"NR_API_KEY": "xxx"}}
+}

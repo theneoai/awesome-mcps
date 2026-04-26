@@ -1,0 +1,12 @@
+{
+  "bing-ads-ads": {"command": "uvx", "args": ["mcp-server-bing-ads-ads", "--api-key", "${BING_ADS_API_KEY}"], "env": {"BING_ADS_API_KEY": "xxx"}},
+  "bing-ads-keywords": {"command": "uvx", "args": ["mcp-server-bing-ads-keywords", "--api-key", "${BING_ADS_API_KEY}"], "env": {"BING_ADS_API_KEY": "xxx"}},
+  "bing-ads-reporting": {"command": "uvx", "args": ["mcp-server-bing-ads-reporting", "--api-key", "${BING_ADS_API_KEY}"], "env": {"BING_ADS_API_KEY": "xxx"}},
+  "apple-search-ads-campaigns": {"command": "uvx", "args": ["mcp-server-apple-search-ads-campaigns", "--api-key", "${APPLE_SEARCH_ADS_API_KEY}"], "env": {"APPLE_SEARCH_ADS_API_KEY": "xxx"}},
+  "apple-search-ads-ad-groups": {"command": "uvx", "args": ["mcp-server-apple-search-ads-ad-groups", "--api-key", "${APPLE_SEARCH_ADS_API_KEY}"], "env": {"APPLE_SEARCH_ADS_API_KEY": "xxx"}},
+  "apple-search-ads-keywords": {"command": "uvx", "args": ["mcp-server-apple-search-ads-keywords", "--api-key", "${APPLE_SEARCH_ADS_API_KEY}"], "env": {"APPLE_SEARCH_ADS_API_KEY": "xxx"}},
+  "apple-search-ads-creatives": {"command": "uvx", "args": ["mcp-server-apple-search-ads-creatives", "--api-key", "${APPLE_SEARCH_ADS_API_KEY}"], "env": {"APPLE_SEARCH_ADS_API_KEY": "xxx"}},
+  "apple-search-ads-reporting": {"command": "uvx", "args": ["mcp-server-apple-search-ads-reporting", "--api-key", "${APPLE_SEARCH_ADS_API_KEY}"], "env": {"APPLE_SEARCH_ADS_API_KEY": "xxx"}},
+  "trade desk-ads": {"command": "uvx", "args": ["mcp-server-thetradedesk-ads", "--api-key", "${TRADEDESK_API_KEY}"], "env": {"TRADEDESK_API_KEY": "xxx"}},
+  "media-net-ads": {"command": "uvx", "args": ["mcp-server-media-net-ads", "--api-key", "${MEDIANET_API_KEY}"], "env": {"MEDIANET_API_KEY": "xxx"}}
+}

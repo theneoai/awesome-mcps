@@ -1,0 +1,12 @@
+{
+  "shopify-marketing-events": {"command": "uvx", "args": ["mcp-server-shopify-marketing-events", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-broadcast": {"command": "uvx", "args": ["mcp-server-shopify-broadcast", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-utm": {"command": "uvx", "args": ["mcp-server-shopify-utm", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "klaviyo-campaigns": {"command": "uvx", "args": ["mcp-server-klaviyo-campaigns", "--api-key", "${KLAVIYO_API_KEY}"], "env": {"KLAVIYO_API_KEY": "xxx"}},
+  "klaviyo-flows-full": {"command": "uvx", "args": ["mcp-server-klaviyo-flows-full", "--api-key", "${KLAVIYO_API_KEY}"], "env": {"KLAVIYO_API_KEY": "xxx"}},
+  "mailchimp-campaigns-full": {"command": "uvx", "args": ["mcp-server-mailchimp-campaigns-full", "--api-key", "${MAILCHIMP_API_KEY}"], "env": {"MAILCHIMP_API_KEY": "xxx"}},
+  "sendgrid-campaigns": {"command": "uvx", "args": ["mcp-server-sendgrid-campaigns", "--api-key", "${SENDGRID_API_KEY}"], "env": {"SENDGRID_API_KEY": "xxx"}},
+  "activecampaign-campaigns": {"command": "uvx", "args": ["mcp-server-activecampaign-campaigns", "--api-key", "${ACTIVECAMPAIGN_API_KEY}", "--url", "${ACTIVECAMPAIGN_URL}"], "env": {"ACTIVECAMPAIGN_API_KEY": "xxx", "ACTIVECAMPAIGN_URL": "xxx"}},
+  "convertkit-forms": {"command": "uvx", "args": ["mcp-server-convertkit-forms", "--api-key", "${CONVERTKIT_API_KEY}"], "env": {"CONVERTKIT_API_KEY": "xxx"}},
+  "drip-forms": {"command": "uvx", "args": ["mcp-server-drip-forms", "--api-key", "${DRIP_API_KEY}"], "env": {"DRIP_API_KEY": "xxx"}}
+}

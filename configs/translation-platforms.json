@@ -1,0 +1,12 @@
+{
+  "google-translate-v2": {"command": "uvx", "args": ["mcp-server-google-translate-v2", "--api-key", "${GOOGLE_TRANSLATE_API_KEY}"], "env": {"GOOGLE_TRANSLATE_API_KEY": "xxx"}},
+  "deepl-translate": {"command": "uvx", "args": ["mcp-server-deepl-translate", "--api-key", "${DEEPL_API_KEY}"], "env": {"DEEPL_API_KEY": "xxx"}},
+  "deepl-pro": {"command": "uvx", "args": ["mcp-server-deepl-pro", "--api-key", "${DEEPL_API_KEY}"], "env": {"DEEPL_API_KEY": "xxx"}},
+  "azure-translator": {"command": "uvx", "args": ["mcp-server-azure-translator", "--key", "${AZURE_TRANSLATOR_KEY}", "--region", "${AZURE_TRANSLATOR_REGION}"], "env": {"AZURE_TRANSLATOR_KEY": "xxx", "AZURE_TRANSLATOR_REGION": "eastus"}},
+  "amazon-translate": {"command": "uvx", "args": ["mcp-server-amazon-translate", "--profile", "${AWS_PROFILE}"], "env": {"AWS_PROFILE": "default"}},
+  "ibm-watson-translator": {"command": "uvx", "args": ["mcp-server-watson-translator", "--api-key", "${WATSON_TRANSLATOR_API_KEY}", "--url", "${WATSON_TRANSLATOR_URL}"], "env": {"WATSON_TRANSLATOR_API_KEY": "xxx", "WATSON_TRANSLATOR_URL": "xxx"}},
+  "modernmt": {"command": "uvx", "args": ["mcp-server-modernmt", "--api-key", "${MODERNMT_API_KEY}"], "env": {"MODERNMT_API_KEY": "xxx"}},
+  "lokalise": {"command": "uvx", "args": ["mcp-server-lokalise", "--api-key", "${LOKALISE_API_KEY}"], "env": {"LOKALISE_API_KEY": "xxx"}},
+  "transifex": {"command": "uvx", "args": ["mcp-server-transifex", "--api-key", "${TRANSIFEX_API_KEY}"], "env": {"TRANSIFEX_API_KEY": "xxx"}},
+  "phrase": {"command": "uvx", "args": ["mcp-server-phrase", "--api-key", "${PHRASE_API_KEY}"], "env": {"PHRASE_API_KEY": "xxx"}}
+}

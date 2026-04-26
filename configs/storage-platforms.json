@@ -1,0 +1,12 @@
+{
+  "box-collaborations": {"command": "uvx", "args": ["mcp-server-box-collaborations", "--access-token", "${BOX_ACCESS_TOKEN}"], "env": {"BOX_ACCESS_TOKEN": "xxx"}},
+  "box-tasks": {"command": "uvx", "args": ["mcp-server-box-tasks", "--access-token", "${BOX_ACCESS_TOKEN}"], "env": {"BOX_ACCESS_TOKEN": "xxx"}},
+  "sharepoint-files": {"command": "uvx", "args": ["mcp-server-sharepoint-files", "--access-token", "${SHAREPOINT_ACCESS_TOKEN}"], "env": {"SHAREPOINT_ACCESS_TOKEN": "xxx"}},
+  "sharepoint-lists": {"command": "uvx", "args": ["mcp-server-sharepoint-lists", "--access-token", "${SHAREPOINT_ACCESS_TOKEN}"], "env": {"SHAREPOINT_ACCESS_TOKEN": "xxx"}},
+  "s3-buckets": {"command": "uvx", "args": ["mcp-server-s3-buckets", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "s3-objects": {"command": "uvx", "args": ["mcp-server-s3-objects", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "s3-multipart-uploads": {"command": "uvx", "args": ["mcp-server-s3-multipart-uploads", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "minio-buckets": {"command": "uvx", "args": ["mcp-server-minio-buckets", "--endpoint", "${MINIO_ENDPOINT}", "--access-key", "${MINIO_ACCESS_KEY}", "--secret-key", "${MINIO_SECRET_KEY}"], "env": {"MINIO_ENDPOINT": "localhost:9000", "MINIO_ACCESS_KEY": "xxx", "MINIO_SECRET_KEY": "xxx"}},
+  "minio-objects": {"command": "uvx", "args": ["mcp-server-minio-objects", "--endpoint", "${MINIO_ENDPOINT}", "--access-key", "${MINIO_ACCESS_KEY}", "--secret-key", "${MINIO_SECRET_KEY}"], "env": {"MINIO_ENDPOINT": "localhost:9000", "MINIO_ACCESS_KEY": "xxx", "MINIO_SECRET_KEY": "xxx"}},
+  "azure-blob-storage": {"command": "uvx", "args": ["mcp-server-azure-blob-storage", "--connection-string", "${AZURE_STORAGE_CONNECTION_STRING}"], "env": {"AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=xxx"}}
+}

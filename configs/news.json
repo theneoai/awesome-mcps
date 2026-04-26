@@ -1,0 +1,32 @@
+{
+  "nytimes": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-nytimes",
+      "--api-key", "${NYTIMES_API_KEY}"
+    ],
+    "env": {
+      "NYTIMES_API_KEY": "your-api-key"
+    }
+  },
+  "newsapi": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-newsapi",
+      "--api-key", "${NEWSAPI_KEY}"
+    ],
+    "env": {
+      "NEWSAPI_KEY": "your-api-key"
+    }
+  },
+  "guardian": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-guardian",
+      "--api-key", "${GUARDIAN_API_KEY}"
+    ],
+    "env": {
+      "GUARDIAN_API_KEY": "your-api-key"
+    }
+  }
+}

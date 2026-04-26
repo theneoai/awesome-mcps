@@ -1,0 +1,12 @@
+{
+  "draftkings-sportsbook": {"command": "uvx", "args": ["mcp-server-draftkings-sportsbook", "--api-key", "${DRAFTKINGS_API_KEY}"], "env": {"DRAFTKINGS_API_KEY": "xxx"}},
+  "fanduel-sportsbook": {"command": "uvx", "args": ["mcp-server-fanduel-sportsbook", "--api-key", "${FANDUEL_API_KEY}"], "env": {"FANDUEL_API_KEY": "xxx"}},
+  "betmgm-sportsbook": {"command": "uvx", "args": ["mcp-server-betmgm-sportsbook", "--api-key", "${BETMGM_API_KEY}"], "env": {"BETMGM_API_KEY": "xxx"}},
+  "williamhill-sportsbook": {"command": "uvx", "args": ["mcp-server-williamhill-sportsbook", "--api-key", "${WILLIAMHILL_API_KEY}"], "env": {"WILLIAMHILL_API_KEY": "xxx"}},
+  "pinnacle-odds": {"command": "uvx", "args": ["mcp-server-pinnacle-odds", "--api-key", "${PINNACLE_API_KEY}"], "env": {"PINNACLE_API_KEY": "xxx"}},
+  "oddschecker-odds": {"command": "uvx", "args": ["mcp-server-oddschecker-odds", "--api-key", "${ODDSCHECKER_API_KEY}"], "env": {"ODDSCHECKER_API_KEY": "xxx"}},
+  "the-odds-api": {"command": "uvx", "args": ["mcp-server-the-odds-api", "--api-key", "${ODDS_API_KEY}"], "env": {"ODDS_API_KEY": "xxx"}},
+  "espn-api-nba": {"command": "uvx", "args": ["mcp-server-espn-api-nba", "--api-key", "${ESPN_API_KEY}"], "env": {"ESPN_API_KEY": "xxx"}},
+  "espn-api-nfl": {"command": "uvx", "args": ["mcp-server-espn-api-nfl", "--api-key", "${ESPN_API_KEY}"], "env": {"ESPN_API_KEY": "xxx"}},
+  "espn-api-college-football": {"command": "uvx", "args": ["mcp-server-espn-api-college-football", "--api-key", "${ESPN_API_KEY}"], "env": {"ESPN_API_KEY": "xxx"}}
+}

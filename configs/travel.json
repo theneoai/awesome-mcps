@@ -1,0 +1,42 @@
+{
+  "airbnb": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-airbnb",
+      "--api-key", "${AIRBNB_API_KEY}"
+    ],
+    "env": {
+      "AIRBNB_API_KEY": "your-api-key"
+    }
+  },
+  "booking": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-booking",
+      "--api-key", "${BOOKING_API_KEY}"
+    ],
+    "env": {
+      "BOOKING_API_KEY": "your-api-key"
+    }
+  },
+  "expedia": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-expedia",
+      "--api-key", "${EXPEDIA_API_KEY}"
+    ],
+    "env": {
+      "EXPEDIA_API_KEY": "your-api-key"
+    }
+  },
+  "tripadvisor": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-tripadvisor",
+      "--api-key", "${TRIPADVISOR_API_KEY}"
+    ],
+    "env": {
+      "TRIPADVISOR_API_KEY": "your-api-key"
+    }
+  }
+}

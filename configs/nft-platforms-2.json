@@ -1,0 +1,12 @@
+{
+  "nifty-gateway-items": {"command": "uvx", "args": ["mcp-server-nifty-gateway-items", "--api-key", "${NIFTY_GATEWAY_API_KEY}"], "env": {"NIFTY_GATEWAY_API_KEY": "xxx"}},
+  "nifty-gateway-collections": {"command": "uvx", "args": ["mcp-server-nifty-gateway-collections", "--api-key", "${NIFTY_GATEWAY_API_KEY}"], "env": {"NIFTY_GATEWAY_API_KEY": "xxx"}},
+  "zora-items": {"command": "uvx", "args": ["mcp-server-zora-items", "--api-key", "${ZORA_API_KEY}"], "env": {"ZORA_API_KEY": "xxx"}},
+  "zora-collections": {"command": "uvx", "args": ["mcp-server-zora-collections", "--api-key", "${ZORA_API_KEY}"], "env": {"ZORA_API_KEY": "xxx"}},
+  "knownorigin-items": {"command": "uvx", "args": ["mcp-server-knownorigin-items", "--api-key", "${KNOWNORIGIN_API_KEY}"], "env": {"KNOWNORIGIN_API_KEY": "xxx"}},
+  "knownorigin-artists": {"command": "uvx", "args": ["mcp-server-knownorigin-artists", "--api-key", "${KNOWNORIGIN_API_KEY}"], "env": {"KNOWNORIGIN_API_KEY": "xxx"}},
+  "makersplace-items": {"command": "uvx", "args": ["mcp-server-makersplace-items", "--api-key", "${MAKERSPLACE_API_KEY}"], "env": {"MAKERSPLACE_API_KEY": "xxx"}},
+  "makersplace-artists": {"command": "uvx", "args": ["mcp-server-makersplace-artists", "--api-key", "${MAKERSPLACE_API_KEY}"], "env": {"MAKERSPLACE_API_KEY": "xxx"}},
+  "async-art-items": {"command": "uvx", "args": ["mcp-server-async-art-items", "--api-key", "${ASYNC_API_KEY}"], "env": {"ASYNC_API_KEY": "xxx"}},
+  "async-art-collections": {"command": "uvx", "args": ["mcp-server-async-art-collections", "--api-key", "${ASYNC_API_KEY}"], "env": {"ASYNC_API_KEY": "xxx"}}
+}

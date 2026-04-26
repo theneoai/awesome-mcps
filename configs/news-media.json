@@ -1,0 +1,11 @@
+{
+  "nytimes-news": {"command": "uvx", "args": ["mcp-server-nytimes-news", "--api-key", "${NYTIMES_API_KEY}"], "env": {"NYTIMES_API_KEY": "xxx"}},
+  "nytimes-books": {"command": "uvx", "args": ["mcp-server-nytimes-books", "--api-key", "${NYTIMES_API_KEY}"], "env": {"NYTIMES_API_KEY": "xxx"}},
+  "nytimes-movies": {"command": "uvx", "args": ["mcp-server-nytimes-movies", "--api-key", "${NYTIMES_API_KEY}"], "env": {"NYTIMES_API_KEY": "xxx"}},
+  "newsapi-org": {"command": "uvx", "args": ["mcp-server-newsapi-org", "--api-key", "${NEWSAPI_KEY}"], "env": {"NEWSAPI_KEY": "xxx"}},
+  "guardian-content": {"command": "uvx", "args": ["mcp-server-guardian-content", "--api-key", "${GUARDIAN_API_KEY}"], "env": {"GUARDIAN_API_KEY": "xxx"}},
+  "bbc-news": {"command": "uvx", "args": ["mcp-server-bbc-news", "--api-key", "${BBC_API_KEY}"], "env": {"BBC_API_KEY": "xxx"}},
+  "associated-press": {"command": "uvx", "args": ["mcp-server-ap-news", "--api-key", "${AP_API_KEY}"], "env": {"AP_API_KEY": "xxx"}},
+  "reuters": {"command": "uvx", "args": ["mcp-server-reuters", "--api-key", "${REUTERS_API_KEY}"], "env": {"REUTERS_API_KEY": "xxx"}},
+  "bloomberg": {"command": "uvx", "args": ["mcp-server-bloomberg", "--api-key", "${BLOOMBERG_API_KEY}"], "env": {"BLOOMBERG_API_KEY": "xxx"}}
+}

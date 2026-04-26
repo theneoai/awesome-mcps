@@ -1,0 +1,11 @@
+{
+  "readcube": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-readcube"
+    ],
+    "env": {
+      "READCUBE_API_KEY": "your-api-key"
+    }
+  }
+}

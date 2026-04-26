@@ -1,0 +1,12 @@
+{
+  "fedex-ship": {"command": "uvx", "args": ["mcp-server-fedex-ship", "--client-id", "${FEDEX_CLIENT_ID}", "--client-secret", "${FEDEX_CLIENT_SECRET}"], "env": {"FEDEX_CLIENT_ID": "xxx", "FEDEX_CLIENT_SECRET": "xxx"}},
+  "ups-ship": {"command": "uvx", "args": ["mcp-server-ups-ship", "--client-id", "${UPS_CLIENT_ID}", "--client-secret", "${UPS_CLIENT_SECRET}"], "env": {"UPS_CLIENT_ID": "xxx", "UPS_CLIENT_SECRET": "xxx"}},
+  "dhl-ship": {"command": "uvx", "args": ["mcp-server-dhl-ship", "--api-key", "${DHL_API_KEY}"], "env": {"DHL_API_KEY": "xxx"}},
+  "usps-shipping": {"command": "uvx", "args": ["mcp-server-usps", "--api-key", "${USPS_API_KEY}"], "env": {"USPS_API_KEY": "xxx"}},
+  "royal-mail": {"command": "uvx", "args": ["mcp-server-royal-mail", "--api-key", "${ROYAL_MAIL_API_KEY}"], "env": {"ROYAL_MAIL_API_KEY": "xxx"}},
+  "australia-post": {"command": "uvx", "args": ["mcp-server-aus-post", "--api-key", "${AUS_POST_API_KEY}"], "env": {"AUS_POST_API_KEY": "xxx"}},
+  "canada-post": {"command": "uvx", "args": ["mcp-server-canada-post", "--api-key", "${CANADA_POST_API_KEY}"], "env": {"CANADA_POST_API_KEY": "xxx"}},
+  "shippo": {"command": "uvx", "args": ["mcp-server-shippo", "--api-key", "${SHIPPO_API_KEY}"], "env": {"SHIPPO_API_KEY": "xxx"}},
+  "easypost": {"command": "uvx", "args": ["mcp-server-easypost", "--api-key", "${EASYPOST_API_KEY}"], "env": {"EASYPOST_API_KEY": "xxx"}},
+  "sendle": {"command": "uvx", "args": ["mcp-server-sendle", "--api-key", "${SENDLE_API_KEY}"], "env": {"SENDLE_API_KEY": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "gitea-issues": {"command": "uvx", "args": ["mcp-server-gitea-issues", "--url", "${GITEA_URL}", "--token", "${GITEA_TOKEN}"], "env": {"GITEA_URL": "https://gitea.com", "GITEA_TOKEN": "xxx"}},
+  "gitea-pull-requests": {"command": "uvx", "args": ["mcp-server-gitea-pull-requests", "--url", "${GITEA_URL}", "--token", "${GITEA_TOKEN}"], "env": {"GITEA_URL": "https://gitea.com", "GITEA_TOKEN": "xxx"}},
+  "sourceforge-projects": {"command": "uvx", "args": ["mcp-server-sourceforge-projects", "--api-key", "${SOURCEFORGE_API_KEY}"], "env": {"SOURCEFORGE_API_KEY": "xxx"}},
+  "sourceforge-repos": {"command": "uvx", "args": ["mcp-server-sourceforge-repos", "--api-key", "${SOURCEFORGE_API_KEY}"], "env": {"SOURCEFORGE_API_KEY": "xxx"}},
+  "aws-codecommit-repos": {"command": "uvx", "args": ["mcp-server-aws-codecommit-repos", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "aws-codecommit-commits": {"command": "uvx", "args": ["mcp-server-aws-codecommit-commits", "--access-key-id", "${AWS_ACCESS_KEY_ID}", "--secret-access-key", "${AWS_SECRET_ACCESS_KEY}"], "env": {"AWS_ACCESS_KEY_ID": "xxx", "AWS_SECRET_ACCESS_KEY": "xxx"}},
+  "azure-devops-repos": {"command": "uvx", "args": ["mcp-server-azure-devops-repos", "--organization", "${AZURE_DEVOPS_ORG}", "--pat", "${AZURE_DEVOPS_PAT}"], "env": {"AZURE_DEVOPS_ORG": "xxx", "AZURE_DEVOPS_PAT": "xxx"}},
+  "azure-devops-wiki": {"command": "uvx", "args": ["mcp-server-azure-devops-wiki", "--organization", "${AZURE_DEVOPS_ORG}", "--pat", "${AZURE_DEVOPS_PAT}"], "env": {"AZURE_DEVOPS_ORG": "xxx", "AZURE_DEVOPS_PAT": "xxx"}},
+  "azure-devops-pipelines": {"command": "uvx", "args": ["mcp-server-azure-devops-pipelines", "--organization", "${AZURE_DEVOPS_ORG}", "--pat", "${AZURE_DEVOPS_PAT}"], "env": {"AZURE_DEVOPS_ORG": "xxx", "AZURE_DEVOPS_PAT": "xxx"}},
+  "azure-devops-boards": {"command": "uvx", "args": ["mcp-server-azure-devops-boards", "--organization", "${AZURE_DEVOPS_ORG}", "--pat", "${AZURE_DEVOPS_PAT}"], "env": {"AZURE_DEVOPS_ORG": "xxx", "AZURE_DEVOPS_PAT": "xxx"}}
+}

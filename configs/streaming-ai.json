@@ -1,0 +1,12 @@
+{
+  "openai-vector-stores-files": {"command": "uvx", "args": ["mcp-server-openai-vector-stores-files", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "openai-assistant-streaming": {"command": "uvx", "args": ["mcp-server-openai-assistant-streaming", "--api-key", "${OPENAI_API_KEY}"], "env": {"OPENAI_API_KEY": "sk-xxx"}},
+  "anthropic-streaming": {"command": "uvx", "args": ["mcp-server-anthropic-streaming", "--api-key", "${ANTHROPIC_API_KEY}"], "env": {"ANTHROPIC_API_KEY": "sk-ant-xxx"}},
+  "google-gemini-streaming": {"command": "uvx", "args": ["mcp-server-google-gemini-streaming", "--api-key", "${GOOGLE_GEMINI_API_KEY}"], "env": {"GOOGLE_GEMINI_API_KEY": "xxx"}},
+  "cohere-streaming": {"command": "uvx", "args": ["mcp-server-cohere-streaming", "--api-key", "${COHERE_API_KEY}"], "env": {"COHERE_API_KEY": "xxx"}},
+  "ai21-streaming": {"command": "uvx", "args": ["mcp-server-ai21-streaming", "--api-key", "${AI21_API_KEY}"], "env": {"AI21_API_KEY": "xxx"}},
+  "mistral-streaming": {"command": "uvx", "args": ["mcp-server-mistral-streaming", "--api-key", "${MISTRAL_API_KEY}"], "env": {"MISTRAL_API_KEY": "xxx"}},
+  "together-streaming": {"command": "uvx", "args": ["mcp-server-together-streaming", "--api-key", "${TOGETHER_API_KEY}"], "env": {"TOGETHER_API_KEY": "xxx"}},
+  "perplexity-streaming": {"command": "uvx", "args": ["mcp-server-perplexity-streaming", "--api-key", "${PERPLEXITY_API_KEY}"], "env": {"PERPLEXITY_API_KEY": "xxx"}},
+  "groq-streaming": {"command": "uvx", "args": ["mcp-server-groq-streaming", "--api-key", "${GROQ_API_KEY}"], "env": {"GROQ_API_KEY": "xxx"}}
+}

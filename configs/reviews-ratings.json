@@ -1,0 +1,12 @@
+{
+  "shopify-comments": {"command": "uvx", "args": ["mcp-server-shopify-comments", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-reviews": {"command": "uvx", "args": ["mcp-server-shopify-reviews", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-ratings": {"command": "uvx", "args": ["mcp-server-shopify-ratings", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-reviews": {"command": "uvx", "args": ["mcp-server-woocommerce-reviews", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "bigcommerce-reviews": {"command": "uvx", "args": ["mcp-server-bigcommerce-reviews", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}},
+  "magento-reviews": {"command": "uvx", "args": ["mcp-server-magento-reviews", "--url", "${MAGENTO_URL}"], "env": {"MAGENTO_URL": "https://xxx.com", "MAGENTO_USERNAME": "xxx", "MAGENTO_PASSWORD": "xxx"}},
+  "yotpo": {"command": "uvx", "args": ["mcp-server-yotpo", "--api-key", "${YOTPO_API_KEY}"], "env": {"YOTPO_API_KEY": "xxx"}},
+  "judge-me": {"command": "uvx", "args": ["mcp-server-judge-me", "--api-key", "${JUDGEME_API_KEY}"], "env": {"JUDGEME_API_KEY": "xxx"}},
+  "stalker": {"command": "uvx", "args": ["mcp-server-stalker", "--api-key", "${STALKER_API_KEY}"], "env": {"STALKER_API_KEY": "xxx"}},
+  "rivyo": {"command": "uvx", "args": ["mcp-server-rivyo", "--api-key", "${RIVYO_API_KEY}"], "env": {"RIVYO_API_KEY": "xxx"}}
+}

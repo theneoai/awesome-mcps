@@ -1,0 +1,9 @@
+{
+  "geonames": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-geonames"
+    ],
+    "env": {}
+  }
+}

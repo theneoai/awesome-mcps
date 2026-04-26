@@ -1,0 +1,12 @@
+{
+  "stripe-file-uploads": {"command": "uvx", "args": ["mcp-server-stripe-file-uploads", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "stripe-documents": {"command": "uvx", "args": ["mcp-server-stripe-documents", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "shopify-files": {"command": "uvx", "args": ["mcp-server-shopify-files", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "shopify-images": {"command": "uvx", "args": ["mcp-server-shopify-images", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-attributes-full": {"command": "uvx", "args": ["mcp-server-woocommerce-attributes-full", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "bigcommerce-images": {"command": "uvx", "args": ["mcp-server-bigcommerce-images", "--store-hash", "${BC_STORE_HASH}", "--access-token", "${BC_ACCESS_TOKEN}"], "env": {"BC_STORE_HASH": "xxx", "BC_ACCESS_TOKEN": "xxx"}},
+  "magento-product-media": {"command": "uvx", "args": ["mcp-server-magento-product-media", "--url", "${MAGENTO_URL}"], "env": {"MAGENTO_URL": "https://xxx.com", "MAGENTO_USERNAME": "xxx", "MAGENTO_PASSWORD": "xxx"}},
+  "cloudflare-images": {"command": "uvx", "args": ["mcp-server-cloudflare-images", "--account-id", "${CF_ACCOUNT_ID}", "--api-token", "${CF_API_TOKEN}"], "env": {"CF_ACCOUNT_ID": "xxx", "CF_API_TOKEN": "xxx"}},
+  "imgix": {"command": "uvx", "args": ["mcp-server-imgix", "--api-key", "${IMGIX_API_KEY}"], "env": {"IMGIX_API_KEY": "xxx"}},
+  "cloudinary": {"command": "uvx", "args": ["mcp-server-cloudinary", "--cloud-name", "${CLOUDINARY_CLOUD_NAME}", "--api-key", "${CLOUDINARY_API_KEY}", "--api-secret", "${CLOUDINARY_API_SECRET}"], "env": {"CLOUDINARY_CLOUD_NAME": "xxx", "CLOUDINARY_API_KEY": "xxx", "CLOUDINARY_API_SECRET": "xxx"}}
+}

@@ -1,0 +1,12 @@
+{
+  "stripe-test-helpers": {"command": "uvx", "args": ["mcp-server-stripe-test-helpers", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_xxx"}},
+  "shopify-test-orders": {"command": "uvx", "args": ["mcp-server-shopify-test-orders", "--shop", "${SHOPIFY_SHOP}", "--token", "${SHOPIFY_ACCESS_TOKEN}"], "env": {"SHOPIFY_SHOP": "xxx.myshopify.com", "SHOPIFY_ACCESS_TOKEN": "xxx"}},
+  "woocommerce-test-orders": {"command": "uvx", "args": ["mcp-server-woocommerce-test-orders", "--url", "${WOOCOMMERCE_URL}", "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}", "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"], "env": {"WOOCOMMERCE_URL": "https://xxx.com", "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx", "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"}},
+  "stripe-sandbox": {"command": "uvx", "args": ["mcp-server-stripe-sandbox", "--api-key", "${STRIPE_API_KEY}"], "env": {"STRIPE_API_KEY": "sk_test_xxx"}},
+  "braintree-sandbox": {"command": "uvx", "args": ["mcp-server-braintree-sandbox", "--environment", "sandbox", "--merchant-id", "${BT_MERCHANT_ID}", "--public-key", "${BT_PUBLIC_KEY}", "--private-key", "${BT_PRIVATE_KEY}"], "env": {"BT_MERCHANT_ID": "xxx", "BT_PUBLIC_KEY": "xxx", "BT_PRIVATE_KEY": "xxx"}},
+  "paypal-sandbox": {"command": "uvx", "args": ["mcp-server-paypal-sandbox", "--client-id", "${PAYPAL_SANDBOX_CLIENT_ID}", "--client-secret", "${PAYPAL_SANDBOX_CLIENT_SECRET}"], "env": {"PAYPAL_SANDBOX_CLIENT_ID": "xxx", "PAYPAL_SANDBOX_CLIENT_SECRET": "xxx"}},
+  "adyen-sandbox": {"command": "uvx", "args": ["mcp-server-adyen-sandbox", "--api-key", "${ADYEN_SANDBOX_API_KEY}", "--merchant-account", "${ADYEN_SANDBOX_MERCHANT_ACCOUNT}"], "env": {"ADYEN_SANDBOX_API_KEY": "xxx", "ADYEN_SANDBOX_MERCHANT_ACCOUNT": "xxx"}},
+  "square-sandbox": {"command": "uvx", "args": ["mcp-server-square-sandbox", "--access-token", "${SQUARE_SANDBOX_ACCESS_TOKEN}"], "env": {"SQUARE_SANDBOX_ACCESS_TOKEN": "xxx"}},
+  "razorpay-sandbox": {"command": "uvx", "args": ["mcp-server-razorpay-sandbox", "--key-id", "${RAZORPAY_SANDBOX_KEY_ID}", "--key-secret", "${RAZORPAY_SANDBOX_KEY_SECRET}"], "env": {"RAZORPAY_SANDBOX_KEY_ID": "xxx", "RAZORPAY_SANDBOX_KEY_SECRET": "xxx"}},
+  "plivo-sandbox": {"command": "uvx", "args": ["mcp-server-plivo-sandbox", "--auth-id", "${PLIVO_AUTH_ID}", "--auth-token", "${PLIVO_AUTH_TOKEN}"], "env": {"PLIVO_AUTH_ID": "xxx", "PLIVO_AUTH_TOKEN": "xxx"}}
+}

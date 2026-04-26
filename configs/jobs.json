@@ -1,0 +1,34 @@
+{
+  "linkedin": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-linkedin",
+      "--client-id", "${LINKEDIN_CLIENT_ID}",
+      "--client-secret": "${LINKEDIN_CLIENT_SECRET}"
+    ],
+    "env": {
+      "LINKEDIN_CLIENT_ID": "your-client-id",
+      "LINKEDIN_CLIENT_SECRET": "your-client-secret"
+    }
+  },
+  "indeed": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-indeed",
+      "--api-key": "${INDEED_API_KEY}"
+    ],
+    "env": {
+      "INDEED_API_KEY": "your-api-key"
+    }
+  },
+  "glassdoor": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-glassdoor",
+      "--api-key": "${GLASSDOOR_API_KEY}"
+    ],
+    "env": {
+      "GLASSDOOR_API_KEY": "your-api-key"
+    }
+  }
+}

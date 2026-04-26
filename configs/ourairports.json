@@ -1,0 +1,9 @@
+{
+  "ourairports": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-ourairports"
+    ],
+    "env": {}
+  }
+}

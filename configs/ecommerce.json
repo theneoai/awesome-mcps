@@ -1,0 +1,39 @@
+{
+  "shopify": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-shopify",
+      "--shop", "${SHOPIFY_SHOP_NAME}",
+      "--token", "${SHOPIFY_ACCESS_TOKEN}",
+      "--api-version", "2024-01"
+    ],
+    "env": {
+      "SHOPIFY_SHOP_NAME": "your-shop-name",
+      "SHOPIFY_ACCESS_TOKEN": "your-access-token"
+    }
+  },
+  "woocommerce": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-woocommerce",
+      "--url", "${WOOCOMMERCE_URL}",
+      "--consumer-key", "${WOOCOMMERCE_CONSUMER_KEY}",
+      "--consumer-secret", "${WOOCOMMERCE_CONSUMER_SECRET}"
+    ],
+    "env": {
+      "WOOCOMMERCE_URL": "https://your-store.com",
+      "WOOCOMMERCE_CONSUMER_KEY": "ck_xxx",
+      "WOOCOMMERCE_CONSUMER_SECRET": "cs_xxx"
+    }
+  },
+  "stripe": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-stripe",
+      "--api-key", "${STRIPE_API_KEY}"
+    ],
+    "env": {
+      "STRIPE_API_KEY": "sk_test_xxx"
+    }
+  }
+}
