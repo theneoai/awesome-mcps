@@ -1,6 +1,6 @@
 # Awesome MCPs
 
-> Curated collection of Model Context Protocol (MCP) servers and tools. 500+ MCPs available.
+> Curated collection of Model Context Protocol (MCP) servers and tools. 260 MCPs available.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
