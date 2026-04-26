@@ -1,0 +1,9 @@
+{
+  "gdelt": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-gdelt"
+    ],
+    "env": {}
+  }
+}

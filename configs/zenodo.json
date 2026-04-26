@@ -1,0 +1,11 @@
+{
+  "zenodo": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-zenodo"
+    ],
+    "env": {
+      "ZENODO_TOKEN": "your-token"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "marmot": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-marmot"
+    ],
+    "env": {
+      "MARMOT_HOST": "localhost",
+      "MARMOT_PORT": "8080"
+    }
+  }
+}

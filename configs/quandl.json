@@ -1,0 +1,11 @@
+{
+  " Quandl": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-quandl"
+    ],
+    "env": {
+      "QUANDL_API_KEY": "your-api-key"
+    }
+  }
+}

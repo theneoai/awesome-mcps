@@ -1,0 +1,9 @@
+{
+  "crime-api": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-crime-api"
+    ],
+    "env": {}
+  }
+}

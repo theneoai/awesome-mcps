@@ -1,0 +1,9 @@
+{
+  "wikipedia": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-wikipedia"
+    ],
+    "env": {}
+  }
+}

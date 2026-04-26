@@ -1,0 +1,9 @@
+{
+  "openflights": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-openflights"
+    ],
+    "env": {}
+  }
+}

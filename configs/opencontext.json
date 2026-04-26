@@ -1,0 +1,9 @@
+{
+  "opencontext": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-opencontext"
+    ],
+    "env": {}
+  }
+}

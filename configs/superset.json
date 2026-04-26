@@ -1,0 +1,14 @@
+{
+  "superset": {
+    "command": "uvx",
+    "args": [
+      "superset-mcp"
+    ],
+    "env": {
+      "SUPERSET_HOST": "localhost",
+      "SUPERSET_PORT": "8088",
+      "SUPERSET_USERNAME": "admin",
+      "SUPERSET_PASSWORD": "admin"
+    }
+  }
+}

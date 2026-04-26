@@ -1,0 +1,11 @@
+{
+  "icpsr": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-icpsr"
+    ],
+    "env": {
+      "ICPSR_TOKEN": "your-token"
+    }
+  }
+}

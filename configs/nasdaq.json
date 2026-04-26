@@ -1,0 +1,11 @@
+{
+  "Nasdaq": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-nasdaq"
+    ],
+    "env": {
+      "NASDAQ_API_KEY": "your-api-key"
+    }
+  }
+}

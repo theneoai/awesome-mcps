@@ -1,0 +1,9 @@
+{
+  "yfinance": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-yfinance"
+    ],
+    "env": {}
+  }
+}

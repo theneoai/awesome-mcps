@@ -1,0 +1,9 @@
+{
+  "datagouv": {
+    "command": "uvx",
+    "args": [
+      "datagouv-mcp"
+    ],
+    "env": {}
+  }
+}
