@@ -1,0 +1,9 @@
+{
+  "cypress": {
+    "command": "npx",
+    "args": ["-y", "@cypress/mcp-server"],
+    "env": {
+      "CYPRESS_PROJECT_PATH": "./"
+    }
+  }
+}

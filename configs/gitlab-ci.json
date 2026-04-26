@@ -1,0 +1,10 @@
+{
+  "gitlab-ci": {
+    "command": "npx",
+    "args": ["-y", "@gitlab/mcp-server"],
+    "env": {
+      "GITLAB_URL": "https://gitlab.com",
+      "GITLAB_TOKEN": "YOUR_GITLAB_TOKEN"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "bazel": {
+    "command": "npx",
+    "args": ["-y", "@bazelbuild/mcp-server"],
+    "env": {
+      "BAZEL_WORKSPACE": "./",
+      "BAZELrc_PATH": ".bazelrc"
+    }
+  }
+}

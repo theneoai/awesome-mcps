@@ -1,0 +1,11 @@
+{
+  "istio": {
+    "command": "npx",
+    "args": ["-y", "@istio/mcp-server"],
+    "env": {
+      "ISTIOD_URL": "https://localhost:6443",
+      "ISTIO_NAMESPACE": "istio-system",
+      "KUBECONFIG": "~/.kube/config"
+    }
+  }
+}

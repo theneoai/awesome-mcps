@@ -1,0 +1,10 @@
+{
+  "phabricator": {
+    "command": "npx",
+    "args": ["-y", "@phabricator/mcp-server"],
+    "env": {
+      "PHABRICATOR_URL": "https://your-phabricator.example.com",
+      "PHABRICATOR_TOKEN": "YOUR_PHABRICATOR_TOKEN"
+    }
+  }
+}

@@ -21,6 +21,7 @@
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
+| [Confluence MCP](https://github.com/atlassian/mcp-server-confluence) | 企业 Wiki，页面、空间、搜索 | TypeScript | ![](https://img.shields.io/github/stars/atlassian/mcp-server-confluence?style=flat-square) |
 | [Monday.com MCP](https://github.com/mondaycom/mcp) | Monday.com 官方 | 看板、任务、项群组管理与动态 API 工具 | TypeScript | ![](https://img.shields.io/github/stars/mondaycom/mcp?style=flat-square) |
 | [Plane MCP](https://github.com/makeplane/plane-mcp-server) | Plane 官方 | 项目、Issue，工作项状态管理 | TypeScript | ![](https://img.shields.io/github/stars/makeplane/plane-mcp-server?style=flat-square) |
 | [Linear MCP](https://github.com/jerhadf/linear-mcp-server) | 社区 | Issue 创建、查询、更新与项目管理 | TypeScript | ![](https://img.shields.io/github/stars/jerhadf/linear-mcp-server?style=flat-square) |
@@ -91,3 +92,9 @@
 | [Apple Calendar MCP](https://github.com/Omar-Hosni/AppleCalendar-Claude-MCP) | Community | macOS system calendar read/write | Swift | ![](https://img.shields.io/github/stars/Omar-Hosni/AppleCalendar-Claude-MCP?style=flat-square) |
 | [Time MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | Anthropic Official | Timezone conversion and current time | TypeScript | — |
 | [ActivityWatch MCP](https://github.com/8bitgentleman/activitywatch-mcp-server) | Community | Time tracking and productivity data | Python | ![](https://img.shields.io/github/stars/8bitgentleman/activitywatch-mcp-server?style=flat-square) |
+
+### Design & Collaboration
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Figma MCP](https://github.com/figma/mcp-server) | Figma Official | Design collaboration, design files, comments | TypeScript | ![](https://img.shields.io/github/stars/figma/mcp-server?style=flat-square) |

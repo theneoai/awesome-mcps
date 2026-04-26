@@ -1,0 +1,10 @@
+{
+  "mattermost": {
+    "command": "npx",
+    "args": ["-y", "@mattermost/mcp-server"],
+    "env": {
+      "MATTERMOST_URL": "https://your-mattermost.example.com",
+      "MATTERMOST_TOKEN": "YOUR_MATTERMOST_TOKEN"
+    }
+  }
+}

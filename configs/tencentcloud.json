@@ -1,0 +1,11 @@
+{
+  "tencentcloud": {
+    "command": "npx",
+    "args": ["-y", "@tencentcloud/mcp-server"],
+    "env": {
+      "TENCENTCLOUD_SECRET_ID": "YOUR_SECRET_ID",
+      "TENCENTCLOUD_SECRET_KEY": "YOUR_SECRET_KEY",
+      "TENCENTCLOUD_REGION": "ap-guangzhou"
+    }
+  }
+}

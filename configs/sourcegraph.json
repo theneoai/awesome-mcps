@@ -1,0 +1,10 @@
+{
+  "sourcegraph": {
+    "command": "npx",
+    "args": ["-y", "@sourcegraph/mcp-server"],
+    "env": {
+      "SRC_ENDPOINT": "https://sourcegraph.example.com",
+      "SRC_ACCESS_TOKEN": "YOUR_SOURCEGRAPH_TOKEN"
+    }
+  }
+}

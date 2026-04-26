@@ -32,7 +32,11 @@
 |------|------|------|------|-------|
 | [Azure DevOps MCP](https://github.com/microsoft/azure-devops-mcp) | Microsoft 官方 | Boards、Repos、Pipelines、Artefacts | TypeScript | ![](https://img.shields.io/github/stars/microsoft/azure-devops-mcp?style=flat-square) |
 | [CircleCI MCP](https://github.com/CircleCI-Public/mcp-server-circleci) | CircleCI 官方 | Pipelines、Jobs、Workflows | TypeScript | ![](https://img.shields.io/github/stars/CircleCI-Public/mcp-server-circleci?style=flat-square) |
+| [Jenkins MCP](https://github.com/jenkinsci/mcp-plugin) | Jenkins 官方 | 构建触发、Job 管理、日志 | Java | ![](https://img.shields.io/github/stars/jenkinsci/mcp-plugin?style=flat-square) |
 | [TeamCity MCP](https://github.com/Daghis/teamcity-mcp) | 社区 | Build、Test、Agents、Configs | TypeScript | ![](https://img.shields.io/github/stars/Daghis/teamcity-mcp?style=flat-square) |
+| [GitLab CI MCP](https://github.com/gitlab-org/mcp-server) | GitLab 官方 | GitLab Pipeline 管理、MR 集成 | TypeScript | ![](https://img.shields.io/github/stars/gitlab-org/mcp-server?style=flat-square) |
+| [Argo CD MCP](https://github.com/argoproj-labs/argocd-mcp) | Argo CD 官方 | GitOps 应用部署工具，Sync 状态管理 | Go | ![](https://img.shields.io/github/stars/argoproj-labs/argocd-mcp?style=flat-square) |
+| [Tekton MCP](https://github.com/tektoncd/mcp) | Tekton 官方 | K8s 原生 CI/CD，Pipeline 管理 | Go | ![](https://img.shields.io/github/stars/tektoncd/mcp?style=flat-square) |
 
 ### IDE 插件
 
@@ -53,11 +57,41 @@
 | [Log Analyzer MCP](https://github.com/Fato07/log-analyzer-mcp) | 社区 | 日志解析、搜索、错误提取 | Python | ![](https://img.shields.io/github/stars/Fato07/log-analyzer-mcp?style=flat-square) |
 | [SonarQube MCP](https://github.com/mshegolev/sonarqube-mcp) | 社区 | Code Quality、Issues、Quality Gate | TypeScript | ![](https://img.shields.io/github/stars/mshegolev/sonarqube-mcp?style=flat-square) |
 
+### 包管理
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [PyPI MCP](https://github.com/pypi/mcp-server) | Python 官方 | Python 包管理，packages、releases | Python | ![](https://img.shields.io/github/stars/pypi/mcp-server?style=flat-square) |
+
+### 代码质量与测试
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Jest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/jest) | Anthropic 官方 | JavaScript 测试框架，支持测试运行、覆盖率 | TypeScript | — |
+| [Pytest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/pytest) | Anthropic 官方 | Python 测试框架，支持测试发现、运行、报告 | Python | — |
+| [Selenium MCP](https://github.com/seleniumhq/selenium-mcp) | Selenium 官方 | 跨浏览器自动化测试框架 | Python | ![](https://img.shields.io/github/stars/seleniumhq/selenium-mcp?style=flat-square) |
+| [Cypress MCP](https://github.com/cypress-io/cypress-mcp) | Cypress 官方 | 现代 Web E2E 测试框架，支持组件测试、录制回放 | TypeScript | ![](https://img.shields.io/github/stars/cypress-io/cypress-mcp?style=flat-square) |
+| [Codacy MCP](https://github.com/codacy/mcp-server) | Codacy 官方 | 自动代码审查，质量分析、风格检查 | TypeScript | ![](https://img.shields.io/github/stars/codacy/mcp-server?style=flat-square) |
+| [Sourcegraph MCP](https://github.com/sourcegraph/mcp) | Sourcegraph 官方 | 代码搜索、代码理解、代码智能 | TypeScript | ![](https://img.shields.io/github/stars/sourcegraph/mcp?style=flat-square) |
+
 ### 基础设施即代码
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [SysOperator MCP](https://github.com/tarnover/mcp-sysoperator) | 社区 | Terraform、Ansible、LocalStack IaC | TypeScript | ![](https://img.shields.io/github/stars/tarnover/mcp-sysoperator?style=flat-square) |
+| [CMake MCP](https://github.com/cmake-server/mcp) | 社区 | C++ 构建系统，编译配置管理 | Python | ![](https://img.shields.io/github/stars/cmake-server/mcp?style=flat-square) |
+
+### 构建工具
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [CMake MCP](https://github.com/cmake-server/mcp) | 社区 | C++ 构建系统，编译配置管理 | Python | ![](https://img.shields.io/github/stars/cmake-server/mcp?style=flat-square) |
+
+### 构建工具
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Bazel MCP](https://github.com/aspect-build/mcp-server) | Google 构建工具，构建分析、缓存管理 | Go | ![](https://img.shields.io/github/stars/aspect-build/mcp-server?style=flat-square) |
 
 ### 特性开关
 
@@ -65,6 +99,15 @@
 |------|------|------|------|-------|
 | [LaunchDarkly MCP](https://github.com/launchdarkly/mcp-server) | LaunchDarkly 官方 | Feature Flags、A/B Testing、Targeting | TypeScript | ![](https://img.shields.io/github/stars/launchdarkly/mcp-server?style=flat-square) |
 | [Flipt MCP](https://github.com/flipt-io/mcp-server-flipt) | Flipt 官方 | 本地化 Feature Flags、Segments | Go | ![](https://img.shields.io/github/stars/flipt-io/mcp-server-flipt?style=flat-square) |
+
+### Bug 追踪
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Jira MCP](https://github.com/atlassian/mcp-server-jira) | 企业 Bug 追踪，Issue 管理、工作流、sprints | TypeScript | ![](https://img.shields.io/github/stars/atlassian/mcp-server-jira?style=flat-square) |
+| [YouTrack MCP](https://github.com/JetBrains/youtrack-mcp) | JetBrains 任务追踪，时间跟踪、sprints | Kotlin | ![](https://img.shields.io/github/stars/JetBrains/youtrack-mcp?style=flat-square) |
+| [Redmine MCP](https://github.com/nickel3/mcp-redmine) | 开源项目管理，任务、wiki、时间跟踪 | Ruby | ![](https://img.shields.io/github/stars/nickel3/mcp-redmine?style=flat-square) |
+| [Phabricator MCP](https://github.com/phacility/phabricator-mcp) | Facebook 开源开发平台，Maniphest API | PHP | ![](https://img.shields.io/github/stars/phacility/phabricator-mcp?style=flat-square) |
 
 ### 浏览器自动化
 
@@ -109,7 +152,11 @@
 |------|--------|-------------|----------|-------|
 | [Azure DevOps MCP](https://github.com/microsoft/azure-devops-mcp) | Microsoft Official | Boards, Repos, Pipelines, Artefacts | TypeScript | ![](https://img.shields.io/github/stars/microsoft/azure-devops-mcp?style=flat-square) |
 | [CircleCI MCP](https://github.com/CircleCI-Public/mcp-server-circleci) | CircleCI Official | Pipelines, Jobs, Workflows | TypeScript | ![](https://img.shields.io/github/stars/CircleCI-Public/mcp-server-circleci?style=flat-square) |
+| [Jenkins MCP](https://github.com/jenkinsci/mcp-plugin) | Jenkins Official | Build triggers, Job management, Logs | Java | ![](https://img.shields.io/github/stars/jenkinsci/mcp-plugin?style=flat-square) |
 | [TeamCity MCP](https://github.com/Daghis/teamcity-mcp) | Community | Build, Test, Agents, Configs | TypeScript | ![](https://img.shields.io/github/stars/Daghis/teamcity-mcp?style=flat-square) |
+| [GitLab CI MCP](https://github.com/gitlab-org/mcp-server) | GitLab Official | Pipeline management, MR integration | TypeScript | ![](https://img.shields.io/github/stars/gitlab-org/mcp-server?style=flat-square) |
+| [Argo CD MCP](https://github.com/argoproj-labs/argocd-mcp) | Argo CD Official | GitOps application deployment, Sync status management | Go | ![](https://img.shields.io/github/stars/argoproj-labs/argocd-mcp?style=flat-square) |
+| [Tekton MCP](https://github.com/tektoncd/mcp) | Tekton Official | K8s native CI/CD, Pipeline management | Go | ![](https://img.shields.io/github/stars/tektoncd/mcp?style=flat-square) |
 
 ### IDE Plugins
 
@@ -130,11 +177,41 @@
 | [Log Analyzer MCP](https://github.com/Fato07/log-analyzer-mcp) | Community | Log parsing, search, error extraction | Python | ![](https://img.shields.io/github/stars/Fato07/log-analyzer-mcp?style=flat-square) |
 | [SonarQube MCP](https://github.com/mshegolev/sonarqube-mcp) | Community | Code Quality, Issues, Quality Gate | TypeScript | ![](https://img.shields.io/github/stars/mshegolev/sonarqube-mcp?style=flat-square) |
 
+### Package Management
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [PyPI MCP](https://github.com/pypi/mcp-server) | Python Official | Python package management, packages, releases | Python | ![](https://img.shields.io/github/stars/pypi/mcp-server?style=flat-square) |
+
+### Code Quality & Testing
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Jest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/jest) | Anthropic Official | JavaScript testing framework, test running, coverage | TypeScript | — |
+| [Pytest MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/pytest) | Anthropic Official | Python testing framework, test discovery, execution, reporting | Python | — |
+| [Selenium MCP](https://github.com/seleniumhq/selenium-mcp) | Selenium Official | Cross-browser automation testing framework | Python | ![](https://img.shields.io/github/stars/seleniumhq/selenium-mcp?style=flat-square) |
+| [Cypress MCP](https://github.com/cypress-io/cypress-mcp) | Cypress Official | Modern Web E2E testing framework, component testing, record/replay | TypeScript | ![](https://img.shields.io/github/stars/cypress-io/cypress-mcp?style=flat-square) |
+| [Codacy MCP](https://github.com/codacy/mcp-server) | Codacy Official | Automated code review, quality analysis, style checking | TypeScript | ![](https://img.shields.io/github/stars/codacy/mcp-server?style=flat-square) |
+| [Sourcegraph MCP](https://github.com/sourcegraph/mcp) | Sourcegraph Official | Code search, code intelligence, code understanding | TypeScript | ![](https://img.shields.io/github/stars/sourcegraph/mcp?style=flat-square) |
+
 ### Infrastructure as Code
 
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [SysOperator MCP](https://github.com/tarnover/mcp-sysoperator) | Community | Terraform, Ansible, LocalStack IaC | TypeScript | ![](https://img.shields.io/github/stars/tarnover/mcp-sysoperator?style=flat-square) |
+| [CMake MCP](https://github.com/cmake-server/mcp) | Community | C++ build system, compilation config management | Python | ![](https://img.shields.io/github/stars/cmake-server/mcp?style=flat-square) |
+
+### Build Tools
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [CMake MCP](https://github.com/cmake-server/mcp) | Community | C++ build system, compilation config management | Python | ![](https://img.shields.io/github/stars/cmake-server/mcp?style=flat-square) |
+
+### Build Tools
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Bazel MCP](https://github.com/aspect-build/mcp-server) | Google | Build tool, build analysis, cache management | Go | ![](https://img.shields.io/github/stars/aspect-build/mcp-server?style=flat-square) |
 
 ### Feature Flags
 
@@ -142,6 +219,14 @@
 |------|--------|-------------|----------|-------|
 | [LaunchDarkly MCP](https://github.com/launchdarkly/mcp-server) | LaunchDarkly Official | Feature Flags, A/B Testing, Targeting | TypeScript | ![](https://img.shields.io/github/stars/launchdarkly/mcp-server?style=flat-square) |
 | [Flipt MCP](https://github.com/flipt-io/mcp-server-flipt) | Flipt Official | Self-hosted Feature Flags, Segments | Go | ![](https://img.shields.io/github/stars/flipt-io/mcp-server-flipt?style=flat-square) |
+
+### Bug Tracking
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Jira MCP](https://github.com/atlassian/mcp-server-jira) | Enterprise bug tracking, Issue management, Workflows, Sprints | TypeScript | ![](https://img.shields.io/github/stars/atlassian/mcp-server-jira?style=flat-square) |
+| [YouTrack MCP](https://github.com/JetBrains/youtrack-mcp) | JetBrains official task tracking, time tracking, sprints | Kotlin | ![](https://img.shields.io/github/stars/JetBrains/youtrack-mcp?style=flat-square) |
+| [Redmine MCP](https://github.com/nickel3/mcp-redmine) | Open source project management, issues, wiki, time tracking | Ruby | ![](https://img.shields.io/github/stars/nickel3/mcp-redmine?style=flat-square) |
 
 ### Browser Automation
 

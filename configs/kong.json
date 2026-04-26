@@ -1,0 +1,10 @@
+{
+  "kong": {
+    "command": "npx",
+    "args": ["-y", "@kong/mcp-server"],
+    "env": {
+      "KONG_ADMIN_URL": "http://localhost:8001",
+      "KONG_ADMIN_API_KEY": "YOUR_KONG_ADMIN_API_KEY"
+    }
+  }
+}

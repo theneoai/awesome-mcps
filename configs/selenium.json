@@ -1,0 +1,10 @@
+{
+  "selenium": {
+    "command": "npx",
+    "args": ["-y", "@selenium/mcp-server"],
+    "env": {
+      "SELENIUM_BROWSER": "chrome",
+      "SELENIUM_TIMEOUT": "30000"
+    }
+  }
+}

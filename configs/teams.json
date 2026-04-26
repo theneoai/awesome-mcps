@@ -1,0 +1,11 @@
+{
+  "teams": {
+    "command": "npx",
+    "args": ["-y", "@microsoft/teams-mcp-server"],
+    "env": {
+      "TEAMS_TENANT_ID": "YOUR_TENANT_ID",
+      "TEAMS_CLIENT_ID": "YOUR_CLIENT_ID",
+      "TEAMS_CLIENT_SECRET": "YOUR_CLIENT_SECRET"
+    }
+  }
+}

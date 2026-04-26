@@ -1,0 +1,9 @@
+{
+  "pypi": {
+    "command": "pip",
+    "args": ["install", "pypi-mcp-server"],
+    "env": {
+      "PYPI_TOKEN": "YOUR_PYPI_TOKEN"
+    }
+  }
+}

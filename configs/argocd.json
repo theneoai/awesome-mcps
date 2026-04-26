@@ -1,0 +1,11 @@
+{
+  "argocd": {
+    "command": "npx",
+    "args": ["-y", "@argoproj/mcp-server"],
+    "env": {
+      "ARGOCD_SERVER": "localhost:8080",
+      "ARGOCD_AUTH_TOKEN": "YOUR_ARGOCD_AUTH_TOKEN",
+      "ARGOCD_INSECURE": "true"
+    }
+  }
+}

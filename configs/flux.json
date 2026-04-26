@@ -1,0 +1,10 @@
+{
+  "flux": {
+    "command": "npx",
+    "args": ["-y", "@fluxcd/mcp-server"],
+    "env": {
+      "FLUX_NS": "flux-system",
+      "FLUX_KUBECONFIG": "~/.kube/config"
+    }
+  }
+}

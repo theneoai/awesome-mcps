@@ -1,0 +1,9 @@
+{
+  "loki": {
+    "command": "npx",
+    "args": ["-y", "@grafana/mcp-server-loki"],
+    "env": {
+      "LOKI_URL": "http://localhost:3100"
+    }
+  }
+}

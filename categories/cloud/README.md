@@ -14,6 +14,7 @@
 |------|------|-------|
 | [AWS MCP Servers](https://github.com/awslabs/mcp) | 官方套件，60+ 服务：EC2、S3、Lambda、EKS、Bedrock、DynamoDB 等 | ![](https://img.shields.io/github/stars/awslabs/mcp?style=flat-square) |
 | [AWS KB Retrieval](https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval-server) | Bedrock 知识库 RAG 检索（Anthropic 官方） | — |
+| [Route53 MCP](https://github.com/aws/mcp-server-route53) | AWS DNS 服务，域名管理、解析 | TypeScript | ![](https://img.shields.io/github/stars/aws/mcp-server-route53?style=flat-square) |
 
 **AWS MCP 套件涵盖的服务：**
 - 计算：EC2、ECS、Lambda、Fargate
@@ -43,9 +44,10 @@
 
 ### Cloudflare
 
-| 名称 | 描述 | Stars |
-|------|------|-------|
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
 | [Cloudflare MCP](https://github.com/cloudflare/mcp-server-cloudflare) | DNS、Workers、R2 Storage、Zero Trust，覆盖 2500+ API 端点 | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-cloudflare?style=flat-square) |
+| [Cloudflare DNS MCP](https://github.com/cloudflare/mcp-server-dns) | DNS 管理，域名解析、记录管理 | TypeScript | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-dns?style=flat-square) |
 
 ### 平台即服务 (PaaS)
 
@@ -53,6 +55,20 @@
 |------|------|-------|
 | [Heroku MCP](https://github.com/heroku/heroku-mcp-server) | 官方，应用管理、Dynos、PostgreSQL、Pipeline | ![](https://img.shields.io/github/stars/heroku/heroku-mcp-server?style=flat-square) |
 | [Railway MCP](https://github.com/railwayapp/railway-mcp-server) | 官方，项目部署、环境变量、服务管理 | ![](https://img.shields.io/github/stars/railwayapp/railway-mcp-server?style=flat-square) |
+
+### 容器与编排
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Helm MCP](https://github.com/helm/mcp-server) | K8s 包管理，Chart 仓库、部署 | Go | ![](https://img.shields.io/github/stars/helm/mcp-server?style=flat-square) |
+| [Flux MCP](https://github.com/fluxcd/mcp-server) | GitOps 应用同步，Kustomize、HelmRelease | Go | ![](https://img.shields.io/github/stars/fluxcd/mcp-server?style=flat-square) |
+
+### API 网关
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Apigee MCP](https://github.com/google/apigee-mcp) | GCP API 管理，API Proxy、Developer 管理 | Node.js | ![](https://img.shields.io/github/stars/google/apigee-mcp?style=flat-square) |
+| [Kong MCP](https://github.com/Kong/mcp-server) | API 网关，Route、Plugin 管理 | Lua | ![](https://img.shields.io/github/stars/Kong/mcp-server?style=flat-square) |
 
 ### 其他云平台
 
@@ -64,6 +80,40 @@
 | [AlibabaCloud MCP](https://github.com/aliyun/alibabacloud-core-mcp-server) | 阿里云 官方 | ECS、VPC、CloudMonitor 资源管理 | ![](https://img.shields.io/github/stars/aliyun/alibabacloud-core-mcp-server?style=flat-square) |
 | [DigitalOcean MCP](https://github.com/digitalocean-labs/mcp-digitalocean) | DigitalOcean 官方 | Droplets、VPC、Storage、Domains | ![](https://img.shields.io/github/stars/digitalocean-labs/mcp-digitalocean?style=flat-square) |
 | [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify 官方 | 站点部署、函数、环境变量管理 | ![](https://img.shields.io/github/stars/netlify/netlify-mcp?style=flat-square) |
+| [百度云 MCP](https://github.com/baidcloud/mcp-server) | 百度云官方 | BCE、BOS 资源管理 | Python | ![](https://img.shields.io/github/stars/baidcloud/mcp-server?style=flat-square) |
+
+### 消息队列
+
+| 名称 | 描述 | Stars |
+|------|------|-------|
+| [Kafka MCP](https://github.com/confluentinc/mcp-kafka) | 事件流平台，Topic、Producer、Consumer 管理 | ![](https://img.shields.io/github/stars/confluentinc/mcp-kafka?style=flat-square) |
+| [RabbitMQ MCP](https://github.com/rabbitmq/mcp-server) | 消息队列，Queue、Exchange、管理 | TypeScript | ![](https://img.shields.io/github/stars/rabbitmq/mcp-server?style=flat-square) |
+
+### 监控与可观测性
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Prometheus MCP](https://github.com/prometheus/mcp-server) | 云原生监控，指标查询、告警规则管理 | Go | ![](https://img.shields.io/github/stars/prometheus/mcp-server?style=flat-square) |
+
+### 日志系统
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Grafana Loki MCP](https://github.com/grafana/loki-mcp) | 日志查询、标签过滤 | Go | ![](https://img.shields.io/github/stars/grafana/loki-mcp?style=flat-square) |
+| [ELK Stack MCP](https://github.com/elastic/mcp-server) | 企业日志，Elasticsearch 查询、Logstash 管理 | Rust | ![](https://img.shields.io/github/stars/elastic/mcp-server?style=flat-square) |
+
+### 追踪
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|------|-------|
+| [Jaeger MCP](https://github.com/jaegertracing/jaeger-mcp) | 分布式追踪，Trace 查询、分析 | Go | ![](https://img.shields.io/github/stars/jaegertracing/jaeger-mcp?style=flat-square) |
+| [Zipkin MCP](https://github.com/openzipkin/zipkin-mcp) | 追踪系统，Span、依赖分析 | Java | ![](https://img.shields.io/github/stars/openzipkin/zipkin-mcp?style=flat-square) |
+
+### 服务网格
+
+| 名称 | 描述 | 语言 | Stars |
+|------|------|-------|
+| [Istio MCP](https://github.com/istio/mcp-server) | 服务网格，VirtualService、DestinationRule | Go | ![](https://img.shields.io/github/stars/istio/mcp-server?style=flat-square) |
 
 ---
 
@@ -77,6 +127,7 @@
 |------|-------------|-------|
 | [AWS MCP Servers](https://github.com/awslabs/mcp) | Official suite, 60+ services: EC2, S3, Lambda, EKS, Bedrock, DynamoDB, etc. | ![](https://img.shields.io/github/stars/awslabs/mcp?style=flat-square) |
 | [AWS KB Retrieval](https://github.com/modelcontextprotocol/servers/tree/main/src/aws-kb-retrieval-server) | Bedrock knowledge base RAG retrieval (Anthropic Official) | — |
+| [Route53 MCP](https://github.com/aws/mcp-server-route53) | AWS DNS, domain management, resolution | TypeScript | ![](https://img.shields.io/github/stars/aws/mcp-server-route53?style=flat-square) |
 
 **AWS MCP suite covers:**
 - Compute: EC2, ECS, Lambda, Fargate
@@ -105,9 +156,10 @@
 
 ### Cloudflare
 
-| Name | Description | Stars |
-|------|-------------|-------|
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
 | [Cloudflare MCP](https://github.com/cloudflare/mcp-server-cloudflare) | DNS, Workers, R2 Storage, Zero Trust — 2,500+ API endpoints | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-cloudflare?style=flat-square) |
+| [Cloudflare DNS MCP](https://github.com/cloudflare/mcp-server-dns) | DNS management, domain resolution, record management | TypeScript | ![](https://img.shields.io/github/stars/cloudflare/mcp-server-dns?style=flat-square) |
 
 ### Platform as a Service (PaaS)
 
@@ -115,6 +167,20 @@
 |------|-------------|-------|
 | [Heroku MCP](https://github.com/heroku/heroku-mcp-server) | Official — apps, dynos, PostgreSQL, pipelines | ![](https://img.shields.io/github/stars/heroku/heroku-mcp-server?style=flat-square) |
 | [Railway MCP](https://github.com/railwayapp/railway-mcp-server) | Official — projects, deployments, env vars, services | ![](https://img.shields.io/github/stars/railwayapp/railway-mcp-server?style=flat-square) |
+
+### Containers & Orchestration
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Helm MCP](https://github.com/helm/mcp-server) | K8s package management, Chart repository, deployment | Go | ![](https://img.shields.io/github/stars/helm/mcp-server?style=flat-square) |
+| [Flux MCP](https://github.com/fluxcd/mcp-server) | GitOps app sync, Kustomize, HelmRelease | Go | ![](https://img.shields.io/github/stars/fluxcd/mcp-server?style=flat-square) |
+
+### API Gateway
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Apigee MCP](https://github.com/google/apigee-mcp) | GCP API management, API Proxy, Developer management | Node.js | ![](https://img.shields.io/github/stars/google/apigee-mcp?style=flat-square) |
+| [Kong MCP](https://github.com/Kong/mcp-server) | API Gateway, Route and Plugin management | Lua | ![](https://img.shields.io/github/stars/Kong/mcp-server?style=flat-square) |
 
 ### Other Cloud Platforms
 
@@ -126,3 +192,31 @@
 | [AlibabaCloud MCP](https://github.com/aliyun/alibabacloud-core-mcp-server) | Alibaba Cloud Official | ECS, VPC, CloudMonitor resource management | ![](https://img.shields.io/github/stars/aliyun/alibabacloud-core-mcp-server?style=flat-square) |
 | [DigitalOcean MCP](https://github.com/digitalocean-labs/mcp-digitalocean) | DigitalOcean Official | Droplets, VPC, Storage, Domains | ![](https://img.shields.io/github/stars/digitalocean-labs/mcp-digitalocean?style=flat-square) |
 | [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify Official | Site deployments, functions, env vars | ![](https://img.shields.io/github/stars/netlify/netlify-mcp?style=flat-square) |
+| [Baidu Cloud MCP](https://github.com/baidcloud/mcp-server) | Baidu Cloud Official | BCE, BOS resource management | Python | ![](https://img.shields.io/github/stars/baidcloud/mcp-server?style=flat-square) |
+
+### Message Queue
+
+| Name | Description | Stars |
+|------|-------------|-------|
+| [Kafka MCP](https://github.com/confluentinc/mcp-kafka) | Event streaming platform — Topic, Producer, Consumer management | ![](https://img.shields.io/github/stars/confluentinc/mcp-kafka?style=flat-square) |
+| [RabbitMQ MCP](https://github.com/rabbitmq/mcp-server) | Message queue — Queue, Exchange, management | TypeScript | ![](https://img.shields.io/github/stars/rabbitmq/mcp-server?style=flat-square) |
+| [Tencent Cloud MCP](https://github.com/tencentcloud/mcp-server) | Tencent Cloud Official | COS, CVM, database resource management | ![](https://img.shields.io/github/stars/tencentcloud/mcp-server?style=flat-square) |
+| [Huawei Cloud MCP](https://github.com/huaweicloud/mcp-server) | Huawei Cloud Official | ECS, VPC, OBS resource management | ![](https://img.shields.io/github/stars/huaweicloud/mcp-server?style=flat-square) |
+
+### Monitoring & Observability
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Prometheus MCP](https://github.com/prometheus/mcp-server) | Cloud-native monitoring, metrics query, alerting rules management | Go | ![](https://img.shields.io/github/stars/prometheus/mcp-server?style=flat-square) |
+
+### Logging
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Grafana Loki MCP](https://github.com/grafana/loki-mcp) | Log query, label filtering | Go | ![](https://img.shields.io/github/stars/grafana/loki-mcp?style=flat-square) |
+
+### Tracing
+
+| Name | Description | Language | Stars |
+|------|-------------|----------|-------|
+| [Jaeger MCP](https://github.com/jaegertracing/jaeger-mcp) | Distributed tracing, Trace query and analysis | Go | ![](https://img.shields.io/github/stars/jaegertracing/jaeger-mcp?style=flat-square) |

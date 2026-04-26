@@ -13,8 +13,11 @@
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | Anthropic 官方 | 消息发送、频道管理、用户查询 | TypeScript | — |
+| [Discord MCP](https://github.com/discord/mcp-server) | Discord 官方 | 服务器、频道、Webhook | JavaScript | ![](https://img.shields.io/github/stars/discord/mcp-server?style=flat-square) |
 | [Discord MCP](https://github.com/SasePriv/mcp-discord) | 社区 | 消息与频道、Guild 管理 | Python | ![](https://img.shields.io/github/stars/SasePriv/mcp-discord?style=flat-square) |
+| [Telegram MCP](https://github.com/telegram/mcp-server) | Telegram 官方 | Bot API 通知，消息、Bot、群组 | TypeScript | ![](https://img.shields.io/github/stars/telegram/mcp-server?style=flat-square) |
 | [Telegram MCP](https://github.com/chigwell/telegram-mcp) | 社区 | Telegram Bot 消息收发 | Python | ![](https://img.shields.io/github/stars/chigwell/telegram-mcp?style=flat-square) |
+| [Microsoft Teams MCP](https://github.com/microsoft/teams-mcp-server) | Microsoft 官方 | 企业协作平台，消息、频道、会议 | TypeScript | ![](https://img.shields.io/github/stars/microsoft/teams-mcp-server?style=flat-square) |
 | [Microsoft Teams MCP](https://github.com/softeria-ss/ms-teams-mcp-server) | 社区 | Teams 消息与会议管理 | TypeScript | ![](https://img.shields.io/github/stars/softeria-ss/ms-teams-mcp-server?style=flat-square) |
 | [Microsoft 365 MCP](https://github.com/Softeria/microsoft-365-mcp-server) | 社区 | Teams、Outlook、SharePoint 综合集成 | TypeScript | ![](https://img.shields.io/github/stars/Softeria/microsoft-365-mcp-server?style=flat-square) |
 | [WhatsApp MCP](https://github.com/lharries/whatsapp-mcp) | 社区 | WhatsApp 个人消息收发 | Go | ![](https://img.shields.io/github/stars/lharries/whatsapp-mcp?style=flat-square) |
@@ -27,6 +30,16 @@
 | [Element/Matrix MCP](https://github.com/rosquillas/element-mcp-server) | 社区 | Matrix/Element 消息读取与搜索 | Python | ![](https://img.shields.io/github/stars/rosquillas/element-mcp-server?style=flat-square) |
 | [Webex MCP](https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server) | 社区 | Cisco Webex 消息管理 | Python | ![](https://img.shields.io/github/stars/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server?style=flat-square) |
 | [WeChat MCP](https://github.com/cluic/wxauto-mcp) | 社区 | WeChat 自动化消息收发 | Python | ![](https://img.shields.io/github/stars/cluic/wxauto-mcp?style=flat-square) |
+| [Rocket.Chat MCP](https://github.com/RocketChat/Rocket.Chat.MCP) | 开源自托管协作平台，频道、消息 | TypeScript | ![](https://img.shields.io/github/stars/RocketChat/Rocket.Chat.MCP?style=flat-square) |
+| [Mattermost MCP](https://github.com/mattermost/mcp-server) | 开源 Slack 替代，频道、集成 | Go | ![](https://img.shields.io/github/stars/mattermost/mcp-server?style=flat-square) |
+
+### 视频会议
+
+| 名称 | 厂商 | 描述 | 语言 | Stars |
+|------|------|------|------|-------|
+| [Google Meet MCP](https://github.com/google/meet-mcp-server) | Google 官方 | GCP 视频会议，Calendar API 集成 | TypeScript | ![](https://img.shields.io/github/stars/google/meet-mcp-server?style=flat-square) |
+| [Whereby MCP](https://github.com/whereby/mcp-server) | Whereby 官方 | 轻量级视频房间，Rooms API | TypeScript | ![](https://img.shields.io/github/stars/whereby/mcp-server?style=flat-square) |
+| [Jitsi MCP](https://github.com/jitsi/jitsi-mcp) | Jitsi 官方 | 开源视频会议，MUC API | Java | ![](https://img.shields.io/github/stars/jitsi/jitsi-mcp?style=flat-square) |
 
 ### 电子邮件
 
@@ -67,8 +80,11 @@
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | Anthropic Official | Send messages, manage channels, query users | TypeScript | — |
+| [Discord MCP](https://github.com/discord/mcp-server) | Discord Official | Servers, channels, webhooks | JavaScript | ![](https://img.shields.io/github/stars/discord/mcp-server?style=flat-square) |
 | [Discord MCP](https://github.com/SasePriv/mcp-discord) | Community | Messages, channels, Guild management | Python | ![](https://img.shields.io/github/stars/SasePriv/mcp-discord?style=flat-square) |
+| [Telegram MCP](https://github.com/telegram/mcp-server) | Telegram Official | Bot API notifications, messages, bots, groups | TypeScript | ![](https://img.shields.io/github/stars/telegram/mcp-server?style=flat-square) |
 | [Telegram MCP](https://github.com/chigwell/telegram-mcp) | Community | Telegram Bot message send/receive | Python | ![](https://img.shields.io/github/stars/chigwell/telegram-mcp?style=flat-square) |
+| [Microsoft Teams MCP](https://github.com/microsoft/teams-mcp-server) | Microsoft Official | Enterprise collaboration platform, messages, channels, meetings | TypeScript | ![](https://img.shields.io/github/stars/microsoft/teams-mcp-server?style=flat-square) |
 | [Microsoft Teams MCP](https://github.com/softeria-ss/ms-teams-mcp-server) | Community | Teams messages and meeting management | TypeScript | ![](https://img.shields.io/github/stars/softeria-ss/ms-teams-mcp-server?style=flat-square) |
 | [Microsoft 365 MCP](https://github.com/Softeria/microsoft-365-mcp-server) | Community | Teams, Outlook, SharePoint integration | TypeScript | ![](https://img.shields.io/github/stars/Softeria/microsoft-365-mcp-server?style=flat-square) |
 | [WhatsApp MCP](https://github.com/lharries/whatsapp-mcp) | Community | Personal WhatsApp message send/receive | Go | ![](https://img.shields.io/github/stars/lharries/whatsapp-mcp?style=flat-square) |
@@ -81,6 +97,16 @@
 | [Element/Matrix MCP](https://github.com/rosquillas/element-mcp-server) | Community | Matrix/Element message read and search | Python | ![](https://img.shields.io/github/stars/rosquillas/element-mcp-server?style=flat-square) |
 | [Webex MCP](https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server) | Community | Cisco Webex messaging management | Python | ![](https://img.shields.io/github/stars/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server?style=flat-square) |
 | [WeChat MCP](https://github.com/cluic/wxauto-mcp) | Community | WeChat automation messaging | Python | ![](https://img.shields.io/github/stars/cluic/wxauto-mcp?style=flat-square) |
+| [Rocket.Chat MCP](https://github.com/RocketChat/Rocket.Chat.MCP) | 开源自托管协作平台，频道、消息 | TypeScript | ![](https://img.shields.io/github/stars/RocketChat/Rocket.Chat.MCP?style=flat-square) |
+| [Mattermost MCP](https://github.com/mattermost/mcp-server) | 开源 Slack 替代，频道、集成 | Go | ![](https://img.shields.io/github/stars/mattermost/mcp-server?style=flat-square) |
+
+### Video Conferencing
+
+| Name | Vendor | Description | Language | Stars |
+|------|--------|-------------|----------|-------|
+| [Google Meet MCP](https://github.com/google/meet-mcp-server) | Google Official | GCP video conferencing, Calendar API integration | TypeScript | ![](https://img.shields.io/github/stars/google/meet-mcp-server?style=flat-square) |
+| [Whereby MCP](https://github.com/whereby/mcp-server) | Whereby Official | Lightweight video rooms, Rooms API | TypeScript | ![](https://img.shields.io/github/stars/whereby/mcp-server?style=flat-square) |
+| [Jitsi MCP](https://github.com/jitsi/jitsi-mcp) | Jitsi Official | Open-source video conferencing, MUC API | Java | ![](https://img.shields.io/github/stars/jitsi/jitsi-mcp?style=flat-square) |
 
 ### Email
 

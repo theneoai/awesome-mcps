@@ -50,6 +50,7 @@
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
 | [DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript) | DataForSEO 官方 | SEO 数据、关键词、SERP 分析 | TypeScript | ![](https://img.shields.io/github/stars/dataforseo/mcp-server-typescript?style=flat-square) |
+| [Segment MCP](https://github.com/segment/mcp-server) | Segment 官方 | 数据管道，客户数据集成 | TypeScript | ![](https://img.shields.io/github/stars/segment/mcp-server?style=flat-square) |
 
 ---
 
@@ -99,3 +100,4 @@
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
 | [DataForSEO MCP](https://github.com/dataforseo/mcp-server-typescript) | DataForSEO Official | SEO data, keywords, SERP analysis | TypeScript | ![](https://img.shields.io/github/stars/dataforseo/mcp-server-typescript?style=flat-square) |
+| [Segment MCP](https://github.com/segment/mcp-server) | Segment Official | Data pipeline, customer data integration | TypeScript | ![](https://img.shields.io/github/stars/segment/mcp-server?style=flat-square) |

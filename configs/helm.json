@@ -1,0 +1,10 @@
+{
+  "helm": {
+    "command": "npx",
+    "args": ["-y", "@helm/mcp-server"],
+    "env": {
+      "HELM_HOME": "~/.helm",
+      "HELM_KUBECONFIG": "~/.kube/config"
+    }
+  }
+}
