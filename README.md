@@ -1,6 +1,6 @@
 # Awesome MCPs
 
-> Curated collection of Model Context Protocol (MCP) servers and tools. 115+ MCPs available.
+> Curated collection of Model Context Protocol (MCP) servers and tools. 82 MCPs available.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -128,7 +128,7 @@ Copy any of these commands to install a specific MCP:
 
 ## All Configs
 
-Browse all 59+ configs at [configs/](configs/)
+Browse all 82 configs at [configs/](configs/)
 
 ## Categories
 

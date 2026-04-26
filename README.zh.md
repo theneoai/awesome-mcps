@@ -1,6 +1,6 @@
 # Awesome MCPs
 
-> 115+ Model Context Protocol 服务器，一条命令安装。
+> 82 Model Context Protocol 服务器，一条命令安装。
 
 ## 快速安装
 
@@ -193,7 +193,7 @@ read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/sharep
 
 ## 所有配置文件
 
-查看全部 59 个配置文件：[configs/](configs/)
+查看全部 82 个配置文件：[configs/](configs/)
 
 ## 分类目录
 

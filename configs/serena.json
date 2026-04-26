@@ -1,0 +1,7 @@
+{
+  "serena": {
+    "command": "npx",
+    "args": ["-y", "serena-mcp"],
+    "env": {}
+  }
+}
