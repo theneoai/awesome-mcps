@@ -1,0 +1,22 @@
+{
+  "dropbox": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-dropbox",
+      "--access-token", "${DROPBOX_ACCESS_TOKEN}"
+    ],
+    "env": {
+      "DROPBOX_ACCESS_TOKEN": "your-access-token"
+    }
+  },
+  "gdrive": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-gdrive",
+      "--credentials-path", "${GDrive_CREDENTIALS_PATH}"
+    ],
+    "env": {
+      "GDrive_CREDENTIALS_PATH": "/path/to/credentials.json"
+    }
+  }
+}

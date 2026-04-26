@@ -1,0 +1,42 @@
+{
+  "openweathermap": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-openweathermap",
+      "--api-key", "${OPENWEATHERMAP_API_KEY}"
+    ],
+    "env": {
+      "OPENWEATHERMAP_API_KEY": "your-api-key"
+    }
+  },
+  "weatherapi": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-weatherapi",
+      "--api-key", "${WEATHERAPI_KEY}"
+    ],
+    "env": {
+      "WEATHERAPI_KEY": "your-api-key"
+    }
+  },
+  "darksky": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-darksky",
+      "--api-key", "${DARK_SKY_API_KEY}"
+    ],
+    "env": {
+      "DARK_SKY_API_KEY": "your-api-key"
+    }
+  },
+  "accuweather": {
+    "command": "uvx",
+    "args": [
+      "mcp-server-accuweather",
+      "--api-key", "${ACCUWEATHER_API_KEY}"
+    ],
+    "env": {
+      "ACCUWEATHER_API_KEY": "your-api-key"
+    }
+  }
+}
