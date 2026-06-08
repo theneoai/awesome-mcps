@@ -108,6 +108,7 @@ Copy any of these commands to install a specific MCP:
 |-----|----------------|
 | 1Password | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/1password.json and install` |
 | Snyk | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/snyk.json and install` |
+| TWZRD Agent Intel | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/twzrd-agent-intel.json and install` |
 
 ### Enterprise
 
