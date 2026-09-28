@@ -19,6 +19,7 @@
 | [ServiceTitan MCP](https://github.com/montrellcruse/servicetitan-mcp) | 社区 | 企业级 field service CRM | TypeScript | ![](https://img.shields.io/github/stars/montrellcruse/servicetitan-mcp?style=flat-square) |
 | [Custify MCP](https://github.com/CustifyOfficial/custify-mcp) | Custify 官方 | 客户成功与账户管理 | TypeScript | ![](https://img.shields.io/github/stars/CustifyOfficial/custify-mcp?style=flat-square) |
 | [Zoho MCP](https://github.com/kkeeling/zoho-mcp) | 社区 | Zoho CRM 集成、联系人、交易管理 | Python | ![](https://img.shields.io/github/stars/kkeeling/zoho-mcp?style=flat-square) |
+| [Statsnet MCP](https://github.com/usenetstate/statsnet-mcp) | Statsnet | Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` | TypeScript | ![](https://img.shields.io/github/stars/usenetstate/statsnet-mcp?style=flat-square) |
 
 ### 金融与会计
 

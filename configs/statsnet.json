@@ -1,0 +1,13 @@
+{
+  "statsnet": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-remote",
+      "https://statsnet.co/mcp"
+    ],
+    "env": {
+      "STATSNET_API_KEY": "YOUR_STATSNET_API_KEY"
+    }
+  }
+}
