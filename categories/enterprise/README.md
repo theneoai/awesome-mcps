@@ -24,6 +24,7 @@
 
 | 名称 | 厂商 | 描述 | 语言 | Stars |
 |------|------|------|------|-------|
+| [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) | Nuanu AI | x402支付；仅苹果芯片macOS/Node24（官方） | TypeScript | ![](https://img.shields.io/github/stars/nuanu-ai/agent-payment-node?style=flat-square) |
 | [Stripe MCP](https://github.com/stripe/agent-toolkit) | Stripe 官方 | 支付、订阅、发票、账单管理 | TypeScript | ![](https://img.shields.io/github/stars/stripe/agent-toolkit?style=flat-square) |
 | [Xero MCP](https://github.com/XeroAPI/xero-mcp-server) | Xero 官方 | 会计账目、发票、财务报表 | TypeScript | ![](https://img.shields.io/github/stars/XeroAPI/xero-mcp-server?style=flat-square) |
 | [QuickBooks MCP](https://github.com/zbarnett/quickbooks-mcp) | 社区 | QuickBooks 财务数据访问 | Python | ![](https://img.shields.io/github/stars/zbarnett/quickbooks-mcp?style=flat-square) |
@@ -78,6 +79,7 @@
 
 | Name | Vendor | Description | Language | Stars |
 |------|--------|-------------|----------|-------|
+| [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) | Nuanu AI | Local stdio x402 offer inspection, bounded payment preparation, status and receipts; manual setup on Apple Silicon macOS with Node 24 only | TypeScript | ![](https://img.shields.io/github/stars/nuanu-ai/agent-payment-node?style=flat-square) |
 | [Stripe MCP](https://github.com/stripe/agent-toolkit) | Stripe Official | Payments, subscriptions, invoices, billing | TypeScript | ![](https://img.shields.io/github/stars/stripe/agent-toolkit?style=flat-square) |
 | [Xero MCP](https://github.com/XeroAPI/xero-mcp-server) | Xero Official | Accounting, invoices, financial reports | TypeScript | ![](https://img.shields.io/github/stars/XeroAPI/xero-mcp-server?style=flat-square) |
 | [QuickBooks MCP](https://github.com/zbarnett/quickbooks-mcp) | Community | QuickBooks financial data access | Python | ![](https://img.shields.io/github/stars/zbarnett/quickbooks-mcp?style=flat-square) |

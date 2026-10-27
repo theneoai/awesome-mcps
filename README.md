@@ -113,6 +113,7 @@ Copy any of these commands to install a specific MCP:
 
 | MCP | Install Command |
 |-----|----------------|
+| Agent Payment Node (manual; Apple Silicon macOS/Node 24) | `brew install nuanu-ai/tap/apn` |
 | Stripe | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/stripe.json and install` |
 | ServiceNow | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/servicenow.json and install` |
 | ERPNext | `read https://raw.githubusercontent.com/theneoai/awesome-mcps/main/configs/erpnext.json and install` |
